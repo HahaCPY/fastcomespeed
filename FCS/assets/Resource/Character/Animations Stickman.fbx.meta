@@ -1,0 +1,399 @@
+{
+  "ver": "1.1.3",
+  "uuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 60,
+  "precomputeJointMatrix": true,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "1c7bd4b9-dcb5-40fa-b838-2bdf285447db",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "Stickman.mesh": {
+      "ver": "1.0.3",
+      "uuid": "c38c93a2-3748-48e3-ad9d-d7ec37a9cf64",
+      "importer": "mesh",
+      "verts": 2305,
+      "tris": 4468,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11231398582458,
+        "y": 0.00929647497832775,
+        "z": -0.16752502322197
+      },
+      "maxPos": {
+        "x": 1.11231398582458,
+        "y": 1.60332155227661,
+        "z": 0.194217771291733
+      },
+      "name": "Stickman.mesh",
+      "subMetas": {}
+    },
+    "Face_0.mesh": {
+      "ver": "1.0.3",
+      "uuid": "118b39fa-345c-400b-a8f5-681ca04d9ea4",
+      "importer": "mesh",
+      "verts": 162,
+      "tris": 320,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248329162597656
+      },
+      "name": "Face_0.mesh",
+      "subMetas": {}
+    },
+    "Animations Stickman-0.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "2fac7828-876c-4a98-bab3-995c415335ed",
+      "importer": "skeleton",
+      "name": "Animations Stickman-0.skeleton",
+      "subMetas": {}
+    },
+    "Animations Stickman-1.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "dcd042d4-b5fe-48ce-bdb7-7968d13ff1da",
+      "importer": "skeleton",
+      "name": "Animations Stickman-1.skeleton",
+      "subMetas": {}
+    },
+    "root|Stickman@Boxing.sac": {
+      "ver": "1.0.3",
+      "uuid": "1b283afa-093c-4861-b90c-bfd7689a20fd",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 0,
+      "name": "root|Stickman@Boxing.sac",
+      "maxFrameCount": 53,
+      "totalFrameCount": 1740,
+      "duration": 2.1666667461395264,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Cheers.sac": {
+      "ver": "1.0.3",
+      "uuid": "98019357-095d-4ca3-a5d6-8a0c2625320c",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 1,
+      "name": "root|Stickman@Cheers.sac",
+      "maxFrameCount": 70,
+      "totalFrameCount": 2097,
+      "duration": 2.875,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Claps.sac": {
+      "ver": "1.0.3",
+      "uuid": "d7ae8579-926c-4f29-bcb0-8ead107ec5cf",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 2,
+      "name": "root|Stickman@Claps.sac",
+      "maxFrameCount": 29,
+      "totalFrameCount": 925,
+      "duration": 1.1666666269302368,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Dance.sac": {
+      "ver": "1.0.3",
+      "uuid": "fe51532c-87c4-49a6-aab4-6fb9504ba140",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 3,
+      "name": "root|Stickman@Dance.sac",
+      "maxFrameCount": 593,
+      "totalFrameCount": 31369,
+      "duration": 24.66666603088379,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@FloatOnWater.sac": {
+      "ver": "1.0.3",
+      "uuid": "b47631b4-5ab1-45a9-825d-18733dfa389a",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 4,
+      "name": "root|Stickman@FloatOnWater.sac",
+      "maxFrameCount": 73,
+      "totalFrameCount": 2741,
+      "duration": 3,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Idle.sac": {
+      "ver": "1.0.3",
+      "uuid": "eddbaf99-4063-4216-9029-776e0d5488b3",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 5,
+      "name": "root|Stickman@Idle.sac",
+      "maxFrameCount": 44,
+      "totalFrameCount": 1359,
+      "duration": 1.9583333730697632,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Idle2.sac": {
+      "ver": "1.0.3",
+      "uuid": "f56cac1c-e423-4f06-a9f3-bc7f775589e8",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 6,
+      "name": "root|Stickman@Idle2.sac",
+      "maxFrameCount": 237,
+      "totalFrameCount": 11231,
+      "duration": 9.916666984558105,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Jump.sac": {
+      "ver": "1.0.3",
+      "uuid": "5e0d1470-1e4a-4f46-9134-e48ae5efcc4a",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 7,
+      "name": "root|Stickman@Jump.sac",
+      "maxFrameCount": 46,
+      "totalFrameCount": 2321,
+      "duration": 1.875,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Push.sac": {
+      "ver": "1.0.3",
+      "uuid": "1b57570b-304a-4231-8c05-53afa73c89e1",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 8,
+      "name": "root|Stickman@Push.sac",
+      "maxFrameCount": 65,
+      "totalFrameCount": 2020,
+      "duration": 2.6666667461395264,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Run.sac": {
+      "ver": "1.0.3",
+      "uuid": "92b2d1d6-8402-464a-86bc-765b701a4ef9",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 9,
+      "name": "root|Stickman@Run.sac",
+      "maxFrameCount": 17,
+      "totalFrameCount": 1101,
+      "duration": 0.6666666865348816,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Sad.sac": {
+      "ver": "1.0.3",
+      "uuid": "3bc715f9-8829-4147-aa68-26190d87f3ad",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 10,
+      "name": "root|Stickman@Sad.sac",
+      "maxFrameCount": 79,
+      "totalFrameCount": 2533,
+      "duration": 4,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Sitting.sac": {
+      "ver": "1.0.3",
+      "uuid": "c19fb0c7-acc5-48a8-be52-96ef3c98de2e",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 11,
+      "name": "root|Stickman@Sitting.sac",
+      "maxFrameCount": 65,
+      "totalFrameCount": 920,
+      "duration": 4.291666507720947,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Walking.sac": {
+      "ver": "1.0.3",
+      "uuid": "72fa9e1c-aaee-4a8c-94f5-796f89a4e551",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 12,
+      "name": "root|Stickman@Walking.sac",
+      "maxFrameCount": 25,
+      "totalFrameCount": 1313,
+      "duration": 1,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "root|Stickman@Wave.sac": {
+      "ver": "1.0.3",
+      "uuid": "e9fad023-6261-488a-b887-5634a84b12df",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "568ca32c-345e-4b07-bbbc-25a7c5e74901",
+      "animationID": 13,
+      "name": "root|Stickman@Wave.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 439,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "Animations Stickman.prefab": {
+      "ver": "1.3.2",
+      "uuid": "00db20cc-c1ec-415d-b889-4e850af1e66d",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "Animations Stickman.prefab",
+      "subMetas": {}
+    },
+    "Stickman.mtl": {
+      "ver": "1.0.5",
+      "uuid": "12d2a30e-535a-4d48-bc5f-63696e1c1998",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "Stickman.mtl",
+      "subMetas": {}
+    }
+  }
+}
