@@ -1,0 +1,4922 @@
+{
+  "ver": "1.1.3",
+  "uuid": "6da60c12-5d55-4e1b-8a9e-3e1a8761d424",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 60,
+  "precomputeJointMatrix": true,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "22103920-9890-409c-91a6-f7900d21414b",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "Stickman.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5911f46f-80b6-4fb3-a0be-2b46c97f932d",
+      "importer": "mesh",
+      "verts": 2305,
+      "tris": 4468,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11231398582458,
+        "y": 0.00929647497832775,
+        "z": -0.16752502322197
+      },
+      "maxPos": {
+        "x": 1.11231398582458,
+        "y": 1.60332155227661,
+        "z": 0.194217771291733
+      },
+      "name": "Stickman.mesh",
+      "subMetas": {}
+    },
+    "Face_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "4c57ec32-5c99-4dbe-8435-3fd0ca5edfaa",
+      "importer": "mesh",
+      "verts": 382,
+      "tris": 688,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248329162597656
+      },
+      "name": "Face_03.mesh",
+      "subMetas": {}
+    },
+    "Face_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5c2324b6-17f8-4302-99c1-f9c349d8f017",
+      "importer": "mesh",
+      "verts": 382,
+      "tris": 688,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248912766575813
+      },
+      "name": "Face_04.mesh",
+      "subMetas": {}
+    },
+    "Face_05.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5381a8d8-67a4-4369-a1df-d70711b28271",
+      "importer": "mesh",
+      "verts": 382,
+      "tris": 688,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248329162597656
+      },
+      "name": "Face_05.mesh",
+      "subMetas": {}
+    },
+    "Face_0.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d76d67e2-4fe2-489d-aabb-4fdf9fb4ec6c",
+      "importer": "mesh",
+      "verts": 162,
+      "tris": 320,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248329162597656
+      },
+      "name": "Face_0.mesh",
+      "subMetas": {}
+    },
+    "Face_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "6ed35b52-d71c-45e0-a7fa-6f7519927fba",
+      "importer": "mesh",
+      "verts": 276,
+      "tris": 512,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248329162597656
+      },
+      "name": "Face_01.mesh",
+      "subMetas": {}
+    },
+    "Face_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "0b1eebfa-b920-4a2c-89e1-48a60476f2b9",
+      "importer": "mesh",
+      "verts": 382,
+      "tris": 688,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248329162597656
+      },
+      "name": "Face_02.mesh",
+      "subMetas": {}
+    },
+    "Face_06.mesh": {
+      "ver": "1.0.3",
+      "uuid": "78b64b8b-0b53-47ce-98e2-57fb481834f5",
+      "importer": "mesh",
+      "verts": 410,
+      "tris": 736,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.249921843409538,
+        "y": -0.251673340797424,
+        "z": -0.25629597902298
+      },
+      "maxPos": {
+        "x": 0.249921843409538,
+        "y": 0.261104941368103,
+        "z": 0.248329162597656
+      },
+      "name": "Face_06.mesh",
+      "subMetas": {}
+    },
+    "Tshirt_5.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5b7d4ba0-0591-407a-a746-9d400f418efe",
+      "importer": "mesh",
+      "verts": 770,
+      "tris": 1182,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.75904393196106,
+        "y": 0.825879395008087,
+        "z": -0.50653874874115
+      },
+      "maxPos": {
+        "x": 0.759043872356415,
+        "y": 1.76790308952332,
+        "z": 0.192245543003082
+      },
+      "name": "Tshirt_5.mesh",
+      "subMetas": {}
+    },
+    "Tshirt_6.mesh": {
+      "ver": "1.0.3",
+      "uuid": "121f5cc6-02c2-4e46-8bf3-7ae283af0a50",
+      "importer": "mesh",
+      "verts": 955,
+      "tris": 1332,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.75904393196106,
+        "y": 0.825879395008087,
+        "z": -0.506538689136505
+      },
+      "maxPos": {
+        "x": 0.759043872356415,
+        "y": 1.76790308952332,
+        "z": 0.190354987978935
+      },
+      "name": "Tshirt_6.mesh",
+      "subMetas": {}
+    },
+    "Tshirt_7.mesh": {
+      "ver": "1.0.3",
+      "uuid": "71fb1b1f-4fd6-414e-ac96-05ff24554ff9",
+      "importer": "mesh",
+      "verts": 785,
+      "tris": 1196,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.75904393196106,
+        "y": 0.825879395008087,
+        "z": -0.50653874874115
+      },
+      "maxPos": {
+        "x": 0.759043872356415,
+        "y": 1.76790308952332,
+        "z": 0.190354987978935
+      },
+      "name": "Tshirt_7.mesh",
+      "subMetas": {}
+    },
+    "Tshirt_8.mesh": {
+      "ver": "1.0.3",
+      "uuid": "515693f4-b64b-4898-b1d6-9eef60ecd580",
+      "importer": "mesh",
+      "verts": 633,
+      "tris": 856,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.298288285732269,
+        "y": 0.825879395008087,
+        "z": -0.50653874874115
+      },
+      "maxPos": {
+        "x": 0.298288285732269,
+        "y": 1.76790297031403,
+        "z": 0.190354987978935
+      },
+      "name": "Tshirt_8.mesh",
+      "subMetas": {}
+    },
+    "Top_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "80c04eb9-36dc-4739-9970-f7e46ebe46e3",
+      "importer": "mesh",
+      "verts": 420,
+      "tris": 664,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.439991325139999,
+        "y": 0.87751293182373,
+        "z": -0.193957626819611
+      },
+      "maxPos": {
+        "x": 0.439991325139999,
+        "y": 1.54456341266632,
+        "z": 0.181353256106377
+      },
+      "name": "Top_01.mesh",
+      "subMetas": {}
+    },
+    "Top_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "40852955-67ef-4c6f-a51c-f9c636e3d84a",
+      "importer": "mesh",
+      "verts": 560,
+      "tris": 784,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.440106600522995,
+        "y": 0.852364301681519,
+        "z": -0.196509838104248
+      },
+      "maxPos": {
+        "x": 0.440106570720673,
+        "y": 1.54456341266632,
+        "z": 0.181353256106377
+      },
+      "name": "Top_02.mesh",
+      "subMetas": {}
+    },
+    "Top_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "11dee429-a430-423e-b79f-9b9ae616af91",
+      "importer": "mesh",
+      "verts": 380,
+      "tris": 544,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.267093688249588,
+        "y": 0.87751293182373,
+        "z": -0.193957626819611
+      },
+      "maxPos": {
+        "x": 0.267093688249588,
+        "y": 1.54456341266632,
+        "z": 0.181353256106377
+      },
+      "name": "Top_03.mesh",
+      "subMetas": {}
+    },
+    "Top_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "2b6d3dda-9a71-48b3-be3d-6d3ae80553a2",
+      "importer": "mesh",
+      "verts": 560,
+      "tris": 904,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.439991325139999,
+        "y": 0.642731666564941,
+        "z": -0.211567223072052
+      },
+      "maxPos": {
+        "x": 0.439991325139999,
+        "y": 1.54456341266632,
+        "z": 0.186253979802132
+      },
+      "name": "Top_04.mesh",
+      "subMetas": {}
+    },
+    "Pants_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "fe76fa38-7793-4cea-9744-3fa73d60017e",
+      "importer": "mesh",
+      "verts": 501,
+      "tris": 872,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254165828227997,
+        "y": 0.174326360225677,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254165828227997,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_01.mesh",
+      "subMetas": {}
+    },
+    "Pants_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "fc82ef90-0935-4fd0-8d85-9090bb1406e8",
+      "importer": "mesh",
+      "verts": 573,
+      "tris": 920,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254165828227997,
+        "y": 0.1741853505373,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254165828227997,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_02.mesh",
+      "subMetas": {}
+    },
+    "Pants_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "2b4111a2-ef12-4c0c-a5bf-8644f38816dc",
+      "importer": "mesh",
+      "verts": 549,
+      "tris": 872,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254165828227997,
+        "y": 0.248909130692482,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254165828227997,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_03.mesh",
+      "subMetas": {}
+    },
+    "Pants_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "f1a776db-7ff1-4453-9222-f4911429d215",
+      "importer": "mesh",
+      "verts": 333,
+      "tris": 536,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254660427570343,
+        "y": 0.469912052154541,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254660427570343,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_04.mesh",
+      "subMetas": {}
+    },
+    "Pants_05.mesh": {
+      "ver": "1.0.3",
+      "uuid": "eb019d2f-2e33-49bf-a790-069acf6eb8f5",
+      "importer": "mesh",
+      "verts": 381,
+      "tris": 584,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254660427570343,
+        "y": 0.470540851354599,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254660427570343,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_05.mesh",
+      "subMetas": {}
+    },
+    "Pants_06.mesh": {
+      "ver": "1.0.3",
+      "uuid": "512b6bb1-08d9-44be-a905-4098af5584c7",
+      "importer": "mesh",
+      "verts": 285,
+      "tris": 440,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.255519986152649,
+        "y": 0.638647735118866,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.255519986152649,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_06.mesh",
+      "subMetas": {}
+    },
+    "Pants_07.mesh": {
+      "ver": "1.0.3",
+      "uuid": "7ba70192-0bca-4a64-ae6b-77edb823ed08",
+      "importer": "mesh",
+      "verts": 549,
+      "tris": 968,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254165828227997,
+        "y": 0.0577166080474854,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254165828227997,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_07.mesh",
+      "subMetas": {}
+    },
+    "Pants_08.mesh": {
+      "ver": "1.0.3",
+      "uuid": "edc05414-d5d1-45f0-9d8a-a739143db119",
+      "importer": "mesh",
+      "verts": 222,
+      "tris": 308,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254165828227997,
+        "y": 0.668091416358948,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254165828227997,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_08.mesh",
+      "subMetas": {}
+    },
+    "Pants_09.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e63de1df-06b3-4f2b-8c8e-02acf848a36d",
+      "importer": "mesh",
+      "verts": 549,
+      "tris": 920,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254165828227997,
+        "y": 0.174326360225677,
+        "z": -0.175643682479858
+      },
+      "maxPos": {
+        "x": 0.254165828227997,
+        "y": 0.996956527233124,
+        "z": 0.153396770358086
+      },
+      "name": "Pants_09.mesh",
+      "subMetas": {}
+    },
+    "Hat_18.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e72aa1ec-e761-47e8-9337-15619dcf8293",
+      "importer": "mesh",
+      "verts": 258,
+      "tris": 240,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_color0",
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.378284484148026,
+        "y": -0.111958920955658,
+        "z": -0.383201509714127
+      },
+      "maxPos": {
+        "x": 0.378284484148026,
+        "y": 0.546809196472168,
+        "z": 0.383201509714127
+      },
+      "name": "Hat_18.mesh",
+      "subMetas": {}
+    },
+    "Shoes_07.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ccf11b70-bab8-473f-893c-e68a87b64793",
+      "importer": "mesh",
+      "verts": 838,
+      "tris": 1084,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.228146314620972,
+        "y": -0.000421260134316981,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.228146344423294,
+        "y": 0.146938472986221,
+        "z": 0.20703336596489
+      },
+      "name": "Shoes_07.mesh",
+      "subMetas": {}
+    },
+    "Shoes_08.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ddf3686b-aa27-4523-8545-404fdb81b6db",
+      "importer": "mesh",
+      "verts": 308,
+      "tris": 296,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.218542173504829,
+        "y": -0.000421260338043794,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.218542188405991,
+        "y": 0.11101121455431,
+        "z": 0.209564626216888
+      },
+      "name": "Shoes_08.mesh",
+      "subMetas": {}
+    },
+    "Shoes_13.mesh": {
+      "ver": "1.0.3",
+      "uuid": "06c8b7bb-f840-4f64-b1b1-c6330b811453",
+      "importer": "mesh",
+      "verts": 1158,
+      "tris": 1404,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.225863769650459,
+        "y": -0.000421243137679994,
+        "z": -0.137391149997711
+      },
+      "maxPos": {
+        "x": 0.225863799452782,
+        "y": 0.133495092391968,
+        "z": 0.209071606397629
+      },
+      "name": "Shoes_13.mesh",
+      "subMetas": {}
+    },
+    "Shoes_16.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e603c644-9ab7-458b-9599-2cf31154461d",
+      "importer": "mesh",
+      "verts": 538,
+      "tris": 692,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.222865954041481,
+        "y": -0.000421243195887655,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.222865983843803,
+        "y": 0.11074972897768,
+        "z": 0.20703336596489
+      },
+      "name": "Shoes_16.mesh",
+      "subMetas": {}
+    },
+    "Shoes_09.mesh": {
+      "ver": "1.0.3",
+      "uuid": "04f7b054-ba5e-4d27-b0ec-7e7997767db1",
+      "importer": "mesh",
+      "verts": 308,
+      "tris": 296,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.218542173504829,
+        "y": -0.000421260338043794,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.218542188405991,
+        "y": 0.11101121455431,
+        "z": 0.209564626216888
+      },
+      "name": "Shoes_09.mesh",
+      "subMetas": {}
+    },
+    "Shoes_10.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e733fd7f-73da-44cc-9766-339dcf97096d",
+      "importer": "mesh",
+      "verts": 308,
+      "tris": 296,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.218542173504829,
+        "y": -0.000421260338043794,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.218542188405991,
+        "y": 0.11101121455431,
+        "z": 0.209564626216888
+      },
+      "name": "Shoes_10.mesh",
+      "subMetas": {}
+    },
+    "Shoes_11.mesh": {
+      "ver": "1.0.3",
+      "uuid": "2fa8f0fc-0e72-45eb-bebd-e45c2cd3943a",
+      "importer": "mesh",
+      "verts": 308,
+      "tris": 296,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.218542173504829,
+        "y": -0.000421260338043794,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.218542188405991,
+        "y": 0.11101121455431,
+        "z": 0.209564626216888
+      },
+      "name": "Shoes_11.mesh",
+      "subMetas": {}
+    },
+    "Shoes_14.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5367891a-f85f-4085-80d8-9ff741e20d21",
+      "importer": "mesh",
+      "verts": 1158,
+      "tris": 1404,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.225863769650459,
+        "y": -0.000421243137679994,
+        "z": -0.137391149997711
+      },
+      "maxPos": {
+        "x": 0.225863799452782,
+        "y": 0.133495092391968,
+        "z": 0.209071606397629
+      },
+      "name": "Shoes_14.mesh",
+      "subMetas": {}
+    },
+    "Shoes_15.mesh": {
+      "ver": "1.0.3",
+      "uuid": "54025c38-931c-4fab-98ce-e2841ac6fe7d",
+      "importer": "mesh",
+      "verts": 1158,
+      "tris": 1404,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.225863769650459,
+        "y": -0.000421243137679994,
+        "z": -0.137391149997711
+      },
+      "maxPos": {
+        "x": 0.225863799452782,
+        "y": 0.133495092391968,
+        "z": 0.209071606397629
+      },
+      "name": "Shoes_15.mesh",
+      "subMetas": {}
+    },
+    "Shoes_06.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d2031bd3-bbdd-40bd-87f6-5f610ae1339b",
+      "importer": "mesh",
+      "verts": 336,
+      "tris": 364,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.222865954041481,
+        "y": -0.000421260017901659,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.222865983843803,
+        "y": 0.103740125894547,
+        "z": 0.20703336596489
+      },
+      "name": "Shoes_06.mesh",
+      "subMetas": {}
+    },
+    "Shoes_17.mesh": {
+      "ver": "1.0.3",
+      "uuid": "be8d99fa-e48b-4967-9c2d-13e97ae63f28",
+      "importer": "mesh",
+      "verts": 1860,
+      "tris": 2392,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": 0.000717189686838537,
+        "z": -0.158538177609444
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.156848683953285,
+        "z": 0.219016179442406
+      },
+      "name": "Shoes_17.mesh",
+      "subMetas": {}
+    },
+    "Shoes_18.mesh": {
+      "ver": "1.0.3",
+      "uuid": "9f285413-de46-4f2e-88a3-f3a7e8cdfdc7",
+      "importer": "mesh",
+      "verts": 1860,
+      "tris": 2392,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": 0.000717189686838537,
+        "z": -0.158538177609444
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.156848683953285,
+        "z": 0.219016179442406
+      },
+      "name": "Shoes_18.mesh",
+      "subMetas": {}
+    },
+    "Shoes_19.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ada34e13-62e6-48bd-962c-25194b338ac0",
+      "importer": "mesh",
+      "verts": 1860,
+      "tris": 2392,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": 0.000717189686838537,
+        "z": -0.158538177609444
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.156848683953285,
+        "z": 0.219016179442406
+      },
+      "name": "Shoes_19.mesh",
+      "subMetas": {}
+    },
+    "Shoes_20.mesh": {
+      "ver": "1.0.3",
+      "uuid": "2b9ee5a0-434a-46b7-bdde-73db32a5f324",
+      "importer": "mesh",
+      "verts": 1630,
+      "tris": 2128,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": -1.99395788769152e-8,
+        "z": -0.148281142115593
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.150216162204742,
+        "z": 0.216738492250443
+      },
+      "name": "Shoes_20.mesh",
+      "subMetas": {}
+    },
+    "Shoes_21.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ba06e6ea-1a46-4cc7-9fdd-b85aafeb666c",
+      "importer": "mesh",
+      "verts": 1630,
+      "tris": 2128,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": -1.99395788769152e-8,
+        "z": -0.148281142115593
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.150216162204742,
+        "z": 0.216738492250443
+      },
+      "name": "Shoes_21.mesh",
+      "subMetas": {}
+    },
+    "Shoes_23.mesh": {
+      "ver": "1.0.3",
+      "uuid": "a7ffc388-6ea8-4b46-8277-f2a4a9a73b43",
+      "importer": "mesh",
+      "verts": 2668,
+      "tris": 3432,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.23855809867382,
+        "y": -0.000181699899258092,
+        "z": -0.151372775435448
+      },
+      "maxPos": {
+        "x": 0.238558113574982,
+        "y": 0.279007613658905,
+        "z": 0.234957799315453
+      },
+      "name": "Shoes_23.mesh",
+      "subMetas": {}
+    },
+    "Shoes_24.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e0147aeb-b89b-472c-baa9-df031cfad187",
+      "importer": "mesh",
+      "verts": 2764,
+      "tris": 3432,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.23855809867382,
+        "y": -0.000181699899258092,
+        "z": -0.151372775435448
+      },
+      "maxPos": {
+        "x": 0.238558113574982,
+        "y": 0.279007613658905,
+        "z": 0.234957799315453
+      },
+      "name": "Shoes_24.mesh",
+      "subMetas": {}
+    },
+    "Shoes_25.mesh": {
+      "ver": "1.0.3",
+      "uuid": "4017f0b5-8076-47b5-9a12-ddbe53ab6495",
+      "importer": "mesh",
+      "verts": 2668,
+      "tris": 3432,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.23855809867382,
+        "y": -0.000181699899258092,
+        "z": -0.151372775435448
+      },
+      "maxPos": {
+        "x": 0.238558113574982,
+        "y": 0.279007613658905,
+        "z": 0.234957799315453
+      },
+      "name": "Shoes_25.mesh",
+      "subMetas": {}
+    },
+    "Shoes_22.mesh": {
+      "ver": "1.0.3",
+      "uuid": "49d1a1c1-cf7b-46ef-bf30-37bd018f336d",
+      "importer": "mesh",
+      "verts": 1630,
+      "tris": 2128,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": -1.99395788769152e-8,
+        "z": -0.148281142115593
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.150216162204742,
+        "z": 0.216738492250443
+      },
+      "name": "Shoes_22.mesh",
+      "subMetas": {}
+    },
+    "Shoes_12.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d11931c3-7ae7-408f-9fe3-d931432651ef",
+      "importer": "mesh",
+      "verts": 886,
+      "tris": 1264,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.25489929318428,
+        "y": -0.000421260338043794,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.25489929318428,
+        "y": 0.111893728375435,
+        "z": 0.209564626216888
+      },
+      "name": "Shoes_12.mesh",
+      "subMetas": {}
+    },
+    "Shoes_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e8796107-af88-443a-baf9-588e2c34a499",
+      "importer": "mesh",
+      "verts": 1580,
+      "tris": 1980,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": 1.08040332236214e-8,
+        "z": -0.152050167322159
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.147445127367973,
+        "z": 0.231439471244812
+      },
+      "name": "Shoes_03.mesh",
+      "subMetas": {}
+    },
+    "Shoes_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "1e433e06-4316-42aa-ba7a-fc98f7ce6d00",
+      "importer": "mesh",
+      "verts": 1580,
+      "tris": 1980,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": 1.08040332236214e-8,
+        "z": -0.152050167322159
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.147445127367973,
+        "z": 0.231439471244812
+      },
+      "name": "Shoes_02.mesh",
+      "subMetas": {}
+    },
+    "Shoes_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "f7162479-5c1c-4072-b288-f821f548e3f2",
+      "importer": "mesh",
+      "verts": 1620,
+      "tris": 1980,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.233104184269905,
+        "y": 1.08040332236214e-8,
+        "z": -0.152050167322159
+      },
+      "maxPos": {
+        "x": 0.233104199171066,
+        "y": 0.147445127367973,
+        "z": 0.231439471244812
+      },
+      "name": "Shoes_01.mesh",
+      "subMetas": {}
+    },
+    "Shoes_26.mesh": {
+      "ver": "1.0.3",
+      "uuid": "de1809ad-0639-4add-b96f-d1931e33a271",
+      "importer": "mesh",
+      "verts": 1558,
+      "tris": 1968,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.226232945919037,
+        "y": -1.9932192785177e-8,
+        "z": -0.147833734750748
+      },
+      "maxPos": {
+        "x": 0.226232945919037,
+        "y": 0.152985736727715,
+        "z": 0.216640621423721
+      },
+      "name": "Shoes_26.mesh",
+      "subMetas": {}
+    },
+    "Shoes_27.mesh": {
+      "ver": "1.0.3",
+      "uuid": "92f70e65-d0f3-4c5d-bfb3-c172e4e941fe",
+      "importer": "mesh",
+      "verts": 1602,
+      "tris": 1984,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.22623336315155,
+        "y": -0.000010487687177374,
+        "z": -0.147833660244942
+      },
+      "maxPos": {
+        "x": 0.226233318448067,
+        "y": 0.152985811233521,
+        "z": 0.216640695929527
+      },
+      "name": "Shoes_27.mesh",
+      "subMetas": {}
+    },
+    "Shoes_28.mesh": {
+      "ver": "1.0.3",
+      "uuid": "8299c216-1c12-4459-ae03-4559fdfd0a11",
+      "importer": "mesh",
+      "verts": 1602,
+      "tris": 1984,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.226232945919037,
+        "y": -1.9932192785177e-8,
+        "z": -0.147833734750748
+      },
+      "maxPos": {
+        "x": 0.226232945919037,
+        "y": 0.152985736727715,
+        "z": 0.216640621423721
+      },
+      "name": "Shoes_28.mesh",
+      "subMetas": {}
+    },
+    "Shoes_05.mesh": {
+      "ver": "1.0.3",
+      "uuid": "49093203-5619-47e5-ba4c-9f0342032b74",
+      "importer": "mesh",
+      "verts": 336,
+      "tris": 364,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.222865954041481,
+        "y": -0.000421260017901659,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.222865983843803,
+        "y": 0.103740125894547,
+        "z": 0.20703336596489
+      },
+      "name": "Shoes_05.mesh",
+      "subMetas": {}
+    },
+    "Shoes_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d758da55-0cb9-494a-91d3-cea642a53cc3",
+      "importer": "mesh",
+      "verts": 336,
+      "tris": 364,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.222865954041481,
+        "y": -0.000421260017901659,
+        "z": -0.134709775447845
+      },
+      "maxPos": {
+        "x": 0.222865983843803,
+        "y": 0.103740125894547,
+        "z": 0.20703336596489
+      },
+      "name": "Shoes_04.mesh",
+      "subMetas": {}
+    },
+    "Gloves_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "fbd42a96-2db0-4d41-9585-1812e9fd3eb0",
+      "importer": "mesh",
+      "verts": 736,
+      "tris": 1188,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.994964182376862,
+        "y": 1.34041011333466,
+        "z": -0.10698638856411
+      },
+      "maxPos": {
+        "x": 0.994964301586151,
+        "y": 1.45113325119019,
+        "z": 0.147390305995941
+      },
+      "name": "Gloves_04.mesh",
+      "subMetas": {}
+    },
+    "Gloves_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d75038dd-6dc2-4ccb-a602-d63161127ad6",
+      "importer": "mesh",
+      "verts": 377,
+      "tris": 667,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11020243167877,
+        "y": 1.33698296546936,
+        "z": -0.134485244750977
+      },
+      "maxPos": {
+        "x": -0.689982354640961,
+        "y": 1.45289528369904,
+        "z": 0.0888040736317635
+      },
+      "name": "Gloves_01.mesh",
+      "subMetas": {}
+    },
+    "Gloves_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "644d66f1-4996-4581-a95b-07d910f36a7d",
+      "importer": "mesh",
+      "verts": 736,
+      "tris": 1188,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.994964182376862,
+        "y": 1.34041011333466,
+        "z": -0.10698638856411
+      },
+      "maxPos": {
+        "x": 0.994964301586151,
+        "y": 1.45113325119019,
+        "z": 0.147390305995941
+      },
+      "name": "Gloves_03.mesh",
+      "subMetas": {}
+    },
+    "Gloves_05.mesh": {
+      "ver": "1.0.3",
+      "uuid": "51fa6318-cc8f-489e-9476-3d0e8827b7f9",
+      "importer": "mesh",
+      "verts": 736,
+      "tris": 1188,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.994964182376862,
+        "y": 1.34041011333466,
+        "z": -0.10698638856411
+      },
+      "maxPos": {
+        "x": 0.994964301586151,
+        "y": 1.45113325119019,
+        "z": 0.147390305995941
+      },
+      "name": "Gloves_05.mesh",
+      "subMetas": {}
+    },
+    "Gloves_06.mesh": {
+      "ver": "1.0.3",
+      "uuid": "a8e4c46f-3bb7-4402-9904-a788c934837c",
+      "importer": "mesh",
+      "verts": 736,
+      "tris": 1188,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.994964182376862,
+        "y": 1.34041011333466,
+        "z": -0.10698638856411
+      },
+      "maxPos": {
+        "x": 0.994964301586151,
+        "y": 1.45113325119019,
+        "z": 0.147390305995941
+      },
+      "name": "Gloves_06.mesh",
+      "subMetas": {}
+    },
+    "Gloves_07.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d77689b9-323f-40a4-99ed-501e65ad791f",
+      "importer": "mesh",
+      "verts": 736,
+      "tris": 1188,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.994964182376862,
+        "y": 1.34041011333466,
+        "z": -0.10698638856411
+      },
+      "maxPos": {
+        "x": 0.994964301586151,
+        "y": 1.45113325119019,
+        "z": 0.147390305995941
+      },
+      "name": "Gloves_07.mesh",
+      "subMetas": {}
+    },
+    "Gloves_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "879b6ada-fe99-4361-bf40-8252b969ddd8",
+      "importer": "mesh",
+      "verts": 377,
+      "tris": 667,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11020243167877,
+        "y": 1.33698296546936,
+        "z": -0.134485244750977
+      },
+      "maxPos": {
+        "x": -0.689982354640961,
+        "y": 1.45289528369904,
+        "z": 0.0888040736317635
+      },
+      "name": "Gloves_02.mesh",
+      "subMetas": {}
+    },
+    "Gloves_08.mesh": {
+      "ver": "1.0.3",
+      "uuid": "4ba8bf5a-080d-469f-9203-ad8a2bb0f179",
+      "importer": "mesh",
+      "verts": 1254,
+      "tris": 2436,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11978018283844,
+        "y": 1.31247842311859,
+        "z": -0.128645047545433
+      },
+      "maxPos": {
+        "x": 1.11978006362915,
+        "y": 1.44801187515259,
+        "z": 0.189849302172661
+      },
+      "name": "Gloves_08.mesh",
+      "subMetas": {}
+    },
+    "Gloves_09.mesh": {
+      "ver": "1.0.3",
+      "uuid": "da510b55-af03-482f-9038-d64354aa799d",
+      "importer": "mesh",
+      "verts": 1410,
+      "tris": 2436,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11978018283844,
+        "y": 1.31247842311859,
+        "z": -0.128645047545433
+      },
+      "maxPos": {
+        "x": 1.11978006362915,
+        "y": 1.44801187515259,
+        "z": 0.189849302172661
+      },
+      "name": "Gloves_09.mesh",
+      "subMetas": {}
+    },
+    "Gloves_10.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b78dffce-3282-4960-b9df-79ce4c21a776",
+      "importer": "mesh",
+      "verts": 1430,
+      "tris": 2436,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11978018283844,
+        "y": 1.31247842311859,
+        "z": -0.128645047545433
+      },
+      "maxPos": {
+        "x": 1.11978006362915,
+        "y": 1.4480162858963,
+        "z": 0.189849302172661
+      },
+      "name": "Gloves_10.mesh",
+      "subMetas": {}
+    },
+    "Gloves_11.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d21a6e5c-08b8-43ea-b251-46d13778e78e",
+      "importer": "mesh",
+      "verts": 1430,
+      "tris": 2436,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11978018283844,
+        "y": 1.31247842311859,
+        "z": -0.128645047545433
+      },
+      "maxPos": {
+        "x": 1.11978006362915,
+        "y": 1.4480162858963,
+        "z": 0.189849302172661
+      },
+      "name": "Gloves_11.mesh",
+      "subMetas": {}
+    },
+    "Gloves_12.mesh": {
+      "ver": "1.0.3",
+      "uuid": "80fac31f-5bd6-41b0-8df7-b1df1b00b3e4",
+      "importer": "mesh",
+      "verts": 1430,
+      "tris": 2436,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11978018283844,
+        "y": 1.31247842311859,
+        "z": -0.128645047545433
+      },
+      "maxPos": {
+        "x": 1.11978006362915,
+        "y": 1.4480162858963,
+        "z": 0.189849302172661
+      },
+      "name": "Gloves_12.mesh",
+      "subMetas": {}
+    },
+    "Gloves_13.mesh": {
+      "ver": "1.0.3",
+      "uuid": "c8ceb756-72f7-4143-9889-8b7924683ff4",
+      "importer": "mesh",
+      "verts": 1430,
+      "tris": 2436,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11978018283844,
+        "y": 1.31247842311859,
+        "z": -0.128645047545433
+      },
+      "maxPos": {
+        "x": 1.11978006362915,
+        "y": 1.4480162858963,
+        "z": 0.189849302172661
+      },
+      "name": "Gloves_13.mesh",
+      "subMetas": {}
+    },
+    "Gloves_14.mesh": {
+      "ver": "1.0.3",
+      "uuid": "09461eed-2b66-4e56-8ff8-a24f968e1dfe",
+      "importer": "mesh",
+      "verts": 954,
+      "tris": 1704,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.11978018283844,
+        "y": 1.34005379676819,
+        "z": -0.109541736543179
+      },
+      "maxPos": {
+        "x": 1.11978006362915,
+        "y": 1.4480162858963,
+        "z": 0.14947398006916
+      },
+      "name": "Gloves_14.mesh",
+      "subMetas": {}
+    },
+    "Glasses_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "dcc52a26-16f7-42f7-a6ab-69610b424d05",
+      "importer": "mesh",
+      "verts": 296,
+      "tris": 244,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.253242135047913,
+        "y": -0.0983422845602036,
+        "z": -0.225446149706841
+      },
+      "maxPos": {
+        "x": 0.253242075443268,
+        "y": 0.08905990421772,
+        "z": 0.0368164628744125
+      },
+      "name": "Glasses_01.mesh",
+      "subMetas": {}
+    },
+    "Glasses_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b120d77a-bba7-47c7-ae8c-ab86c88f772b",
+      "importer": "mesh",
+      "verts": 352,
+      "tris": 324,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.256726205348969,
+        "y": -0.0971536263823509,
+        "z": -0.214399710297585
+      },
+      "maxPos": {
+        "x": 0.256726413965225,
+        "y": 0.0874752774834633,
+        "z": 0.0378021411597729
+      },
+      "name": "Glasses_02.mesh",
+      "subMetas": {}
+    },
+    "Glasses_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b18b902b-aa31-47d8-ab66-0167c8795384",
+      "importer": "mesh",
+      "verts": 410,
+      "tris": 196,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.209116086363792,
+        "y": -0.0863468423485756,
+        "z": -0.00742637319490314
+      },
+      "maxPos": {
+        "x": 0.209116086363792,
+        "y": 0.107906483113766,
+        "z": 0.00759326852858067
+      },
+      "name": "Glasses_03.mesh",
+      "subMetas": {}
+    },
+    "Glasses_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "bc5a053d-f473-4331-9a71-3db2c74ffbc8",
+      "importer": "mesh",
+      "verts": 415,
+      "tris": 198,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.209116086363792,
+        "y": -0.0863468423485756,
+        "z": -0.00742637319490314
+      },
+      "maxPos": {
+        "x": 0.209116086363792,
+        "y": 0.107906483113766,
+        "z": 0.00759326852858067
+      },
+      "name": "Glasses_04.mesh",
+      "subMetas": {}
+    },
+    "Glasses_05.mesh": {
+      "ver": "1.0.3",
+      "uuid": "334b797f-24fd-4a8a-b384-8b8cdab40288",
+      "importer": "mesh",
+      "verts": 415,
+      "tris": 198,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.209116086363792,
+        "y": -0.0863468423485756,
+        "z": -0.00742637319490314
+      },
+      "maxPos": {
+        "x": 0.209116086363792,
+        "y": 0.107906483113766,
+        "z": 0.00759326852858067
+      },
+      "name": "Glasses_05.mesh",
+      "subMetas": {}
+    },
+    "Glasses_06.mesh": {
+      "ver": "1.0.3",
+      "uuid": "21d0041c-515f-4501-b705-57b4c5a8b819",
+      "importer": "mesh",
+      "verts": 415,
+      "tris": 198,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.209116086363792,
+        "y": -0.0863468423485756,
+        "z": -0.00742637319490314
+      },
+      "maxPos": {
+        "x": 0.209116086363792,
+        "y": 0.107906483113766,
+        "z": 0.00759326852858067
+      },
+      "name": "Glasses_06.mesh",
+      "subMetas": {}
+    },
+    "Glasses_07.mesh": {
+      "ver": "1.0.3",
+      "uuid": "de773e55-bbe4-45fe-bb8d-0f290f3fdde2",
+      "importer": "mesh",
+      "verts": 1251,
+      "tris": 702,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.272522330284119,
+        "y": -0.12737900018692,
+        "z": -0.263269871473312
+      },
+      "maxPos": {
+        "x": 0.262191027402878,
+        "y": 0.0374003574252129,
+        "z": 0.0284978095442057
+      },
+      "name": "Glasses_07.mesh",
+      "subMetas": {}
+    },
+    "Glasses_08.mesh": {
+      "ver": "1.0.3",
+      "uuid": "3e4e4080-2b88-4338-8d9d-78dbfd84f81d",
+      "importer": "mesh",
+      "verts": 1220,
+      "tris": 702,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.272522330284119,
+        "y": -0.127379149198532,
+        "z": -0.263269871473312
+      },
+      "maxPos": {
+        "x": 0.262191027402878,
+        "y": 0.0374002084136009,
+        "z": 0.0284977909177542
+      },
+      "name": "Glasses_08.mesh",
+      "subMetas": {}
+    },
+    "Glasses_12.mesh": {
+      "ver": "1.0.3",
+      "uuid": "082f6e06-e220-4284-a8d8-d4ddd3707429",
+      "importer": "mesh",
+      "verts": 1220,
+      "tris": 702,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.272522330284119,
+        "y": -0.127379149198532,
+        "z": -0.263269871473312
+      },
+      "maxPos": {
+        "x": 0.262191027402878,
+        "y": 0.0374002084136009,
+        "z": 0.0284977909177542
+      },
+      "name": "Glasses_12.mesh",
+      "subMetas": {}
+    },
+    "Glasses_11.mesh": {
+      "ver": "1.0.3",
+      "uuid": "414b794b-f30a-4e11-997d-0a5e81c712f8",
+      "importer": "mesh",
+      "verts": 460,
+      "tris": 300,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.214613914489746,
+        "y": -0.098449245095253,
+        "z": -0.00791551545262337
+      },
+      "maxPos": {
+        "x": 0.214613914489746,
+        "y": 0.0806929022073746,
+        "z": 0.00791547726839781
+      },
+      "name": "Glasses_11.mesh",
+      "subMetas": {}
+    },
+    "Glasses_13.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b814f24e-ed09-4c38-a33c-7f6dbaa646af",
+      "importer": "mesh",
+      "verts": 452,
+      "tris": 300,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.214613914489746,
+        "y": -0.098449245095253,
+        "z": -0.00791551545262337
+      },
+      "maxPos": {
+        "x": 0.214613914489746,
+        "y": 0.0806929022073746,
+        "z": 0.00791547726839781
+      },
+      "name": "Glasses_13.mesh",
+      "subMetas": {}
+    },
+    "Glasses_09.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ab2e295f-90ef-434b-ba66-0f9f1dc73ce4",
+      "importer": "mesh",
+      "verts": 362,
+      "tris": 328,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.223836660385132,
+        "y": -0.0907177701592445,
+        "z": -0.0068350788205862
+      },
+      "maxPos": {
+        "x": 0.223836660385132,
+        "y": 0.0765249580144882,
+        "z": 0.00728734955191612
+      },
+      "name": "Glasses_09.mesh",
+      "subMetas": {}
+    },
+    "Glasses_10.mesh": {
+      "ver": "1.0.3",
+      "uuid": "4105f5ad-151a-4788-9e70-41664adbe4c0",
+      "importer": "mesh",
+      "verts": 400,
+      "tris": 368,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.256674021482468,
+        "y": -0.0778668224811554,
+        "z": -0.230185881257057
+      },
+      "maxPos": {
+        "x": 0.256674021482468,
+        "y": 0.0669874548912048,
+        "z": 0.0384280756115913
+      },
+      "name": "Glasses_10.mesh",
+      "subMetas": {}
+    },
+    "Glasses_14.mesh": {
+      "ver": "1.0.3",
+      "uuid": "97c8fbee-0d8b-40eb-9ceb-02be5f8e79db",
+      "importer": "mesh",
+      "verts": 368,
+      "tris": 396,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.254811346530914,
+        "y": -0.0957174673676491,
+        "z": -0.223975121974945
+      },
+      "maxPos": {
+        "x": 0.25481128692627,
+        "y": 0.0478607155382633,
+        "z": 0.0404635034501553
+      },
+      "name": "Glasses_14.mesh",
+      "subMetas": {}
+    },
+    "Glasses_15.mesh": {
+      "ver": "1.0.3",
+      "uuid": "82e0742e-969a-45d8-a0a9-3604794bfbf4",
+      "importer": "mesh",
+      "verts": 822,
+      "tris": 700,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.263974994421005,
+        "y": -0.0871539264917374,
+        "z": -0.243955835700035
+      },
+      "maxPos": {
+        "x": 0.263974994421005,
+        "y": 0.0509326159954071,
+        "z": 0.0421787239611149
+      },
+      "name": "Glasses_15.mesh",
+      "subMetas": {}
+    },
+    "Glasses_16.mesh": {
+      "ver": "1.0.3",
+      "uuid": "7081c089-4b73-482a-b1b9-96ca0bf5a6e0",
+      "importer": "mesh",
+      "verts": 496,
+      "tris": 428,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.263030469417572,
+        "y": -0.0977062955498695,
+        "z": -0.262801110744476
+      },
+      "maxPos": {
+        "x": 0.263030529022217,
+        "y": 0.0533999614417553,
+        "z": 0.0596582777798176
+      },
+      "name": "Glasses_16.mesh",
+      "subMetas": {}
+    },
+    "Glasses_17.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ec8f676f-a947-4efd-a836-dc1e2c914676",
+      "importer": "mesh",
+      "verts": 338,
+      "tris": 278,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.257487148046494,
+        "y": -0.0987362638115883,
+        "z": -0.233770579099655
+      },
+      "maxPos": {
+        "x": 0.257487207651138,
+        "y": 0.062275692820549,
+        "z": 0.0349379740655422
+      },
+      "name": "Glasses_17.mesh",
+      "subMetas": {}
+    },
+    "Glasses_19.mesh": {
+      "ver": "1.0.3",
+      "uuid": "73419b5e-28f6-4871-b183-a70b5c84871c",
+      "importer": "mesh",
+      "verts": 784,
+      "tris": 382,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.260771691799164,
+        "y": -0.0755992084741592,
+        "z": -0.266851812601089
+      },
+      "maxPos": {
+        "x": 0.260771691799164,
+        "y": 0.0428678914904594,
+        "z": 0.0521149970591068
+      },
+      "name": "Glasses_19.mesh",
+      "subMetas": {}
+    },
+    "Glasses_20.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e0699ac8-305b-4c94-92ba-c46cf64458bc",
+      "importer": "mesh",
+      "verts": 784,
+      "tris": 382,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.260771691799164,
+        "y": -0.0755992084741592,
+        "z": -0.266851812601089
+      },
+      "maxPos": {
+        "x": 0.260771691799164,
+        "y": 0.0428678914904594,
+        "z": 0.0521149970591068
+      },
+      "name": "Glasses_20.mesh",
+      "subMetas": {}
+    },
+    "Glasses_18.mesh": {
+      "ver": "1.0.3",
+      "uuid": "9e082378-1566-4dee-901e-6e5b210cb34d",
+      "importer": "mesh",
+      "verts": 784,
+      "tris": 382,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.26448267698288,
+        "y": -0.0755992084741592,
+        "z": -0.266851812601089
+      },
+      "maxPos": {
+        "x": 0.26448267698288,
+        "y": 0.0428678914904594,
+        "z": 0.0521149970591068
+      },
+      "name": "Glasses_18.mesh",
+      "subMetas": {}
+    },
+    "Hat_26.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d9763b2f-8e11-4efd-95bc-c6de71ad5a91",
+      "importer": "mesh",
+      "verts": 231,
+      "tris": 316,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.253998994827271,
+        "y": -0.173799276351929,
+        "z": -0.236043214797974
+      },
+      "maxPos": {
+        "x": 0.253998994827271,
+        "y": 0.137950748205185,
+        "z": 0.445676535367966
+      },
+      "name": "Hat_26.mesh",
+      "subMetas": {}
+    },
+    "Hat_27.mesh": {
+      "ver": "1.0.3",
+      "uuid": "4288b140-1b6c-43be-b850-33dd38224615",
+      "importer": "mesh",
+      "verts": 231,
+      "tris": 316,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.253998994827271,
+        "y": -0.173799276351929,
+        "z": -0.236043214797974
+      },
+      "maxPos": {
+        "x": 0.253998994827271,
+        "y": 0.137950748205185,
+        "z": 0.445676535367966
+      },
+      "name": "Hat_27.mesh",
+      "subMetas": {}
+    },
+    "Hat_28.mesh": {
+      "ver": "1.0.3",
+      "uuid": "cc606185-b9f7-4618-aeee-e55c8de3b7ef",
+      "importer": "mesh",
+      "verts": 231,
+      "tris": 316,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.253998994827271,
+        "y": -0.173799276351929,
+        "z": -0.236043214797974
+      },
+      "maxPos": {
+        "x": 0.253998994827271,
+        "y": 0.137950748205185,
+        "z": 0.445676535367966
+      },
+      "name": "Hat_28.mesh",
+      "subMetas": {}
+    },
+    "Hat_29.mesh": {
+      "ver": "1.0.3",
+      "uuid": "2bdd9edb-5d65-4606-9ec1-463157d4ec1c",
+      "importer": "mesh",
+      "verts": 231,
+      "tris": 316,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.253998994827271,
+        "y": -0.173799276351929,
+        "z": -0.236043214797974
+      },
+      "maxPos": {
+        "x": 0.253998994827271,
+        "y": 0.137950748205185,
+        "z": 0.445676535367966
+      },
+      "name": "Hat_29.mesh",
+      "subMetas": {}
+    },
+    "Hat_30.mesh": {
+      "ver": "1.0.3",
+      "uuid": "247609d0-499e-4f21-ad51-783443eb5fa0",
+      "importer": "mesh",
+      "verts": 239,
+      "tris": 322,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.253998994827271,
+        "y": -0.173799276351929,
+        "z": -0.236043214797974
+      },
+      "maxPos": {
+        "x": 0.253998994827271,
+        "y": 0.137950748205185,
+        "z": 0.445676535367966
+      },
+      "name": "Hat_30.mesh",
+      "subMetas": {}
+    },
+    "Hat_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "af3f8ca6-55c2-4c38-998c-5e163f482f12",
+      "importer": "mesh",
+      "verts": 209,
+      "tris": 304,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.295513570308685,
+        "y": -0.194049075245857,
+        "z": -0.277311742305756
+      },
+      "maxPos": {
+        "x": 0.295475900173187,
+        "y": 0.270219713449478,
+        "z": 0.306208342313766
+      },
+      "name": "Hat_01.mesh",
+      "subMetas": {}
+    },
+    "Hat_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ce853084-ba8f-41da-8930-2f33535ec290",
+      "importer": "mesh",
+      "verts": 209,
+      "tris": 304,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.295513570308685,
+        "y": -0.194049075245857,
+        "z": -0.277311742305756
+      },
+      "maxPos": {
+        "x": 0.295475900173187,
+        "y": 0.270219713449478,
+        "z": 0.306208342313766
+      },
+      "name": "Hat_02.mesh",
+      "subMetas": {}
+    },
+    "Hat_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b8bf8758-4765-4f18-bc9a-7fa27c833d1a",
+      "importer": "mesh",
+      "verts": 177,
+      "tris": 208,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.405751287937164,
+        "y": -0.213141933083534,
+        "z": -0.375385880470276
+      },
+      "maxPos": {
+        "x": 0.405751287937164,
+        "y": 0.121976621448994,
+        "z": 0.431026607751846
+      },
+      "name": "Hat_04.mesh",
+      "subMetas": {}
+    },
+    "Hat_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "40caa43e-6b41-49a0-8c0b-e4aa4272e784",
+      "importer": "mesh",
+      "verts": 177,
+      "tris": 208,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.405751287937164,
+        "y": -0.213141933083534,
+        "z": -0.375385880470276
+      },
+      "maxPos": {
+        "x": 0.405751287937164,
+        "y": 0.121976621448994,
+        "z": 0.431026607751846
+      },
+      "name": "Hat_03.mesh",
+      "subMetas": {}
+    },
+    "Hat_05.mesh": {
+      "ver": "1.0.3",
+      "uuid": "a120638f-3fac-4e84-9608-15d4215d8516",
+      "importer": "mesh",
+      "verts": 161,
+      "tris": 208,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.405751287937164,
+        "y": -0.213141933083534,
+        "z": -0.375385880470276
+      },
+      "maxPos": {
+        "x": 0.405751287937164,
+        "y": 0.121976621448994,
+        "z": 0.431026607751846
+      },
+      "name": "Hat_05.mesh",
+      "subMetas": {}
+    },
+    "Hat_06.mesh": {
+      "ver": "1.0.3",
+      "uuid": "110c527c-fb17-43e5-9a2c-6ce977aab869",
+      "importer": "mesh",
+      "verts": 240,
+      "tris": 238,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.407386124134064,
+        "y": -0.21819731593132,
+        "z": -0.377690941095352
+      },
+      "maxPos": {
+        "x": 0.407386124134064,
+        "y": 0.301497489213943,
+        "z": 0.43328857421875
+      },
+      "name": "Hat_06.mesh",
+      "subMetas": {}
+    },
+    "Hat_07.mesh": {
+      "ver": "1.0.3",
+      "uuid": "39398c24-3d61-4793-9914-115bba3dc285",
+      "importer": "mesh",
+      "verts": 304,
+      "tris": 468,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.253998994827271,
+        "y": -0.173799276351929,
+        "z": -0.23619119822979
+      },
+      "maxPos": {
+        "x": 0.253998994827271,
+        "y": 0.307730108499527,
+        "z": 0.445676535367966
+      },
+      "name": "Hat_07.mesh",
+      "subMetas": {}
+    },
+    "Hat_08.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d882ec38-6f6b-48ee-92f7-2b654a0fce23",
+      "importer": "mesh",
+      "verts": 291,
+      "tris": 496,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.295513570308685,
+        "y": -0.194049075245857,
+        "z": -0.338393807411194
+      },
+      "maxPos": {
+        "x": 0.295475900173187,
+        "y": 0.343514233827591,
+        "z": 0.306208342313766
+      },
+      "name": "Hat_08.mesh",
+      "subMetas": {}
+    },
+    "Hat_09.mesh": {
+      "ver": "1.0.3",
+      "uuid": "1ba119c9-2262-4251-99a0-4282d5977802",
+      "importer": "mesh",
+      "verts": 291,
+      "tris": 496,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.295513570308685,
+        "y": -0.194049075245857,
+        "z": -0.338393807411194
+      },
+      "maxPos": {
+        "x": 0.295475900173187,
+        "y": 0.343514233827591,
+        "z": 0.306208342313766
+      },
+      "name": "Hat_09.mesh",
+      "subMetas": {}
+    },
+    "Hat_10.mesh": {
+      "ver": "1.0.3",
+      "uuid": "c3ff339d-0419-4d76-99cb-75a4f37a9da6",
+      "importer": "mesh",
+      "verts": 170,
+      "tris": 190,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.442148834466934,
+        "y": -0.173799276351929,
+        "z": -0.451544761657715
+      },
+      "maxPos": {
+        "x": 0.442148894071579,
+        "y": 0.203673854470253,
+        "z": 0.428472369909286
+      },
+      "name": "Hat_10.mesh",
+      "subMetas": {}
+    },
+    "Hat_11.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d42d82b6-989a-4091-9929-51306de46644",
+      "importer": "mesh",
+      "verts": 233,
+      "tris": 288,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.407386124134064,
+        "y": -0.21819731593132,
+        "z": -0.377690941095352
+      },
+      "maxPos": {
+        "x": 0.407386124134064,
+        "y": 0.208526760339737,
+        "z": 0.43328857421875
+      },
+      "name": "Hat_11.mesh",
+      "subMetas": {}
+    },
+    "Hat_12.mesh": {
+      "ver": "1.0.3",
+      "uuid": "99624d26-9d9b-45ec-a921-ae2593e7c40a",
+      "importer": "mesh",
+      "verts": 233,
+      "tris": 288,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.407386124134064,
+        "y": -0.21819731593132,
+        "z": -0.377690941095352
+      },
+      "maxPos": {
+        "x": 0.407386124134064,
+        "y": 0.208526760339737,
+        "z": 0.43328857421875
+      },
+      "name": "Hat_12.mesh",
+      "subMetas": {}
+    },
+    "Hat_13.mesh": {
+      "ver": "1.0.3",
+      "uuid": "7f9b2b18-71c2-44f8-a5c3-84f5bb6846a0",
+      "importer": "mesh",
+      "verts": 233,
+      "tris": 288,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.471283286809921,
+        "y": -0.230974271893501,
+        "z": -0.439235001802444
+      },
+      "maxPos": {
+        "x": 0.471283286809921,
+        "y": 0.132959291338921,
+        "z": 0.497418582439423
+      },
+      "name": "Hat_13.mesh",
+      "subMetas": {}
+    },
+    "Hat_14.mesh": {
+      "ver": "1.0.3",
+      "uuid": "66880687-e3df-482d-a7e6-7d15fe69755c",
+      "importer": "mesh",
+      "verts": 787,
+      "tris": 844,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.273371785879135,
+        "y": -0.389740884304047,
+        "z": -0.280886828899384
+      },
+      "maxPos": {
+        "x": 0.273371785879135,
+        "y": 0.168639063835144,
+        "z": 0.300811558961868
+      },
+      "name": "Hat_14.mesh",
+      "subMetas": {}
+    },
+    "Hat_15.mesh": {
+      "ver": "1.0.3",
+      "uuid": "79bd6bcc-ae6b-413f-896f-3860d186d562",
+      "importer": "mesh",
+      "verts": 375,
+      "tris": 364,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.277279853820801,
+        "y": -0.292031854391098,
+        "z": -0.310434460639954
+      },
+      "maxPos": {
+        "x": 0.277283847332001,
+        "y": 0.291058957576752,
+        "z": 0.305513560771942
+      },
+      "name": "Hat_15.mesh",
+      "subMetas": {}
+    },
+    "Hat_16.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d74a9a56-2e64-49b6-9aef-ea18b5b2992d",
+      "importer": "mesh",
+      "verts": 434,
+      "tris": 476,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.281838178634644,
+        "y": -0.35392302274704,
+        "z": -0.281838208436966
+      },
+      "maxPos": {
+        "x": 0.281838178634644,
+        "y": 0.293450772762299,
+        "z": 0.281838148832321
+      },
+      "name": "Hat_16.mesh",
+      "subMetas": {}
+    },
+    "Hat_17.mesh": {
+      "ver": "1.0.3",
+      "uuid": "84ba2bf0-8f2d-43ea-a19c-d397c5acc528",
+      "importer": "mesh",
+      "verts": 596,
+      "tris": 694,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.428705751895905,
+        "y": -0.0754150375723839,
+        "z": -0.428705751895905
+      },
+      "maxPos": {
+        "x": 0.428705751895905,
+        "y": 0.330564886331558,
+        "z": 0.428705751895905
+      },
+      "name": "Hat_17.mesh",
+      "subMetas": {}
+    },
+    "Hat_31.mesh": {
+      "ver": "1.0.3",
+      "uuid": "202cf035-5be5-4b18-8fda-81b5d4d29bdd",
+      "importer": "mesh",
+      "verts": 1474,
+      "tris": 1792,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.445336371660233,
+        "y": -0.498492866754532,
+        "z": -0.236043214797974
+      },
+      "maxPos": {
+        "x": 0.445336401462555,
+        "y": 0.150237575173378,
+        "z": 0.445676535367966
+      },
+      "name": "Hat_31.mesh",
+      "subMetas": {}
+    },
+    "Hat_19.mesh": {
+      "ver": "1.0.3",
+      "uuid": "9fbccf1b-557b-4bc5-9275-687ed47d66d5",
+      "importer": "mesh",
+      "verts": 580,
+      "tris": 864,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.423542559146881,
+        "y": -0.371563255786896,
+        "z": -0.327728599309921
+      },
+      "maxPos": {
+        "x": 0.423568487167358,
+        "y": 0.345644682645798,
+        "z": 0.287473261356354
+      },
+      "name": "Hat_19.mesh",
+      "subMetas": {}
+    },
+    "Hat_20.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b67def24-3dc8-499c-8041-3fa8b6ca865e",
+      "importer": "mesh",
+      "verts": 512,
+      "tris": 752,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.40089625120163,
+        "y": -0.371563255786896,
+        "z": -0.327728599309921
+      },
+      "maxPos": {
+        "x": 0.40089625120163,
+        "y": 0.436709731817245,
+        "z": 0.287473261356354
+      },
+      "name": "Hat_20.mesh",
+      "subMetas": {}
+    },
+    "Hat_21.mesh": {
+      "ver": "1.0.3",
+      "uuid": "37257efc-2155-4b0f-9b68-23e26e45c991",
+      "importer": "mesh",
+      "verts": 416,
+      "tris": 720,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.313443660736084,
+        "y": -0.371563255786896,
+        "z": -0.329328119754791
+      },
+      "maxPos": {
+        "x": 0.313463687896729,
+        "y": 0.304166257381439,
+        "z": 0.501583337783813
+      },
+      "name": "Hat_21.mesh",
+      "subMetas": {}
+    },
+    "Hat_22.mesh": {
+      "ver": "1.0.3",
+      "uuid": "31cd45e6-0565-4180-b99d-2081e96d066b",
+      "importer": "mesh",
+      "verts": 594,
+      "tris": 1072,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.311950027942657,
+        "y": -0.371563255786896,
+        "z": -0.398303508758545
+      },
+      "maxPos": {
+        "x": 0.311970144510269,
+        "y": 0.38838455080986,
+        "z": 0.287473261356354
+      },
+      "name": "Hat_22.mesh",
+      "subMetas": {}
+    },
+    "Hat_23.mesh": {
+      "ver": "1.0.3",
+      "uuid": "4b22243e-ac42-43fa-8c8c-97e26bdada6a",
+      "importer": "mesh",
+      "verts": 559,
+      "tris": 1024,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.373336046934128,
+        "y": -0.226498708128929,
+        "z": -0.231890439987183
+      },
+      "maxPos": {
+        "x": 0.373336106538773,
+        "y": 0.244276270270348,
+        "z": 0.317120879888535
+      },
+      "name": "Hat_23.mesh",
+      "subMetas": {}
+    },
+    "Hat_24.mesh": {
+      "ver": "1.0.3",
+      "uuid": "7e33f440-a13f-4aa3-a9fb-30609ff126fa",
+      "importer": "mesh",
+      "verts": 201,
+      "tris": 304,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.298994243144989,
+        "y": -0.226498708128929,
+        "z": -0.211629346013069
+      },
+      "maxPos": {
+        "x": 0.298994243144989,
+        "y": 0.209467768669128,
+        "z": 0.317120879888535
+      },
+      "name": "Hat_24.mesh",
+      "subMetas": {}
+    },
+    "Hat_25.mesh": {
+      "ver": "1.0.3",
+      "uuid": "00676593-2927-4fab-bf77-e62e74979613",
+      "importer": "mesh",
+      "verts": 2072,
+      "tris": 3968,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.349390059709549,
+        "y": -0.349389791488647,
+        "z": -0.0368474572896957
+      },
+      "maxPos": {
+        "x": 0.349389880895615,
+        "y": 0.349390089511871,
+        "z": 0.0406253039836884
+      },
+      "name": "Hat_25.mesh",
+      "subMetas": {}
+    },
+    "Hat_32.mesh": {
+      "ver": "1.0.3",
+      "uuid": "e89acf39-360e-414d-9214-661fa7f676e3",
+      "importer": "mesh",
+      "verts": 559,
+      "tris": 1024,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.373336046934128,
+        "y": -0.226498708128929,
+        "z": -0.231890439987183
+      },
+      "maxPos": {
+        "x": 0.373336106538773,
+        "y": 0.244276270270348,
+        "z": 0.317120879888535
+      },
+      "name": "Hat_32.mesh",
+      "subMetas": {}
+    },
+    "Hat_33.mesh": {
+      "ver": "1.0.3",
+      "uuid": "81d44ce2-74fa-4f60-bba3-88fa0f204f3b",
+      "importer": "mesh",
+      "verts": 383,
+      "tris": 652,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.272558242082596,
+        "y": -0.261725306510925,
+        "z": -0.243645161390305
+      },
+      "maxPos": {
+        "x": 0.272558242082596,
+        "y": 0.74764221906662,
+        "z": 0.296330243349075
+      },
+      "name": "Hat_33.mesh",
+      "subMetas": {}
+    },
+    "Hat_34.mesh": {
+      "ver": "1.0.3",
+      "uuid": "650b14b6-763c-4cb6-a328-0bccd5ef8e68",
+      "importer": "mesh",
+      "verts": 1101,
+      "tris": 1099,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.351085841655731,
+        "y": -0.350582748651505,
+        "z": -0.353632390499115
+      },
+      "maxPos": {
+        "x": 0.363182902336121,
+        "y": 0.857528805732727,
+        "z": 0.373078763484955
+      },
+      "name": "Hat_34.mesh",
+      "subMetas": {}
+    },
+    "Hat_35.mesh": {
+      "ver": "1.0.3",
+      "uuid": "97db6308-e2d8-448f-b4af-f885638b69b5",
+      "importer": "mesh",
+      "verts": 349,
+      "tris": 448,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.358039766550064,
+        "y": -0.405543863773346,
+        "z": -0.371002823114395
+      },
+      "maxPos": {
+        "x": 0.358039766550064,
+        "y": 1.24285089969635,
+        "z": 0.376105755567551
+      },
+      "name": "Hat_35.mesh",
+      "subMetas": {}
+    },
+    "Custom_02.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d1505193-45aa-49de-8aea-f0466f79490b",
+      "importer": "mesh",
+      "verts": 1720,
+      "tris": 1828,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.379765689373016,
+        "y": -0.567654609680176,
+        "z": -0.379608303308487
+      },
+      "maxPos": {
+        "x": 0.377849787473679,
+        "y": 0.884503781795502,
+        "z": 0.366497188806534
+      },
+      "name": "Custom_02.mesh",
+      "subMetas": {}
+    },
+    "Custom_01.mesh": {
+      "ver": "1.0.3",
+      "uuid": "f4691874-32c7-485d-8942-70d7780b3ae2",
+      "importer": "mesh",
+      "verts": 1167,
+      "tris": 2192,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.561499416828156,
+        "y": -1.06020295619965,
+        "z": -0.447973012924194
+      },
+      "maxPos": {
+        "x": 0.559752881526947,
+        "y": 1.04481017589569,
+        "z": 0.475432991981506
+      },
+      "name": "Custom_01.mesh",
+      "subMetas": {}
+    },
+    "Custom_03.mesh": {
+      "ver": "1.0.3",
+      "uuid": "a8d8e158-9193-48ca-9f6a-866e8024e971",
+      "importer": "mesh",
+      "verts": 1076,
+      "tris": 1320,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.334639042615891,
+        "y": -0.459297358989716,
+        "z": -0.334638983011246
+      },
+      "maxPos": {
+        "x": 0.334639042615891,
+        "y": 1.18827927112579,
+        "z": 0.338848054409027
+      },
+      "name": "Custom_03.mesh",
+      "subMetas": {}
+    },
+    "Custom_04.mesh": {
+      "ver": "1.0.3",
+      "uuid": "6b1526e8-2709-46ac-a477-26d5238f7811",
+      "importer": "mesh",
+      "verts": 423,
+      "tris": 680,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.418608874082565,
+        "y": -0.812713742256165,
+        "z": -0.494320601224899
+      },
+      "maxPos": {
+        "x": 0.418608874082565,
+        "y": 1.79426765441895,
+        "z": 0.593577325344086
+      },
+      "name": "Custom_04.mesh",
+      "subMetas": {}
+    },
+    "Custom_05.mesh": {
+      "ver": "1.0.3",
+      "uuid": "0e5745f0-ccb2-4843-a1f0-eb0d27e0b229",
+      "importer": "mesh",
+      "verts": 1402,
+      "tris": 2432,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.373916000127792,
+        "y": -0.550853610038757,
+        "z": -0.373916000127792
+      },
+      "maxPos": {
+        "x": 0.373916000127792,
+        "y": 1.56719267368317,
+        "z": 0.373916000127792
+      },
+      "name": "Custom_05.mesh",
+      "subMetas": {}
+    },
+    "Custom_06.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b6185987-a830-439c-87aa-e4d0f99624f1",
+      "importer": "mesh",
+      "verts": 640,
+      "tris": 1060,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.414795786142349,
+        "y": -1.05842399597168,
+        "z": -0.391613185405731
+      },
+      "maxPos": {
+        "x": 0.414795786142349,
+        "y": 1.40324091911316,
+        "z": 0.547926962375641
+      },
+      "name": "Custom_06.mesh",
+      "subMetas": {}
+    },
+    "Custom_07.mesh": {
+      "ver": "1.0.3",
+      "uuid": "74657e76-7899-4361-845c-ed691c0974bb",
+      "importer": "mesh",
+      "verts": 2366,
+      "tris": 3840,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.18472754955292,
+        "y": -0.011564857326448,
+        "z": -0.469451814889908
+      },
+      "maxPos": {
+        "x": 1.18472754955292,
+        "y": 2.33994698524475,
+        "z": 0.286854118108749
+      },
+      "name": "Custom_07.mesh",
+      "subMetas": {}
+    },
+    "Custom_08.mesh": {
+      "ver": "1.0.3",
+      "uuid": "27ce9549-dd77-4cbc-af93-e45055085915",
+      "importer": "mesh",
+      "verts": 2516,
+      "tris": 4964,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -1.12234163284302,
+        "y": -0.000652208807878196,
+        "z": -0.278011500835419
+      },
+      "maxPos": {
+        "x": 1.12234163284302,
+        "y": 2.09738874435425,
+        "z": 0.281588405370712
+      },
+      "name": "Custom_08.mesh",
+      "subMetas": {}
+    },
+    "Custom_09.mesh": {
+      "ver": "1.0.3",
+      "uuid": "a17824cc-9d37-4a36-929d-4c48bebe4c4e",
+      "importer": "mesh",
+      "verts": 1105,
+      "tris": 1750,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.409089237451553,
+        "y": -0.79259979724884,
+        "z": -0.36853089928627
+      },
+      "maxPos": {
+        "x": 0.409089207649231,
+        "y": 0.851301312446594,
+        "z": 0.423885941505432
+      },
+      "name": "Custom_09.mesh",
+      "subMetas": {}
+    },
+    "Custom_10.mesh": {
+      "ver": "1.0.3",
+      "uuid": "bc339310-b7d4-4838-b401-725fc112cc16",
+      "importer": "mesh",
+      "verts": 295,
+      "tris": 160,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_uv0",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.368835389614105,
+        "y": -0.656938374042511,
+        "z": -0.403542369604111
+      },
+      "maxPos": {
+        "x": 0.368835389614105,
+        "y": 0.84799063205719,
+        "z": 0.587877690792084
+      },
+      "name": "Custom_10.mesh",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-0.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "1740962b-c8c5-41fa-926d-b845594ae716",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-0.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-1.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "8346d24b-eee0-405d-935f-aaf3c3165918",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-1.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-2.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "39a4bec8-a2a0-412b-8da3-ce42b825eeb7",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-2.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-3.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "0f34c7bf-f9b9-462c-bf36-b8ad00805788",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-3.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-4.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "a79bdc32-6897-4db4-adab-18733a8a5d19",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-4.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-5.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "9e86e3e5-493d-44e3-865e-b2e6a2a7fd68",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-5.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-6.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "4110f7ad-e02b-462b-9a48-6578c9a2fe7b",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-6.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-7.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "fe9c9c55-27c8-4497-8255-bd1824a4f646",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-7.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-8.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "d57ef94e-30bc-44d3-b0df-81e05f810de6",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-8.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-9.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "a3396a91-15e5-43e6-ae26-117204f63a15",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-9.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-10.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "2fcb3056-516d-45cf-bc23-db9eeced05b6",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-10.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-11.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "b1f5a446-5cdc-47cc-8d88-daea8963e0ac",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-11.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-12.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "bde13753-89df-4b82-9c17-ce87449a04c5",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-12.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-13.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "6de29ca5-d48f-499e-b0b8-38515656e684",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-13.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-14.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "cd492c2c-4429-4743-be7f-b94b5ee0f953",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-14.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-15.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "9917e2f2-9fa3-4619-8869-28c3c356c710",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-15.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-16.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "38e48946-aefa-4ede-9e74-9bed248b39fe",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-16.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-17.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "35d27964-1701-4e68-9166-a87ccd7ff0ac",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-17.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-18.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "84e31772-f672-4c01-b59f-e2a5f2c0e82e",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-18.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-19.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "9a4e80a9-cffd-4eaf-b7d2-e9cbb967dffa",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-19.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-20.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "5b4909c2-d9b5-4b95-b7d6-60925e73e1c9",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-20.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-21.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "27caed78-f028-4b1d-bc4e-f06508c747ac",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-21.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-22.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "97383c82-9899-4792-8661-df77b363338e",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-22.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-23.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "a906effb-bb13-447b-aeec-76d79b0f88b2",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-23.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-24.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "0f4b01f9-17ae-4ad1-8198-9cc15ef087d5",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-24.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-25.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "de33f660-12f7-4d08-bc5f-0b9904b33a3c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-25.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-26.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "6952b009-46e8-4b0f-9994-2d8d53965698",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-26.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-27.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "663e07fd-64da-408c-90b4-28f457b7cc23",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-27.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-28.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "cd5233e9-4487-48bb-a549-aec1f939258c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-28.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-29.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "98782fc6-2c9d-4e8a-adba-ae642b1e8690",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-29.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-30.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "cbab7ede-c960-4e16-aa60-6f954d7db00a",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-30.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-31.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "1c97c4e7-f1df-425c-a44f-473be57f728f",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-31.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-32.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "7cedf014-71e8-4504-b1c4-6fcfbafa91d3",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-32.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-33.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "18d9ff92-fa1f-4cf7-8484-9ce6ce4329ae",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-33.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-34.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "984a2c68-9f6b-440f-bc4f-ace7faac25d4",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-34.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-35.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "0f27cdf6-db70-4f74-a7de-00395c627556",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-35.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-36.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "7c95679c-55eb-4010-a686-d6b62395f2de",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-36.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-37.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "6097d7c2-c9e5-450f-b266-3764a3c04b5a",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-37.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-38.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "45bd05ea-9d53-4b0a-9816-f6b44b33f03c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-38.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-39.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "86df3272-7e0e-4531-b0ff-0b411c747529",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-39.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-40.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "931255e2-e30b-4141-babe-d327f30905dd",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-40.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-41.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "1a4861d5-e646-4817-9580-a0009241f69b",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-41.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-42.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "a8b4160e-bc7a-4bf3-b436-5b0f251a8765",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-42.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-43.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "d5d5ba73-5ab8-4f17-90c6-047311c6423b",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-43.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-44.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "40539ce6-20aa-4f53-8341-c653d73c76f7",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-44.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-45.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "5b7e9b07-8874-4d91-91b3-492e9c02f5c4",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-45.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-46.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "c1820a7e-7786-4998-997c-8e245756aec5",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-46.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-47.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "3f6bfc5d-5e9c-4de0-a38d-e1be05ec4229",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-47.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-48.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "cd6b28a9-e450-4bdd-a9fe-1187fb337af4",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-48.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-49.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "9c910e09-2c96-4385-bc63-9dcfadf36021",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-49.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-50.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "bd5479f2-7c17-413d-abd6-77dd2c175ed1",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-50.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-51.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "4d601ffe-69e2-433b-94f6-bd90c1de4b98",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-51.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-52.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "eed30bcb-ad0c-46a0-982c-cad99839899f",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-52.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-53.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "56631b07-2337-490f-b344-e0ac9839dc2f",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-53.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-54.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "09cc6fa6-e886-4837-aef2-226040cebde4",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-54.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-55.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "253b2ad9-0c44-4998-87f5-0970c90e3d73",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-55.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-56.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "dda98974-d294-4145-84f7-51afdd008f5f",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-56.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-57.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "1368a709-042b-4af2-875c-1705297503cf",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-57.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-58.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "2369770d-8d89-49d2-a2ba-a90361f0dc21",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-58.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-59.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "1ac82306-3d04-4456-8e26-b2f5daf2146d",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-59.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-60.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "3962d5ea-8898-407e-9cee-4b746171f651",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-60.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-61.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "b459cbf7-11e1-4607-885f-bec0483673d5",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-61.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-62.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "d22702f9-386a-4697-9385-6e7649d2c9e9",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-62.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-63.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "cb64a31d-866d-4e41-85c2-43b6eeacdf21",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-63.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-64.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "a5e7e147-ff78-4416-8b78-79151d9c26c4",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-64.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-65.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "e0e3aba1-8151-4779-ac1a-69852f098e99",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-65.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-66.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "bdd4de0a-3679-4c49-8239-60954cd04f5f",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-66.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-67.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "32bdf5aa-5d15-4fc0-a777-ba4f57318584",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-67.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-68.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "140d8f9b-8a0d-4807-bfa2-bd1e90b33f3c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-68.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-69.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "8fdfd080-29f3-498a-b42a-96606dba37ac",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-69.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-70.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "20d0582d-354e-4b97-a540-5296cd7e0f93",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-70.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-71.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "33319bb5-fd39-4e7d-b8b0-ed0783fc731d",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-71.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-72.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "8b688894-65db-4550-b542-d8b4b785b073",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-72.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-73.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "b98df405-8b88-4435-bc3c-83563fd0641f",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-73.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-74.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "a439c01f-29fd-4bcc-9883-e11356a05ac1",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-74.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-75.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "fa9db439-ca25-46e3-be3e-29326475ae6a",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-75.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-76.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "76d6f9c0-0aa9-4a66-85da-7192118c3d3a",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-76.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-77.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "af48bee0-1fb5-4141-873a-ce5c0e6d9c5d",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-77.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-78.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "71c88a77-7b22-442e-ad94-3839c7f217a4",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-78.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-79.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "113892f0-08ad-41e1-8438-28c681da4005",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-79.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-80.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "fe777fde-b5e3-4b6c-b5fe-58397314e691",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-80.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-81.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "f00cc6fa-9ef5-40d8-8778-43445ec81f98",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-81.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-82.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "ebd67830-461d-4722-9279-914c281fb67d",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-82.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-83.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "f18f5a5a-4cf7-42b4-8e77-b2bcb67aede2",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-83.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-84.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "67d83099-5954-4322-b539-3cfe1be4e8d6",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-84.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-85.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "831430cf-2920-4c2f-8375-5b244ebdce5a",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-85.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-86.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "3d440f36-9380-46e3-920c-b328e59ca430",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-86.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-87.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "ddcf47c6-3815-4552-a041-39fe24f94c4b",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-87.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-88.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "137dafd5-416b-4ac0-aa3a-4609e010c383",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-88.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-89.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "c4f28d77-cdb5-4045-a1af-651cc83b3dd7",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-89.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-90.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "4d6a4648-2d38-4639-b551-b88d65f6134c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-90.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-91.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "49ff2df3-bc7b-4bf5-b8ad-007e7c5e387c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-91.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-92.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "69bb8beb-d1a1-4c96-a47e-edd785aa5683",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-92.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-93.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "b897a7c7-67bd-49bc-aa60-4001c514e182",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-93.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-94.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "dea6c7c9-e5cb-4b84-a20e-6d43a1816bac",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-94.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-95.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "fbc9d81a-b886-49ca-bbb2-810098869d06",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-95.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-96.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "5c6535d2-d713-4f55-883b-89d4836637b9",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-96.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-97.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "2fb3af03-0753-4c7d-b2a4-69e182db5eb3",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-97.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-98.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "ba9e6ebf-6179-4bcc-a91c-199b55a92981",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-98.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-99.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "790623b1-fc0c-47cf-999f-0507ec70725b",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-99.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-100.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "bc3b80e9-b433-4715-86c6-c12bd281f54b",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-100.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-101.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "f4497cb9-22be-42f4-9925-c6af07b1cb71",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-101.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-102.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "1dd599a9-f432-46ec-9169-bc9f3622c5a7",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-102.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-103.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "b966dc8c-513d-4320-a117-21dd3a8747a8",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-103.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-104.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "02e3abe9-0a2d-46b4-997a-c23474492d7e",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-104.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-105.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "cfffcdc6-e209-43a1-af5a-92e09b307c48",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-105.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-106.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "02f50504-7d3a-479e-bcc9-20ed4af22946",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-106.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-107.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "f85d12fa-2061-4715-b271-84cb83f6dde0",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-107.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-108.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "f5e42732-d7d3-4577-bbb9-6704c5ded5c1",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-108.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-109.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "b3e721ef-b196-41bd-b773-49b82a22ec40",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-109.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-110.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "98df4447-6477-4c4b-b3f7-5cc18d409645",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-110.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-111.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "adbd9a97-b8e2-4999-b0d0-11c030b3d470",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-111.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-112.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "10d72818-7410-4a7b-b9bd-ff5c588cb109",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-112.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-113.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "b9402b1e-0355-4504-b43e-1a73c63cde8c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-113.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-114.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "9b54a855-b495-4477-b46f-420611f93e45",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-114.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-115.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "0543e56d-cfa6-4f57-a759-09f09cf413f8",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-115.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-116.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "166c10a1-a188-4a74-8e49-cf161c74f374",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-116.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-117.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "658db7bb-48d3-416e-a63d-2c4ec0d06d8b",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-117.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-118.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "ca135bf3-ef0b-433b-aa27-31515082cbd2",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-118.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-119.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "6d3025ad-2b4a-424c-a827-f10a6073e34c",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-119.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-120.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "e461b0a2-2646-4bad-8658-8987b58d9c45",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-120.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-121.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "30a21945-0b84-4a95-877a-ae10bed1ebe7",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-121.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-122.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "78d32e2d-3ad2-46ca-a20a-2d2bae17fc81",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-122.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-123.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "dc3bbc90-97b3-475b-abc9-333d913fcdc1",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-123.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-124.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "3cdf6699-5036-4c4e-abb3-018c050dd8c3",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-124.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-125.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "411d6f10-1127-4d9f-b5f4-e57c70088c09",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-125.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-126.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "72e14698-529f-438d-a28e-70681b4a55d1",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-126.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-127.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "ead28a75-b6cd-49ca-a8db-8dcda319cecc",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-127.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-128.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "53d371a5-42ea-48d0-b851-068229321fd0",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-128.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-129.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "104dbf44-8c3f-47fd-8e2a-69e29e6810ea",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-129.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-130.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "697bcd62-d8ff-4222-bc3a-a00ecec7a949",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-130.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman-131.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "987b9d41-3d33-4d74-80df-703fc1872ef8",
+      "importer": "skeleton",
+      "name": "Hypercasual Customizable Stickman-131.skeleton",
+      "subMetas": {}
+    },
+    "Hypercasual Customizable Stickman.prefab": {
+      "ver": "1.3.2",
+      "uuid": "762493ab-8219-4f52-9da4-08c894de851a",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "Hypercasual Customizable Stickman.prefab",
+      "subMetas": {}
+    },
+    "Stickman.mtl": {
+      "ver": "1.0.5",
+      "uuid": "1611a9eb-a92a-47bd-879b-b0cfc4a15527",
+      "importer": "material",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"6d91e591-4ce0-465c-809f-610ec95019c6\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"bc36723f-104d-4e97-a2a3-2da7486313ff\"\n        },\n        \"mainTiling\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 1,\n          \"y\": 1\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
+      "name": "Stickman.mtl",
+      "subMetas": {}
+    },
+    "Tshirt.mtl": {
+      "ver": "1.0.5",
+      "uuid": "b4d7cd12-f0e2-4817-a603-fe71c63faaaf",
+      "importer": "material",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"diffuseTexture\": {\n          \"__uuid__\": \"24a673e1-5e9b-482f-8652-4b4d99cf268a\"\n        }\n      },\n      \"defines\": {\n        \"USE_ALPHA_TEST\": false,\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
+      "name": "Tshirt.mtl",
+      "subMetas": {}
+    },
+    "Pants.mtl": {
+      "ver": "1.0.5",
+      "uuid": "e9e3b347-5089-4645-ab89-d6c1cf76547d",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "Pants.mtl",
+      "subMetas": {}
+    },
+    "Props.mtl": {
+      "ver": "1.0.5",
+      "uuid": "96b0ba2c-fa99-4c71-b2f8-e5ceb2b4e329",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "Props.mtl",
+      "subMetas": {}
+    }
+  }
+}
