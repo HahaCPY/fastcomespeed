@@ -7,22 +7,16 @@
 
 const {ccclass, property} = cc._decorator;
 
-@ccclass
-export default class NewClass extends cc.Component {
-
-    @property(cc.Label)
-    label: cc.Label = null;
-
-    @property
-    text: string = 'hello';
-
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {}
+cc.Class({
+    extends: cc.Component,
 
     start () {
-
+        const camera = this.getComponent(cc.Camera);
+        if (camera) {
+            camera.ortho = true;
+            camera.orthoHeight = 320;
+        } else {
+            cc.warn("找不到 Camera 元件");
+        }
     }
-
-    // update (dt) {}
-}
+});
