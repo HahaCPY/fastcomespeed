@@ -24,7 +24,7 @@ export class NetworkManager extends Component {
     private db = null;
     private auth = null;
     private uid = '';
-    private roomId = 'room1'; // default room
+    private roomId = 'room1';
 
     onLoad() {
         this.initFirebase();

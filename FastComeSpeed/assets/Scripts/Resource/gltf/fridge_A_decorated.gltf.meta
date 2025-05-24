@@ -1,0 +1,219 @@
+{
+  "ver": "1.1.3",
+  "uuid": "e5e850a2-65d8-4e74-ba8b-e7bdf5f60b82",
+  "importer": "gltf",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "Cube.108.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d39b5d1c-c6f4-4385-888c-ac427663c888",
+      "importer": "mesh",
+      "verts": 204,
+      "tris": 188,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -1.850006103515625,
+        "y": -0.7999981045722961,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0.149993896484375,
+        "y": 0.699999988079071,
+        "z": 0.7400325536727905
+      },
+      "name": "Cube.108.mesh",
+      "subMetas": {}
+    },
+    "Cube.107.mesh": {
+      "ver": "1.0.3",
+      "uuid": "3a7d9f7e-aa29-4f6e-9625-0ff3a012013d",
+      "importer": "mesh",
+      "verts": 222,
+      "tris": 198,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -1.850006103515625,
+        "y": -0.4000000059604645,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0.149993896484375,
+        "y": 0.6000019311904907,
+        "z": 0.7400325536727905
+      },
+      "name": "Cube.107.mesh",
+      "subMetas": {}
+    },
+    "Cube.106.mesh": {
+      "ver": "1.0.3",
+      "uuid": "ad96680b-3ef0-47b7-98f1-53693c364aa9",
+      "importer": "mesh",
+      "verts": 1878,
+      "tris": 2012,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -1,
+        "y": 0,
+        "z": -1
+      },
+      "maxPos": {
+        "x": 1,
+        "y": 2.5,
+        "z": 0.5091291069984436
+      },
+      "name": "Cube.106.mesh",
+      "subMetas": {}
+    },
+    "fridge_A_decorated.prefab": {
+      "ver": "1.3.2",
+      "uuid": "84beb353-7d31-4370-94a6-f8a6aa9d264e",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "fridge_A_decorated.prefab",
+      "subMetas": {}
+    },
+    "restaurant.mtl": {
+      "ver": "1.0.5",
+      "uuid": "e52adc46-4500-43d6-b48c-4cedc84f2e9c",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "restaurant.mtl",
+      "subMetas": {}
+    }
+  }
+}

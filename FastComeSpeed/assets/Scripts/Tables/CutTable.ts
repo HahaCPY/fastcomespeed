@@ -1,5 +1,4 @@
 // assets/Scripts/Tables/CutTable.ts
-
 import { _decorator, Component } from 'cc';
 import { Table } from './Table';
 import { Ingredient } from '../Objects/Ingredient';
@@ -10,7 +9,7 @@ const { ccclass } = _decorator;
 @ccclass('CutTable')
 export class CutTable extends Table {
     private cuttingProgress: number = 0;
-    private readonly cuttingTime: number = 3; // 切菜需 3 秒
+    private readonly cuttingTime: number = 3;
 
     private ui: UIManager | null = null;
 
@@ -21,7 +20,6 @@ export class CutTable extends Table {
     update(deltaTime: number) {
         if (this.currentObject && this.currentObject instanceof Ingredient && !this.currentObject.isCut) {
             this.cuttingProgress += deltaTime;
-
             const percent = Math.min(1, this.cuttingProgress / this.cuttingTime);
             this.ui?.showCutProgress(percent * 100);
 
@@ -34,7 +32,7 @@ export class CutTable extends Table {
 
     private cutIngredient(ingredient: Ingredient) {
         ingredient.isCut = true;
-        this.ui?.showCutProgress(100); // ✅ 顯示切完
+        this.ui?.showCutProgress(100);
     }
 
     override removeObject() {

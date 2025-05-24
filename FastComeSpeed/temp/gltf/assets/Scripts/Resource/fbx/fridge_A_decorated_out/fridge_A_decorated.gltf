@@ -1,0 +1,388 @@
+{
+    "asset": {
+        "generator": "FBX2glTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 88116,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 12072,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 22536,
+            "byteOffset": 12072,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 22536,
+            "byteOffset": 34608,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15024,
+            "byteOffset": 57144,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1128,
+            "byteOffset": 72168,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2448,
+            "byteOffset": 73296,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2448,
+            "byteOffset": 75744,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1632,
+            "byteOffset": 78192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1188,
+            "byteOffset": 79824,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2664,
+            "byteOffset": 81012,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2664,
+            "byteOffset": 83676,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1776,
+            "byteOffset": 86340,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 6036,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1878,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.00999999977648258,
+                -0.00509129092097282,
+                0.0
+            ],
+            "max": [
+                0.00999999977648258,
+                0.00999999977648258,
+                0.0249999985098839
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 1878,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 1878,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 564,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 204,
+            "bufferView": 5,
+            "byteOffset": 0,
+            "min": [
+                -0.0185000598430634,
+                -0.007400325499475,
+                -0.00799998082220554
+            ],
+            "max": [
+                0.00149993889499456,
+                0.0,
+                0.00699999975040555
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 204,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 204,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 594,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 222,
+            "bufferView": 9,
+            "byteOffset": 0,
+            "min": [
+                -0.0185000598430634,
+                -0.007400325499475,
+                -0.00400000018998981
+            ],
+            "max": [
+                0.00149993889499456,
+                0.0,
+                0.00600001914426684
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 222,
+            "bufferView": 10,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 222,
+            "bufferView": 11,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "base_color_texture",
+            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "base_color_texture",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "restaurant",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.272165536880493
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "fridge_A_decorated",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                }
+            ]
+        },
+        {
+            "name": "fridge_A_decorated_door_bottom",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 5,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4
+                }
+            ]
+        },
+        {
+            "name": "fridge_A_decorated_door_top",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "fridge_A_decorated",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.707106828689575,
+                0.0,
+                0.0,
+                0.707106709480286
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                100.0
+            ],
+            "children": [
+                2,
+                3
+            ],
+            "mesh": 0
+        },
+        {
+            "name": "fridge_A_decorated_door_bottom",
+            "translation": [
+                0.00850006099790335,
+                -0.00499999988824129,
+                0.00799997337162495
+            ],
+            "rotation": [
+                -1.32348898008484e-23,
+                -0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 1
+        },
+        {
+            "name": "fridge_A_decorated_door_top",
+            "translation": [
+                0.00850006099790335,
+                -0.00499999988824129,
+                0.0189999770373106
+            ],
+            "rotation": [
+                -1.32348898008484e-23,
+                -0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 2
+        }
+    ]
+}

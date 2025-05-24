@@ -1,0 +1,14 @@
+{
+  "engine": "CocosCreator",
+  "version": "2.4.8",
+  "id": "overcooked-ts",
+  "typescript": true,
+  "platforms": [
+    "web"
+  ],
+  "modules": [
+    "cocos2d",
+    "cc"
+  ],
+  "isNew": false
+}
