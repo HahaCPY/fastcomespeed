@@ -11,11 +11,8 @@
                     function __define (exports, require, module) {
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
 require('./assets/Scripts/Network/NetworkManager');
-require('./assets/Scripts/Player/InteractZone');
 require('./assets/Scripts/Tables/CutTable');
 require('./assets/Scripts/Tables/DeliveryTable');
-require('./assets/Scripts/Tables/TrashBin');
-require('./assets/Scripts/UI/UIManager');
 
                     }
                     if (nodeEnv) {

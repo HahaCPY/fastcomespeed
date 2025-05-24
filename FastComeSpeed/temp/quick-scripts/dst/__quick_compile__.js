@@ -1,6 +1,6 @@
 
 (function () {
-var scripts = [{"deps":{"./assets/Scripts/Tables/DeliveryTable":1,"./assets/Scripts/Tables/TrashBin":2,"./assets/Scripts/Network/NetworkManager":3,"./assets/Scripts/UI/UIManager":4,"./assets/Scripts/Tables/CutTable":5,"./assets/Scripts/Player/InteractZone":6},"path":"preview-scripts/__qc_index__.js"},{"deps":{"../UI/UIManager":4},"path":"preview-scripts/assets/Scripts/Tables/DeliveryTable.js"},{"deps":{},"path":"preview-scripts/assets/Scripts/Tables/TrashBin.js"},{"deps":{},"path":"preview-scripts/assets/Scripts/Network/NetworkManager.js"},{"deps":{},"path":"preview-scripts/assets/Scripts/UI/UIManager.js"},{"deps":{"../UI/UIManager":4},"path":"preview-scripts/assets/Scripts/Tables/CutTable.js"},{"deps":{},"path":"preview-scripts/assets/Scripts/Player/InteractZone.js"}];
+var scripts = [{"deps":{"./assets/Scripts/Tables/CutTable":3,"./assets/Scripts/Network/NetworkManager":2,"./assets/Scripts/Tables/DeliveryTable":1},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Scripts/Tables/DeliveryTable.js"},{"deps":{},"path":"preview-scripts/assets/Scripts/Network/NetworkManager.js"},{"deps":{},"path":"preview-scripts/assets/Scripts/Tables/CutTable.js"}];
 var entries = ["preview-scripts/__qc_index__.js"];
 var bundleScript = 'preview-scripts/__qc_bundle__.js';
 
