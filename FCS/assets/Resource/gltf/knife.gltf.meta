@@ -7,12 +7,12 @@
   "precomputeJointMatrix": false,
   "animationFrameRate": 30,
   "subMetas": {
-    "Cube.114.mesh": {
+    "knife.mesh": {
       "ver": "1.0.3",
       "uuid": "1ea6c4ee-f39a-4d30-9c36-b0ba96c96f4d",
       "importer": "mesh",
-      "verts": 123,
-      "tris": 104,
+      "verts": 162,
+      "tris": 140,
       "submeshes": 1,
       "attributes": [
         [
@@ -23,15 +23,15 @@
       ],
       "minPos": {
         "x": -0.19999559223651886,
-        "y": -0.2107035219669342,
-        "z": -0.050000037997961044
+        "y": -0.2035166621208191,
+        "z": -0.04954163730144501
       },
       "maxPos": {
-        "x": 0.05000441521406174,
-        "y": 0.9392964839935303,
-        "z": 0.04999997466802597
+        "x": 0.06759510934352875,
+        "y": 0.8392964601516724,
+        "z": 0.04954163730144501
       },
-      "name": "Cube.114.mesh",
+      "name": "knife.mesh",
       "subMetas": {}
     },
     "knife.prefab": {
@@ -153,12 +153,12 @@
       "name": "knife.prefab",
       "subMetas": {}
     },
-    "restaurant.mtl": {
+    "tiny_treats_1.mtl": {
       "ver": "1.0.5",
       "uuid": "dee09ae3-f4d2-4a30-8627-e2aa309a699d",
       "importer": "material",
       "dataAsSubAsset": null,
-      "name": "restaurant.mtl",
+      "name": "tiny_treats_1.mtl",
       "subMetas": {}
     }
   }

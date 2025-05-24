@@ -7,12 +7,12 @@
   "precomputeJointMatrix": false,
   "animationFrameRate": 30,
   "subMetas": {
-    "Cylinder.153.mesh": {
+    "dishrack.mesh": {
       "ver": "1.0.3",
       "uuid": "1e1cfb46-8a88-4e5d-a73a-e72fdeeb9e66",
       "importer": "mesh",
-      "verts": 372,
-      "tris": 240,
+      "verts": 362,
+      "tris": 392,
       "submeshes": 1,
       "attributes": [
         [
@@ -22,16 +22,16 @@
         ]
       ],
       "minPos": {
-        "x": -0.5999962091445923,
-        "y": 0,
-        "z": -0.6000000238418579
+        "x": -0.30000078678131104,
+        "y": -0.0000045746564865112305,
+        "z": -0.4000000059604645
       },
       "maxPos": {
-        "x": 0.6000038385391235,
-        "y": 0.6000000238418579,
-        "z": 0.6000000238418579
+        "x": 0.30000078678131104,
+        "y": 0.49998706579208374,
+        "z": 0.4000000059604645
       },
-      "name": "Cylinder.153.mesh",
+      "name": "dishrack.mesh",
       "subMetas": {}
     },
     "dishrack.prefab": {
@@ -153,12 +153,12 @@
       "name": "dishrack.prefab",
       "subMetas": {}
     },
-    "restaurant.mtl": {
+    "tiny_treats_1.mtl": {
       "ver": "1.0.5",
       "uuid": "7ec4a360-70b6-4c73-bbe2-ab04ddedeec7",
       "importer": "material",
       "dataAsSubAsset": null,
-      "name": "restaurant.mtl",
+      "name": "tiny_treats_1.mtl",
       "subMetas": {}
     }
   }

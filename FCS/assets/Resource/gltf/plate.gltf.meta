@@ -7,12 +7,12 @@
   "precomputeJointMatrix": false,
   "animationFrameRate": 30,
   "subMetas": {
-    "Cylinder.105.mesh": {
+    "plate.mesh": {
       "ver": "1.0.3",
       "uuid": "d1e08e88-a5c7-4529-ad65-4fb41989c919",
       "importer": "mesh",
-      "verts": 162,
-      "tris": 160,
+      "verts": 225,
+      "tris": 224,
       "submeshes": 1,
       "attributes": [
         [
@@ -22,16 +22,16 @@
         ]
       ],
       "minPos": {
-        "x": -0.4749999940395355,
-        "y": -3.725290298461914e-9,
-        "z": -0.4749999940395355
+        "x": -0.3750000298023224,
+        "y": 2.514570951461792e-8,
+        "z": -0.375
       },
       "maxPos": {
-        "x": 0.4750000238418579,
-        "y": 0.09999999403953552,
-        "z": 0.4749999940395355
+        "x": 0.375,
+        "y": 0.1000000387430191,
+        "z": 0.375
       },
-      "name": "Cylinder.105.mesh",
+      "name": "plate.mesh",
       "subMetas": {}
     },
     "plate.prefab": {
@@ -153,12 +153,12 @@
       "name": "plate.prefab",
       "subMetas": {}
     },
-    "restaurant.mtl": {
+    "tiny_treats_1.mtl": {
       "ver": "1.0.5",
       "uuid": "01c4e7ae-56f3-45de-82d9-bc34d2c4b87f",
       "importer": "material",
       "dataAsSubAsset": null,
-      "name": "restaurant.mtl",
+      "name": "tiny_treats_1.mtl",
       "subMetas": {}
     }
   }

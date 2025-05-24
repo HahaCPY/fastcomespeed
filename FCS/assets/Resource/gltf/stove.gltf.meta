@@ -1,0 +1,205 @@
+{
+  "ver": "1.1.3",
+  "uuid": "93d239c0-63fe-453e-8fdb-979490ef9eb2",
+  "importer": "gltf",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "stove_door.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5fbe4bdd-7904-433d-b23a-5fd373bbf2ab",
+      "importer": "mesh",
+      "verts": 186,
+      "tris": 156,
+      "submeshes": 2,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ],
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -0.949999988079071,
+        "y": 5.960464477539063e-8,
+        "z": 1.7881393432617188e-7
+      },
+      "maxPos": {
+        "x": 0.949999988079071,
+        "y": 0.6500000357627869,
+        "z": 0.36889350414276123
+      },
+      "name": "stove_door.mesh",
+      "subMetas": {}
+    },
+    "stove.mesh": {
+      "ver": "1.0.3",
+      "uuid": "468c6f0e-a7b8-4dba-9422-4f387e5e083d",
+      "importer": "mesh",
+      "verts": 1494,
+      "tris": 1200,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -1,
+        "y": 0,
+        "z": -0.7500004172325134
+      },
+      "maxPos": {
+        "x": 1,
+        "y": 1.2999999523162842,
+        "z": 0.9040974378585815
+      },
+      "name": "stove.mesh",
+      "subMetas": {}
+    },
+    "stove.prefab": {
+      "ver": "1.3.2",
+      "uuid": "4374b6f6-041b-4279-8072-7a7c5db2d2ca",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "stove.prefab",
+      "subMetas": {}
+    },
+    "tiny_treats_1.mtl": {
+      "ver": "1.0.5",
+      "uuid": "740543f9-e2b7-495f-9c86-cd6d5ab4a3e5",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "tiny_treats_1.mtl",
+      "subMetas": {}
+    },
+    "tiny_treats_1_GLASS.mtl": {
+      "ver": "1.0.5",
+      "uuid": "f3af1870-d6ea-4fd3-a526-36a509563ed8",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "tiny_treats_1_GLASS.mtl",
+      "subMetas": {}
+    }
+  }
+}

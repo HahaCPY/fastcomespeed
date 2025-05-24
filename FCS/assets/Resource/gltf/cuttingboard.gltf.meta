@@ -7,12 +7,12 @@
   "precomputeJointMatrix": false,
   "animationFrameRate": 30,
   "subMetas": {
-    "Cube.555.mesh": {
+    "cuttingboard.mesh": {
       "ver": "1.0.3",
       "uuid": "29b9f597-8418-453e-906d-0fab8156cff2",
       "importer": "mesh",
-      "verts": 62,
-      "tris": 38,
+      "verts": 170,
+      "tris": 162,
       "submeshes": 1,
       "attributes": [
         [
@@ -22,16 +22,16 @@
         ]
       ],
       "minPos": {
-        "x": -0.75,
-        "y": 0,
-        "z": -0.5
+        "x": -0.5,
+        "y": -3.725290298461914e-9,
+        "z": -0.375
       },
       "maxPos": {
-        "x": 0.75,
-        "y": 0.1499999612569809,
-        "z": 0.5
+        "x": 0.7999999523162842,
+        "y": 0.09999999403953552,
+        "z": 0.375
       },
-      "name": "Cube.555.mesh",
+      "name": "cuttingboard.mesh",
       "subMetas": {}
     },
     "cuttingboard.prefab": {
@@ -153,12 +153,12 @@
       "name": "cuttingboard.prefab",
       "subMetas": {}
     },
-    "restaurant.mtl": {
+    "tiny_treats_1.mtl": {
       "ver": "1.0.5",
       "uuid": "f54348ec-015c-4f18-80bf-f180c1f10533",
       "importer": "material",
       "dataAsSubAsset": null,
-      "name": "restaurant.mtl",
+      "name": "tiny_treats_1.mtl",
       "subMetas": {}
     }
   }
