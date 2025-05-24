@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 {
   "compilerOptions": {
@@ -8,3 +9,20 @@
     "temp"
   ]
 }
+=======
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        ".vscode",
+        "library",
+        "local",
+        "settings",
+        "temp"
+    ]
+}
+>>>>>>> a2d2b4e90197c9e2aa1084d5fe2b29ae76ce89e8
