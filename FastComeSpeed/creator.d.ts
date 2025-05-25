@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 // creator.d.ts
 // Minimal Cocos Creator 2.4.8 TypeScript declarations (simplified mock for compatibility)
 declare module cc {
@@ -23,7 +22,6 @@ declare module cc {
     export class IPhysics2DContact {}
 }
 declare function require(name: string): any;
-=======
 /** !#en
 The main namespace of Cocos2d-JS, all engine core classes, functions, properties and constants are defined in this namespace.
 !#zh
@@ -24782,4 +24780,3 @@ declare const CC_JSB: boolean;
 declare const CC_TEST: boolean;
 /** Running in the WeChat Mini Game. */
 declare const CC_WECHATGAME: boolean;
->>>>>>> a2d2b4e90197c9e2aa1084d5fe2b29ae76ce89e8
