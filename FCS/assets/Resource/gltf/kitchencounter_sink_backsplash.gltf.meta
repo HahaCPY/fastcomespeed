@@ -157,7 +157,7 @@
       "ver": "1.0.5",
       "uuid": "7a67770d-46ec-4acf-a5a4-9307720bab01",
       "importer": "material",
-      "dataAsSubAsset": null,
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseTexture\": {\n          \"__uuid__\": \"44ea04ea-9657-4c95-ac95-e309d6d589f2\"\n        },\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"mainTiling\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 0.125,\n          \"y\": 0.125\n        },\n        \"mainOffset\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 0,\n          \"y\": 0.25\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
       "name": "restaurant.mtl",
       "subMetas": {}
     }

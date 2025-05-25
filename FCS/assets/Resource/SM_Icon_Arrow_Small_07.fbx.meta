@@ -1,42 +1,49 @@
 {
   "ver": "1.1.3",
-  "uuid": "65033441-2b5d-406b-bc62-4c88c8d688ff",
-  "importer": "gltf",
+  "uuid": "e1c5526f-7e44-414a-b3cf-90225096fad5",
+  "importer": "fbx",
   "scaleFactor": 1,
   "boneCount": 0,
   "precomputeJointMatrix": false,
   "animationFrameRate": 30,
   "subMetas": {
-    "Cube.901.mesh": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "9d5d5987-83f1-4db1-a3ab-9004d0a5136d",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "SM_Icon_Arrow_Small_07.mesh": {
       "ver": "1.0.3",
-      "uuid": "231921b6-c375-407d-835f-658cf1c4f5bb",
+      "uuid": "09e0fa16-f80e-45b2-b5a7-68e13e19c54b",
       "importer": "mesh",
-      "verts": 95,
-      "tris": 56,
+      "verts": 96,
+      "tris": 60,
       "submeshes": 1,
       "attributes": [
         [
+          "a_normal",
           "a_position",
-          "a_uv0",
-          "a_normal"
+          "a_uv0"
         ]
       ],
       "minPos": {
-        "x": -0.9999999403953552,
-        "y": 0,
-        "z": -1
+        "x": -0.169245511293411,
+        "y": -0.246554210782051,
+        "z": -0.0206615068018436
       },
       "maxPos": {
-        "x": 1,
-        "y": 1.2000000476837158,
-        "z": 1
+        "x": 0.169245511293411,
+        "y": 0.246554210782051,
+        "z": 0.0206615068018436
       },
-      "name": "Cube.901.mesh",
+      "name": "SM_Icon_Arrow_Small_07.mesh",
       "subMetas": {}
     },
-    "kitchencounter_outercorner_backsplash.prefab": {
+    "SM_Icon_Arrow_Small_07.prefab": {
       "ver": "1.3.2",
-      "uuid": "9fa4eaaa-8e01-4e8b-8359-1c053a83e5d6",
+      "uuid": "080b20e2-664c-4598-af89-64ab2b39c627",
       "importer": "prefab",
       "optimizationPolicy": "AUTO",
       "asyncLoadAssets": false,
@@ -150,15 +157,15 @@
           "fileId": "d7118yAG5lKybkFOAh8koPL"
         }
       ],
-      "name": "kitchencounter_outercorner_backsplash.prefab",
+      "name": "SM_Icon_Arrow_Small_07.prefab",
       "subMetas": {}
     },
-    "restaurant.mtl": {
+    "lambert4SG2.mtl": {
       "ver": "1.0.5",
-      "uuid": "929ca725-4643-4435-baf8-f1b3a3153e68",
+      "uuid": "ff36cd5d-6c9d-473c-9ebe-f984446061bc",
       "importer": "material",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseTexture\": {\n          \"__uuid__\": \"44ea04ea-9657-4c95-ac95-e309d6d589f2\"\n        },\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"mainTiling\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 0.125,\n          \"y\": 0.125\n        },\n        \"mainOffset\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 0,\n          \"y\": 0.25\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
-      "name": "restaurant.mtl",
+      "dataAsSubAsset": null,
+      "name": "lambert4SG2.mtl",
       "subMetas": {}
     }
   }
