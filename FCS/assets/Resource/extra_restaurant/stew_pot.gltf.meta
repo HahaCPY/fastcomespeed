@@ -1,0 +1,165 @@
+{
+  "ver": "1.1.3",
+  "uuid": "a1d2936b-5b80-4596-9e23-757674bbb56d",
+  "importer": "gltf",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "Cylinder.003.mesh": {
+      "ver": "1.0.3",
+      "uuid": "8102ef54-3da9-4f6b-b356-3993eb4cd347",
+      "importer": "mesh",
+      "verts": 402,
+      "tris": 304,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -0.368492990732193,
+        "y": 0.26595765352249146,
+        "z": -0.368492990732193
+      },
+      "maxPos": {
+        "x": 0.3684929311275482,
+        "y": 0.5159215927124023,
+        "z": 0.3684929609298706
+      },
+      "name": "Cylinder.003.mesh",
+      "subMetas": {}
+    },
+    "stew_pot.prefab": {
+      "ver": "1.3.2",
+      "uuid": "3bf263a1-115e-4104-805b-4e667b774f4b",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "stew_pot.prefab",
+      "subMetas": {}
+    },
+    "restaurant.mtl": {
+      "ver": "1.0.5",
+      "uuid": "41528fc9-229b-4e26-8a41-4cad25c3df5b",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "restaurant.mtl",
+      "subMetas": {}
+    }
+  }
+}

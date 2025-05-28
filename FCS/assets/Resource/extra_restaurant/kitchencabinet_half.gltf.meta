@@ -1,0 +1,165 @@
+{
+  "ver": "1.1.3",
+  "uuid": "4c67efd8-2f05-40ba-8ade-aacee0f3d944",
+  "importer": "gltf",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "Cube.222.mesh": {
+      "ver": "1.0.3",
+      "uuid": "3983f6b9-dcc3-4fca-bf90-afa0704ba753",
+      "importer": "mesh",
+      "verts": 202,
+      "tris": 156,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -1,
+        "y": 3,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 1,
+        "y": 4,
+        "z": 1.041903018951416
+      },
+      "name": "Cube.222.mesh",
+      "subMetas": {}
+    },
+    "kitchencabinet_half.prefab": {
+      "ver": "1.3.2",
+      "uuid": "b132cfb0-1ae4-46ef-bf2e-7c9357f7cb3e",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "kitchencabinet_half.prefab",
+      "subMetas": {}
+    },
+    "restaurant.mtl": {
+      "ver": "1.0.5",
+      "uuid": "5a1d270a-cc62-4d0e-af57-2a92d72f2ec4",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "restaurant.mtl",
+      "subMetas": {}
+    }
+  }
+}
