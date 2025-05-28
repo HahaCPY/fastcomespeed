@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "98cdd19d-f54d-4582-849c-75235a38e6d2",
+  "uuid": "3284d6ea-0d6b-4e62-a471-a3f6ed37c4af",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "restaurantbits_texture": {
       "ver": "1.0.6",
-      "uuid": "0e8ce1e5-7d90-4ac0-b177-520141364c54",
+      "uuid": "77b8bf6d-c2f9-4580-85e8-b24cead22836",
       "importer": "sprite-frame",
-      "rawTextureUuid": "98cdd19d-f54d-4582-849c-75235a38e6d2",
+      "rawTextureUuid": "3284d6ea-0d6b-4e62-a471-a3f6ed37c4af",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
