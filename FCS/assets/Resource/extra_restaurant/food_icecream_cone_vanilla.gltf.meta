@@ -1,0 +1,165 @@
+{
+  "ver": "1.1.3",
+  "uuid": "28f70abf-a15e-4707-bf6d-9ae5bbff005c",
+  "importer": "gltf",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "Cylinder.305.mesh": {
+      "ver": "1.0.3",
+      "uuid": "fa9c6dfa-54b9-49dd-b655-e165f988a85f",
+      "importer": "mesh",
+      "verts": 411,
+      "tris": 380,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -0.22485744953155518,
+        "y": -2.413193200823116e-8,
+        "z": -0.22499999403953552
+      },
+      "maxPos": {
+        "x": 0.22499999403953552,
+        "y": 1.035894751548767,
+        "z": 0.22499999403953552
+      },
+      "name": "Cylinder.305.mesh",
+      "subMetas": {}
+    },
+    "food_icecream_cone_vanilla.prefab": {
+      "ver": "1.3.2",
+      "uuid": "5d415e76-f0a4-4dd2-a261-75efe5f1f138",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "food_icecream_cone_vanilla.prefab",
+      "subMetas": {}
+    },
+    "restaurant.mtl": {
+      "ver": "1.0.5",
+      "uuid": "0eb7e987-59e6-4e34-beeb-8f36be62e303",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "restaurant.mtl",
+      "subMetas": {}
+    }
+  }
+}

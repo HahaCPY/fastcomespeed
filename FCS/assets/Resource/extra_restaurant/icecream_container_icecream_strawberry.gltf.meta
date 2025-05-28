@@ -1,0 +1,165 @@
+{
+  "ver": "1.1.3",
+  "uuid": "1b0112e6-3c20-486b-affd-e16c62eb9cb1",
+  "importer": "gltf",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "Cube.378.mesh": {
+      "ver": "1.0.3",
+      "uuid": "d348f25f-c387-4565-bd19-f974636462f1",
+      "importer": "mesh",
+      "verts": 72,
+      "tris": 60,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_position",
+          "a_uv0",
+          "a_normal"
+        ]
+      ],
+      "minPos": {
+        "x": -0.4071957468986511,
+        "y": -0.17337188124656677,
+        "z": -0.7019287943840027
+      },
+      "maxPos": {
+        "x": 0.40719616413116455,
+        "y": 0.17999327182769775,
+        "z": 0.7019287943840027
+      },
+      "name": "Cube.378.mesh",
+      "subMetas": {}
+    },
+    "icecream_container_icecream_strawberry.prefab": {
+      "ver": "1.3.2",
+      "uuid": "ee52e997-d731-40e1-a48a-84c1983dcab1",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "icecream_container_icecream_strawberry.prefab",
+      "subMetas": {}
+    },
+    "restaurant.mtl": {
+      "ver": "1.0.5",
+      "uuid": "0226bab0-0ed6-4630-b125-245d0ea89ea9",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "restaurant.mtl",
+      "subMetas": {}
+    }
+  }
+}
