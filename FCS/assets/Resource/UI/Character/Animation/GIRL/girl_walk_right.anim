@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "girl_walk_right",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.7666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "aded59f0-fbb6-454d-9bba-43e4afb155be"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "9c688f0d-fd8b-4523-b321-71a3980f7a61"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "564fc541-99b2-47d6-b308-a4762d89172a"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "f5f637bf-50d0-4ca2-8a25-b364eda2bd7f"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "532be72a-e623-443e-b831-f7742cad3798"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "82355da8-15a0-4521-bf62-f92b34707e4f"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "60871bc0-fb11-472c-9cae-374464c10bc2"
+            }
+          },
+          {
+            "frame": 0.5833333333333334,
+            "value": {
+              "__uuid__": "22644e92-98e6-4566-bc42-e3f1137cb284"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "5d467191-2550-469e-a203-9ca1a6cb3c66"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "ef01b5d1-6a7d-4bc4-bd12-514b76bd231a"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
