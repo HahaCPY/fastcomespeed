@@ -500,8 +500,8 @@
     "relativePath": "model\\primitives.fbx"
   },
   "c0c4623d-11e8-4052-84c7-44d76bd59a4b": {
-    "asset": 1748448961882,
-    "meta": 1748450593882,
+    "asset": 1748510022479,
+    "meta": 1748523345086,
     "relativePath": "Resource"
   },
   "c9418ee6-4b79-4c49-81d0-5f660f0325d6": {
@@ -510,8 +510,8 @@
     "relativePath": "Scenes"
   },
   "c1ea2d30-397d-41b3-918c-8061a7f0b778": {
-    "asset": 1748448961891,
-    "meta": 1748450593884,
+    "asset": 1748511010600,
+    "meta": 1748523345086,
     "relativePath": "Script"
   },
   "caac4535-4507-4b1e-9039-4efa60fef83d": {
@@ -630,8 +630,8 @@
     "relativePath": "Resource\\extra_restaurant\\crate_dough.bin"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1748494495987,
-    "meta": 1748494496009,
+    "asset": 1748534656077,
+    "meta": 1748534656093,
     "relativePath": "Scenes\\kitchen-frame.fire"
   },
   "ee8b1fa0-17df-433a-947f-ad51c9a90dfa": {
@@ -6120,8 +6120,8 @@
     "relativePath": "Resource\\UI\\Character"
   },
   "029ab81b-f9dc-4208-a150-b804784457d5": {
-    "asset": 1748493936950,
-    "meta": 1748494520475,
+    "asset": 1748505348756,
+    "meta": 1748523345088,
     "relativePath": "Resource\\UI\\UI"
   },
   "edf517f5-ecee-4f4a-8fa1-b852623f0842": {
@@ -6221,7 +6221,7 @@
   },
   "0ee7e0a5-de56-4b60-88be-77134f254d11": {
     "asset": 1748448960948,
-    "meta": 1748450609761,
+    "meta": 1748505649106,
     "relativePath": "Resource\\UI\\UI\\blockv2.plist"
   },
   "f462d5b7-d51e-41d7-a5a1-16cbbfb1a95d": {
@@ -6320,8 +6320,8 @@
     "relativePath": "Resource\\Character\\Frog\\frog.png"
   },
   "de71ef29-133b-4e37-8542-bddf44b1a9e9": {
-    "asset": 1748494492722,
-    "meta": 1748494492730,
+    "asset": 1748504642661,
+    "meta": 1748504642675,
     "relativePath": "Resource\\Character\\Animation\\GIRL\\girl_idle.anim"
   },
   "3881654e-8230-4b5c-b383-fb1ba833713e": {
@@ -6411,7 +6411,7 @@
   },
   "76193809-c483-492e-bff5-f67aabb7473a": {
     "asset": 1748448960952,
-    "meta": 1748450605628,
+    "meta": 1748506249150,
     "relativePath": "Resource\\UI\\UI\\icons.png"
   },
   "465adaad-13fc-43d1-b97c-74eec226d135": {
@@ -6624,11 +6624,6 @@
     "meta": 1748450610136,
     "relativePath": "Resource\\restaurant\\wall_window_open.gltf"
   },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1748450932399,
-    "meta": 1748450936513,
-    "relativePath": "Script\\Player\\PlayerController.ts"
-  },
   "1d973947-acdf-4c13-8372-b01b4f803f3a": {
     "asset": 1748493936947,
     "meta": 1748494037276,
@@ -6638,5 +6633,115 @@
     "asset": 1748493936947,
     "meta": 1748493963074,
     "relativePath": "Resource\\UI\\UI\\btn.png"
+  },
+  "c018a4ba-087a-4bf1-9017-20287d647bf8": {
+    "asset": 1748505348750,
+    "meta": 1748505348777,
+    "relativePath": "Resource\\UI\\UI\\setting.plist"
+  },
+  "ed82e364-1b05-4543-a855-90b318515bd4": {
+    "asset": 1748505348750,
+    "meta": 1748505348773,
+    "relativePath": "Resource\\UI\\UI\\setting.png"
+  },
+  "57cb92cb-7bcd-4dcc-b711-5f3a8434050e": {
+    "asset": 1748510352861,
+    "meta": 1748523345087,
+    "relativePath": "Resource\\Physic"
+  },
+  "4c91ba5a-03e3-4893-bf9b-c60a066e5e4c": {
+    "asset": 1748510033143,
+    "meta": 1748511272001,
+    "relativePath": "Resource\\Physic\\desk.pmtl"
+  },
+  "06e2879a-61c9-45fc-98e5-f742c6488723": {
+    "asset": 1748510350109,
+    "meta": 1748511277327,
+    "relativePath": "Resource\\Physic\\girl.pmtl"
+  },
+  "c9b6f5b9-19d0-47b1-bb9b-db372cd4d97b": {
+    "asset": 1748528123159,
+    "meta": 1748528136279,
+    "relativePath": "Script\\debug.ts"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1748529554240,
+    "meta": 1748529615544,
+    "relativePath": "Script\\Player\\PlayerController.ts"
+  },
+  "0e5105de-32d5-401c-8239-e5ec1f773eeb": {
+    "asset": 1748538681510,
+    "meta": 1748538681511,
+    "relativePath": "Resource\\UI\\newUI"
+  },
+  "44cb6bfe-9851-4e81-9494-b1ad4fbaa13d": {
+    "asset": 1748538713986,
+    "meta": 1748538714148,
+    "relativePath": "Resource\\UI\\newUI\\win.plist"
+  },
+  "ebdaae77-b74d-45b3-b627-30f26e4929cb": {
+    "asset": 1748538713986,
+    "meta": 1748538714149,
+    "relativePath": "Resource\\UI\\newUI\\pause.plist"
+  },
+  "a646537b-f09b-4b67-b582-0470e644c0f1": {
+    "asset": 1748538713986,
+    "meta": 1748538714149,
+    "relativePath": "Resource\\UI\\newUI\\lose.plist"
+  },
+  "e951b155-4669-4329-96f4-4dcc8b4acf1d": {
+    "asset": 1748538713986,
+    "meta": 1748538714157,
+    "relativePath": "Resource\\UI\\newUI\\newbtn.plist"
+  },
+  "77de4ee2-3831-4a36-9c42-89069ab15eaf": {
+    "asset": 1748538713986,
+    "meta": 1748538714153,
+    "relativePath": "Resource\\UI\\newUI\\newshop.plist"
+  },
+  "56397f47-f4e8-4243-abd1-86ba0f4a363e": {
+    "asset": 1748538713986,
+    "meta": 1748538714154,
+    "relativePath": "Resource\\UI\\newUI\\newsetting.plist"
+  },
+  "bc38abf1-6b0e-4885-b11e-ad3f6cafbeac": {
+    "asset": 1748538713990,
+    "meta": 1748538714155,
+    "relativePath": "Resource\\UI\\newUI\\newupgrade.plist"
+  },
+  "cd331708-0b14-45d7-b727-3e4364f73499": {
+    "asset": 1748538713987,
+    "meta": 1748538714065,
+    "relativePath": "Resource\\UI\\newUI\\newbtn.png"
+  },
+  "70ac47ce-cf87-4855-82e1-26c19012bf39": {
+    "asset": 1748538713989,
+    "meta": 1748538714067,
+    "relativePath": "Resource\\UI\\newUI\\pause.png"
+  },
+  "68ad7dc0-7f89-45a2-aa2f-63c409dac1b7": {
+    "asset": 1748538713989,
+    "meta": 1748538714069,
+    "relativePath": "Resource\\UI\\newUI\\lose.png"
+  },
+  "6c5a354b-70af-47db-a1ff-27cc56fe6a0c": {
+    "asset": 1748538713990,
+    "meta": 1748538714072,
+    "relativePath": "Resource\\UI\\newUI\\newsetting.png"
+  },
+  "b0519b1d-45b7-434c-a985-2cd376444370": {
+    "asset": 1748538713991,
+    "meta": 1748538714073,
+    "relativePath": "Resource\\UI\\newUI\\newupgrade.png"
+  },
+  "ccb0febe-25db-4774-8800-9c1c28c0437f": {
+    "asset": 1748538713990,
+    "meta": 1748538714074,
+    "relativePath": "Resource\\UI\\newUI\\win.png"
+  },
+  "ac8c902f-5bc2-4432-8a09-d4f3ecb487af": {
+    "asset": 1748538713991,
+    "meta": 1748538714078,
+    "relativePath": "Resource\\UI\\newUI\\newshop.png"
   }
 }

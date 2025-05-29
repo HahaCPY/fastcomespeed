@@ -34,39 +34,38 @@ var PlayerController = /** @class */ (function (_super) {
         _this.input = null;
         _this.currentAnim = "";
         _this.lastDir = cc.v2(0, -1); // 預設向下（前）
+        _this.rb = null;
         return _this;
     }
     PlayerController.prototype.start = function () {
         if (!this.anim) {
             this.anim = this.getComponent(cc.Animation);
         }
-        if (!this.anim) {
-            cc.error("⚠️ 找不到 Animation 組件！");
+        this.rb = this.getComponent(cc.RigidBody);
+        if (!this.rb) {
+            cc.error("❌ 找不到 RigidBody2D 組件！");
             return;
         }
-        this.playAnim("girl_idle_back"); // 一開始播放背面靜止
+        this.playAnim("girl_idle_back");
         this.input = new KeyboardControls_1.KeyboardControls();
     };
     PlayerController.prototype.update = function (dt) {
         var dir = this.input.getMoveDirection();
         if (!dir.equals(cc.Vec2.ZERO)) {
-            // 移動中
-            var delta = dir.clone().normalize().mul(this.speed * dt);
-            this.node.x += delta.x;
-            this.node.y += delta.y;
+            // 使用物理引擎的 linearVelocity 控制移動
+            this.rb.linearVelocity = dir.clone().normalize().mul(this.speed);
             this.lastDir = dir.clone();
+            // 動畫切換（與方向判斷無變）
             if (Math.abs(dir.y) > Math.abs(dir.x)) {
-                // 垂直移動
                 if (dir.y > 0) {
-                    this.playAnim("girl_walk_back"); // 向上（後）
+                    this.playAnim("girl_walk_back");
                 }
                 else {
-                    this.playAnim("girl_idle_walk"); // 向下（前）
+                    this.playAnim("girl_idle_walk");
                 }
                 this.node.scaleX = 1;
             }
             else {
-                // 水平移動
                 if (dir.x > 0) {
                     this.playAnim("girl_walk_right");
                     this.node.scaleX = 1;
@@ -78,26 +77,16 @@ var PlayerController = /** @class */ (function (_super) {
             }
         }
         else {
-            // 停止移動
+            // 停止移動（速度歸零）
+            this.rb.linearVelocity = cc.v2(0, 0);
+            // 播放靜止動畫
             if (Math.abs(this.lastDir.y) > Math.abs(this.lastDir.x)) {
-                if (this.lastDir.y > 0) {
-                    this.playAnim("girl_idle_back");
-                }
-                else {
-                    this.playAnim("girl_idle");
-                }
-                this.node.scaleX = 1;
+                this.playAnim(this.lastDir.y > 0 ? "girl_idle_back" : "girl_idle");
             }
             else {
-                if (this.lastDir.x > 0) {
-                    this.playAnim("girl_idle_right");
-                    this.node.scaleX = 1;
-                }
-                else {
-                    this.playAnim("girl_idle_left");
-                    this.node.scaleX = 1;
-                }
+                this.playAnim(this.lastDir.x > 0 ? "girl_idle_right" : "girl_idle_left");
             }
+            this.node.scaleX = 1;
         }
     };
     PlayerController.prototype.playAnim = function (name) {
@@ -105,6 +94,15 @@ var PlayerController = /** @class */ (function (_super) {
             return;
         this.currentAnim = name;
         this.anim.play(name);
+    };
+    PlayerController.prototype.onBeginContact = function (contact, selfCollider, otherCollider) {
+        if (otherCollider.tag === 1) {
+            console.log('撞到桌子！');
+            // 若需要可以加入額外撞牆回彈邏輯
+        }
+        else if (otherCollider.tag === 2) {
+            console.log('在地板上');
+        }
     };
     __decorate([
         property(cc.Animation)

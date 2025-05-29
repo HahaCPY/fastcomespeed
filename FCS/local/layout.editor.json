@@ -71,10 +71,11 @@
                 "width": 1008.2625122070312,
                 "height": 294.07501220703125,
                 "type": "panel",
-                "active": 1,
+                "active": 2,
                 "children": [
                   "console",
-                  "timeline"
+                  "timeline",
+                  "game-window"
                 ]
               }
             ]
@@ -97,38 +98,12 @@
         "scene",
         "node-library",
         "console",
+        "timeline",
+        "game-window",
         "inspector",
-        "cocos-services",
-        "timeline"
+        "cocos-services"
       ]
-    },
-    "window-1748494555439": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 464,
-      "y": 363,
-      "width": 516,
-      "height": 543,
-      "layout": {
-        "type": "dock-v",
-        "children": [
-          {
-            "width": 502.3999938964844,
-            "height": 504,
-            "type": "panel",
-            "active": 0,
-            "children": [
-              "game-window"
-            ]
-          }
-        ]
-      },
-      "panels": [
-        "game-window"
-      ]
-    },
-    "window-1748495222419": {}
+    }
   },
   "panels": {
     "sprite-editor": {
@@ -145,9 +120,9 @@
     },
     "game-window": {
       "x": 464,
-      "y": 363,
+      "y": 280,
       "width": 516,
-      "height": 543
+      "height": 544
     }
   },
   "panelLabelWidth": {}
