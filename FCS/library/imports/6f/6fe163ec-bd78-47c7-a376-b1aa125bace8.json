@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "pot_A",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "pot_A",
+      "path": "pot_A"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

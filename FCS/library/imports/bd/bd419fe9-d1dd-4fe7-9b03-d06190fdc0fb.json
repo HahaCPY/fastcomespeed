@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.Model",
+  "_name": "icecream_machine",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "icecream_machine_handle_chocolate",
+      "position": [
+        0.49999237060546875,
+        1.929833173751831,
+        0.6999999284744263
+      ],
+      "parent": null,
+      "path": "icecream_machine/icecream_machine_handle_chocolate"
+    },
+    {
+      "mesh": 1,
+      "name": "icecream_machine_handle_strawberry",
+      "position": [
+        -0.5000076293945312,
+        1.929833173751831,
+        0.6999999284744263
+      ],
+      "parent": null,
+      "path": "icecream_machine/icecream_machine_handle_strawberry"
+    },
+    {
+      "mesh": 2,
+      "name": "icecream_machine_handle_vanilla",
+      "position": [
+        -0.00000762939453125,
+        1.929833173751831,
+        0.6999999284744263
+      ],
+      "parent": null,
+      "path": "icecream_machine/icecream_machine_handle_vanilla"
+    },
+    {
+      "children": [
+        0,
+        1,
+        2
+      ],
+      "mesh": 3,
+      "name": "icecream_machine",
+      "path": "icecream_machine"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

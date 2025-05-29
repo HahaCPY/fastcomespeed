@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "spatula",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "spatula",
+      "path": "spatula"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

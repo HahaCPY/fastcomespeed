@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "food_vegetableburger",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "food_vegetableburger",
+      "path": "food_vegetableburger"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

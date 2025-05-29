@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "icecream_bowl_decorated_B",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "icecream_bowl_decorated_B",
+      "path": "icecream_bowl_decorated_B"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

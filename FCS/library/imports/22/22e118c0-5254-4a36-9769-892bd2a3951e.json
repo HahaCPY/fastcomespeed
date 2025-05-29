@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Model",
+  "_name": "icecream_container_top",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "icecream_container_top_lid",
+      "position": [
+        -0.000003814697265625,
+        0.35000014305114746,
+        -0.19999980926513672
+      ],
+      "parent": null,
+      "path": "icecream_container_top/icecream_container_top_lid"
+    },
+    {
+      "children": [
+        0
+      ],
+      "mesh": 1,
+      "name": "icecream_container_top",
+      "path": "icecream_container_top"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "jar_B_small",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "jar_B_small",
+      "path": "jar_B_small"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}
