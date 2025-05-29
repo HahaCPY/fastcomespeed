@@ -13,7 +13,7 @@ export default class PlayerController extends cc.Component {
 
     private input: IInputControls = null;
     private currentAnim: string = "";
-    private lastDir: cc.Vec2 = cc.v2(0, -1); // 預設向下
+    private lastDir: cc.Vec2 = cc.v2(0, -1); // 預設向下（前）
 
     start() {
         if (!this.anim) {
@@ -25,7 +25,7 @@ export default class PlayerController extends cc.Component {
             return;
         }
 
-        this.playAnim("idleFront");
+        this.playAnim("girl_idle_back"); // 一開始播放背面靜止
         this.input = new KeyboardControls();
     }
 
@@ -42,21 +42,39 @@ export default class PlayerController extends cc.Component {
 
             if (Math.abs(dir.y) > Math.abs(dir.x)) {
                 // 垂直移動
-                this.playAnim(dir.y > 0 ? "backWalk" : "frontWalk");
-                this.node.scaleX = 1; // 垂直方向不需翻轉
-            } else {
-                // 水平移動
-                this.playAnim("frontWalk");
-                this.node.scaleX = dir.x > 0 ? -1 : 1;
-            }
-        } else {
-            // 停下來，播放最後方向對應的 idle 動畫
-            if (Math.abs(this.lastDir.y) > Math.abs(this.lastDir.x)) {
-                this.playAnim(this.lastDir.y > 0 ? "backIdle" : "idleFront");
+                if (dir.y > 0) {
+                    this.playAnim("girl_walk_back"); // 向上（後）
+                } else {
+                    this.playAnim("girl_idle_walk"); // 向下（前）
+                }
                 this.node.scaleX = 1;
             } else {
-                this.playAnim("idleFront");
-                this.node.scaleX = this.lastDir.x > 0 ? -1 : 1;
+                // 水平移動
+                if (dir.x > 0) {
+                    this.playAnim("girl_walk_right");
+                    this.node.scaleX = 1;
+                } else {
+                    this.playAnim("girl_walk_left");
+                    this.node.scaleX = 1;
+                }
+            }
+        } else {
+            // 停止移動
+            if (Math.abs(this.lastDir.y) > Math.abs(this.lastDir.x)) {
+                if (this.lastDir.y > 0) {
+                    this.playAnim("girl_idle_back");
+                } else {
+                    this.playAnim("girl_idle");
+                }
+                this.node.scaleX = 1;
+            } else {
+                if (this.lastDir.x > 0) {
+                    this.playAnim("girl_idle_right");
+                    this.node.scaleX = 1;
+                } else {
+                    this.playAnim("girl_idle_left");
+                    this.node.scaleX = 1;
+                }
             }
         }
     }

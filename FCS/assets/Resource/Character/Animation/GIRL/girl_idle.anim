@@ -61,6 +61,19 @@
           }
         ]
       }
+    },
+    "props": {
+      "eulerAngles": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 20,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
     }
   },
   "events": [
