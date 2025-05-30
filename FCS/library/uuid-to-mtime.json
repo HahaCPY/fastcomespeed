@@ -540,8 +540,8 @@
     "relativePath": "Resource\\restaurant"
   },
   "57c24932-f00e-484f-a53c-940624f61111": {
-    "asset": 1748448960944,
-    "meta": 1748450593905,
+    "asset": 1748538691728,
+    "meta": 1748569149459,
     "relativePath": "Resource\\UI"
   },
   "f834bb96-2d79-4830-8833-a70ba75107e7": {
@@ -630,8 +630,8 @@
     "relativePath": "Resource\\extra_restaurant\\crate_dough.bin"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1748534656077,
-    "meta": 1748534656093,
+    "asset": 1748574485774,
+    "meta": 1748574485797,
     "relativePath": "Scenes\\kitchen-frame.fire"
   },
   "ee8b1fa0-17df-433a-947f-ad51c9a90dfa": {
@@ -6124,16 +6124,6 @@
     "meta": 1748523345088,
     "relativePath": "Resource\\UI\\UI"
   },
-  "edf517f5-ecee-4f4a-8fa1-b852623f0842": {
-    "asset": 1748448961889,
-    "meta": 1748450605397,
-    "relativePath": "Script\\Player\\IInputControls.ts"
-  },
-  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
-    "asset": 1748448961890,
-    "meta": 1748450605431,
-    "relativePath": "Script\\Player\\KeyboardControls.ts"
-  },
   "6fe163ec-bd78-47c7-a376-b1aa125bace8": {
     "asset": 1748448961835,
     "meta": 1748450609579,
@@ -6664,14 +6654,9 @@
     "meta": 1748528136279,
     "relativePath": "Script\\debug.ts"
   },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1748529554240,
-    "meta": 1748529615544,
-    "relativePath": "Script\\Player\\PlayerController.ts"
-  },
   "0e5105de-32d5-401c-8239-e5ec1f773eeb": {
-    "asset": 1748538681510,
-    "meta": 1748538681511,
+    "asset": 1748538714026,
+    "meta": 1748569149460,
     "relativePath": "Resource\\UI\\newUI"
   },
   "44cb6bfe-9851-4e81-9494-b1ad4fbaa13d": {
@@ -6701,7 +6686,7 @@
   },
   "56397f47-f4e8-4243-abd1-86ba0f4a363e": {
     "asset": 1748538713986,
-    "meta": 1748538714154,
+    "meta": 1748574282775,
     "relativePath": "Resource\\UI\\newUI\\newsetting.plist"
   },
   "bc38abf1-6b0e-4885-b11e-ad3f6cafbeac": {
@@ -6743,5 +6728,40 @@
     "asset": 1748538713991,
     "meta": 1748538714078,
     "relativePath": "Resource\\UI\\newUI\\newshop.png"
+  },
+  "66a04347-3462-459e-9fc9-ec56945072af": {
+    "asset": 1748540498814,
+    "meta": 1748569149450,
+    "relativePath": "prefab_food"
+  },
+  "d04e3272-f2b8-45c3-8919-27f48726792b": {
+    "asset": 1748541902847,
+    "meta": 1748541902864,
+    "relativePath": "prefab_food\\dough.prefab"
+  },
+  "56ae3f9f-feb7-45e8-b273-7c4e0f569038": {
+    "asset": 1748571958539,
+    "meta": 1748571958552,
+    "relativePath": "prefab_food\\flatdough.prefab"
+  },
+  "edf517f5-ecee-4f4a-8fa1-b852623f0842": {
+    "asset": 1748572359404,
+    "meta": 1748572523128,
+    "relativePath": "Script\\Player\\IInputControls.ts"
+  },
+  "c60346b3-912f-4096-8ce7-3299df6616c5": {
+    "asset": 1748574462523,
+    "meta": 1748574462543,
+    "relativePath": "prefab_food\\Chopbar.prefab"
+  },
+  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
+    "asset": 1748574975621,
+    "meta": 1748574979232,
+    "relativePath": "Script\\Player\\KeyboardControls.ts"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1748577237847,
+    "meta": 1748577240336,
+    "relativePath": "Script\\Player\\PlayerController.ts"
   }
 }

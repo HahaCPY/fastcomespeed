@@ -103,14 +103,15 @@
         "inspector",
         "cocos-services"
       ]
-    }
+    },
+    "window-1748573603818": {}
   },
   "panels": {
     "sprite-editor": {
-      "x": -8,
-      "y": -8,
-      "width": 1552,
-      "height": 832
+      "x": -172,
+      "y": 39,
+      "width": 1553,
+      "height": 833
     },
     "timeline": {
       "x": 304,

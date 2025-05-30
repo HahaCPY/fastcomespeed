@@ -8,6 +8,9 @@ exports.KeyboardControls = void 0;
 var KeyboardControls = /** @class */ (function () {
     function KeyboardControls() {
         this.moveDir = cc.v2(0, 0);
+        this.isInteractPressed = false;
+        this.isChopPressed = false;
+        this.isChopHeld = false;
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
     }
@@ -32,6 +35,12 @@ var KeyboardControls = /** @class */ (function () {
             case cc.macro.KEY.right:
                 this.moveDir.x = 1;
                 break;
+            case cc.macro.KEY.e:
+                this.isInteractPressed = true;
+                break;
+            case cc.macro.KEY.space:
+                this.isChopHeld = true;
+                break;
         }
     };
     KeyboardControls.prototype.onKeyUp = function (event) {
@@ -48,7 +57,19 @@ var KeyboardControls = /** @class */ (function () {
             case cc.macro.KEY.right:
                 this.moveDir.x = 0;
                 break;
+            case cc.macro.KEY.e:
+                this.isInteractPressed = false;
+                break;
+            case cc.macro.KEY.space:
+                this.isChopHeld = false;
+                break;
         }
+    };
+    KeyboardControls.prototype.getInteractPressed = function () {
+        return this.isInteractPressed;
+    };
+    KeyboardControls.prototype.getChopPressed = function () {
+        return this.isChopHeld;
     };
     return KeyboardControls;
 }());

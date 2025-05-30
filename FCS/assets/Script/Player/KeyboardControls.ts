@@ -2,6 +2,9 @@ import { IInputControls } from "./IInputControls";
 
 export class KeyboardControls implements IInputControls {
     private moveDir: cc.Vec2 = cc.v2(0, 0);
+    private isInteractPressed: boolean = false;
+    private isChopPressed: boolean = false;
+    private isChopHeld: boolean = false;
 
     constructor() {
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
@@ -30,6 +33,12 @@ export class KeyboardControls implements IInputControls {
             case cc.macro.KEY.right:
                 this.moveDir.x = 1;
                 break;
+            case cc.macro.KEY.e:
+                this.isInteractPressed = true;
+                break;
+            case cc.macro.KEY.space:
+                this.isChopHeld = true;
+                break;
         }
     }
 
@@ -47,6 +56,20 @@ export class KeyboardControls implements IInputControls {
             case cc.macro.KEY.right:
                 this.moveDir.x = 0;
                 break;
+            case cc.macro.KEY.e:
+                this.isInteractPressed = false;
+                break;
+            case cc.macro.KEY.space:
+                this.isChopHeld = false;
+                break;
         }
     }
+
+    public getInteractPressed(): boolean {
+        return this.isInteractPressed;
+    }
+    public getChopPressed(): boolean {
+        return this.isChopHeld;
+    }
+
 }
