@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pizza_oven",
+    "texture": "4f1c88f0-0673-4843-a461-d2ca0687a3b2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      182,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      182,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
