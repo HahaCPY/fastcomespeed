@@ -34,6 +34,12 @@ var PlayerController = /** @class */ (function (_super) {
         _this.doughPrefab = null;
         _this.flatbreadPrefa = null;
         _this.chopBar = null;
+        _this.cheesePrefab = null;
+        _this.gratedCheesePrefab = null;
+        _this.ppPrefab = null;
+        _this.sliceppPrefab = null;
+        _this.mushroomPrefab = null;
+        _this.slicemushroomPrefab = null;
         _this.input = null;
         _this.currentAnim = "";
         _this.lastDir = cc.v2(0, -1); // 預設向下（前）
@@ -47,6 +53,12 @@ var PlayerController = /** @class */ (function (_super) {
         _this.isChopping = false;
         _this.chopProgress = 0;
         _this.chopFill = null;
+        // 起司
+        _this.canPickCheese = false;
+        _this.canPickPP = false; // tag 5 拿 pp 的 flag
+        _this.canPickMushroom = false;
+        _this.lastInteractTime = 0;
+        _this.interactCooldown = 0.2; // 0.2 秒冷卻時間
         return _this;
     }
     PlayerController.prototype.start = function () {
@@ -105,8 +117,15 @@ var PlayerController = /** @class */ (function (_super) {
             }
             this.node.scaleX = 1;
         }
-        if (this.input.getInteractPressed()) {
+        /*if (this.input.getInteractPressed()) {
             this.tryInteract();
+        }*/
+        if (this.input.getInteractPressed()) {
+            var now = Date.now() / 1000;
+            if (now - this.lastInteractTime > this.interactCooldown) {
+                this.tryInteract();
+                this.lastInteractTime = now;
+            }
         }
         if (this.input.getChopPressed() && this.canDropDough && this.carriedDough == null && !this.isChopping) {
             this.startChopping();
@@ -137,9 +156,11 @@ var PlayerController = /** @class */ (function (_super) {
             cc.warn("⚠️ 沒有對應的砧板！");
             return;
         }
-        // ✅ 只檢查「目前站在的砧板」上是否有麵團（假設名稱含 "Dough"）
         var hasDough = this.currentDropTarget.children.some(function (child) { return child.name.includes("Dough"); });
-        if (!hasDough) {
+        var hasCheese = this.currentDropTarget.children.some(function (child) { return child.name.includes("Cheese"); });
+        var hasPP = this.currentDropTarget.children.some(function (child) { return child.name === "PP"; });
+        var hasMushroom = this.currentDropTarget.children.some(function (child) { return child.name === "Mushroom"; });
+        if (!hasDough && !hasCheese && !hasPP && !hasMushroom) {
             cc.warn("⚠️ 這個砧板上沒有麵團，不能切！");
             return;
         }
@@ -152,32 +173,84 @@ var PlayerController = /** @class */ (function (_super) {
         console.log("🔪 在正確砧板上開始切麵團！");
     };
     PlayerController.prototype.finishChopping = function () {
-        this.isChopping = false;
-        this.chopBar.active = false;
-        if (!this.currentDropTarget) {
-            cc.warn("⚠️ currentDropTarget 是 null，無法切麵團！");
-            return;
-        }
+        var isCheese = false;
+        var isDough = false;
+        var isPP = false;
+        var isMushroom = false;
         for (var _i = 0, _a = this.currentDropTarget.children; _i < _a.length; _i++) {
             var child = _a[_i];
-            if (child.name.includes("Dough")) {
-                child.destroy(); // 只砍麵團，不碰麵餅
+            if (child.name === "Dough") {
+                child.destroy();
+                isDough = true;
+            }
+            else if (child.name === "Cheese") {
+                child.destroy();
+                isCheese = true;
+            }
+            else if (child.name === "PP") {
+                child.destroy();
+                isPP = true;
+            }
+            else if (child.name === "Mushroom") {
+                child.destroy();
+                isMushroom = true;
             }
         }
-        var flatbread = cc.instantiate(this.flatbreadPrefa);
-        this.currentDropTarget.addChild(flatbread);
-        if (this.currentDropTag === 10) {
-            flatbread.setPosition(cc.v3(-245, -290, 50));
+        var newItem = null;
+        if (isDough) {
+            newItem = cc.instantiate(this.flatbreadPrefa);
+            newItem.name = "Flatbread";
         }
-        else if (this.currentDropTag === 8) {
-            flatbread.setPosition(cc.v3(-505, -290, 50));
+        else if (isCheese) {
+            newItem = cc.instantiate(this.gratedCheesePrefab);
+            newItem.name = "GratedCheese";
         }
-        else {
-            flatbread.setPosition(cc.v3(0, 0)); // 預設中心
-            cc.warn("❓ 未知砧板 Tag，麵餅放在中心");
+        else if (isPP) {
+            newItem = cc.instantiate(this.sliceppPrefab);
+            newItem.name = "SlicePP";
+        }
+        else if (isMushroom) {
+            newItem = cc.instantiate(this.slicemushroomPrefab);
+            newItem.name = "SliceMushroom";
+        }
+        if (newItem) {
+            this.currentDropTarget.addChild(newItem);
+            var dropPoint = this.currentDropTarget.getChildByName("DropPoint");
+            if (!dropPoint) {
+                cc.warn("⚠️ 找不到 DropPoint，無法放置切完的物品！");
+                return;
+            }
+            var worldPos = dropPoint.convertToWorldSpaceAR(cc.v3(0, 0, 0));
+            var localPos = this.currentDropTarget.convertToNodeSpaceAR(worldPos);
+            newItem.setPosition(localPos);
+            console.log("\u2705 \u5207\u5B8C " + newItem.name + "\uFF0C\u653E\u7F6E\u6210\u529F\uFF01");
         }
     };
     PlayerController.prototype.tryInteract = function () {
+        if (this.canPickMushroom && !this.carriedDough) {
+            var mushroom = cc.instantiate(this.mushroomPrefab);
+            this.node.addChild(mushroom);
+            mushroom.name = "Mushroom";
+            mushroom.setPosition(cc.v2(0, 50));
+            this.carriedDough = mushroom;
+            console.log("🍄 拿起蘑菇");
+        }
+        if (this.canPickPP && !this.carriedDough) {
+            var pp = cc.instantiate(this.ppPrefab);
+            this.node.addChild(pp);
+            pp.name = "PP";
+            pp.setPosition(cc.v2(0, 50));
+            this.carriedDough = pp;
+            console.log("🍅 拿起番茄");
+        }
+        if (this.canPickCheese && !this.carriedDough) {
+            var cheese = cc.instantiate(this.cheesePrefab);
+            this.node.addChild(cheese);
+            cheese.name = "Cheese";
+            cheese.setPosition(cc.v2(0, 50));
+            this.carriedDough = cheese;
+            console.log("🧀 拿起起司");
+        }
         if (this.canPickDough && !this.carriedDough) {
             var dough = cc.instantiate(this.doughPrefab);
             this.node.addChild(dough);
@@ -186,19 +259,45 @@ var PlayerController = /** @class */ (function (_super) {
             this.carriedDough = dough;
             console.log("🎒 拿起麵團");
         }
-        else if (this.canDropDough && this.carriedDough && this.currentDropTag !== null) {
+        else if (!this.carriedDough && this.currentDropTarget) {
+            // 🔄 撿起任何 name 以食材開頭的東西
+            var pickable = this.currentDropTarget.children.find(function (child) {
+                return ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce", "PP", "SlicePP", "Mushroom", "SliceMushroom"].some(function (prefix) {
+                    return child.name.startsWith(prefix);
+                });
+            });
+            if (pickable) {
+                this.carriedDough = pickable;
+                pickable.removeFromParent();
+                this.node.addChild(pickable);
+                pickable.setPosition(cc.v2(0, 50));
+                console.log("🎒 撿起桌上的物品：" + pickable.name);
+            }
+        }
+        else if (this.canDropDough && this.carriedDough && this.currentDropTarget) {
+            var dropPoint_1 = this.currentDropTarget.getChildByName("DropPoint");
+            if (!dropPoint_1) {
+                cc.warn("❌ 找不到 DropPoint，無法放置！");
+                return;
+            }
+            // ✅ 判斷 DropPoint 是否已經被放過東西（排除 DropPoint 本身）
+            var alreadyHasFood = this.currentDropTarget.children.some(function (child) {
+                return child !== dropPoint_1 &&
+                    ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce", "PP", "SlicePP", "Mushroom", "SliceMushroom"].some(function (type) {
+                        return child.name && child.name.startsWith(type);
+                    });
+            });
+            if (alreadyHasFood) {
+                cc.warn("⚠️ 砧板已經有食材了，不能再放！");
+                return;
+            }
+            // ✅ 放置邏輯
             this.carriedDough.parent = this.currentDropTarget;
-            if (this.currentDropTag === 10) {
-                this.carriedDough.setPosition(cc.v3(-245, -290, 50));
-            }
-            else if (this.currentDropTag === 8) {
-                this.carriedDough.setPosition(cc.v3(-505, -290, 50));
-            }
-            else {
-                console.warn("❓ 未知砧板 tag，無法放置");
-            }
+            var worldPos = dropPoint_1.convertToWorldSpaceAR(cc.v3(0, 0, 0));
+            var localPos = this.currentDropTarget.convertToNodeSpaceAR(worldPos);
+            this.carriedDough.setPosition(localPos);
+            console.log("✅ 放下物品到 DropPoint：" + this.carriedDough.name);
             this.carriedDough = null;
-            console.log("✅ 放下麵團成功！");
         }
     };
     PlayerController.prototype.playAnim = function (name) {
@@ -210,7 +309,18 @@ var PlayerController = /** @class */ (function (_super) {
     PlayerController.prototype.onBeginContact = function (contact, selfCollider, otherCollider) {
         if (otherCollider.tag === 3) {
             this.canPickDough = true;
-            console.log("🍞 可以撿起麵團");
+        }
+        else if (otherCollider.tag === 4) {
+            this.canPickCheese = true;
+            console.log("🧀 可以撿起起司");
+        }
+        else if (otherCollider.tag === 5) {
+            this.canPickPP = true;
+            console.log("🍅 可以撿起番茄！");
+        }
+        else if (otherCollider.tag === 6) {
+            this.canPickMushroom = true;
+            console.log("🍄 可以撿起蘑菇！");
         }
         else if (otherCollider.tag === 8 || otherCollider.tag === 10) {
             this.canDropDough = true;
@@ -218,10 +328,25 @@ var PlayerController = /** @class */ (function (_super) {
             this.currentDropTarget = otherCollider.node;
             console.log("🥣 接觸到砧板 Tag =", otherCollider.tag);
         }
+        else if (otherCollider.tag === 11) {
+            this.canDropDough = true;
+            this.currentDropTag = 11;
+            this.currentDropTarget = otherCollider.node;
+        }
     };
     PlayerController.prototype.onEndContact = function (contact, selfCollider, otherCollider) {
         if (otherCollider.tag === 3) {
             this.canPickDough = false;
+        }
+        else if (otherCollider.tag === 4) {
+            this.canPickCheese = false;
+        }
+        else if (otherCollider.tag === 5) {
+            this.canPickPP = false;
+        }
+        else if (otherCollider.tag === 6) {
+            this.canPickMushroom = false;
+            console.log("🍄 可以撿起蘑菇！");
         }
         else if (otherCollider.tag === 8 || otherCollider.tag === 10) {
             this.canDropDough = false;
@@ -243,6 +368,24 @@ var PlayerController = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], PlayerController.prototype, "chopBar", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "cheesePrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "gratedCheesePrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "ppPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "sliceppPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "mushroomPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "slicemushroomPrefab", void 0);
     PlayerController = __decorate([
         ccclass
     ], PlayerController);

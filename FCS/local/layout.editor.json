@@ -19,7 +19,7 @@
             "children": [
               {
                 "width": 204.0500030517578,
-                "height": 294.07501220703125,
+                "height": 391.1125183105469,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 204.0500030517578,
-                "height": 403.1125183105469,
+                "height": 306.0874938964844,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -103,8 +103,7 @@
         "inspector",
         "cocos-services"
       ]
-    },
-    "window-1748573603818": {}
+    }
   },
   "panels": {
     "sprite-editor": {
