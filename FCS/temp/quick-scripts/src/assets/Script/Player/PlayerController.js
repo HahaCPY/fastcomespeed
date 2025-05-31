@@ -43,6 +43,10 @@ var PlayerController = /** @class */ (function (_super) {
         _this.cheesePizzaPrefab = null;
         _this.mushroomPizzaPrefab = null;
         _this.pepperPizzaPrefab = null;
+        _this.smokeEffectPrefab = null;
+        _this.smokePoint = null;
+        _this.smokeTimer = 0;
+        _this.smokeInterval = 0.5; // 每 0.5 秒冒一次煙
         _this.input = null;
         _this.currentAnim = "";
         _this.lastDir = cc.v2(0, -1); // 預設向下（前）
@@ -179,8 +183,38 @@ var PlayerController = /** @class */ (function (_super) {
         if (this.isBaking) {
             if (this.input.getChopPressed()) {
                 this.bakeProgress += dt;
-                var ratio = Math.min(this.bakeProgress / 3, 1); // 3 秒烘烤完成
+                var ratio = Math.min(this.bakeProgress / 3, 1);
                 this.chopFill.scaleX = ratio;
+                // 💨 烘烤中冒煙！
+                this.smokeTimer += dt;
+                if (this.smokeTimer >= this.smokeInterval) {
+                    this.smokeTimer = 0;
+                    var smoke = cc.instantiate(this.smokeEffectPrefab);
+                    smoke.name = "SmokeEffect";
+                    if (this.currentDropTarget) {
+                        var dropPoint = this.currentDropTarget.getChildByName("DropPoint");
+                        if (dropPoint) {
+                            var worldPos = dropPoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
+                            var localPos = this.currentDropTarget.convertToNodeSpaceAR(worldPos);
+                            smoke.setPosition(localPos);
+                            this.currentDropTarget.addChild(smoke);
+                            console.log("💨 烘烤中冒煙（在 DropPoint 上）");
+                        }
+                        else {
+                            console.warn("⚠️ 找不到 DropPoint，粒子冒在角色頭上");
+                            var worldPos = this.smokePoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
+                            var localPos = this.node.parent.convertToNodeSpaceAR(worldPos);
+                            smoke.setPosition(localPos);
+                            this.node.parent.addChild(smoke);
+                        }
+                    }
+                    else {
+                        var worldPos = this.smokePoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
+                        var localPos = this.node.parent.convertToNodeSpaceAR(worldPos);
+                        smoke.setPosition(localPos);
+                        this.node.parent.addChild(smoke);
+                    }
+                }
                 if (this.bakeProgress >= 3) {
                     this.finishBaking();
                 }
@@ -197,9 +231,10 @@ var PlayerController = /** @class */ (function (_super) {
     PlayerController.prototype.cancelBaking = function () {
         this.isBaking = false;
         this.bakeProgress = 0;
+        this.smokeTimer = 0;
         this.chopBar.active = false;
         if (this.carriedDough)
-            this.carriedDough.active = true; // 顯示回披薩
+            this.carriedDough.active = true;
     };
     PlayerController.prototype.finishBaking = function () {
         this.isBaking = false;
@@ -207,7 +242,13 @@ var PlayerController = /** @class */ (function (_super) {
         this.bakeProgress = 0;
         if (this.carriedDough) {
             this.carriedDough.active = true;
-            this.carriedDough["baked"] = true; // ✅ 標記為已烘烤
+            this.carriedDough["baked"] = true;
+            // 烘烤結束，清除冒煙
+            this.node.parent.children.forEach(function (child) {
+                if (child.name === "SmokeEffect") {
+                    child.destroy();
+                }
+            });
         }
         console.log("\u2705 " + this.carriedDough.name + " \u70D8\u70E4\u5B8C\u6210\uFF01");
     };
@@ -526,6 +567,12 @@ var PlayerController = /** @class */ (function (_super) {
     __decorate([
         property(cc.Prefab)
     ], PlayerController.prototype, "pepperPizzaPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "smokeEffectPrefab", void 0);
+    __decorate([
+        property(cc.Node)
+    ], PlayerController.prototype, "smokePoint", void 0);
     PlayerController = __decorate([
         ccclass
     ], PlayerController);

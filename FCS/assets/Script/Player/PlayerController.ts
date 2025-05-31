@@ -47,6 +47,14 @@ export default class PlayerController extends cc.Component {
     @property(cc.Prefab)
     pepperPizzaPrefab: cc.Prefab = null;
 
+    @property(cc.Prefab)
+    smokeEffectPrefab: cc.Prefab = null;
+
+    @property(cc.Node)
+    smokePoint: cc.Node = null;
+
+    private smokeTimer: number = 0;
+    private smokeInterval: number = 0.5; // 每 0.5 秒冒一次煙
 
     private input: IInputControls = null;
     private currentAnim: string = "";
@@ -78,6 +86,7 @@ export default class PlayerController extends cc.Component {
     
     private lastInteractTime: number = 0;
     private interactCooldown: number = 0.2; // 0.2 秒冷卻時間
+
 
 
 
@@ -207,8 +216,40 @@ export default class PlayerController extends cc.Component {
         if (this.isBaking) {
             if (this.input.getChopPressed()) {
                 this.bakeProgress += dt;
-                const ratio = Math.min(this.bakeProgress / 3, 1); // 3 秒烘烤完成
+                const ratio = Math.min(this.bakeProgress / 3, 1);
                 this.chopFill.scaleX = ratio;
+
+            // 💨 烘烤中冒煙！
+            this.smokeTimer += dt;
+            if (this.smokeTimer >= this.smokeInterval) {
+                this.smokeTimer = 0;
+
+                const smoke = cc.instantiate(this.smokeEffectPrefab);
+                smoke.name = "SmokeEffect"; 
+
+                if (this.currentDropTarget) {
+                    const dropPoint = this.currentDropTarget.getChildByName("DropPoint");
+                    if (dropPoint) {
+                        const worldPos = dropPoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
+                        const localPos = this.currentDropTarget.convertToNodeSpaceAR(worldPos);
+                        smoke.setPosition(localPos);
+                        this.currentDropTarget.addChild(smoke);
+                        console.log("💨 烘烤中冒煙（在 DropPoint 上）");
+                    } else {
+                        console.warn("⚠️ 找不到 DropPoint，粒子冒在角色頭上");
+                        const worldPos = this.smokePoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
+                        const localPos = this.node.parent.convertToNodeSpaceAR(worldPos);
+                        smoke.setPosition(localPos);
+                        this.node.parent.addChild(smoke);
+                    }
+                } else {
+                    const worldPos = this.smokePoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
+                    const localPos = this.node.parent.convertToNodeSpaceAR(worldPos);
+                    smoke.setPosition(localPos);
+                    this.node.parent.addChild(smoke);
+                }
+            }
+
 
                 if (this.bakeProgress >= 3) {
                     this.finishBaking();
@@ -219,6 +260,7 @@ export default class PlayerController extends cc.Component {
             }
         }
 
+
     }
 
     isPizza(name: string): boolean {
@@ -228,9 +270,11 @@ export default class PlayerController extends cc.Component {
     cancelBaking() {
         this.isBaking = false;
         this.bakeProgress = 0;
+        this.smokeTimer = 0; 
         this.chopBar.active = false;
-        if (this.carriedDough) this.carriedDough.active = true; // 顯示回披薩
+        if (this.carriedDough) this.carriedDough.active = true;
     }
+
 
     finishBaking() {
         this.isBaking = false;
@@ -238,8 +282,17 @@ export default class PlayerController extends cc.Component {
         this.bakeProgress = 0;
         if (this.carriedDough) {
             this.carriedDough.active = true;
-            this.carriedDough["baked"] = true; // ✅ 標記為已烘烤
+            this.carriedDough["baked"] = true;
+
+            // 烘烤結束，清除冒煙
+            this.node.parent.children.forEach(child => {
+                if (child.name === "SmokeEffect") {
+                        child.destroy();  
+                }
+            });
+
         }
+
         console.log(`✅ ${this.carriedDough.name} 烘烤完成！`);
     }
 

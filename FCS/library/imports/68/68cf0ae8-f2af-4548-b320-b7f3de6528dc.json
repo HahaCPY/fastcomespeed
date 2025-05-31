@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "trace_03_rotated",
+    "texture": "2d1cd81e-ae88-44ec-ba95-6a927cb54abc",
+    "atlas": "",
+    "rect": [
+      0,
+      150,
+      512,
+      210
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
