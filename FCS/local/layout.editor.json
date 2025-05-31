@@ -19,7 +19,7 @@
             "children": [
               {
                 "width": 204.0500030517578,
-                "height": 471.13751220703125,
+                "height": 226.0625,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -28,7 +28,7 @@
               },
               {
                 "width": 204.0500030517578,
-                "height": 226.0625,
+                "height": 471.13751220703125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -103,8 +103,7 @@
         "inspector",
         "cocos-services"
       ]
-    },
-    " common-asset-worker-worker": {}
+    }
   },
   "panels": {},
   "panelLabelWidth": {}

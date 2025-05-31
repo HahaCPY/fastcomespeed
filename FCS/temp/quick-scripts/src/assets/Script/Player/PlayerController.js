@@ -40,6 +40,9 @@ var PlayerController = /** @class */ (function (_super) {
         _this.sliceppPrefab = null;
         _this.mushroomPrefab = null;
         _this.slicemushroomPrefab = null;
+        _this.cheesePizzaPrefab = null;
+        _this.mushroomPizzaPrefab = null;
+        _this.pepperPizzaPrefab = null;
         _this.input = null;
         _this.currentAnim = "";
         _this.lastDir = cc.v2(0, -1); // 預設向下（前）
@@ -57,6 +60,10 @@ var PlayerController = /** @class */ (function (_super) {
         _this.canPickCheese = false;
         _this.canPickPP = false; // tag 5 拿 pp 的 flag
         _this.canPickMushroom = false;
+        // 烤披薩
+        _this.isBaking = false;
+        _this.bakeProgress = 0;
+        _this.isNearOven = false; // tag = 12
         _this.lastInteractTime = 0;
         _this.interactCooldown = 0.2; // 0.2 秒冷卻時間
         return _this;
@@ -143,6 +150,106 @@ var PlayerController = /** @class */ (function (_super) {
                 this.cancelChopping(); // 玩家放開空白鍵，中斷切麵
             }
         }
+        // 烘烤流程
+        if (this.input.getChopPressed() &&
+            this.isNearOven &&
+            this.carriedDough &&
+            this.isPizza(this.carriedDough.name) &&
+            !this.carriedDough["baked"] && // ✅ 不能是已烤過的
+            !this.isBaking) {
+            // 初次按下，開始烘烤
+            this.isBaking = true;
+            this.bakeProgress = 0;
+            this.carriedDough.active = false; // 讓披薩消失
+            this.chopBar.parent = this.node;
+            this.chopBar.setPosition(cc.v2(0, 80));
+            this.chopBar.active = true;
+            this.chopFill.scaleX = 0;
+            console.log("🔥 披薩放入烤箱中...");
+        }
+        // 以烘烤提示
+        if (this.input.getChopPressed() &&
+            this.isNearOven &&
+            this.carriedDough &&
+            this.isPizza(this.carriedDough.name)) {
+            if (this.carriedDough["baked"]) {
+                console.warn("⚠️ 這塊披薩已經烤過了，不能重複烘烤！");
+            }
+        }
+        if (this.isBaking) {
+            if (this.input.getChopPressed()) {
+                this.bakeProgress += dt;
+                var ratio = Math.min(this.bakeProgress / 3, 1); // 3 秒烘烤完成
+                this.chopFill.scaleX = ratio;
+                if (this.bakeProgress >= 3) {
+                    this.finishBaking();
+                }
+            }
+            else {
+                console.log("🛑 烘烤中斷！");
+                this.cancelBaking();
+            }
+        }
+    };
+    PlayerController.prototype.isPizza = function (name) {
+        return ["CheesePizza", "MushroomPizza", "PepperPizza"].includes(name);
+    };
+    PlayerController.prototype.cancelBaking = function () {
+        this.isBaking = false;
+        this.bakeProgress = 0;
+        this.chopBar.active = false;
+        if (this.carriedDough)
+            this.carriedDough.active = true; // 顯示回披薩
+    };
+    PlayerController.prototype.finishBaking = function () {
+        this.isBaking = false;
+        this.chopBar.active = false;
+        this.bakeProgress = 0;
+        if (this.carriedDough) {
+            this.carriedDough.active = true;
+            this.carriedDough["baked"] = true; // ✅ 標記為已烘烤
+        }
+        console.log("\u2705 " + this.carriedDough.name + " \u70D8\u70E4\u5B8C\u6210\uFF01");
+    };
+    PlayerController.prototype.tryAssemblePizza = function (parentNode) {
+        var ingredientNames = parentNode.children.map(function (child) { return child.name; });
+        var hasFlatbread = ingredientNames.includes("Flatbread");
+        var hasCheese = ingredientNames.includes("GratedCheese");
+        var hasMushroom = ingredientNames.includes("SliceMushroom");
+        var hasPP = ingredientNames.includes("SlicePP");
+        if (!hasFlatbread)
+            return; // 必須先有 flatbread 才能合成
+        var pizza = null;
+        if (hasCheese && !hasMushroom && !hasPP) {
+            pizza = cc.instantiate(this.cheesePizzaPrefab);
+            pizza.name = "CheesePizza";
+        }
+        else if (hasMushroom && !hasCheese && !hasPP) {
+            pizza = cc.instantiate(this.mushroomPizzaPrefab);
+            pizza.name = "MushroomPizza";
+        }
+        else if (hasPP && !hasCheese && !hasMushroom) {
+            pizza = cc.instantiate(this.pepperPizzaPrefab);
+            pizza.name = "PepperPizza";
+        }
+        else {
+            return; // 尚不支援複合口味 pizza
+        }
+        // 刪除原料
+        parentNode.children.forEach(function (child) {
+            if (["Flatbread", "GratedCheese", "SliceMushroom", "SlicePP"].includes(child.name)) {
+                child.destroy();
+            }
+        });
+        // 加入 pizza
+        parentNode.addChild(pizza);
+        var dropPoint = parentNode.getChildByName("DropPoint");
+        if (dropPoint) {
+            var worldPos = dropPoint.convertToWorldSpaceAR(cc.v3(0, 0, 0));
+            var localPos = parentNode.convertToNodeSpaceAR(worldPos);
+            pizza.setPosition(localPos);
+        }
+        console.log("\uD83C\uDF55 \u5408\u6210 " + pizza.name + " \u6210\u529F\uFF01");
     };
     PlayerController.prototype.cancelChopping = function () {
         this.isChopping = false;
@@ -152,8 +259,8 @@ var PlayerController = /** @class */ (function (_super) {
         console.log("🛑 玩家放開空白鍵，中斷切麵！");
     };
     PlayerController.prototype.startChopping = function () {
-        if (!this.currentDropTarget) {
-            cc.warn("⚠️ 沒有對應的砧板！");
+        if (!this.currentDropTarget || this.currentDropTag !== 8) {
+            cc.warn("⚠️ 只能在砧板上（tag = 8）切食材！");
             return;
         }
         var hasDough = this.currentDropTarget.children.some(function (child) { return child.name.includes("Dough"); });
@@ -227,6 +334,7 @@ var PlayerController = /** @class */ (function (_super) {
         }
     };
     PlayerController.prototype.tryInteract = function () {
+        var _this = this;
         if (this.canPickMushroom && !this.carriedDough) {
             var mushroom = cc.instantiate(this.mushroomPrefab);
             this.node.addChild(mushroom);
@@ -262,7 +370,10 @@ var PlayerController = /** @class */ (function (_super) {
         else if (!this.carriedDough && this.currentDropTarget) {
             // 🔄 撿起任何 name 以食材開頭的東西
             var pickable = this.currentDropTarget.children.find(function (child) {
-                return ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce", "PP", "SlicePP", "Mushroom", "SliceMushroom"].some(function (prefix) {
+                return ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce",
+                    "PP", "SlicePP", "Mushroom", "SliceMushroom",
+                    "CheesePizza", "MushroomPizza", "PepperPizza" // ← 加這三個
+                ].some(function (prefix) {
                     return child.name.startsWith(prefix);
                 });
             });
@@ -280,15 +391,22 @@ var PlayerController = /** @class */ (function (_super) {
                 cc.warn("❌ 找不到 DropPoint，無法放置！");
                 return;
             }
-            // ✅ 判斷 DropPoint 是否已經被放過東西（排除 DropPoint 本身）
-            var alreadyHasFood = this.currentDropTarget.children.some(function (child) {
+            var alreadyHasOtherToppings = this.currentDropTarget.children.some(function (child) {
                 return child !== dropPoint_1 &&
-                    ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce", "PP", "SlicePP", "Mushroom", "SliceMushroom"].some(function (type) {
+                    child.name !== "Flatbread" && // ✅ 允許有 Flatbread 在場
+                    ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce",
+                        "PP", "SlicePP", "Mushroom", "SliceMushroom",
+                        "CheesePizza", "MushroomPizza", "PepperPizza" // ← 加這三個
+                    ].some(function (type) {
                         return child.name && child.name.startsWith(type);
                     });
             });
-            if (alreadyHasFood) {
-                cc.warn("⚠️ 砧板已經有食材了，不能再放！");
+            var hasFlatbread = this.currentDropTarget.children.some(function (child) { return child.name === "Flatbread"; });
+            var alreadyHasSameType = this.currentDropTarget.children.some(function (child) {
+                return child !== dropPoint_1 && child.name === _this.carriedDough.name;
+            });
+            if (!hasFlatbread && alreadyHasSameType) {
+                cc.warn("⚠️ 無法放置，桌上已有相同食材！");
                 return;
             }
             // ✅ 放置邏輯
@@ -298,6 +416,8 @@ var PlayerController = /** @class */ (function (_super) {
             this.carriedDough.setPosition(localPos);
             console.log("✅ 放下物品到 DropPoint：" + this.carriedDough.name);
             this.carriedDough = null;
+            // ✅ 嘗試合成 Pizza（放置後觸發）
+            this.tryAssemblePizza(this.currentDropTarget);
         }
     };
     PlayerController.prototype.playAnim = function (name) {
@@ -333,6 +453,10 @@ var PlayerController = /** @class */ (function (_super) {
             this.currentDropTag = 11;
             this.currentDropTarget = otherCollider.node;
         }
+        else if (otherCollider.tag === 12) {
+            this.isNearOven = true;
+            console.log("🔥 接觸到烤箱！");
+        }
     };
     PlayerController.prototype.onEndContact = function (contact, selfCollider, otherCollider) {
         if (otherCollider.tag === 3) {
@@ -348,9 +472,16 @@ var PlayerController = /** @class */ (function (_super) {
             this.canPickMushroom = false;
             console.log("🍄 可以撿起蘑菇！");
         }
-        else if (otherCollider.tag === 8 || otherCollider.tag === 10) {
+        else if (otherCollider.tag === 8 || otherCollider.tag === 10 || otherCollider.tag === 11) {
             this.canDropDough = false;
-            //this.currentDropTag = null;  // 👈 清除記憶
+            this.currentDropTarget = null;
+            this.currentDropTag = null;
+        }
+        else if (otherCollider.tag === 12) {
+            this.isNearOven = false;
+            this.bakeProgress = 0;
+            this.isBaking = false;
+            this.chopBar.active = false;
         }
     };
     __decorate([
@@ -386,6 +517,15 @@ var PlayerController = /** @class */ (function (_super) {
     __decorate([
         property(cc.Prefab)
     ], PlayerController.prototype, "slicemushroomPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "cheesePizzaPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "mushroomPizzaPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "pepperPizzaPrefab", void 0);
     PlayerController = __decorate([
         ccclass
     ], PlayerController);

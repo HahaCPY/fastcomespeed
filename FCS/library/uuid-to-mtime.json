@@ -500,23 +500,23 @@
     "relativePath": "model\\primitives.fbx"
   },
   "66a04347-3462-459e-9fc9-ec56945072af": {
-    "asset": 1748658984733,
-    "meta": 1748659541701,
+    "asset": 1748661840673,
+    "meta": 1748704289850,
     "relativePath": "prefab_food"
   },
   "c0c4623d-11e8-4052-84c7-44d76bd59a4b": {
-    "asset": 1748658984706,
-    "meta": 1748659541702,
+    "asset": 1748661840640,
+    "meta": 1748704289852,
     "relativePath": "Resource"
   },
   "c9418ee6-4b79-4c49-81d0-5f660f0325d6": {
-    "asset": 1748660205073,
-    "meta": 1748660206078,
+    "asset": 1748661840662,
+    "meta": 1748704289854,
     "relativePath": "Scenes"
   },
   "c1ea2d30-397d-41b3-918c-8061a7f0b778": {
-    "asset": 1748658984730,
-    "meta": 1748659541703,
+    "asset": 1748661840665,
+    "meta": 1748704289855,
     "relativePath": "Script"
   },
   "caac4535-4507-4b1e-9039-4efa60fef83d": {
@@ -524,19 +524,14 @@
     "meta": 1748659541708,
     "relativePath": "Resource\\Character"
   },
-  "0b394b52-1e17-4ac5-a067-12e34799ee8c": {
-    "asset": 1748658984724,
-    "meta": 1748659541708,
-    "relativePath": "Resource\\cpy's"
-  },
   "699bfa32-791b-43dc-ae19-04680b4e61f2": {
     "asset": 1748448961321,
     "meta": 1748659541710,
     "relativePath": "Resource\\extra_restaurant"
   },
   "f224d6de-cc0c-4893-848e-ec67556faaec": {
-    "asset": 1748658984705,
-    "meta": 1748659541711,
+    "asset": 1748661840639,
+    "meta": 1748704289858,
     "relativePath": "Resource\\Fonts"
   },
   "acdeb4c4-8bfe-4776-ad44-767839ff31c4": {
@@ -565,19 +560,9 @@
     "relativePath": "Script\\debug.ts"
   },
   "c500bbea-beec-4449-ac63-91873f45f41a": {
-    "asset": 1748448961891,
-    "meta": 1748659541740,
+    "asset": 1748661840664,
+    "meta": 1748704289859,
     "relativePath": "Script\\Player"
-  },
-  "8ba287a3-cbf2-41d7-bb62-37721620b1e8": {
-    "asset": 1748626381635,
-    "meta": 1748659541741,
-    "relativePath": "prefab_food\\cheese.prefab"
-  },
-  "5ae71289-075a-45f7-acbe-06f771c82d05": {
-    "asset": 1748658984731,
-    "meta": 1748659541741,
-    "relativePath": "Script\\scene"
   },
   "ada428dc-a6c9-4afd-9ec7-11c0b7b43d60": {
     "asset": 1748448960890,
@@ -589,60 +574,20 @@
     "meta": 1748659541744,
     "relativePath": "Resource\\Character\\CAT"
   },
-  "e3cc4d83-9ee4-429e-95c0-d5c8920938a1": {
-    "asset": 1748658984732,
-    "meta": 1748659541745,
-    "relativePath": "prefab_food\\cheese_pizza.prefab"
-  },
   "2ae8912e-8166-48da-a884-4fcc7f68ab61": {
     "asset": 1748448960908,
     "meta": 1748659541747,
     "relativePath": "Resource\\Character\\Frog"
-  },
-  "ae309673-0da1-4a12-8fd1-5641569de3ae": {
-    "asset": 1748629607441,
-    "meta": 1748659541748,
-    "relativePath": "prefab_food\\mushroom.prefab"
   },
   "b15d4084-f3ca-4120-bb6f-d7e02d638d7c": {
     "asset": 1748448960910,
     "meta": 1748659541749,
     "relativePath": "Resource\\Character\\GIRL"
   },
-  "55b85fc1-761a-4882-bae0-3d06347d00e7": {
-    "asset": 1748628836445,
-    "meta": 1748659541751,
-    "relativePath": "prefab_food\\pp.prefab"
-  },
-  "9e58c2fd-56b2-4cd4-bacf-859be8b59bdf": {
-    "asset": 1748626384211,
-    "meta": 1748659541752,
-    "relativePath": "prefab_food\\gratecheese.prefab"
-  },
-  "bde9785b-e56f-4712-bd42-bc9c61cc45ab": {
-    "asset": 1748628838552,
-    "meta": 1748659541754,
-    "relativePath": "prefab_food\\slicepp.prefab"
-  },
-  "abba97e7-368c-4e31-999f-e992a28728ce": {
-    "asset": 1748630001752,
-    "meta": 1748659541756,
-    "relativePath": "prefab_food\\slicemushroom.prefab"
-  },
   "d04e3272-f2b8-45c3-8919-27f48726792b": {
     "asset": 1748541902847,
     "meta": 1748659541758,
     "relativePath": "prefab_food\\dough.prefab"
-  },
-  "9eda7280-d106-44f4-8b20-5b968395fffb": {
-    "asset": 1748658984733,
-    "meta": 1748659541760,
-    "relativePath": "prefab_food\\pepper_pizza.prefab"
-  },
-  "7f994148-5ddf-41b2-9694-7fabebca93d2": {
-    "asset": 1748658984732,
-    "meta": 1748659541763,
-    "relativePath": "prefab_food\\mushroom_pizza.prefab"
   },
   "c60346b3-912f-4096-8ce7-3299df6616c5": {
     "asset": 1748574462523,
@@ -674,50 +619,20 @@
     "meta": 1748659541899,
     "relativePath": "Resource\\extra_restaurant\\chair_A.bin"
   },
-  "fec267b9-d7bf-49cf-8da9-7573a5d1d8c0": {
-    "asset": 1748658984712,
-    "meta": 1748659541834,
-    "relativePath": "Resource\\cpy's\\deadline.png"
-  },
   "30ff2745-275c-48df-ab95-2bca5cf6be85": {
     "asset": 1748448960960,
     "meta": 1748659541914,
     "relativePath": "Resource\\extra_restaurant\\chair_B.bin"
-  },
-  "3bb40ce8-5068-42b8-aaad-8b28acde6a84": {
-    "asset": 1748658984715,
-    "meta": 1748659541858,
-    "relativePath": "Resource\\cpy's\\mushroom_pizza.png"
-  },
-  "27de0d60-ee5f-4ae4-9b2e-78d89b656c8d": {
-    "asset": 1748658984711,
-    "meta": 1748659541868,
-    "relativePath": "Resource\\cpy's\\cheese_pizza.png"
   },
   "eb485ea7-8588-48f8-b71c-c005975d83e5": {
     "asset": 1748448960961,
     "meta": 1748659541935,
     "relativePath": "Resource\\extra_restaurant\\chair_stool.bin"
   },
-  "d803e306-dc89-455a-9a5c-6c8484241103": {
-    "asset": 1748658984710,
-    "meta": 1748659541874,
-    "relativePath": "Resource\\cpy's\\cheese.png"
-  },
-  "43c11c6a-c0b4-4058-97c0-1bb91925df38": {
-    "asset": 1748658984714,
-    "meta": 1748659541884,
-    "relativePath": "Resource\\cpy's\\mushroom.png"
-  },
   "feeb5a00-2be6-45e2-9f80-065a358257fb": {
     "asset": 1748448960963,
     "meta": 1748659541950,
     "relativePath": "Resource\\extra_restaurant\\crate.bin"
-  },
-  "0dc2c8fd-cae1-41fb-bd60-fa663c9a8e69": {
-    "asset": 1748658984718,
-    "meta": 1748659541906,
-    "relativePath": "Resource\\cpy's\\square (1).png"
   },
   "4a997f89-1980-412e-8bd1-0f8fdeaa65be": {
     "asset": 1748448960966,
@@ -734,60 +649,25 @@
     "meta": 1748659541999,
     "relativePath": "Resource\\extra_restaurant\\crate_cheese.bin"
   },
-  "218062ea-7302-4da2-8737-81761682256b": {
-    "asset": 1748658984713,
-    "meta": 1748659541915,
-    "relativePath": "Resource\\cpy's\\dough.png"
-  },
   "3fd81f2c-f3a3-4aa9-8d9f-63c452db6c4d": {
     "asset": 1748448960972,
     "meta": 1748659542014,
     "relativePath": "Resource\\extra_restaurant\\crate_dough.bin"
-  },
-  "4f1c88f0-0673-4843-a461-d2ca0687a3b2": {
-    "asset": 1748658984717,
-    "meta": 1748659541918,
-    "relativePath": "Resource\\cpy's\\pizza_oven.png"
   },
   "ee8b1fa0-17df-433a-947f-ad51c9a90dfa": {
     "asset": 1748448960974,
     "meta": 1748659542040,
     "relativePath": "Resource\\extra_restaurant\\crate_ham.bin"
   },
-  "0d2517bc-f80d-4c15-9d2c-d3f1536aaa6f": {
-    "asset": 1748658984717,
-    "meta": 1748659541935,
-    "relativePath": "Resource\\cpy's\\pepper_pizza.png"
-  },
   "7e19fc22-eb4f-43a7-befb-a26d0325947a": {
     "asset": 1748448960975,
     "meta": 1748659542063,
     "relativePath": "Resource\\extra_restaurant\\crate_lettuce.bin"
   },
-  "17bd8642-dbb6-4716-b731-f71ccfce83e0": {
-    "asset": 1748658984716,
-    "meta": 1748659541943,
-    "relativePath": "Resource\\cpy's\\pepper.png"
-  },
-  "a6424832-326c-4a0f-9bc7-ba131e1311cc": {
-    "asset": 1748658984719,
-    "meta": 1748659541951,
-    "relativePath": "Resource\\cpy's\\square.png"
-  },
   "675aec03-9ef3-4e97-bb12-44644707c9b6": {
     "asset": 1748448960977,
     "meta": 1748659542082,
     "relativePath": "Resource\\extra_restaurant\\crate_lid.bin"
-  },
-  "32d9ac26-35a8-4d67-b925-06ee80e2add0": {
-    "asset": 1748658984720,
-    "meta": 1748659542023,
-    "relativePath": "Resource\\cpy's\\yel.png"
-  },
-  "c8eb618f-8d4f-4d05-8f9a-7417b998d9b3": {
-    "asset": 1748658984721,
-    "meta": 1748659542043,
-    "relativePath": "Resource\\cpy's\\截圖 2025-05-24 下午4.41.12.png"
   },
   "1c1e3bd6-157d-462f-9b8a-ef038706ada7": {
     "asset": 1748448960979,
@@ -898,11 +778,6 @@
     "asset": 1748448961006,
     "meta": 1748659542375,
     "relativePath": "Resource\\extra_restaurant\\food_burger.bin"
-  },
-  "c626b9bf-0618-4e62-8f48-4067529dd22a": {
-    "asset": 1748658984724,
-    "meta": 1748659542376,
-    "relativePath": "Resource\\cpy's\\截圖 2025-05-24 下午5.33.22.png"
   },
   "98d43e24-d596-45a3-a348-58bea1690c3b": {
     "asset": 1748448960959,
@@ -1073,11 +948,6 @@
     "asset": 1748448960986,
     "meta": 1748659550621,
     "relativePath": "Resource\\extra_restaurant\\crate_steak.gltf"
-  },
-  "b85a54a5-ad30-47c4-985e-321811ff50bc": {
-    "asset": 1748658984709,
-    "meta": 1748659542687,
-    "relativePath": "Resource\\cpy's\\ChatGPT Image May 31, 2025, 12_02_15 AM.png"
   },
   "2c983233-1a2d-473c-9383-13c973b2cfcb": {
     "asset": 1748448961033,
@@ -2848,11 +2718,6 @@
     "asset": 1748448961270,
     "meta": 1748659551650,
     "relativePath": "Resource\\extra_restaurant\\spoon.gltf"
-  },
-  "7225984f-c79c-47e5-8ba9-f36f6742d2de": {
-    "asset": 1748658984705,
-    "meta": 1748659545322,
-    "relativePath": "Resource\\Fonts\\RebellionSquad-ZpprZ.ttf"
   },
   "77c74043-ad24-4c4c-993c-12d642f28fc6": {
     "asset": 1748448961322,
@@ -6294,20 +6159,10 @@
     "meta": 1748659553706,
     "relativePath": "Resource\\restaurant\\pot_A_stew.gltf"
   },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1748629893273,
-    "meta": 1748659550178,
-    "relativePath": "Script\\Player\\PlayerController.ts"
-  },
   "4ed99ffe-70f3-4d70-a28b-4fa6da42feac": {
     "asset": 1748448961839,
     "meta": 1748659553711,
     "relativePath": "Resource\\restaurant\\pot_B.gltf"
-  },
-  "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1748658984731,
-    "meta": 1748659550208,
-    "relativePath": "Script\\scene\\uiManager.ts"
   },
   "98cdd19d-f54d-4582-849c-75235a38e6d2": {
     "asset": 1748448961842,
@@ -6879,9 +6734,169 @@
     "meta": 1748659554210,
     "relativePath": "Resource\\restaurant\\wall_window_open.gltf"
   },
+  "0b394b52-1e17-4ac5-a067-12e34799ee8c": {
+    "asset": 1748661840658,
+    "meta": 1748661860252,
+    "relativePath": "Resource\\cpy's"
+  },
+  "7f994148-5ddf-41b2-9694-7fabebca93d2": {
+    "asset": 1748661840669,
+    "meta": 1748661860266,
+    "relativePath": "prefab_food\\mushroom_pizza.prefab"
+  },
+  "e3cc4d83-9ee4-429e-95c0-d5c8920938a1": {
+    "asset": 1748661840667,
+    "meta": 1748661860268,
+    "relativePath": "prefab_food\\cheese_pizza.prefab"
+  },
+  "8ba287a3-cbf2-41d7-bb62-37721620b1e8": {
+    "asset": 1748661840666,
+    "meta": 1748661860269,
+    "relativePath": "prefab_food\\cheese.prefab"
+  },
+  "55b85fc1-761a-4882-bae0-3d06347d00e7": {
+    "asset": 1748661840670,
+    "meta": 1748661860271,
+    "relativePath": "prefab_food\\pp.prefab"
+  },
+  "9e58c2fd-56b2-4cd4-bacf-859be8b59bdf": {
+    "asset": 1748661840667,
+    "meta": 1748661860273,
+    "relativePath": "prefab_food\\gratecheese.prefab"
+  },
+  "ae309673-0da1-4a12-8fd1-5641569de3ae": {
+    "asset": 1748661840668,
+    "meta": 1748661860274,
+    "relativePath": "prefab_food\\mushroom.prefab"
+  },
+  "9eda7280-d106-44f4-8b20-5b968395fffb": {
+    "asset": 1748661840670,
+    "meta": 1748661860276,
+    "relativePath": "prefab_food\\pepper_pizza.prefab"
+  },
+  "abba97e7-368c-4e31-999f-e992a28728ce": {
+    "asset": 1748661840671,
+    "meta": 1748661860278,
+    "relativePath": "prefab_food\\slicemushroom.prefab"
+  },
+  "bde9785b-e56f-4712-bd42-bc9c61cc45ab": {
+    "asset": 1748661840672,
+    "meta": 1748661860289,
+    "relativePath": "prefab_food\\slicepp.prefab"
+  },
+  "7225984f-c79c-47e5-8ba9-f36f6742d2de": {
+    "asset": 1748661840638,
+    "meta": 1748661860296,
+    "relativePath": "Resource\\Fonts\\RebellionSquad-ZpprZ.ttf"
+  },
+  "5ae71289-075a-45f7-acbe-06f771c82d05": {
+    "asset": 1748661840665,
+    "meta": 1748661860430,
+    "relativePath": "Script\\scene"
+  },
+  "f834bb96-2d79-4830-8833-a70ba75107e7": {
+    "asset": 1748661840665,
+    "meta": 1748661860468,
+    "relativePath": "Script\\scene\\uiManager.ts"
+  },
+  "fec267b9-d7bf-49cf-8da9-7573a5d1d8c0": {
+    "asset": 1748661840648,
+    "meta": 1748661860328,
+    "relativePath": "Resource\\cpy's\\deadline.png"
+  },
+  "218062ea-7302-4da2-8737-81761682256b": {
+    "asset": 1748661840650,
+    "meta": 1748661860441,
+    "relativePath": "Resource\\cpy's\\dough.png"
+  },
+  "d803e306-dc89-455a-9a5c-6c8484241103": {
+    "asset": 1748661840646,
+    "meta": 1748661860469,
+    "relativePath": "Resource\\cpy's\\cheese.png"
+  },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1748661298637,
-    "meta": 1748661298658,
+    "asset": 1748711318729,
+    "meta": 1748711318755,
     "relativePath": "Scenes\\kitchen-frame.fire"
+  },
+  "3bb40ce8-5068-42b8-aaad-8b28acde6a84": {
+    "asset": 1748661840651,
+    "meta": 1748661860471,
+    "relativePath": "Resource\\cpy's\\mushroom_pizza.png"
+  },
+  "27de0d60-ee5f-4ae4-9b2e-78d89b656c8d": {
+    "asset": 1748661840647,
+    "meta": 1748661860472,
+    "relativePath": "Resource\\cpy's\\cheese_pizza.png"
+  },
+  "43c11c6a-c0b4-4058-97c0-1bb91925df38": {
+    "asset": 1748661840650,
+    "meta": 1748661860474,
+    "relativePath": "Resource\\cpy's\\mushroom.png"
+  },
+  "17bd8642-dbb6-4716-b731-f71ccfce83e0": {
+    "asset": 1748661840652,
+    "meta": 1748661860475,
+    "relativePath": "Resource\\cpy's\\pepper.png"
+  },
+  "0d2517bc-f80d-4c15-9d2c-d3f1536aaa6f": {
+    "asset": 1748661840653,
+    "meta": 1748661860477,
+    "relativePath": "Resource\\cpy's\\pepper_pizza.png"
+  },
+  "4f1c88f0-0673-4843-a461-d2ca0687a3b2": {
+    "asset": 1748661840654,
+    "meta": 1748661860478,
+    "relativePath": "Resource\\cpy's\\pizza_oven.png"
+  },
+  "0dc2c8fd-cae1-41fb-bd60-fa663c9a8e69": {
+    "asset": 1748661840655,
+    "meta": 1748661860480,
+    "relativePath": "Resource\\cpy's\\square (1).png"
+  },
+  "32d9ac26-35a8-4d67-b925-06ee80e2add0": {
+    "asset": 1748661840656,
+    "meta": 1748661860493,
+    "relativePath": "Resource\\cpy's\\yel.png"
+  },
+  "a6424832-326c-4a0f-9bc7-ba131e1311cc": {
+    "asset": 1748661840655,
+    "meta": 1748661860494,
+    "relativePath": "Resource\\cpy's\\square.png"
+  },
+  "c8eb618f-8d4f-4d05-8f9a-7417b998d9b3": {
+    "asset": 1748661840656,
+    "meta": 1748661860495,
+    "relativePath": "Resource\\cpy's\\截圖 2025-05-24 下午4.41.12.png"
+  },
+  "c626b9bf-0618-4e62-8f48-4067529dd22a": {
+    "asset": 1748661840658,
+    "meta": 1748661860522,
+    "relativePath": "Resource\\cpy's\\截圖 2025-05-24 下午5.33.22.png"
+  },
+  "b85a54a5-ad30-47c4-985e-321811ff50bc": {
+    "asset": 1748661840644,
+    "meta": 1748661860537,
+    "relativePath": "Resource\\cpy's\\ChatGPT Image May 31, 2025, 12_02_15 AM.png"
+  },
+  "f4696566-21b3-46b6-8dff-f91b6fb90efd": {
+    "asset": 1748705351795,
+    "meta": 1748705351808,
+    "relativePath": "prefab_food\\food_pizza_pp.prefab"
+  },
+  "a8521cd0-a0e7-4c7d-9096-06bb523fc43b": {
+    "asset": 1748705354893,
+    "meta": 1748705354904,
+    "relativePath": "prefab_food\\food_pizza_mushroom_plated.prefab"
+  },
+  "6efa7011-1dfa-491b-876c-875a6d86f0f7": {
+    "asset": 1748705358189,
+    "meta": 1748705358201,
+    "relativePath": "prefab_food\\food_pizza_cheese_plated.prefab"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1748711935834,
+    "meta": 1748711981410,
+    "relativePath": "Script\\Player\\PlayerController.ts"
   }
 }
