@@ -41270,7 +41270,7 @@
       "array": [
         -394.413,
         -128.613,
-        -5,
+        -10,
         0,
         0,
         0,
@@ -56732,7 +56732,9 @@
     "smokeEffectPrefab": {
       "__uuid__": "982159af-cd32-490f-a2cf-6b5356ac1f19"
     },
-    "smokePoint": null,
+    "smokePoint": {
+      "__id__": 1150
+    },
     "_id": "90hnARQoVG65o30MFqk1f0"
   },
   {
