@@ -144,7 +144,7 @@ var MenuBar = /** @class */ (function (_super) {
         property({ type: cc.AudioClip })
     ], MenuBar.prototype, "bgm", void 0);
     MenuBar = __decorate([
-        ccclass
+        ccclass("MenuBar")
     ], MenuBar);
     return MenuBar;
 }(cc.Component));

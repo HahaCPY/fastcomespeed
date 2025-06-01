@@ -1,6 +1,6 @@
 const { ccclass, property } = cc._decorator;
 
-@ccclass
+@ccclass("MenuBar") 
 export default class MenuBar extends cc.Component {
     @property({ type: [cc.Node] })
     slots: cc.Node[] = [];

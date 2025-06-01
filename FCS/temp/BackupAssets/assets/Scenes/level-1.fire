@@ -1,13 +1,12 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "level-1",
+    "_name": "",
     "_objFlags": 0,
     "_native": "",
     "scene": {
       "__id__": 1
-    },
-    "asyncLoadAssets": false
+    }
   },
   {
     "__type__": "cc.Scene",
@@ -40861,8 +40860,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -391.432,
-        -127.306,
+        -397.118,
+        -3.031,
         -5,
         0,
         0,
@@ -41315,8 +41314,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -393.601,
-        -1.902,
+        -394.413,
+        -128.613,
         -10,
         0,
         0,

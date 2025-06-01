@@ -53,6 +53,16 @@ export default class PlayerController extends cc.Component {
     @property(cc.Node)
     smokePoint: cc.Node = null;
 
+    @property(cc.Node)
+    uiManagerNode: cc.Node = null;  // 拖入你的 MenuBar 根節點
+
+    private canDeliver: boolean = false;   // 是否碰到出餐台（tag 9）
+    private menuManager: any = null;       // 實際 MenuBar 腳本引用
+
+
+    private nearbyOven: cc.Node = null; // 記錄目前靠近哪個烤箱
+
+
     private smokeTimer: number = 0;
     private smokeInterval: number = 0.5; // 每 0.5 秒冒一次煙
 
@@ -109,6 +119,7 @@ export default class PlayerController extends cc.Component {
             cc.error("❌ 找不到 Fillbar！");
         }
         this.chopBar.active = false; // 預設不顯示
+        this.menuManager = this.uiManagerNode?.getComponent("MenuBar");
     }
 
     update(dt: number) {
@@ -213,58 +224,67 @@ export default class PlayerController extends cc.Component {
         }
 
 
-        if (this.isBaking) {
-            if (this.input.getChopPressed()) {
-                this.bakeProgress += dt;
-                const ratio = Math.min(this.bakeProgress / 3, 1);
-                this.chopFill.scaleX = ratio;
+        if (this.isBaking && this.input.getChopPressed()) {
+            this.bakeProgress += dt;
+            const ratio = Math.min(this.bakeProgress / 3, 1);
+            this.chopFill.scaleX = ratio;
 
-            // 💨 烘烤中冒煙！
+            // 冒煙邏輯
             this.smokeTimer += dt;
-            if (this.smokeTimer >= this.smokeInterval) {
+            if (this.smokeTimer >= this.smokeInterval && this.nearbyOven) {
                 this.smokeTimer = 0;
 
-                const smoke = cc.instantiate(this.smokeEffectPrefab);
-                smoke.name = "SmokeEffect"; 
+                const ovenPoint = this.nearbyOven.getChildByName("oven_point");
+                if (ovenPoint) {
+                    const smoke = cc.instantiate(this.smokeEffectPrefab);
+                    smoke.name = "SmokeEffect";
 
-                if (this.currentDropTarget) {
-                    const dropPoint = this.currentDropTarget.getChildByName("DropPoint");
-                    if (dropPoint) {
-                        const worldPos = dropPoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
-                        const localPos = this.currentDropTarget.convertToNodeSpaceAR(worldPos);
-                        smoke.setPosition(localPos);
-                        this.currentDropTarget.addChild(smoke);
-                        console.log("💨 烘烤中冒煙（在 DropPoint 上）");
-                    } else {
-                        console.warn("⚠️ 找不到 DropPoint，粒子冒在角色頭上");
-                        const worldPos = this.smokePoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
-                        const localPos = this.node.parent.convertToNodeSpaceAR(worldPos);
-                        smoke.setPosition(localPos);
-                        this.node.parent.addChild(smoke);
-                    }
-                } else {
-                    const worldPos = this.smokePoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
-                    const localPos = this.node.parent.convertToNodeSpaceAR(worldPos);
+                    const worldPos = ovenPoint.convertToWorldSpaceAR(cc.v3(0, 0, -5));
+                    const localPos = this.nearbyOven.convertToNodeSpaceAR(worldPos);
+
                     smoke.setPosition(localPos);
-                    this.node.parent.addChild(smoke);
+                    this.nearbyOven.addChild(smoke);
+
+                    console.log("💨 烘烤中冒煙（來自 oven_point）");
+                } else {
+                    console.warn("⚠️ 找不到 oven_point，無法冒煙");
                 }
             }
 
+            if (this.bakeProgress >= 3) {
+                this.finishBaking();
+            }
+        } else if (this.isBaking && !this.input.getChopPressed()) {
+            console.log("🛑 烘烤中斷！");
+            this.cancelBaking();
+        }
+        if (this.canDeliver && this.input.getInteractPressed() && this.carriedDough) {
+            const pizzaName = this.carriedDough.name;
 
-                if (this.bakeProgress >= 3) {
-                    this.finishBaking();
+            // 檢查是否與菜單對應
+            const matchedSlot = this.menuManager.slots.find(slot => {
+                if (slot.children.length > 0) {
+                    const childName = slot.children[0].name;
+                    return childName === pizzaName;
                 }
+                return false;
+            });
+
+            if (matchedSlot) {
+                // 出餐成功
+                this.carriedDough.destroy();
+                this.carriedDough = null;
+                matchedSlot.removeAllChildren();
+                this.menuManager.addScore(10);  // 假設每道菜加 10 分
+                console.log("🎉 成功出餐：" + pizzaName);
             } else {
-                console.log("🛑 烘烤中斷！");
-                this.cancelBaking();
+                console.warn("❌ 此披薩不在菜單上，不能出餐！");
             }
         }
-
-
     }
 
     isPizza(name: string): boolean {
-        return ["CheesePizza", "MushroomPizza", "PepperPizza"].includes(name);
+        return ["cheese_pizza", "mushroom_pizza", "pepper_pizza"].includes(name);
     }
 
     cancelBaking() {
@@ -292,7 +312,13 @@ export default class PlayerController extends cc.Component {
             });
 
         }
-
+        if (this.nearbyOven) {
+            this.nearbyOven.children.forEach(child => {
+                if (child.name === "SmokeEffect") {
+                    child.destroy();
+                }
+            });
+        }
         console.log(`✅ ${this.carriedDough.name} 烘烤完成！`);
     }
 
@@ -310,13 +336,13 @@ export default class PlayerController extends cc.Component {
 
         if (hasCheese && !hasMushroom && !hasPP) {
             pizza = cc.instantiate(this.cheesePizzaPrefab);
-            pizza.name = "CheesePizza";
+            pizza.name = "cheese_pizza";
         } else if (hasMushroom && !hasCheese && !hasPP) {
             pizza = cc.instantiate(this.mushroomPizzaPrefab);
-            pizza.name = "MushroomPizza";
+            pizza.name = "mushroom_pizza";
         } else if (hasPP && !hasCheese && !hasMushroom) {
             pizza = cc.instantiate(this.pepperPizzaPrefab);
-            pizza.name = "PepperPizza";
+            pizza.name = "pepper_pizza";
         } else {
             return; // 尚不支援複合口味 pizza
         }
@@ -487,7 +513,7 @@ export default class PlayerController extends cc.Component {
             const pickable = this.currentDropTarget.children.find(child =>
                  ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce", 
                     "PP", "SlicePP", "Mushroom", "SliceMushroom",
-                    "CheesePizza", "MushroomPizza", "PepperPizza" // ← 加這三個
+                    "cheese_pizza", "mushroom_pizza", "pepper_pizza" // ← 加這三個
                     ].some(prefix =>
                     child.name.startsWith(prefix)
                 )
@@ -512,7 +538,7 @@ export default class PlayerController extends cc.Component {
                 child.name !== "Flatbread" && // ✅ 允許有 Flatbread 在場
                  ["Dough", "Flatbread", "Cheese", "GratedCheese", "Tomato", "PizzaSauce", 
                 "PP", "SlicePP", "Mushroom", "SliceMushroom",
-                "CheesePizza", "MushroomPizza", "PepperPizza" // ← 加這三個
+                "cheese_pizza", "mushroom_pizza", "pepper_pizza" // ← 加這三個
                 ].some(type =>
                     child.name && child.name.startsWith(type)
                 );
@@ -579,8 +605,12 @@ export default class PlayerController extends cc.Component {
             this.currentDropTarget = otherCollider.node;
         } else if (otherCollider.tag === 12) {
             this.isNearOven = true;
+            this.nearbyOven = otherCollider.node;
             console.log("🔥 接觸到烤箱！");
+        } else if (otherCollider.tag === 9) {
+            this.canDeliver = true;
         }
+
     }
 
 
@@ -603,8 +633,12 @@ export default class PlayerController extends cc.Component {
             this.isNearOven = false;
             this.bakeProgress = 0;
             this.isBaking = false;
+            this.nearbyOven = null;
             this.chopBar.active = false;
+        } else if (otherCollider.tag === 9) {
+            this.canDeliver = false;
         }
+
 
     } 
 
