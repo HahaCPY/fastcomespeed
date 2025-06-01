@@ -49,6 +49,14 @@ var MenuBar = /** @class */ (function (_super) {
             cc.audioEngine.playMusic(this.bgm, true);
         }
     };
+    /** 確保場上一直維持 4 道菜 */
+    MenuBar.prototype.checkAndFillSlots = function () {
+        var currentCount = this.slots.filter(function (slot) { return slot.children.length > 0; }).length;
+        while (currentCount < this.slots.length) {
+            this.generateNextDish();
+            currentCount++;
+        }
+    };
     MenuBar.prototype.resetMenu = function () {
         for (var _i = 0, _a = this.slots; _i < _a.length; _i++) {
             var slot = _a[_i];
@@ -85,14 +93,19 @@ var MenuBar = /** @class */ (function (_super) {
         return m + ":" + (s < 10 ? '0' : '') + s;
     };
     MenuBar.prototype.generateNextDish = function () {
-        if (this.currentDishIdx >= this.slots.length) {
-            this.unschedule(this.generateNextDish);
+        // 找第一個空的 slot
+        var emptySlotIndex = this.slots.findIndex(function (slot) { return slot.children.length === 0; });
+        if (emptySlotIndex === -1)
             return;
-        }
         var prefabIdx = Math.floor(Math.random() * this.dishPrefabs.length);
         var dish = cc.instantiate(this.dishPrefabs[prefabIdx]);
-        this.slots[this.currentDishIdx].addChild(dish);
-        this.currentDishIdx++;
+        // 初始位置在螢幕右外側（z 軸設 0）
+        dish.setPosition(cc.v3(800, 0, 0)); // ✅ 改成 Vec3
+        this.slots[emptySlotIndex].addChild(dish);
+        // 動畫滑進 slot 中心（也是 Vec3）
+        cc.tween(dish)
+            .to(0.5, { position: cc.v3(0, 0, 0) }, { easing: 'cubicOut' }) // ✅ Vec3
+            .start();
     };
     MenuBar.prototype.timeUp = function () {
         this.unschedule(this.countdownStep);

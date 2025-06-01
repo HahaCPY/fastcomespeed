@@ -38,6 +38,16 @@ export default class MenuBar extends cc.Component {
         }
     }
 
+    /** 確保場上一直維持 4 道菜 */
+    checkAndFillSlots() {
+        let currentCount = this.slots.filter(slot => slot.children.length > 0).length;
+        while (currentCount < this.slots.length) {
+            this.generateNextDish();
+            currentCount++;
+        }
+    }
+
+
     resetMenu() {
         for (let slot of this.slots) {
             slot.removeAllChildren();
@@ -81,16 +91,24 @@ export default class MenuBar extends cc.Component {
         return `${m}:${s < 10 ? '0' : ''}${s}`;
     }
 
-    generateNextDish() {
-        if (this.currentDishIdx >= this.slots.length) {
-            this.unschedule(this.generateNextDish);
-            return;
-        }
-        let prefabIdx = Math.floor(Math.random() * this.dishPrefabs.length);
-        let dish = cc.instantiate(this.dishPrefabs[prefabIdx]);
-        this.slots[this.currentDishIdx].addChild(dish);
-        this.currentDishIdx++;
-    }
+generateNextDish() {
+    // 找第一個空的 slot
+    let emptySlotIndex = this.slots.findIndex(slot => slot.children.length === 0);
+    if (emptySlotIndex === -1) return;
+
+    let prefabIdx = Math.floor(Math.random() * this.dishPrefabs.length);
+    let dish = cc.instantiate(this.dishPrefabs[prefabIdx]);
+
+    // 初始位置在螢幕右外側（z 軸設 0）
+    dish.setPosition(cc.v3(800, 0, 0));  // ✅ 改成 Vec3
+    this.slots[emptySlotIndex].addChild(dish);
+
+    // 動畫滑進 slot 中心（也是 Vec3）
+    cc.tween(dish)
+        .to(0.5, { position: cc.v3(0, 0, 0) }, { easing: 'cubicOut' })  // ✅ Vec3
+        .start();
+}
+
 
     timeUp() {
         this.unschedule(this.countdownStep);

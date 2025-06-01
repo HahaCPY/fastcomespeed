@@ -6900,8 +6900,8 @@
     "relativePath": "prefab_food\\gratecheese.prefab"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1748788830323,
-    "meta": 1748788830343,
+    "asset": 1748791905953,
+    "meta": 1748791905975,
     "relativePath": "Scenes\\level-1.fire"
   },
   "19cc40e0-8019-4f64-a806-cfde16ab13fa": {
@@ -7400,13 +7400,13 @@
     "relativePath": "Resource\\particle(transparent_bg)\\Rotated\\trace_07_rotated.png"
   },
   "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1748790705666,
-    "meta": 1748790721838,
+    "asset": 1748791665171,
+    "meta": 1748791734960,
     "relativePath": "Script\\Player\\PlayerController.ts"
   },
   "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1748790986389,
-    "meta": 1748791005718,
+    "asset": 1748791844590,
+    "meta": 1748791845560,
     "relativePath": "Script\\scene\\uiManager.ts"
   }
 }

@@ -54,7 +54,7 @@ export default class PlayerController extends cc.Component {
     smokePoint: cc.Node = null;
 
     @property(cc.Node)
-    uiManagerNode: cc.Node = null;  // 拖入你的 MenuBar 根節點
+    uiManager: cc.Node = null;  // 拖入你的 MenuBar 根節點
 
     private canDeliver: boolean = false;   // 是否碰到出餐台（tag 9）
     private menuManager: any = null;       // 實際 MenuBar 腳本引用
@@ -119,7 +119,7 @@ export default class PlayerController extends cc.Component {
             cc.error("❌ 找不到 Fillbar！");
         }
         this.chopBar.active = false; // 預設不顯示
-        this.menuManager = this.uiManagerNode?.getComponent("MenuBar");
+        this.menuManager = this.uiManager?.getComponent("MenuBar");
     }
 
     update(dt: number) {
@@ -276,6 +276,10 @@ export default class PlayerController extends cc.Component {
                 this.carriedDough = null;
                 matchedSlot.removeAllChildren();
                 this.menuManager.addScore(10);  // 假設每道菜加 10 分
+                const menuBar = this.uiManager.getComponent("MenuBar");
+                if (menuBar) {
+                    menuBar.checkAndFillSlots();
+                }
                 console.log("🎉 成功出餐：" + pizzaName);
             } else {
                 console.warn("❌ 此披薩不在菜單上，不能出餐！");

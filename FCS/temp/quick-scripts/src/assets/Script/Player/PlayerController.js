@@ -45,7 +45,7 @@ var PlayerController = /** @class */ (function (_super) {
         _this.pepperPizzaPrefab = null;
         _this.smokeEffectPrefab = null;
         _this.smokePoint = null;
-        _this.uiManagerNode = null; // 拖入你的 MenuBar 根節點
+        _this.uiManager = null; // 拖入你的 MenuBar 根節點
         _this.canDeliver = false; // 是否碰到出餐台（tag 9）
         _this.menuManager = null; // 實際 MenuBar 腳本引用
         _this.nearbyOven = null; // 記錄目前靠近哪個烤箱
@@ -93,7 +93,7 @@ var PlayerController = /** @class */ (function (_super) {
             cc.error("❌ 找不到 Fillbar！");
         }
         this.chopBar.active = false; // 預設不顯示
-        this.menuManager = (_a = this.uiManagerNode) === null || _a === void 0 ? void 0 : _a.getComponent("MenuBar");
+        this.menuManager = (_a = this.uiManager) === null || _a === void 0 ? void 0 : _a.getComponent("MenuBar");
     };
     PlayerController.prototype.update = function (dt) {
         var dir = this.input.getMoveDirection();
@@ -232,6 +232,10 @@ var PlayerController = /** @class */ (function (_super) {
                 this.carriedDough = null;
                 matchedSlot.removeAllChildren();
                 this.menuManager.addScore(10); // 假設每道菜加 10 分
+                var menuBar = this.uiManager.getComponent("MenuBar");
+                if (menuBar) {
+                    menuBar.checkAndFillSlots();
+                }
                 console.log("🎉 成功出餐：" + pizzaName_1);
             }
             else {
@@ -604,7 +608,7 @@ var PlayerController = /** @class */ (function (_super) {
     ], PlayerController.prototype, "smokePoint", void 0);
     __decorate([
         property(cc.Node)
-    ], PlayerController.prototype, "uiManagerNode", void 0);
+    ], PlayerController.prototype, "uiManager", void 0);
     PlayerController = __decorate([
         ccclass
     ], PlayerController);
