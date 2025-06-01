@@ -11,6 +11,9 @@ export default class MenuBar extends cc.Component {
     @property({ type: cc.Label })
     timerLabel: cc.Label = null; // 拖拉倒數時間的 Label
 
+    @property({ type: cc.Label })
+    scoreLabel: cc.Label = null; // 拖拉分數的 Label
+
     @property
     totalTime: number = 60; // 總倒數秒數
 
@@ -20,12 +23,19 @@ export default class MenuBar extends cc.Component {
     @property
     dishInterval: number = 5;  // 每隔幾秒產生一個
 
+    @property({ type: cc.AudioClip })
+    bgm: cc.AudioClip = null;
+
     private currentDishIdx: number = 0;
     private currentTime: number = 0;
+    private score: number = 0; // 加這行
 
     start() {
         this.resetMenu();
         this.startGame();
+        if (this.bgm) {
+            cc.audioEngine.playMusic(this.bgm, true);
+        }
     }
 
     resetMenu() {
@@ -35,6 +45,8 @@ export default class MenuBar extends cc.Component {
         this.currentDishIdx = 0;
         this.unschedule(this.generateNextDish);
         this.unschedule(this.countdownStep);
+
+        this.setScore(0); // 分數歸零
     }
 
     startGame() {
@@ -44,6 +56,8 @@ export default class MenuBar extends cc.Component {
         this.schedule(this.countdownStep, 1);
         this.generateNextDish();
         this.schedule(this.generateNextDish, this.dishInterval);
+
+        this.setScore(0); // 遊戲開始分數歸零
     }
 
     countdownStep() {
@@ -68,7 +82,6 @@ export default class MenuBar extends cc.Component {
     }
 
     generateNextDish() {
-        // 用 slots.length 當最大格數
         if (this.currentDishIdx >= this.slots.length) {
             this.unschedule(this.generateNextDish);
             return;
@@ -79,17 +92,34 @@ export default class MenuBar extends cc.Component {
         this.currentDishIdx++;
     }
 
-
     timeUp() {
-        // 停止所有 schedule
         this.unschedule(this.countdownStep);
         this.unschedule(this.generateNextDish);
-        cc.log("Time's up!"); // 你可以加更多動作
+        cc.log("Time's up!");
     }
 
-    // 若需重啟
     resetAndStart() {
         this.resetMenu();
         this.startGame();
     }
+
+    // =============== 新增 ===============
+    /** 設定分數，外部可呼叫 */
+    setScore(newScore: number) {
+        this.score = newScore;
+        if (this.scoreLabel) {
+            this.scoreLabel.string = `${this.score}`;
+        }
+    }
+
+    /** 取得目前分數 */
+    getScore(): number {
+        return this.score;
+    }
+
+    /** 分數加減 n，可依需求使用 */
+    addScore(delta: number) {
+        this.setScore(this.score + delta);
+    }
+    // ===================================
 }

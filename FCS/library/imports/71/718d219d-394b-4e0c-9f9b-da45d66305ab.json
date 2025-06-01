@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "wall_shelf_kitchen_hooks_decorated",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "wall_shelf_kitchen_hooks_decorated",
+      "path": "wall_shelf_kitchen_hooks_decorated"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

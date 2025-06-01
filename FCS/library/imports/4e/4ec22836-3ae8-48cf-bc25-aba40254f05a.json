@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "wall_plain_kitchen_straight",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "wall_plain_kitchen_straight",
+      "path": "wall_plain_kitchen_straight"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

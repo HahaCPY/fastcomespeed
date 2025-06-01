@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "container_kitchen_A_blue",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "container_kitchen_A_blue",
+      "path": "container_kitchen_A_blue"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

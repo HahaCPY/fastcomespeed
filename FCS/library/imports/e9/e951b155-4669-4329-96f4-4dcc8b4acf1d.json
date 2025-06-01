@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "newbtn.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "about": {
+      "__uuid__": "be6b8940-e413-4bf0-8c9c-4746a2cc295c"
+    },
+    "close": {
+      "__uuid__": "9767087a-950d-4f89-bfc9-3a211c9e9fef"
+    },
+    "close_2": {
+      "__uuid__": "a9f4b705-297a-46c3-a6cc-469e0be43ff5"
+    },
+    "faq": {
+      "__uuid__": "0d41df00-5de0-4561-8462-d0fc4b17732a"
+    },
+    "leader": {
+      "__uuid__": "701326bb-1d20-410d-b9b3-04c24eef2bf5"
+    },
+    "menu": {
+      "__uuid__": "628de13b-0479-4ddc-a2ec-2ccd639e8c37"
+    },
+    "misic": {
+      "__uuid__": "a3472d25-be80-41d0-91d4-a1f75deafe68"
+    },
+    "music_off": {
+      "__uuid__": "234586a7-d434-4397-ad4c-8d8f4cc9a16a"
+    },
+    "next": {
+      "__uuid__": "ec3048fc-19ff-4e95-be12-abf26f7b5fa0"
+    },
+    "ok": {
+      "__uuid__": "9af8e396-40c4-4bce-a492-89eeb3a57a23"
+    },
+    "pause": {
+      "__uuid__": "f1f66781-68b7-42ed-9f94-a4b352a1e3cf"
+    },
+    "play": {
+      "__uuid__": "4a718f5c-90d2-4b5e-a3a4-fd4c5a1b2b54"
+    },
+    "prew": {
+      "__uuid__": "195a975b-f94e-4390-9610-640af5b8880a"
+    },
+    "prize": {
+      "__uuid__": "06880ac1-4e71-4085-b7f4-704b3e543255"
+    },
+    "restart": {
+      "__uuid__": "d15440cb-38c9-4701-8e4e-ef5de386f411"
+    },
+    "settings": {
+      "__uuid__": "5506eede-e033-483d-a9a5-095a9f88a353"
+    },
+    "shop": {
+      "__uuid__": "1c426e65-813f-4bc9-baee-e0801676f462"
+    },
+    "sound": {
+      "__uuid__": "2cb223f1-0e6b-4330-ae9a-5aab2295f56a"
+    },
+    "sound_off": {
+      "__uuid__": "76790616-f031-434d-936e-d8949017bbfa"
+    },
+    "upgrade": {
+      "__uuid__": "fe87cb5e-dda5-412f-abe5-620f3e8e7baf"
+    }
+  }
+}

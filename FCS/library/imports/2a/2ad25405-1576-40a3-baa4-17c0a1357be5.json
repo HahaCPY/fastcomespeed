@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "kitchencabinet_corner_half_styleB",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "kitchencabinet_corner_half_styleB",
+      "path": "kitchencabinet_corner_half_styleB"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

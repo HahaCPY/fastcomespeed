@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "pillar_B",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "pillar_B",
+      "path": "pillar_B"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}
