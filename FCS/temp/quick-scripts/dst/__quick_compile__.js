@@ -1,6 +1,6 @@
 
 (function () {
-var scripts = [{"deps":{"./assets/Script/Player/PlayerController":5,"./assets/Script/Player/IInputControls":3,"./assets/Script/debug":2,"./assets/Script/scene/uiManager":4,"./assets/Script/Player/KeyboardControls":1},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Script/Player/KeyboardControls.js"},{"deps":{},"path":"preview-scripts/assets/Script/debug.js"},{"deps":{},"path":"preview-scripts/assets/Script/Player/IInputControls.js"},{"deps":{},"path":"preview-scripts/assets/Script/scene/uiManager.js"},{"deps":{"./KeyboardControls":1},"path":"preview-scripts/assets/Script/Player/PlayerController.js"}];
+var scripts = [{"deps":{"./assets/Script/debug":1,"./assets/Script/Player/IInputControls":2,"./assets/Script/Player/KeyboardControls":3,"./assets/Script/Player/PlayerController":4,"./assets/Script/scene/uiManager":5},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Script/debug.js"},{"deps":{},"path":"preview-scripts/assets/Script/Player/IInputControls.js"},{"deps":{},"path":"preview-scripts/assets/Script/Player/KeyboardControls.js"},{"deps":{"./KeyboardControls":3},"path":"preview-scripts/assets/Script/Player/PlayerController.js"},{"deps":{},"path":"preview-scripts/assets/Script/scene/uiManager.js"}];
 var entries = ["preview-scripts/__qc_index__.js"];
 var bundleScript = 'preview-scripts/__qc_bundle__.js';
 

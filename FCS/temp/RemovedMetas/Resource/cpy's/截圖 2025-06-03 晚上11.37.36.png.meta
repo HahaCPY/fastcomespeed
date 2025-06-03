@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7b8c57df-204e-4255-926f-da01379ae2a9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 292,
+  "height": 286,
+  "platformSettings": {},
+  "subMetas": {
+    "截圖 2025-06-03 晚上11.37.36": {
+      "ver": "1.0.6",
+      "uuid": "900faf3f-90a7-4571-a1f8-e715c83109ec",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7b8c57df-204e-4255-926f-da01379ae2a9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 292,
+      "height": 286,
+      "rawWidth": 292,
+      "rawHeight": 286,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
