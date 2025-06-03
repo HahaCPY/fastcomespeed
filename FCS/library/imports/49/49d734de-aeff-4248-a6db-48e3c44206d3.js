@@ -45,7 +45,14 @@ var PlayerController = /** @class */ (function (_super) {
         _this.pepperPizzaPrefab = null;
         _this.smokeEffectPrefab = null;
         _this.smokePoint = null;
-        _this.uiManager = null; // 拖入你的 MenuBar 根節點
+        _this.tipsLabelPrefab = null;
+        _this.tipsParticlePrefab = null;
+        _this.pizzaSteamPrefab = null;
+        _this.uiManager = null;
+        // Audio
+        _this.blingSound = null;
+        _this.pickupSound = null;
+        _this.placeSound = null;
         _this.canDeliver = false; // 是否碰到出餐台（tag 9）
         _this.menuManager = null; // 實際 MenuBar 腳本引用
         _this.nearbyOven = null; // 記錄目前靠近哪個烤箱
@@ -231,7 +238,11 @@ var PlayerController = /** @class */ (function (_super) {
                 this.carriedDough.destroy();
                 this.carriedDough = null;
                 matchedSlot.removeAllChildren();
-                this.menuManager.addScore(10); // 假設每道菜加 10 分
+                this.menuManager.addScore(30); // 假設每道菜加 10 分
+                this.showDeliveryEffect();
+                if (this.blingSound) {
+                    cc.audioEngine.playEffect(this.blingSound, false);
+                }
                 var menuBar = this.uiManager.getComponent("MenuBar");
                 if (menuBar) {
                     menuBar.checkAndFillSlots();
@@ -261,6 +272,11 @@ var PlayerController = /** @class */ (function (_super) {
         if (this.carriedDough) {
             this.carriedDough.active = true;
             this.carriedDough["baked"] = true;
+            // 在披薩上加冒煙特效
+            var steam = cc.instantiate(this.pizzaSteamPrefab);
+            steam.name = "PizzaSteam";
+            steam.setPosition(cc.v3(0, 40, 0)); // 冒煙位置稍微在披薩上方
+            this.carriedDough.addChild(steam);
             // 烘烤結束，清除冒煙
             this.node.parent.children.forEach(function (child) {
                 if (child.name === "SmokeEffect") {
@@ -407,6 +423,9 @@ var PlayerController = /** @class */ (function (_super) {
             mushroom.name = "Mushroom";
             mushroom.setPosition(cc.v2(0, 50));
             this.carriedDough = mushroom;
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
             console.log("🍄 拿起蘑菇");
         }
         if (this.canPickPP && !this.carriedDough) {
@@ -415,6 +434,9 @@ var PlayerController = /** @class */ (function (_super) {
             pp.name = "PP";
             pp.setPosition(cc.v2(0, 50));
             this.carriedDough = pp;
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
             console.log("🍅 拿起番茄");
         }
         if (this.canPickCheese && !this.carriedDough) {
@@ -423,6 +445,9 @@ var PlayerController = /** @class */ (function (_super) {
             cheese.name = "Cheese";
             cheese.setPosition(cc.v2(0, 50));
             this.carriedDough = cheese;
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
             console.log("🧀 拿起起司");
         }
         if (this.canPickDough && !this.carriedDough) {
@@ -431,6 +456,9 @@ var PlayerController = /** @class */ (function (_super) {
             dough.name = "Dough";
             dough.setPosition(cc.v2(0, 50));
             this.carriedDough = dough;
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
             console.log("🎒 拿起麵團");
         }
         else if (!this.carriedDough && this.currentDropTarget) {
@@ -448,6 +476,9 @@ var PlayerController = /** @class */ (function (_super) {
                 pickable.removeFromParent();
                 this.node.addChild(pickable);
                 pickable.setPosition(cc.v2(0, 50));
+                if (this.pickupSound) {
+                    cc.audioEngine.playEffect(this.pickupSound, false);
+                }
                 console.log("🎒 撿起桌上的物品：" + pickable.name);
             }
         }
@@ -482,9 +513,27 @@ var PlayerController = /** @class */ (function (_super) {
             this.carriedDough.setPosition(localPos);
             console.log("✅ 放下物品到 DropPoint：" + this.carriedDough.name);
             this.carriedDough = null;
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
             // ✅ 嘗試合成 Pizza（放置後觸發）
             this.tryAssemblePizza(this.currentDropTarget);
         }
+    };
+    PlayerController.prototype.showDeliveryEffect = function () {
+        // 飄字效果
+        var tipsNode = cc.instantiate(this.tipsLabelPrefab);
+        tipsNode.setPosition(this.node.getPosition().add(cc.v2(0, 100))); // 出現在角色上方
+        this.node.parent.addChild(tipsNode);
+        // 飄浮 + 淡出
+        cc.tween(tipsNode)
+            .by(1, { position: cc.v3(0, 60, 0), opacity: -255 }, { easing: 'cubicOut' })
+            .call(function () { return tipsNode.destroy(); })
+            .start();
+        // 粒子特效
+        var effect = cc.instantiate(this.tipsParticlePrefab);
+        effect.setPosition(this.node.getPosition());
+        this.node.parent.addChild(effect);
     };
     PlayerController.prototype.playAnim = function (name) {
         if (this.currentAnim === name)
@@ -607,8 +656,26 @@ var PlayerController = /** @class */ (function (_super) {
         property(cc.Node)
     ], PlayerController.prototype, "smokePoint", void 0);
     __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "tipsLabelPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "tipsParticlePrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "pizzaSteamPrefab", void 0);
+    __decorate([
         property(cc.Node)
     ], PlayerController.prototype, "uiManager", void 0);
+    __decorate([
+        property({ type: cc.AudioClip })
+    ], PlayerController.prototype, "blingSound", void 0);
+    __decorate([
+        property({ type: cc.AudioClip })
+    ], PlayerController.prototype, "pickupSound", void 0);
+    __decorate([
+        property({ type: cc.AudioClip })
+    ], PlayerController.prototype, "placeSound", void 0);
     PlayerController = __decorate([
         ccclass
     ], PlayerController);

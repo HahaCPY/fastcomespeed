@@ -53,8 +53,29 @@ export default class PlayerController extends cc.Component {
     @property(cc.Node)
     smokePoint: cc.Node = null;
 
+    @property(cc.Prefab)
+    tipsLabelPrefab: cc.Prefab = null;
+
+    @property(cc.Prefab)
+    tipsParticlePrefab: cc.Prefab = null;
+
+    @property(cc.Prefab)
+    pizzaSteamPrefab: cc.Prefab = null;
+
     @property(cc.Node)
-    uiManager: cc.Node = null;  // 拖入你的 MenuBar 根節點
+    uiManager: cc.Node = null;
+
+    // Audio
+    @property({ type: cc.AudioClip })
+    blingSound: cc.AudioClip = null;
+
+    @property({ type: cc.AudioClip })
+    pickupSound: cc.AudioClip = null;
+
+    @property({ type: cc.AudioClip })
+    placeSound: cc.AudioClip = null;
+
+
 
     private canDeliver: boolean = false;   // 是否碰到出餐台（tag 9）
     private menuManager: any = null;       // 實際 MenuBar 腳本引用
@@ -275,7 +296,13 @@ export default class PlayerController extends cc.Component {
                 this.carriedDough.destroy();
                 this.carriedDough = null;
                 matchedSlot.removeAllChildren();
-                this.menuManager.addScore(10);  // 假設每道菜加 10 分
+                this.menuManager.addScore(30);  // 假設每道菜加 10 分
+                this.showDeliveryEffect();
+
+                if (this.blingSound) {
+                    cc.audioEngine.playEffect(this.blingSound, false);
+                }
+
                 const menuBar = this.uiManager.getComponent("MenuBar");
                 if (menuBar) {
                     menuBar.checkAndFillSlots();
@@ -307,6 +334,13 @@ export default class PlayerController extends cc.Component {
         if (this.carriedDough) {
             this.carriedDough.active = true;
             this.carriedDough["baked"] = true;
+
+            // 在披薩上加冒煙特效
+            const steam = cc.instantiate(this.pizzaSteamPrefab);
+            steam.name = "PizzaSteam";
+            steam.setPosition(cc.v3(0, 40, 0)); // 冒煙位置稍微在披薩上方
+            this.carriedDough.addChild(steam);
+
 
             // 烘烤結束，清除冒煙
             this.node.parent.children.forEach(child => {
@@ -482,6 +516,11 @@ export default class PlayerController extends cc.Component {
             mushroom.name = "Mushroom";
             mushroom.setPosition(cc.v2(0, 50));
             this.carriedDough = mushroom;
+
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
+
             console.log("🍄 拿起蘑菇");
         }
 
@@ -491,6 +530,10 @@ export default class PlayerController extends cc.Component {
             pp.name = "PP";
             pp.setPosition(cc.v2(0, 50));
             this.carriedDough = pp;
+
+           if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
             console.log("🍅 拿起番茄");
         }
 
@@ -500,6 +543,11 @@ export default class PlayerController extends cc.Component {
             cheese.name = "Cheese";
             cheese.setPosition(cc.v2(0, 50));
             this.carriedDough = cheese;
+
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
+
             console.log("🧀 拿起起司");
         }
 
@@ -510,6 +558,11 @@ export default class PlayerController extends cc.Component {
             dough.name = "Dough";
             dough.setPosition(cc.v2(0, 50));
             this.carriedDough = dough;
+
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
+
             console.log("🎒 拿起麵團");
         }
         else if (!this.carriedDough && this.currentDropTarget) {
@@ -527,6 +580,11 @@ export default class PlayerController extends cc.Component {
                 pickable.removeFromParent();
                 this.node.addChild(pickable);
                 pickable.setPosition(cc.v2(0, 50));
+
+                if (this.pickupSound) {
+                    cc.audioEngine.playEffect(this.pickupSound, false);
+                }
+
                 console.log("🎒 撿起桌上的物品：" + pickable.name);
             }
         }
@@ -569,6 +627,9 @@ export default class PlayerController extends cc.Component {
             this.carriedDough.setPosition(localPos);
             console.log("✅ 放下物品到 DropPoint：" + this.carriedDough.name);
             this.carriedDough = null;
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
             // ✅ 嘗試合成 Pizza（放置後觸發）
             this.tryAssemblePizza(this.currentDropTarget);
         }
@@ -576,6 +637,24 @@ export default class PlayerController extends cc.Component {
 
     }
 
+    showDeliveryEffect() {
+        // 飄字效果
+        const tipsNode = cc.instantiate(this.tipsLabelPrefab);
+        tipsNode.setPosition(this.node.getPosition().add(cc.v2(0, 100))); // 出現在角色上方
+        this.node.parent.addChild(tipsNode);
+
+        // 飄浮 + 淡出
+        cc.tween(tipsNode)
+            .by(1, { position: cc.v3(0, 60, 0), opacity: -255 }, { easing: 'cubicOut' })
+            .call(() => tipsNode.destroy())
+            .start();
+
+
+        // 粒子特效
+        const effect = cc.instantiate(this.tipsParticlePrefab);
+        effect.setPosition(this.node.getPosition());
+        this.node.parent.addChild(effect);
+    }
 
 
 
