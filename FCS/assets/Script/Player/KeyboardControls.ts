@@ -5,6 +5,8 @@ export class KeyboardControls implements IInputControls {
     private isInteractPressed: boolean = false;
     private isChopPressed: boolean = false;
     private isChopHeld: boolean = false;
+    private isRunHeld: boolean = false;
+
 
     constructor() {
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
@@ -39,6 +41,9 @@ export class KeyboardControls implements IInputControls {
             case cc.macro.KEY.space:
                 this.isChopHeld = true;
                 break;
+            case cc.macro.KEY.shift:
+                this.isRunHeld = true;
+                break;
         }
     }
 
@@ -62,6 +67,10 @@ export class KeyboardControls implements IInputControls {
             case cc.macro.KEY.space:
                 this.isChopHeld = false;
                 break;
+            case cc.macro.KEY.shift:
+                this.isRunHeld = false;
+                break;
+
         }
     }
 
@@ -71,5 +80,7 @@ export class KeyboardControls implements IInputControls {
     public getChopPressed(): boolean {
         return this.isChopHeld;
     }
-
+    public getRunHeld(): boolean {
+        return this.isRunHeld;
+    }
 }

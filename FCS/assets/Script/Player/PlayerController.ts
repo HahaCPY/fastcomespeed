@@ -65,6 +65,17 @@ export default class PlayerController extends cc.Component {
     @property(cc.Node)
     uiManager: cc.Node = null;
 
+    // 跑步
+    private isRunning: boolean = false;
+    private runMultiplier: number = 1.3; // 跑步速度倍率
+    
+    @property(cc.Prefab)
+    runDustEffectPrefab: cc.Prefab = null;
+
+    private runDustTimer: number = 0;
+    private runDustInterval: number = 0.2;  // 每 0.2 秒冒一次
+
+
     // Audio
     @property({ type: cc.AudioClip })
     blingSound: cc.AudioClip = null;
@@ -145,29 +156,50 @@ export default class PlayerController extends cc.Component {
 
     update(dt: number) {
         const dir = this.input.getMoveDirection();
+        this.isRunning = this.input.getRunHeld();
 
         if (!dir.equals(cc.Vec2.ZERO)) {
+            if (this.isRunning) {
+                this.rb.linearVelocity = dir.clone().normalize().mul(this.speed * this.runMultiplier);
+
+                // ✅ 跑步狀態下產生粉塵
+                this.runDustTimer += dt;
+                if (this.runDustTimer >= this.runDustInterval) {
+                    this.runDustTimer = 0;
+                    this.spawnRunDust();  // ⬅️ 自訂的粉塵函數
+                }
+            } else {
+                this.rb.linearVelocity = dir.clone().normalize().mul(this.speed);
+                this.runDustTimer = 0;  // 非跑步狀態就不冒煙
+            }
             // 使用物理引擎的 linearVelocity 控制移動
-            this.rb.linearVelocity = dir.clone().normalize().mul(this.speed);
+            let finalSpeed = this.speed;
+            if (this.isRunning) finalSpeed *= this.runMultiplier;
+
+            this.rb.linearVelocity = dir.clone().normalize().mul(finalSpeed);
+
             this.lastDir = dir.clone();
 
             // 動畫切換（與方向判斷無變）
             if (Math.abs(dir.y) > Math.abs(dir.x)) {
                 if (dir.y > 0) {
-                    this.playAnim("girl_walk_back");
+                    this.playAnim(this.isRunning ? "girl_run_back" : "girl_walk_back");
                 } else {
-                    this.playAnim("girl_idle_walk");
+                    this.playAnim(this.isRunning ? "girl_run" : "girl_idle_walk");
                 }
                 this.node.scaleX = 1;
             } else {
                 if (dir.x > 0) {
-                    this.playAnim("girl_walk_right");
+                    this.playAnim(this.isRunning ? "girl_run_right" : "girl_walk_right");
                     this.node.scaleX = 1;
                 } else {
-                    this.playAnim("girl_walk_left");
+                    this.playAnim(this.isRunning ? "girl_run_left" : "girl_walk_left");
                     this.node.scaleX = 1;
                 }
             }
+
+            
+
         } else {
             // 停止移動（速度歸零）
             this.rb.linearVelocity = cc.v2(0, 0);
@@ -313,6 +345,20 @@ export default class PlayerController extends cc.Component {
             }
         }
     }
+    
+    spawnRunDust() {
+        if (!this.runDustEffectPrefab) return;
+
+        const dust = cc.instantiate(this.runDustEffectPrefab);
+
+        const pos = this.node.getPosition(); // 取得 Vec3
+        pos.y -= 40;                         // 稍微往下偏移，模擬腳底粉塵
+        dust.setPosition(pos);              // ✅ 傳入 Vec3
+
+        this.node.parent.addChild(dust);
+    }
+
+
 
     isPizza(name: string): boolean {
         return ["cheese_pizza", "mushroom_pizza", "pepper_pizza"].includes(name);

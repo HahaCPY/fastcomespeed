@@ -6699,21 +6699,6 @@
     "meta": 1748927998128,
     "relativePath": "Script\\scene"
   },
-  "edf517f5-ecee-4f4a-8fa1-b852623f0842": {
-    "asset": 1748784458682,
-    "meta": 1748784487642,
-    "relativePath": "Script\\Player\\IInputControls.ts"
-  },
-  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
-    "asset": 1748784458683,
-    "meta": 1748784487671,
-    "relativePath": "Script\\Player\\KeyboardControls.ts"
-  },
-  "66a04347-3462-459e-9fc9-ec56945072af": {
-    "asset": 1748931412364,
-    "meta": 1748927998125,
-    "relativePath": "Prefab\\prefab_food"
-  },
   "7716a1ef-042e-430d-b10c-100dd435d441": {
     "asset": 1748784457570,
     "meta": 1748784487630,
@@ -6759,40 +6744,10 @@
     "meta": 1748784487903,
     "relativePath": "Resource\\UI\\Character\\Frog\\frog_back.png"
   },
-  "c60346b3-912f-4096-8ce7-3299df6616c5": {
-    "asset": 1748784458686,
-    "meta": 1748784487911,
-    "relativePath": "Prefab\\prefab_food\\Chopbar.prefab"
-  },
-  "e3cc4d83-9ee4-429e-95c0-d5c8920938a1": {
-    "asset": 1748784458689,
-    "meta": 1748784487914,
-    "relativePath": "Prefab\\prefab_food\\cheese_pizza.prefab"
-  },
-  "56ae3f9f-feb7-45e8-b273-7c4e0f569038": {
-    "asset": 1748784458690,
-    "meta": 1748784487920,
-    "relativePath": "Prefab\\prefab_food\\flatdough.prefab"
-  },
-  "d04e3272-f2b8-45c3-8919-27f48726792b": {
-    "asset": 1748784458690,
-    "meta": 1748784487935,
-    "relativePath": "Prefab\\prefab_food\\dough.prefab"
-  },
   "e29620a6-bfc6-4351-afb5-d271d9f15d0d": {
     "asset": 1748784457564,
     "meta": 1748784487935,
     "relativePath": "Resource\\UI\\Character\\Frog\\frog.png"
-  },
-  "7f994148-5ddf-41b2-9694-7fabebca93d2": {
-    "asset": 1748784458695,
-    "meta": 1748784487948,
-    "relativePath": "Prefab\\prefab_food\\mushroom_pizza.prefab"
-  },
-  "9eda7280-d106-44f4-8b20-5b968395fffb": {
-    "asset": 1748784458695,
-    "meta": 1748784487950,
-    "relativePath": "Prefab\\prefab_food\\pepper_pizza.prefab"
   },
   "8196522e-a8b1-4e75-823e-0214b47201bd": {
     "asset": 1748784457568,
@@ -6848,56 +6803,6 @@
     "asset": 1748787972239,
     "meta": 1748787993603,
     "relativePath": "Resource\\particle(transparent_bg)"
-  },
-  "8ba287a3-cbf2-41d7-bb62-37721620b1e8": {
-    "asset": 1748787972244,
-    "meta": 1748787993623,
-    "relativePath": "Prefab\\prefab_food\\cheese.prefab"
-  },
-  "f4696566-21b3-46b6-8dff-f91b6fb90efd": {
-    "asset": 1748787972246,
-    "meta": 1748787993625,
-    "relativePath": "Prefab\\prefab_food\\food_pizza_pp.prefab"
-  },
-  "6efa7011-1dfa-491b-876c-875a6d86f0f7": {
-    "asset": 1748787972245,
-    "meta": 1748787993626,
-    "relativePath": "Prefab\\prefab_food\\food_pizza_cheese_plated.prefab"
-  },
-  "55b85fc1-761a-4882-bae0-3d06347d00e7": {
-    "asset": 1748787972248,
-    "meta": 1748787993627,
-    "relativePath": "Prefab\\prefab_food\\pp.prefab"
-  },
-  "bde9785b-e56f-4712-bd42-bc9c61cc45ab": {
-    "asset": 1748787972249,
-    "meta": 1748787993629,
-    "relativePath": "Prefab\\prefab_food\\slicepp.prefab"
-  },
-  "a8521cd0-a0e7-4c7d-9096-06bb523fc43b": {
-    "asset": 1748787972245,
-    "meta": 1748787993631,
-    "relativePath": "Prefab\\prefab_food\\food_pizza_mushroom_plated.prefab"
-  },
-  "ae309673-0da1-4a12-8fd1-5641569de3ae": {
-    "asset": 1748787972247,
-    "meta": 1748787993632,
-    "relativePath": "Prefab\\prefab_food\\mushroom.prefab"
-  },
-  "abba97e7-368c-4e31-999f-e992a28728ce": {
-    "asset": 1748787972249,
-    "meta": 1748787993635,
-    "relativePath": "Prefab\\prefab_food\\slicemushroom.prefab"
-  },
-  "982159af-cd32-490f-a2cf-6b5356ac1f19": {
-    "asset": 1748787972243,
-    "meta": 1748787993637,
-    "relativePath": "Prefab\\particle_prefab\\SmokeEmitter.prefab"
-  },
-  "9e58c2fd-56b2-4cd4-bacf-859be8b59bdf": {
-    "asset": 1748787972247,
-    "meta": 1748787993638,
-    "relativePath": "Prefab\\prefab_food\\gratecheese.prefab"
   },
   "19cc40e0-8019-4f64-a806-cfde16ab13fa": {
     "asset": 1748787972126,
@@ -7394,554 +7299,654 @@
     "meta": 1748787994231,
     "relativePath": "Resource\\particle(transparent_bg)\\Rotated\\trace_07_rotated.png"
   },
-  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1748932688787,
-    "meta": 1748932688816,
-    "relativePath": "Scenes\\level-1.fire"
+  "ba9fda78-0554-4611-b32b-b7ddb7e0f7f4": {
+    "asset": 1748933016406,
+    "meta": 1748933133885,
+    "relativePath": "Audio"
   },
-  "ec402539-da6e-4908-9258-0fab39e8c16e": {
-    "asset": 1748931412364,
-    "meta": 1748929170591,
-    "relativePath": "Prefab\\particle_prefab"
-  },
-  "465c2f10-2ce1-4c99-8c6c-53e6ce124ae2": {
-    "asset": 1748929598308,
-    "meta": 1748929598321,
-    "relativePath": "Prefab\\particle_prefab\\TipsLight.prefab"
+  "8e6bf970-99b7-4e79-b8bb-c44d14f1c8a5": {
+    "asset": 1748933016412,
+    "meta": 1748933133897,
+    "relativePath": "Prefab"
   },
   "f20fa7e7-0dde-4514-896e-0d42de125790": {
-    "asset": 1748929203039,
-    "meta": 1748929192792,
+    "asset": 1748933016408,
+    "meta": 1748933133899,
     "relativePath": "Prefab\\other_prefab"
   },
+  "ec402539-da6e-4908-9258-0fab39e8c16e": {
+    "asset": 1748933016412,
+    "meta": 1748933133899,
+    "relativePath": "Prefab\\particle_prefab"
+  },
+  "66a04347-3462-459e-9fc9-ec56945072af": {
+    "asset": 1748933016421,
+    "meta": 1748933133900,
+    "relativePath": "Prefab\\prefab_food"
+  },
+  "465c2f10-2ce1-4c99-8c6c-53e6ce124ae2": {
+    "asset": 1748933016410,
+    "meta": 1748933133931,
+    "relativePath": "Prefab\\particle_prefab\\TipsLight.prefab"
+  },
+  "982159af-cd32-490f-a2cf-6b5356ac1f19": {
+    "asset": 1748933016409,
+    "meta": 1748933133933,
+    "relativePath": "Prefab\\particle_prefab\\SmokeEmitter.prefab"
+  },
+  "f12db09c-844b-474a-b366-b956a01933a8": {
+    "asset": 1748933016411,
+    "meta": 1748933133935,
+    "relativePath": "Prefab\\particle_prefab\\pizzaSmoke.prefab"
+  },
   "d3c092c1-5f3f-4405-861e-3a40ba6376b5": {
-    "asset": 1748929203028,
-    "meta": 1748929203039,
+    "asset": 1748933016408,
+    "meta": 1748933133937,
     "relativePath": "Prefab\\other_prefab\\TipsLabel.prefab"
   },
-  "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1748929323243,
-    "meta": 1748929437486,
-    "relativePath": "Script\\scene\\uiManager.ts"
+  "e3cc4d83-9ee4-429e-95c0-d5c8920938a1": {
+    "asset": 1748933016414,
+    "meta": 1748933133940,
+    "relativePath": "Prefab\\prefab_food\\cheese_pizza.prefab"
+  },
+  "8ba287a3-cbf2-41d7-bb62-37721620b1e8": {
+    "asset": 1748933016413,
+    "meta": 1748933133942,
+    "relativePath": "Prefab\\prefab_food\\cheese.prefab"
   },
   "95fcb87a-8e3f-4589-ae07-69b3dc95d470": {
-    "asset": 1748930260247,
-    "meta": 1748930260273,
+    "asset": 1748933016537,
+    "meta": 1748933133943,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)"
   },
+  "d04e3272-f2b8-45c3-8919-27f48726792b": {
+    "asset": 1748933016414,
+    "meta": 1748933133946,
+    "relativePath": "Prefab\\prefab_food\\dough.prefab"
+  },
+  "c60346b3-912f-4096-8ce7-3299df6616c5": {
+    "asset": 1748933016412,
+    "meta": 1748933133949,
+    "relativePath": "Prefab\\prefab_food\\Chopbar.prefab"
+  },
+  "f4696566-21b3-46b6-8dff-f91b6fb90efd": {
+    "asset": 1748933016417,
+    "meta": 1748933133954,
+    "relativePath": "Prefab\\prefab_food\\food_pizza_pp.prefab"
+  },
+  "a8521cd0-a0e7-4c7d-9096-06bb523fc43b": {
+    "asset": 1748933016416,
+    "meta": 1748933133956,
+    "relativePath": "Prefab\\prefab_food\\food_pizza_mushroom_plated.prefab"
+  },
+  "6efa7011-1dfa-491b-876c-875a6d86f0f7": {
+    "asset": 1748933016415,
+    "meta": 1748933133959,
+    "relativePath": "Prefab\\prefab_food\\food_pizza_cheese_plated.prefab"
+  },
+  "56ae3f9f-feb7-45e8-b273-7c4e0f569038": {
+    "asset": 1748933016415,
+    "meta": 1748933133962,
+    "relativePath": "Prefab\\prefab_food\\flatdough.prefab"
+  },
+  "ae309673-0da1-4a12-8fd1-5641569de3ae": {
+    "asset": 1748933016418,
+    "meta": 1748933133966,
+    "relativePath": "Prefab\\prefab_food\\mushroom.prefab"
+  },
+  "7f994148-5ddf-41b2-9694-7fabebca93d2": {
+    "asset": 1748933016418,
+    "meta": 1748933133968,
+    "relativePath": "Prefab\\prefab_food\\mushroom_pizza.prefab"
+  },
+  "9e58c2fd-56b2-4cd4-bacf-859be8b59bdf": {
+    "asset": 1748933016417,
+    "meta": 1748933133970,
+    "relativePath": "Prefab\\prefab_food\\gratecheese.prefab"
+  },
+  "55b85fc1-761a-4882-bae0-3d06347d00e7": {
+    "asset": 1748933016420,
+    "meta": 1748933133972,
+    "relativePath": "Prefab\\prefab_food\\pp.prefab"
+  },
+  "9eda7280-d106-44f4-8b20-5b968395fffb": {
+    "asset": 1748933016419,
+    "meta": 1748933133974,
+    "relativePath": "Prefab\\prefab_food\\pepper_pizza.prefab"
+  },
+  "abba97e7-368c-4e31-999f-e992a28728ce": {
+    "asset": 1748933016420,
+    "meta": 1748933133976,
+    "relativePath": "Prefab\\prefab_food\\slicemushroom.prefab"
+  },
+  "bde9785b-e56f-4712-bd42-bc9c61cc45ab": {
+    "asset": 1748933016421,
+    "meta": 1748933133979,
+    "relativePath": "Prefab\\prefab_food\\slicepp.prefab"
+  },
   "a37c2fda-9fad-4e2d-b8d7-a8d2b6e68f6b": {
-    "asset": 1748930260073,
-    "meta": 1748930260323,
+    "asset": 1748933016440,
+    "meta": 1748933134023,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\circle_01.png"
   },
   "87bf1063-069d-4664-b013-53e440445f20": {
-    "asset": 1748930260071,
-    "meta": 1748930260328,
+    "asset": 1748933016443,
+    "meta": 1748933134024,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\circle_04.png"
   },
-  "1e07ef36-070b-4a4f-88a3-43513a6d86f9": {
-    "asset": 1748930260071,
-    "meta": 1748930260332,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_06.png"
-  },
-  "df76e385-b9f2-45d2-91bb-ac7046a8e36a": {
-    "asset": 1748930260071,
-    "meta": 1748930260337,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\circle_02.png"
-  },
-  "72d67204-3241-47ed-8646-ec939bf309ff": {
-    "asset": 1748930260071,
-    "meta": 1748930260340,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_05.png"
-  },
   "362c5dd0-2611-4c4d-a50a-ce7c8902433c": {
-    "asset": 1748930260071,
-    "meta": 1748930260342,
+    "asset": 1748933016442,
+    "meta": 1748933134027,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\circle_03.png"
   },
+  "df76e385-b9f2-45d2-91bb-ac7046a8e36a": {
+    "asset": 1748933016441,
+    "meta": 1748933134028,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\circle_02.png"
+  },
   "3dbb74fd-bc64-47a6-81f6-0e8138c5d04a": {
-    "asset": 1748930260071,
-    "meta": 1748930260344,
+    "asset": 1748933016446,
+    "meta": 1748933134046,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\dirt_02.png"
   },
   "ae354b4c-b657-4783-abc3-a9be34cd670f": {
-    "asset": 1748930260071,
-    "meta": 1748930260348,
+    "asset": 1748933016444,
+    "meta": 1748933134049,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\circle_05.png"
   },
-  "73a489ba-9318-498a-b6fd-1a3cef858ed8": {
-    "asset": 1748930260071,
-    "meta": 1748930260358,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_02.png"
-  },
-  "07aea50a-c860-42ce-8dc2-2e514605b094": {
-    "asset": 1748930260071,
-    "meta": 1748930260360,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_04.png"
-  },
-  "15e555a0-103f-4592-b004-2b4137fe809a": {
-    "asset": 1748930260071,
-    "meta": 1748930260362,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_01.png"
-  },
   "33c5efc8-adbb-43be-8eb9-fb6bfa341865": {
-    "asset": 1748930260071,
-    "meta": 1748930260372,
+    "asset": 1748933016445,
+    "meta": 1748933134050,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\dirt_01.png"
   },
-  "7e800686-1c60-4320-a6f1-a20e03dc88e4": {
-    "asset": 1748930260071,
-    "meta": 1748930260374,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_03.png"
+  "15e555a0-103f-4592-b004-2b4137fe809a": {
+    "asset": 1748933016451,
+    "meta": 1748933134053,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_01.png"
   },
-  "f12c67aa-927b-4e0f-94e0-14c1975b9356": {
-    "asset": 1748930260075,
-    "meta": 1748930260387,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\fire_01.png"
+  "41fe9a1e-65d1-4473-be1f-98d372ee13ab": {
+    "asset": 1748933016450,
+    "meta": 1748933134057,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\fire_02.png"
   },
   "887002bb-8a7d-4b39-bd9a-d689b7d1448a": {
-    "asset": 1748930260075,
-    "meta": 1748930260391,
+    "asset": 1748933016447,
+    "meta": 1748933134061,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\dirt_03.png"
   },
   "0dde1d02-5f78-4001-9401-035c3a4c1e6a": {
-    "asset": 1748930260266,
-    "meta": 1748930260392,
+    "asset": 1748933016439,
+    "meta": 1748933134114,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated"
   },
-  "41fe9a1e-65d1-4473-be1f-98d372ee13ab": {
-    "asset": 1748930260075,
-    "meta": 1748930260398,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\fire_02.png"
+  "f12c67aa-927b-4e0f-94e0-14c1975b9356": {
+    "asset": 1748933016449,
+    "meta": 1748933134063,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\fire_01.png"
+  },
+  "7e800686-1c60-4320-a6f1-a20e03dc88e4": {
+    "asset": 1748933016453,
+    "meta": 1748933134065,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_03.png"
+  },
+  "73a489ba-9318-498a-b6fd-1a3cef858ed8": {
+    "asset": 1748933016452,
+    "meta": 1748933134067,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_02.png"
+  },
+  "07aea50a-c860-42ce-8dc2-2e514605b094": {
+    "asset": 1748933016455,
+    "meta": 1748933134069,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_04.png"
+  },
+  "72d67204-3241-47ed-8646-ec939bf309ff": {
+    "asset": 1748933016456,
+    "meta": 1748933134100,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_05.png"
   },
   "a0e3adff-7143-4087-838b-419c164afcd5": {
-    "asset": 1748930260071,
-    "meta": 1748930260422,
+    "asset": 1748933016458,
+    "meta": 1748933134110,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flare_01.png"
   },
-  "74d0d1fe-8b7d-4dc8-9b65-782a045a60c5": {
-    "asset": 1748930260071,
-    "meta": 1748930260425,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_01.png"
-  },
-  "433b4a32-5186-430c-8542-27496d0633ae": {
-    "asset": 1748930260071,
-    "meta": 1748930260428,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\light_03.png"
+  "1e07ef36-070b-4a4f-88a3-43513a6d86f9": {
+    "asset": 1748933016457,
+    "meta": 1748933134112,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\flame_06.png"
   },
   "0c2aac06-bf16-4b4c-b938-56122ea86c5f": {
-    "asset": 1748930260071,
-    "meta": 1748930260431,
+    "asset": 1748933016459,
+    "meta": 1748933134119,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\light_01.png"
   },
-  "0d404b49-2c7a-4d70-a4d3-3758af32a9d8": {
-    "asset": 1748930260076,
-    "meta": 1748930260440,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_02.png"
-  },
-  "30a4e316-150d-4bad-be8d-4b9803e56a7d": {
-    "asset": 1748930260071,
-    "meta": 1748930260444,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_04.png"
-  },
-  "0627a0d1-b6bd-4039-bdfd-749039916a19": {
-    "asset": 1748930260071,
-    "meta": 1748930260448,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_05.png"
-  },
   "f18358f0-8454-4b87-b3fd-38db7c4835b2": {
-    "asset": 1748930260071,
-    "meta": 1748930260450,
+    "asset": 1748933016462,
+    "meta": 1748933134122,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\light_02.png"
   },
-  "f3ad3fe9-9a25-4bdf-8875-123f0c776fc1": {
-    "asset": 1748930260071,
-    "meta": 1748930260457,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_04.png"
+  "74d0d1fe-8b7d-4dc8-9b65-782a045a60c5": {
+    "asset": 1748933016464,
+    "meta": 1748933134125,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_01.png"
   },
-  "607033c4-b342-4eca-948e-cd16b9dbacff": {
-    "asset": 1748930260080,
-    "meta": 1748930260460,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_01.png"
+  "0d404b49-2c7a-4d70-a4d3-3758af32a9d8": {
+    "asset": 1748933016465,
+    "meta": 1748933134129,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_02.png"
+  },
+  "433b4a32-5186-430c-8542-27496d0633ae": {
+    "asset": 1748933016463,
+    "meta": 1748933134131,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\light_03.png"
+  },
+  "0627a0d1-b6bd-4039-bdfd-749039916a19": {
+    "asset": 1748933016470,
+    "meta": 1748933134135,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_05.png"
   },
   "8bdd3b60-1345-41bc-9777-3e04aeda4c8c": {
-    "asset": 1748930260071,
-    "meta": 1748930260463,
+    "asset": 1748933016468,
+    "meta": 1748933134138,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_03.png"
   },
-  "08daacae-348e-41fa-ade7-4e563bdc34b3": {
-    "asset": 1748930260071,
-    "meta": 1748930260470,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_03.png"
+  "30a4e316-150d-4bad-be8d-4b9803e56a7d": {
+    "asset": 1748933016469,
+    "meta": 1748933134141,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\magic_04.png"
+  },
+  "607033c4-b342-4eca-948e-cd16b9dbacff": {
+    "asset": 1748933016472,
+    "meta": 1748933134145,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_01.png"
   },
   "39a05137-16b1-46be-aca9-15d9f93a6265": {
-    "asset": 1748930260071,
-    "meta": 1748930260476,
+    "asset": 1748933016473,
+    "meta": 1748933134147,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_02.png"
   },
-  "59ab6d61-d266-4160-af3e-e806169cc429": {
-    "asset": 1748930260071,
-    "meta": 1748930260497,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scorch_01.png"
+  "08daacae-348e-41fa-ade7-4e563bdc34b3": {
+    "asset": 1748933016476,
+    "meta": 1748933134152,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_03.png"
+  },
+  "f3ad3fe9-9a25-4bdf-8875-123f0c776fc1": {
+    "asset": 1748933016477,
+    "meta": 1748933134191,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_04.png"
+  },
+  "b4e94cc2-dcf7-46aa-bc1b-6470bb87a8d6": {
+    "asset": 1748933016482,
+    "meta": 1748933134193,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scratch_01.png"
+  },
+  "c9b93c4e-0d99-4770-a12f-5b4ed903167d": {
+    "asset": 1748933016484,
+    "meta": 1748933134197,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\slash_02.png"
   },
   "d2238ad5-2f29-4138-930f-67f94ff90527": {
-    "asset": 1748930260071,
-    "meta": 1748930260500,
+    "asset": 1748933016478,
+    "meta": 1748933134198,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\muzzle_05.png"
   },
+  "59ab6d61-d266-4160-af3e-e806169cc429": {
+    "asset": 1748933016479,
+    "meta": 1748933134204,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scorch_01.png"
+  },
+  "235385df-f44e-43f7-8c39-3e084cbd27e4": {
+    "asset": 1748933016480,
+    "meta": 1748933134207,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scorch_02.png"
+  },
   "22eab306-69f1-45da-b6d0-68a9dcc69eba": {
-    "asset": 1748930260072,
-    "meta": 1748930260503,
+    "asset": 1748933016483,
+    "meta": 1748933134209,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\slash_01.png"
   },
+  "c5cb0911-8301-423b-a363-2c830b161ace": {
+    "asset": 1748933016481,
+    "meta": 1748933134212,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scorch_03.png"
+  },
   "88b21528-52f1-4e8c-8da3-793b76c8a726": {
-    "asset": 1748930260072,
-    "meta": 1748930260509,
+    "asset": 1748933016485,
+    "meta": 1748933134221,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\slash_03.png"
   },
   "50215a6c-0d9d-4128-9195-062a209e0c71": {
-    "asset": 1748930260072,
-    "meta": 1748930260517,
+    "asset": 1748933016486,
+    "meta": 1748933134229,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\slash_04.png"
   },
-  "b4e94cc2-dcf7-46aa-bc1b-6470bb87a8d6": {
-    "asset": 1748930260071,
-    "meta": 1748930260520,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scratch_01.png"
-  },
-  "22065d8e-484f-4e7a-8f99-f5b4a4795731": {
-    "asset": 1748930260083,
-    "meta": 1748930260525,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_01.png"
-  },
-  "235385df-f44e-43f7-8c39-3e084cbd27e4": {
-    "asset": 1748930260081,
-    "meta": 1748930260529,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scorch_02.png"
-  },
   "3a323933-1643-447a-a16e-b28c447838c4": {
-    "asset": 1748930260072,
-    "meta": 1748930260540,
+    "asset": 1748933016490,
+    "meta": 1748933134231,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_03.png"
   },
-  "c9b93c4e-0d99-4770-a12f-5b4ed903167d": {
-    "asset": 1748930260072,
-    "meta": 1748930260543,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\slash_02.png"
-  },
-  "c5cb0911-8301-423b-a363-2c830b161ace": {
-    "asset": 1748930260082,
-    "meta": 1748930260556,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\scorch_03.png"
+  "22065d8e-484f-4e7a-8f99-f5b4a4795731": {
+    "asset": 1748933016488,
+    "meta": 1748933134233,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_01.png"
   },
   "e8ffe60d-b449-4776-bad7-0f6c36ca9b7e": {
-    "asset": 1748930260082,
-    "meta": 1748930260559,
+    "asset": 1748933016489,
+    "meta": 1748933134243,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_02.png"
   },
   "8759837d-f47d-420e-8646-2a1c3c100e61": {
-    "asset": 1748930260083,
-    "meta": 1748930260561,
+    "asset": 1748933016491,
+    "meta": 1748933134246,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_04.png"
   },
-  "d4cc8a29-97a8-4182-8484-2f42e337343f": {
-    "asset": 1748930260083,
-    "meta": 1748930260565,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_05.png"
-  },
   "d4e4c5e0-2832-454b-a3a7-9e6a41e1ea4e": {
-    "asset": 1748930260072,
-    "meta": 1748930260571,
+    "asset": 1748933016495,
+    "meta": 1748933134270,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_06.png"
   },
   "52aa2c21-a949-4635-88a9-ff18306da20b": {
-    "asset": 1748930260072,
-    "meta": 1748930260574,
+    "asset": 1748933016496,
+    "meta": 1748933134276,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_07.png"
   },
+  "d4cc8a29-97a8-4182-8484-2f42e337343f": {
+    "asset": 1748933016493,
+    "meta": 1748933134283,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_05.png"
+  },
+  "ebd3a63d-d1ef-4983-9014-0ef8000fd107": {
+    "asset": 1748933016498,
+    "meta": 1748933134287,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_09.png"
+  },
   "dd86199a-4430-4f1b-b422-4f9b4fc95faa": {
-    "asset": 1748930260083,
-    "meta": 1748930260598,
+    "asset": 1748933016499,
+    "meta": 1748933134290,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_10.png"
   },
   "7ad4cb95-ffac-4573-acf0-1e0e100ddf4c": {
-    "asset": 1748930260083,
-    "meta": 1748930260602,
+    "asset": 1748933016497,
+    "meta": 1748933134296,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_08.png"
   },
   "6547261c-a3d1-4fbf-98fe-efd7580d1c75": {
-    "asset": 1748930260083,
-    "meta": 1748930260607,
+    "asset": 1748933016501,
+    "meta": 1748933134305,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_01.png"
   },
   "8616e458-8467-4f52-a87c-ef16bec75ee5": {
-    "asset": 1748930260083,
-    "meta": 1748930260611,
+    "asset": 1748933016502,
+    "meta": 1748933134307,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_02.png"
   },
-  "ebd3a63d-d1ef-4983-9014-0ef8000fd107": {
-    "asset": 1748930260083,
-    "meta": 1748930260615,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\smoke_09.png"
-  },
   "9964ed92-1cf4-4d74-9b66-c8c3814b2039": {
-    "asset": 1748930260072,
-    "meta": 1748930260629,
+    "asset": 1748933016506,
+    "meta": 1748933134312,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_05.png"
   },
+  "38ea1b1d-c168-437d-8dfa-b14d142c73d8": {
+    "asset": 1748933016507,
+    "meta": 1748933134318,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_06.png"
+  },
   "f1851507-36ee-40a7-b0a6-649849cf10ba": {
-    "asset": 1748930260083,
-    "meta": 1748930260631,
+    "asset": 1748933016503,
+    "meta": 1748933134320,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_03.png"
   },
   "0f9bfa1a-aa81-4ed7-9b72-1d03e2e915d0": {
-    "asset": 1748930260083,
-    "meta": 1748930260633,
+    "asset": 1748933016505,
+    "meta": 1748933134322,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_04.png"
   },
+  "144b0fbb-6a4f-493c-a177-f919928dc05b": {
+    "asset": 1748933016508,
+    "meta": 1748933134328,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_07.png"
+  },
   "f2f1d09e-fcd6-47fb-b150-3200d0e240d3": {
-    "asset": 1748930260072,
-    "meta": 1748930260655,
+    "asset": 1748933016510,
+    "meta": 1748933134336,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_01.png"
   },
   "250c91a3-4dd2-48c6-ba1e-fe34f25db3d1": {
-    "asset": 1748930260072,
-    "meta": 1748930260658,
+    "asset": 1748933016511,
+    "meta": 1748933134358,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_02.png"
   },
-  "38ea1b1d-c168-437d-8dfa-b14d142c73d8": {
-    "asset": 1748930260072,
-    "meta": 1748930260661,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_06.png"
-  },
-  "144b0fbb-6a4f-493c-a177-f919928dc05b": {
-    "asset": 1748930260072,
-    "meta": 1748930260665,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\spark_07.png"
-  },
-  "df8a90aa-d331-40dd-ba52-654739be53fa": {
-    "asset": 1748930260072,
-    "meta": 1748930260670,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_03.png"
-  },
   "631e0577-6bc7-44ed-b8df-524174657814": {
-    "asset": 1748930260072,
-    "meta": 1748930260672,
+    "asset": 1748933016513,
+    "meta": 1748933134361,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_04.png"
   },
+  "df8a90aa-d331-40dd-ba52-654739be53fa": {
+    "asset": 1748933016512,
+    "meta": 1748933134363,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_03.png"
+  },
   "d54f8531-e2d9-4590-960a-1d4712c58012": {
-    "asset": 1748930260072,
-    "meta": 1748930260689,
+    "asset": 1748933016515,
+    "meta": 1748933134387,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_05.png"
   },
-  "f35e83cd-82a7-46aa-8a37-6c9c88ff16a8": {
-    "asset": 1748930260072,
-    "meta": 1748930260691,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_06.png"
-  },
-  "15fd8773-7771-4165-a834-29feb160fd5f": {
-    "asset": 1748930260072,
-    "meta": 1748930260702,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\symbol_02.png"
-  },
-  "2685a7fd-8ced-41cf-b7de-03afaa60a2fc": {
-    "asset": 1748930260072,
-    "meta": 1748930260705,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\symbol_01.png"
-  },
   "910c0284-693d-4831-96cf-bd1848f1ccc0": {
-    "asset": 1748930260072,
-    "meta": 1748930260707,
+    "asset": 1748933016517,
+    "meta": 1748933134388,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_07.png"
   },
-  "17ac54c1-fbfe-478b-8b1a-17af2ec9c559": {
-    "asset": 1748930260072,
-    "meta": 1748930260710,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_09.png"
+  "f35e83cd-82a7-46aa-8a37-6c9c88ff16a8": {
+    "asset": 1748933016516,
+    "meta": 1748933134390,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_06.png"
   },
   "7e179578-c205-4a8c-aa98-9f0d989866d9": {
-    "asset": 1748930260072,
-    "meta": 1748930260717,
+    "asset": 1748933016518,
+    "meta": 1748933134398,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_08.png"
   },
+  "2685a7fd-8ced-41cf-b7de-03afaa60a2fc": {
+    "asset": 1748933016520,
+    "meta": 1748933134400,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\symbol_01.png"
+  },
+  "17ac54c1-fbfe-478b-8b1a-17af2ec9c559": {
+    "asset": 1748933016519,
+    "meta": 1748933134404,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\star_09.png"
+  },
+  "15fd8773-7771-4165-a834-29feb160fd5f": {
+    "asset": 1748933016521,
+    "meta": 1748933134405,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\symbol_02.png"
+  },
   "126c05a5-3e1d-4bd4-bf05-4703f2f7a506": {
-    "asset": 1748930260072,
-    "meta": 1748930260722,
+    "asset": 1748933016523,
+    "meta": 1748933134407,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_01.png"
   },
-  "210f61d7-1d16-43aa-84d6-6f40c477ac99": {
-    "asset": 1748930260072,
-    "meta": 1748930260725,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_02.png"
-  },
   "a6959e40-0386-40a6-999b-1e072554e5ea": {
-    "asset": 1748930260072,
-    "meta": 1748930260728,
+    "asset": 1748933016525,
+    "meta": 1748933134415,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_03.png"
   },
-  "458ca5db-6cdd-4f4a-80cf-41d548b6c5b1": {
-    "asset": 1748930260073,
-    "meta": 1748930260748,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_06.png"
+  "210f61d7-1d16-43aa-84d6-6f40c477ac99": {
+    "asset": 1748933016524,
+    "meta": 1748933134420,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_02.png"
   },
   "58d422c1-5536-4e0c-9e15-3f867d0746a2": {
-    "asset": 1748930260072,
-    "meta": 1748930260750,
+    "asset": 1748933016526,
+    "meta": 1748933134427,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_04.png"
   },
-  "b68459ee-770a-45a3-b550-603e994d4d39": {
-    "asset": 1748930260073,
-    "meta": 1748930260753,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_05.png"
-  },
   "7562d1de-d8fd-4cdf-9851-34916b1c5c2e": {
-    "asset": 1748930260073,
-    "meta": 1748930260755,
+    "asset": 1748933016530,
+    "meta": 1748933134447,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_07.png"
   },
-  "c6332932-6419-47c2-b00a-8bdd3169198a": {
-    "asset": 1748930260073,
-    "meta": 1748930260765,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\twirl_02.png"
+  "b68459ee-770a-45a3-b550-603e994d4d39": {
+    "asset": 1748933016527,
+    "meta": 1748933134449,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_05.png"
   },
-  "784216f3-ac7c-4a9a-ba95-90f2b5373b86": {
-    "asset": 1748930260072,
-    "meta": 1748930260771,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\twirl_01.png"
-  },
-  "978655e9-c702-4292-a1a1-27b4d4586fa1": {
-    "asset": 1748930260077,
-    "meta": 1748930260788,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_02.png"
-  },
-  "787bf728-544a-4c8f-99b1-2d347e17efd0": {
-    "asset": 1748930260073,
-    "meta": 1748930260792,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_03.png"
-  },
-  "7eb71828-bfbf-4a60-a5f8-724e2cf2a01b": {
-    "asset": 1748930260133,
-    "meta": 1748930260797,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\flame_06_rotated.png"
-  },
-  "f111e1de-23c1-4c1f-8363-714fc0796861": {
-    "asset": 1748930260133,
-    "meta": 1748930260801,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\flame_05_rotated.png"
-  },
-  "a2bdac8d-060e-4ac9-ba3a-414a328ef5c6": {
-    "asset": 1748930260077,
-    "meta": 1748930260809,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_01.png"
-  },
-  "ee5b3f75-f29d-4285-9916-e261b372e970": {
-    "asset": 1748930260076,
-    "meta": 1748930260813,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_04.png"
+  "458ca5db-6cdd-4f4a-80cf-41d548b6c5b1": {
+    "asset": 1748933016529,
+    "meta": 1748933134454,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\trace_06.png"
   },
   "260ccfc9-c1b7-4a0a-8731-acdbad0b8366": {
-    "asset": 1748930260076,
-    "meta": 1748930260814,
+    "asset": 1748933016533,
+    "meta": 1748933134461,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\twirl_03.png"
   },
-  "cba7fb49-eab4-4dec-8a14-d90018f44eb8": {
-    "asset": 1748930260136,
-    "meta": 1748930260817,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_03_rotated.png"
+  "784216f3-ac7c-4a9a-ba95-90f2b5373b86": {
+    "asset": 1748933016531,
+    "meta": 1748933134463,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\twirl_01.png"
   },
-  "a28e4fca-d9a0-45a9-b029-4d920ab9f73c": {
-    "asset": 1748930260135,
-    "meta": 1748930260827,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_02_rotated.png"
+  "787bf728-544a-4c8f-99b1-2d347e17efd0": {
+    "asset": 1748933016536,
+    "meta": 1748933134471,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_03.png"
+  },
+  "a2bdac8d-060e-4ac9-ba3a-414a328ef5c6": {
+    "asset": 1748933016534,
+    "meta": 1748933134475,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_01.png"
+  },
+  "f834bb96-2d79-4830-8833-a70ba75107e7": {
+    "asset": 1748933016542,
+    "meta": 1748933134736,
+    "relativePath": "Script\\scene\\uiManager.ts"
+  },
+  "c6332932-6419-47c2-b00a-8bdd3169198a": {
+    "asset": 1748933016532,
+    "meta": 1748933134477,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\twirl_02.png"
+  },
+  "978655e9-c702-4292-a1a1-27b4d4586fa1": {
+    "asset": 1748933016535,
+    "meta": 1748933134485,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_02.png"
+  },
+  "f111e1de-23c1-4c1f-8363-714fc0796861": {
+    "asset": 1748933016423,
+    "meta": 1748933134492,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\flame_05_rotated.png"
+  },
+  "ee5b3f75-f29d-4285-9916-e261b372e970": {
+    "asset": 1748933016537,
+    "meta": 1748933134495,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_04.png"
+  },
+  "7eb71828-bfbf-4a60-a5f8-724e2cf2a01b": {
+    "asset": 1748933016424,
+    "meta": 1748933134503,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\flame_06_rotated.png"
+  },
+  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
+    "asset": 1748934651993,
+    "meta": 1748934652021,
+    "relativePath": "Scenes\\level-1.fire"
   },
   "444d0220-d2ac-4706-bf54-692736fc846d": {
-    "asset": 1748930260136,
-    "meta": 1748930260838,
+    "asset": 1748933016425,
+    "meta": 1748933134506,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_01_rotated.png"
   },
-  "562a3b2e-160f-4b67-8076-584d4ce21b6c": {
-    "asset": 1748930260134,
-    "meta": 1748930260841,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\spark_06_rotated.png"
+  "a28e4fca-d9a0-45a9-b029-4d920ab9f73c": {
+    "asset": 1748933016427,
+    "meta": 1748933134530,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_02_rotated.png"
   },
-  "f72cc20d-a03d-47c4-bbe7-cad66bcd3193": {
-    "asset": 1748930260134,
-    "meta": 1748930260845,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\spark_05_rotated.png"
-  },
-  "e21ddeba-fae5-4e72-9a1f-3e99901dabe7": {
-    "asset": 1748930260140,
-    "meta": 1748930260847,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_05_rotated.png"
+  "cba7fb49-eab4-4dec-8a14-d90018f44eb8": {
+    "asset": 1748933016428,
+    "meta": 1748933134741,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_03_rotated.png"
   },
   "d882812b-3d9b-4fd4-85db-6b31960bf60a": {
-    "asset": 1748930260134,
-    "meta": 1748930260851,
+    "asset": 1748933016429,
+    "meta": 1748933134742,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_04_rotated.png"
   },
-  "78162319-f3c9-48f7-bfe4-a73b58c4c4d8": {
-    "asset": 1748930260134,
-    "meta": 1748930260869,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_01_rotated.png"
+  "e21ddeba-fae5-4e72-9a1f-3e99901dabe7": {
+    "asset": 1748933016430,
+    "meta": 1748933134744,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\muzzle_05_rotated.png"
   },
-  "0fc7ec60-caba-4fd5-a4da-bd88c3c7d3e0": {
-    "asset": 1748930260134,
-    "meta": 1748930260874,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_02_rotated.png"
-  },
-  "80bd106f-48c4-458c-81a8-0df4153f6fce": {
-    "asset": 1748930260134,
-    "meta": 1748930260876,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_03_rotated.png"
-  },
-  "3b89bb2a-c7f1-4e24-b907-6a85cade8133": {
-    "asset": 1748930260142,
-    "meta": 1748930260880,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_06_rotated.png"
-  },
-  "7c770880-d1db-4b58-9ff0-57d98590e7fb": {
-    "asset": 1748930260134,
-    "meta": 1748930260882,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_04_rotated.png"
-  },
-  "16d396b1-23fe-4ef3-a92f-66b5b76cd356": {
-    "asset": 1748930260140,
-    "meta": 1748930260884,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_07_rotated.png"
-  },
-  "bd0926f4-f463-4691-a74f-e785b70c7823": {
-    "asset": 1748930260135,
-    "meta": 1748930260890,
-    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_05_rotated.png"
-  },
-  "f12db09c-844b-474a-b366-b956a01933a8": {
-    "asset": 1748931462152,
-    "meta": 1748931462157,
-    "relativePath": "Prefab\\particle_prefab\\pizzaSmoke.prefab"
-  },
-  "8e6bf970-99b7-4e79-b8bb-c44d14f1c8a5": {
-    "asset": 1748931423431,
-    "meta": 1748931418000,
-    "relativePath": "Prefab"
-  },
-  "ba9fda78-0554-4611-b32b-b7ddb7e0f7f4": {
-    "asset": 1748931455608,
-    "meta": 1748931455609,
-    "relativePath": "Audio"
-  },
-  "a051164b-fa75-444d-89a7-52399a1c6127": {
-    "asset": 1748931460880,
-    "meta": 1748931461339,
-    "relativePath": "Audio\\bling.mp3"
+  "f72cc20d-a03d-47c4-bbe7-cad66bcd3193": {
+    "asset": 1748933016431,
+    "meta": 1748933134753,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\spark_05_rotated.png"
   },
   "1215bbf0-12ba-453f-b06e-2a27954d9279": {
-    "asset": 1748932036597,
-    "meta": 1748932037009,
+    "asset": 1748933016406,
+    "meta": 1748933134793,
     "relativePath": "Audio\\takething.mp3"
   },
+  "a051164b-fa75-444d-89a7-52399a1c6127": {
+    "asset": 1748933016405,
+    "meta": 1748933134794,
+    "relativePath": "Audio\\bling.mp3"
+  },
+  "0fc7ec60-caba-4fd5-a4da-bd88c3c7d3e0": {
+    "asset": 1748933016434,
+    "meta": 1748933134780,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_02_rotated.png"
+  },
+  "78162319-f3c9-48f7-bfe4-a73b58c4c4d8": {
+    "asset": 1748933016433,
+    "meta": 1748933134781,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_01_rotated.png"
+  },
+  "562a3b2e-160f-4b67-8076-584d4ce21b6c": {
+    "asset": 1748933016432,
+    "meta": 1748933134782,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\spark_06_rotated.png"
+  },
+  "7c770880-d1db-4b58-9ff0-57d98590e7fb": {
+    "asset": 1748933016435,
+    "meta": 1748933134783,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_04_rotated.png"
+  },
+  "80bd106f-48c4-458c-81a8-0df4153f6fce": {
+    "asset": 1748933016434,
+    "meta": 1748933134785,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_03_rotated.png"
+  },
+  "bd0926f4-f463-4691-a74f-e785b70c7823": {
+    "asset": 1748933016437,
+    "meta": 1748933134788,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_05_rotated.png"
+  },
+  "3b89bb2a-c7f1-4e24-b907-6a85cade8133": {
+    "asset": 1748933016438,
+    "meta": 1748933134791,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_06_rotated.png"
+  },
+  "16d396b1-23fe-4ef3-a92f-66b5b76cd356": {
+    "asset": 1748933016438,
+    "meta": 1748933134797,
+    "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_07_rotated.png"
+  },
+  "edf517f5-ecee-4f4a-8fa1-b852623f0842": {
+    "asset": 1748933405166,
+    "meta": 1748933564857,
+    "relativePath": "Script\\Player\\IInputControls.ts"
+  },
+  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
+    "asset": 1748933370300,
+    "meta": 1748933564885,
+    "relativePath": "Script\\Player\\KeyboardControls.ts"
+  },
+  "4d6d4b50-bc00-4036-b1b3-053f0ff9f070": {
+    "asset": 1748934863375,
+    "meta": 1748934863400,
+    "relativePath": "Prefab\\particle_prefab\\RunDusyEffect.prefab"
+  },
   "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1748932216561,
-    "meta": 1748932239742,
+    "asset": 1748934612273,
+    "meta": 1748934633628,
     "relativePath": "Script\\Player\\PlayerController.ts"
   }
 }

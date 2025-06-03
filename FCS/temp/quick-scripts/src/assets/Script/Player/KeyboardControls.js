@@ -11,6 +11,7 @@ var KeyboardControls = /** @class */ (function () {
         this.isInteractPressed = false;
         this.isChopPressed = false;
         this.isChopHeld = false;
+        this.isRunHeld = false;
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
     }
@@ -41,6 +42,9 @@ var KeyboardControls = /** @class */ (function () {
             case cc.macro.KEY.space:
                 this.isChopHeld = true;
                 break;
+            case cc.macro.KEY.shift:
+                this.isRunHeld = true;
+                break;
         }
     };
     KeyboardControls.prototype.onKeyUp = function (event) {
@@ -63,6 +67,9 @@ var KeyboardControls = /** @class */ (function () {
             case cc.macro.KEY.space:
                 this.isChopHeld = false;
                 break;
+            case cc.macro.KEY.shift:
+                this.isRunHeld = false;
+                break;
         }
     };
     KeyboardControls.prototype.getInteractPressed = function () {
@@ -70,6 +77,9 @@ var KeyboardControls = /** @class */ (function () {
     };
     KeyboardControls.prototype.getChopPressed = function () {
         return this.isChopHeld;
+    };
+    KeyboardControls.prototype.getRunHeld = function () {
+        return this.isRunHeld;
     };
     return KeyboardControls;
 }());

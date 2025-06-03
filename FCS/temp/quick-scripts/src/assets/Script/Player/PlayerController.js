@@ -49,6 +49,12 @@ var PlayerController = /** @class */ (function (_super) {
         _this.tipsParticlePrefab = null;
         _this.pizzaSteamPrefab = null;
         _this.uiManager = null;
+        // 跑步
+        _this.isRunning = false;
+        _this.runMultiplier = 1.3; // 跑步速度倍率
+        _this.runDustEffectPrefab = null;
+        _this.runDustTimer = 0;
+        _this.runDustInterval = 0.2; // 每 0.2 秒冒一次
         // Audio
         _this.blingSound = null;
         _this.pickupSound = null;
@@ -104,27 +110,44 @@ var PlayerController = /** @class */ (function (_super) {
     };
     PlayerController.prototype.update = function (dt) {
         var dir = this.input.getMoveDirection();
+        this.isRunning = this.input.getRunHeld();
         if (!dir.equals(cc.Vec2.ZERO)) {
+            if (this.isRunning) {
+                this.rb.linearVelocity = dir.clone().normalize().mul(this.speed * this.runMultiplier);
+                // ✅ 跑步狀態下產生粉塵
+                this.runDustTimer += dt;
+                if (this.runDustTimer >= this.runDustInterval) {
+                    this.runDustTimer = 0;
+                    this.spawnRunDust(); // ⬅️ 自訂的粉塵函數
+                }
+            }
+            else {
+                this.rb.linearVelocity = dir.clone().normalize().mul(this.speed);
+                this.runDustTimer = 0; // 非跑步狀態就不冒煙
+            }
             // 使用物理引擎的 linearVelocity 控制移動
-            this.rb.linearVelocity = dir.clone().normalize().mul(this.speed);
+            var finalSpeed = this.speed;
+            if (this.isRunning)
+                finalSpeed *= this.runMultiplier;
+            this.rb.linearVelocity = dir.clone().normalize().mul(finalSpeed);
             this.lastDir = dir.clone();
             // 動畫切換（與方向判斷無變）
             if (Math.abs(dir.y) > Math.abs(dir.x)) {
                 if (dir.y > 0) {
-                    this.playAnim("girl_walk_back");
+                    this.playAnim(this.isRunning ? "girl_run_back" : "girl_walk_back");
                 }
                 else {
-                    this.playAnim("girl_idle_walk");
+                    this.playAnim(this.isRunning ? "girl_run" : "girl_idle_walk");
                 }
                 this.node.scaleX = 1;
             }
             else {
                 if (dir.x > 0) {
-                    this.playAnim("girl_walk_right");
+                    this.playAnim(this.isRunning ? "girl_run_right" : "girl_walk_right");
                     this.node.scaleX = 1;
                 }
                 else {
-                    this.playAnim("girl_walk_left");
+                    this.playAnim(this.isRunning ? "girl_run_left" : "girl_walk_left");
                     this.node.scaleX = 1;
                 }
             }
@@ -253,6 +276,15 @@ var PlayerController = /** @class */ (function (_super) {
                 console.warn("❌ 此披薩不在菜單上，不能出餐！");
             }
         }
+    };
+    PlayerController.prototype.spawnRunDust = function () {
+        if (!this.runDustEffectPrefab)
+            return;
+        var dust = cc.instantiate(this.runDustEffectPrefab);
+        var pos = this.node.getPosition(); // 取得 Vec3
+        pos.y -= 40; // 稍微往下偏移，模擬腳底粉塵
+        dust.setPosition(pos); // ✅ 傳入 Vec3
+        this.node.parent.addChild(dust);
     };
     PlayerController.prototype.isPizza = function (name) {
         return ["cheese_pizza", "mushroom_pizza", "pepper_pizza"].includes(name);
@@ -667,6 +699,9 @@ var PlayerController = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], PlayerController.prototype, "uiManager", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], PlayerController.prototype, "runDustEffectPrefab", void 0);
     __decorate([
         property({ type: cc.AudioClip })
     ], PlayerController.prototype, "blingSound", void 0);
