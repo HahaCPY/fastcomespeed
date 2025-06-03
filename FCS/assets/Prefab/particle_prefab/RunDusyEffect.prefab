@@ -48,8 +48,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -91,
-        -21,
+        -45,
+        -105,
         0,
         0,
         0,
@@ -131,7 +131,7 @@
       "a": 0
     },
     "angle": 90,
-    "angleVar": 5,
+    "angleVar": 0,
     "startSize": 25,
     "startSizeVar": 0,
     "endSize": 5,
@@ -156,7 +156,7 @@
     "gravity": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 200
+      "y": 64
     },
     "speed": 125,
     "speedVar": 50,

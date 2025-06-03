@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "RunDusyEffect",
+    "_name": "",
     "_objFlags": 0,
     "_native": "",
     "data": {
@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "RunDusyEffect",
+    "_name": "FireEffect",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -48,13 +48,13 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -45,
-        -105,
+        862.426,
+        -23.358,
         0,
         0,
         0,
-        0.7071067811865475,
-        0.7071067811865476,
+        0,
+        1,
         1,
         1,
         1
@@ -64,7 +64,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 90
+      "z": 0
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -91,23 +91,23 @@
     "_custom": true,
     "_file": null,
     "_spriteFrame": {
-      "__uuid__": "e5e54323-3b63-4cfa-a7c1-287e1c07d11f"
+      "__uuid__": "8b96b1be-d1cf-4a45-bbb6-dfd177845775"
     },
     "_texture": null,
-    "_stopped": true,
+    "_stopped": false,
     "playOnLoad": true,
     "autoRemoveOnFinish": false,
-    "totalParticles": 100,
-    "duration": 0.2,
+    "totalParticles": 150,
+    "duration": -1,
     "emissionRate": 20,
-    "life": 1,
+    "life": 0.5,
     "lifeVar": 0,
     "_startColor": {
       "__type__": "cc.Color",
-      "r": 198,
-      "g": 198,
-      "b": 198,
-      "a": 147
+      "r": 213,
+      "g": 164,
+      "b": 32,
+      "a": 255
     },
     "_startColorVar": {
       "__type__": "cc.Color",
@@ -118,9 +118,9 @@
     },
     "_endColor": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 216,
+      "g": 42,
+      "b": 42,
       "a": 0
     },
     "_endColorVar": {
@@ -131,10 +131,10 @@
       "a": 0
     },
     "angle": 90,
-    "angleVar": 0,
-    "startSize": 25,
+    "angleVar": 10,
+    "startSize": 80,
     "startSizeVar": 0,
-    "endSize": 5,
+    "endSize": 0,
     "endSizeVar": 0,
     "startSpin": 0,
     "startSpinVar": 0,
@@ -156,9 +156,9 @@
     "gravity": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 64
+      "y": -200
     },
-    "speed": 125,
+    "speed": 180,
     "speedVar": 50,
     "tangentialAccel": 80,
     "tangentialAccelVar": 0,

@@ -36,6 +36,11 @@ var MenuBar = /** @class */ (function (_super) {
         _this.dishesPerGame = 3; // 格子數
         _this.dishInterval = 5; // 每隔幾秒產生一個
         _this.bgm = null;
+        _this.fireEffectPrefab = null;
+        _this.timerNode = null; // 拖 timerLabel 的 node 進來
+        _this.isShaking = false; // 避免重複加動畫
+        _this.fireEffectNode = null;
+        _this.isFireShown = false;
         _this.currentDishIdx = 0;
         _this.currentTime = 0;
         _this.score = 0; // 加這行
@@ -79,10 +84,46 @@ var MenuBar = /** @class */ (function (_super) {
         if (this.currentTime > 0) {
             this.currentTime--;
             this.updateLabel();
+            // ⏱️ 剩下 15 秒時顯示火焰
+            if (this.currentTime === 58 && !this.fireEffectNode) {
+                this.spawnFireEffect();
+            }
+            if (this.currentTime === 58 && !this.isShaking) {
+                this.startTimerShake(); // 🎬 啟動震動
+            }
             if (this.currentTime === 0) {
                 this.timeUp();
+                this.stopTimerShake();
             }
         }
+    };
+    MenuBar.prototype.stopTimerShake = function () {
+        if (this.timerNode) {
+            cc.Tween.stopAllByTarget(this.timerNode);
+            this.timerNode.setPosition(cc.v3(0, 0, 0)); // 重設位置
+        }
+        this.isShaking = false;
+    };
+    MenuBar.prototype.startTimerShake = function () {
+        if (!this.timerNode)
+            return;
+        this.isShaking = true;
+        cc.tween(this.timerNode)
+            .repeatForever(cc.tween()
+            .by(0.05, { position: cc.v3(2, 0, 0) })
+            .by(0.05, { position: cc.v3(-4, 0, 0) })
+            .by(0.05, { position: cc.v3(2, 0, 0) }))
+            .start();
+    };
+    MenuBar.prototype.spawnFireEffect = function () {
+        if (!this.fireEffectPrefab || !this.timerNode)
+            return;
+        this.fireEffectNode = cc.instantiate(this.fireEffectPrefab);
+        var timerPos = this.timerNode.getPosition(); // Vec2
+        var offset = cc.v2(0, 50); // 🆙 往上 50 喵喵
+        var finalPos = timerPos.add(offset);
+        this.fireEffectNode.setPosition(finalPos);
+        this.timerNode.parent.addChild(this.fireEffectNode);
     };
     MenuBar.prototype.updateLabel = function () {
         this.timerLabel.string = this.formatTime(this.currentTime);
@@ -156,6 +197,12 @@ var MenuBar = /** @class */ (function (_super) {
     __decorate([
         property({ type: cc.AudioClip })
     ], MenuBar.prototype, "bgm", void 0);
+    __decorate([
+        property({ type: cc.Prefab })
+    ], MenuBar.prototype, "fireEffectPrefab", void 0);
+    __decorate([
+        property({ type: cc.Node })
+    ], MenuBar.prototype, "timerNode", void 0);
     MenuBar = __decorate([
         ccclass("MenuBar")
     ], MenuBar);

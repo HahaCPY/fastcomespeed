@@ -26,6 +26,20 @@ export default class MenuBar extends cc.Component {
     @property({ type: cc.AudioClip })
     bgm: cc.AudioClip = null;
 
+    @property({ type: cc.Prefab })
+    fireEffectPrefab: cc.Prefab = null;
+
+    @property({ type: cc.Node })
+    timerNode: cc.Node = null;  // 拖 timerLabel 的 node 進來
+    private isShaking: boolean = false; // 避免重複加動畫
+
+
+    private fireEffectNode: cc.Node = null;
+        
+    private isFireShown: boolean = false;
+
+
+
 
     private currentDishIdx: number = 0;
     private currentTime: number = 0;
@@ -76,11 +90,64 @@ export default class MenuBar extends cc.Component {
             this.currentTime--;
             this.updateLabel();
 
+            // ⏱️ 剩下 15 秒時顯示火焰
+            if (this.currentTime === 10 && !this.fireEffectNode) {
+                this.spawnFireEffect();
+            }
+
+            
+        if (this.currentTime === 10 && !this.isShaking) {
+            this.startTimerShake(); // 🎬 啟動震動
+        }
+
             if (this.currentTime === 0) {
                 this.timeUp();
+                this.stopTimerShake();
             }
         }
     }
+
+    stopTimerShake() {
+        if (this.timerNode) {
+            cc.Tween.stopAllByTarget(this.timerNode);
+            this.timerNode.setPosition(cc.v3(0, 0, 0)); // 重設位置
+        }
+        this.isShaking = false;
+    }
+
+
+    startTimerShake() {
+        if (!this.timerNode) return;
+
+        this.isShaking = true;
+
+        cc.tween(this.timerNode)
+            .repeatForever(
+                cc.tween()
+                    .by(0.05, { position: cc.v3(2, 0, 0) })
+                    .by(0.05, { position: cc.v3(-4, 0, 0) })
+                    .by(0.05, { position: cc.v3(2, 0, 0) })
+            )
+            .start();
+    }
+
+    spawnFireEffect() {
+        if (!this.fireEffectPrefab || !this.timerNode) return;
+
+        this.fireEffectNode = cc.instantiate(this.fireEffectPrefab);
+
+        const timerPos = this.timerNode.getPosition(); // Vec2
+        const offset = cc.v2(0, 50); // 🆙 往上 50 喵喵
+        const finalPos = timerPos.add(offset);
+
+        this.fireEffectNode.setPosition(finalPos);
+        this.timerNode.parent.addChild(this.fireEffectNode);
+    }
+
+
+
+
+
 
     updateLabel() {
         this.timerLabel.string = this.formatTime(this.currentTime);

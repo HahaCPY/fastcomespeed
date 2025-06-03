@@ -7814,11 +7814,6 @@
     "meta": 1748933134475,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\window_01.png"
   },
-  "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1748933016542,
-    "meta": 1748933134736,
-    "relativePath": "Script\\scene\\uiManager.ts"
-  },
   "c6332932-6419-47c2-b00a-8bdd3169198a": {
     "asset": 1748933016532,
     "meta": 1748933134477,
@@ -7843,11 +7838,6 @@
     "asset": 1748933016424,
     "meta": 1748933134503,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\flame_06_rotated.png"
-  },
-  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1748934651993,
-    "meta": 1748934652021,
-    "relativePath": "Scenes\\level-1.fire"
   },
   "444d0220-d2ac-4706-bf54-692736fc846d": {
     "asset": 1748933016425,
@@ -7930,23 +7920,38 @@
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\Rotated\\trace_07_rotated.png"
   },
   "edf517f5-ecee-4f4a-8fa1-b852623f0842": {
-    "asset": 1748933405166,
-    "meta": 1748933564857,
+    "asset": 1748935023066,
+    "meta": 1748943437300,
     "relativePath": "Script\\Player\\IInputControls.ts"
   },
   "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
-    "asset": 1748933370300,
-    "meta": 1748933564885,
+    "asset": 1748935023066,
+    "meta": 1748943437319,
     "relativePath": "Script\\Player\\KeyboardControls.ts"
   },
   "4d6d4b50-bc00-4036-b1b3-053f0ff9f070": {
-    "asset": 1748934863375,
-    "meta": 1748934863400,
+    "asset": 1748944170008,
+    "meta": 1748944170022,
     "relativePath": "Prefab\\particle_prefab\\RunDusyEffect.prefab"
   },
+  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
+    "asset": 1748944770797,
+    "meta": 1748944770819,
+    "relativePath": "Scenes\\level-1.fire"
+  },
   "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1748934612273,
-    "meta": 1748934633628,
+    "asset": 1748943890814,
+    "meta": 1748943901785,
     "relativePath": "Script\\Player\\PlayerController.ts"
+  },
+  "af95ff3f-6611-407c-ae7f-b33bb1869be1": {
+    "asset": 1748944945182,
+    "meta": 1748944945196,
+    "relativePath": "Prefab\\particle_prefab\\FireEffect.prefab"
+  },
+  "f834bb96-2d79-4830-8833-a70ba75107e7": {
+    "asset": 1748945237704,
+    "meta": 1748945241545,
+    "relativePath": "Script\\scene\\uiManager.ts"
   }
 }

@@ -281,9 +281,9 @@ var PlayerController = /** @class */ (function (_super) {
         if (!this.runDustEffectPrefab)
             return;
         var dust = cc.instantiate(this.runDustEffectPrefab);
-        var pos = this.node.getPosition(); // 取得 Vec3
-        pos.y -= 40; // 稍微往下偏移，模擬腳底粉塵
-        dust.setPosition(pos); // ✅ 傳入 Vec3
+        var pos = this.node.getPosition();
+        pos.y -= 40;
+        dust.setPosition(pos);
         this.node.parent.addChild(dust);
     };
     PlayerController.prototype.isPizza = function (name) {

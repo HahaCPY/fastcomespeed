@@ -351,9 +351,9 @@ export default class PlayerController extends cc.Component {
 
         const dust = cc.instantiate(this.runDustEffectPrefab);
 
-        const pos = this.node.getPosition(); // 取得 Vec3
-        pos.y -= 40;                         // 稍微往下偏移，模擬腳底粉塵
-        dust.setPosition(pos);              // ✅ 傳入 Vec3
+        const pos = this.node.getPosition(); 
+        pos.y -= 40;                         
+        dust.setPosition(pos);              
 
         this.node.parent.addChild(dust);
     }
