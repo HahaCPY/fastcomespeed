@@ -39,6 +39,7 @@ var GoblinController = /** @class */ (function (_super) {
         _this.deskContactTimer = 0;
         _this.inDeskContact = false;
         _this.currentAnim = "";
+        _this.isDying = false; // 👉 加在 class 裡
         return _this;
     }
     GoblinController.prototype.onLoad = function () {
@@ -76,10 +77,10 @@ var GoblinController = /** @class */ (function (_super) {
                 this.die();
             }
         }
-        if (this.inDeskContact) {
+        if (this.inDeskContact && !this.isDying) {
             this.deskContactTimer += dt;
-            if (this.deskContactTimer > 4 && this.state !== "dead") {
-                this.die(); // ✅ 碰太久就死亡
+            if (this.deskContactTimer > 1 && this.state !== "dead") {
+                this.die();
             }
         }
         else {
@@ -95,13 +96,14 @@ var GoblinController = /** @class */ (function (_super) {
         this.node.x += dir.x * this.speed * dt;
         this.node.y += dir.y * this.speed * dt;
         if (Math.abs(dir.x) > 0.1) {
-            this.node.scaleX = dir.x > 0 ? 0.8 : -0.8;
+            this.node.scaleX = dir.x > 0 ? 1 : -1;
         }
     };
     GoblinController.prototype.die = function () {
         var _this = this;
-        if (this.state === "dead")
+        if (this.state === "dead" || this.isDying)
             return;
+        this.isDying = true;
         this.state = "dead";
         this.inDeskContact = false;
         this.unscheduleAllCallbacks();
@@ -112,17 +114,15 @@ var GoblinController = /** @class */ (function (_super) {
             return;
         }
         this.currentAnim = "goblin_die";
-        // ✅ 播放動畫
         this.anim.play("goblin_die");
-        // ✅ 不要檢查 clip.name，直接 destroy（因為某些版本 clip.name 會是 null）
         this.anim.once("finished", function () {
-            _this.onDieAnimationFinished();
+            _this.node.destroy();
         }, this);
     };
-    GoblinController.prototype.onDieAnimationFinished = function () {
-        this.node.destroy();
-    };
     GoblinController.prototype.playAnim = function (name) {
+        // 🛑 如果已死亡，不准再切動畫
+        if (this.state === "dead")
+            return;
         if (!this.anim || this.currentAnim === name)
             return;
         var state = this.anim.getAnimationState(name);

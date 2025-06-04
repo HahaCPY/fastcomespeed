@@ -100,7 +100,7 @@ var MenuBar = /** @class */ (function (_super) {
     MenuBar.prototype.stopTimerShake = function () {
         if (this.timerNode) {
             cc.Tween.stopAllByTarget(this.timerNode);
-            //this.timerNode.setPosition(cc.v3(0, 0, 0)); // 重設位置
+            //   this.timerNode.setPosition(cc.v3(0, 0, 0)); // 重設位置
         }
         this.isShaking = false;
     };

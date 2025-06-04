@@ -38,7 +38,7 @@ var KeyboardControls = /** @class */ (function () {
             case cc.macro.KEY.space:
                 this.isChopHeld = true;
                 break;
-            case cc.macro.KEY.shift:
+            case cc.macro.KEY.ctrl:
                 this.isRunHeld = true;
                 break;
         }
@@ -59,7 +59,7 @@ var KeyboardControls = /** @class */ (function () {
             case cc.macro.KEY.space:
                 this.isChopHeld = false;
                 break;
-            case cc.macro.KEY.shift:
+            case cc.macro.KEY.ctrl:
                 this.isRunHeld = false;
                 break;
         }

@@ -505,28 +505,28 @@
     "relativePath": "Audio"
   },
   "8e6bf970-99b7-4e79-b8bb-c44d14f1c8a5": {
-    "asset": 1749029080208,
-    "meta": 1749029207198,
+    "asset": 1749029614186,
+    "meta": 1749055794807,
     "relativePath": "Prefab"
   },
   "c0c4623d-11e8-4052-84c7-44d76bd59a4b": {
-    "asset": 1749029080212,
-    "meta": 1749029207199,
+    "asset": 1749029614189,
+    "meta": 1749055794808,
     "relativePath": "Resource"
   },
   "c9418ee6-4b79-4c49-81d0-5f660f0325d6": {
-    "asset": 1749029080259,
-    "meta": 1749029207200,
+    "asset": 1749050017069,
+    "meta": 1749055794809,
     "relativePath": "Scenes"
   },
   "c1ea2d30-397d-41b3-918c-8061a7f0b778": {
-    "asset": 1748784458684,
-    "meta": 1749029207200,
+    "asset": 1749053241718,
+    "meta": 1749055794810,
     "relativePath": "Script"
   },
   "f20fa7e7-0dde-4514-896e-0d42de125790": {
-    "asset": 1748968430876,
-    "meta": 1749029207215,
+    "asset": 1749048680856,
+    "meta": 1749055794810,
     "relativePath": "Prefab\\other_prefab"
   },
   "ec402539-da6e-4908-9258-0fab39e8c16e": {
@@ -535,18 +535,18 @@
     "relativePath": "Prefab\\particle_prefab"
   },
   "caac4535-4507-4b1e-9039-4efa60fef83d": {
-    "asset": 1748962982199,
-    "meta": 1749029207218,
+    "asset": 1749048680865,
+    "meta": 1749055794811,
     "relativePath": "Resource\\Character"
   },
   "0b394b52-1e17-4ac5-a067-12e34799ee8c": {
-    "asset": 1749029080255,
-    "meta": 1749029207219,
+    "asset": 1749029614253,
+    "meta": 1749055794812,
     "relativePath": "Resource\\cpy's"
   },
   "699bfa32-791b-43dc-ae19-04680b4e61f2": {
-    "asset": 1749029080256,
-    "meta": 1749029207245,
+    "asset": 1749029614255,
+    "meta": 1749055794812,
     "relativePath": "Resource\\extra_restaurant"
   },
   "f224d6de-cc0c-4893-848e-ec67556faaec": {
@@ -575,8 +575,8 @@
     "relativePath": "Resource\\Physic"
   },
   "f7933003-a4e0-4f7c-9b84-31873871fc76": {
-    "asset": 1749029080257,
-    "meta": 1749029207251,
+    "asset": 1749029614256,
+    "meta": 1749055794813,
     "relativePath": "Resource\\restaurant"
   },
   "57c24932-f00e-484f-a53c-940624f61111": {
@@ -590,13 +590,13 @@
     "relativePath": "Script\\debug.ts"
   },
   "c500bbea-beec-4449-ac63-91873f45f41a": {
-    "asset": 1749028824775,
-    "meta": 1749029207293,
+    "asset": 1749029614268,
+    "meta": 1749055794815,
     "relativePath": "Script\\Player"
   },
   "5ae71289-075a-45f7-acbe-06f771c82d05": {
-    "asset": 1748945391242,
-    "meta": 1749029207296,
+    "asset": 1749048680878,
+    "meta": 1749055794816,
     "relativePath": "Script\\scene"
   },
   "d3c092c1-5f3f-4405-861e-3a40ba6376b5": {
@@ -630,8 +630,8 @@
     "relativePath": "Prefab\\particle_prefab\\TipsLight.prefab"
   },
   "ada428dc-a6c9-4afd-9ec7-11c0b7b43d60": {
-    "asset": 1748963008285,
-    "meta": 1749029207420,
+    "asset": 1749048680861,
+    "meta": 1749055794817,
     "relativePath": "Resource\\Character\\Animation"
   },
   "f8dc6679-41da-4391-b220-7fe4da6043a1": {
@@ -6770,8 +6770,8 @@
     "relativePath": "Resource\\Character\\Animation\\FROG"
   },
   "cbb480cb-091c-43e4-9cc0-a65c6c5e5e60": {
-    "asset": 1749028824770,
-    "meta": 1749029218170,
+    "asset": 1749029614214,
+    "meta": 1749055794831,
     "relativePath": "Resource\\Character\\Animation\\GIRL"
   },
   "34a30dcc-a1d8-4833-9d9f-7a2eb7cec136": {
@@ -8169,11 +8169,6 @@
     "meta": 1749029634038,
     "relativePath": "Resource\\Beach_Prop_Pack\\Textures\\BeachPropAtlas.png"
   },
-  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
-    "asset": 1749029614264,
-    "meta": 1749029634102,
-    "relativePath": "Script\\Player\\KeyboardControls.ts"
-  },
   "c8afcd2d-b0f4-4c6b-8c73-12c956429325": {
     "asset": 1749029614265,
     "meta": 1749029634152,
@@ -8315,8 +8310,8 @@
     "relativePath": "Resource\\Character\\Animation\\CATTY"
   },
   "7cdfb4b2-5978-49b0-91f9-02a4536d54b2": {
-    "asset": 1749048680864,
-    "meta": 1749048704951,
+    "asset": 1749050017066,
+    "meta": 1749055794832,
     "relativePath": "Resource\\Character\\Animation\\GOBLIN"
   },
   "6723972b-3e3b-447a-9df4-bc07547ba96e": {
@@ -8330,8 +8325,8 @@
     "relativePath": "Resource\\Character\\NPC\\catty.plist"
   },
   "e1bf9281-af5b-4306-9000-3bd8a5210a2e": {
-    "asset": 1749048680877,
-    "meta": 1749048704973,
+    "asset": 1749050017071,
+    "meta": 1749055794814,
     "relativePath": "Script\\NPC"
   },
   "4e9cdc88-07f3-49b3-85d2-f3bcee62d434": {
@@ -8349,11 +8344,6 @@
     "meta": 1749048705046,
     "relativePath": "Script\\NPC\\NPCWanderGoblin.ts"
   },
-  "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1749048680878,
-    "meta": 1749048705088,
-    "relativePath": "Script\\scene\\uiManager.ts"
-  },
   "7cb4b538-ca8a-402f-b1f1-c0eea028e13a": {
     "asset": 1749048680867,
     "meta": 1749048705149,
@@ -8370,8 +8360,8 @@
     "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_run.anim"
   },
   "27e7a099-f2c5-469c-804c-120d317b402a": {
-    "asset": 1749048680855,
-    "meta": 1749048705094,
+    "asset": 1749052624518,
+    "meta": 1749052624529,
     "relativePath": "Prefab\\other_prefab\\goblin.prefab"
   },
   "7c537ce0-19cc-472a-a8af-cd8608f5f24e": {
@@ -8389,20 +8379,10 @@
     "meta": 1749048705096,
     "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_run.anim"
   },
-  "e4990c85-052e-4b89-b0fa-0a32701e5aa0": {
-    "asset": 1749049537883,
-    "meta": 1749049537893,
-    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_die.anim"
-  },
   "82a920b3-d804-4a81-a526-93df7ed1a87c": {
     "asset": 1749048680861,
     "meta": 1749048705097,
     "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_attack.anim"
-  },
-  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749049613616,
-    "meta": 1749049613634,
-    "relativePath": "Scenes\\level-1.fire"
   },
   "cd2382b8-6177-41cf-a2df-3140ab3bd6f2": {
     "asset": 1749048680866,
@@ -8414,9 +8394,34 @@
     "meta": 1749048705116,
     "relativePath": "Resource\\Character\\NPC\\goblin.png"
   },
+  "e4990c85-052e-4b89-b0fa-0a32701e5aa0": {
+    "asset": 1749050017066,
+    "meta": 1749050030592,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_die.anim"
+  },
+  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
+    "asset": 1749058516975,
+    "meta": 1749058516998,
+    "relativePath": "Scenes\\level-1.fire"
+  },
+  "f834bb96-2d79-4830-8833-a70ba75107e7": {
+    "asset": 1749051803503,
+    "meta": 1749051905616,
+    "relativePath": "Script\\scene\\uiManager.ts"
+  },
+  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
+    "asset": 1749051967155,
+    "meta": 1749052156964,
+    "relativePath": "Script\\Player\\KeyboardControls.ts"
+  },
   "e02642d7-b206-4350-9dd5-4290a606eaf3": {
-    "asset": 1749049855393,
-    "meta": 1749049856379,
+    "asset": 1749052712768,
+    "meta": 1749052714440,
     "relativePath": "Script\\NPC\\GoblinController.ts"
+  },
+  "f2aae7e2-3f4d-43fb-b102-8e49a9a69e3f": {
+    "asset": 1749059641262,
+    "meta": 1749059643834,
+    "relativePath": "Script\\PauseManager.ts"
   }
 }
