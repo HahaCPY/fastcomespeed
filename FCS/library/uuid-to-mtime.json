@@ -524,16 +524,6 @@
     "meta": 1749029207200,
     "relativePath": "Script"
   },
-  "e57e59ca-a899-4015-8ce5-1c2c8ab4ee09": {
-    "asset": 1749029080192,
-    "meta": 1749029207213,
-    "relativePath": "Prefab\\icecream"
-  },
-  "efe44790-94cd-4f60-b04d-af1e7d9aa30b": {
-    "asset": 1749029080196,
-    "meta": 1749029207214,
-    "relativePath": "Prefab\\icecream_menu"
-  },
   "f20fa7e7-0dde-4514-896e-0d42de125790": {
     "asset": 1748968430876,
     "meta": 1749029207215,
@@ -543,21 +533,6 @@
     "asset": 1749028824635,
     "meta": 1749029207216,
     "relativePath": "Prefab\\particle_prefab"
-  },
-  "66a04347-3462-459e-9fc9-ec56945072af": {
-    "asset": 1749029080207,
-    "meta": 1749029207216,
-    "relativePath": "Prefab\\pizza"
-  },
-  "b48d1881-ff7a-4710-8461-e01fbdb992a2": {
-    "asset": 1749029080211,
-    "meta": 1749029207217,
-    "relativePath": "Prefab\\pizza_menu"
-  },
-  "0666c70d-87d2-494e-8fde-2a2a2a11390a": {
-    "asset": 1749029080232,
-    "meta": 1749029207218,
-    "relativePath": "Resource\\Beach_Prop_Pack"
   },
   "caac4535-4507-4b1e-9039-4efa60fef83d": {
     "asset": 1748962982199,
@@ -624,86 +599,6 @@
     "meta": 1749029207296,
     "relativePath": "Script\\scene"
   },
-  "e0a18053-f606-40fa-a228-b36cd4ca810b": {
-    "asset": 1749029080188,
-    "meta": 1749029207327,
-    "relativePath": "Prefab\\icecream\\strawberry_icecream.prefab"
-  },
-  "5521b2c8-9785-4138-9982-5f753a8a9cf6": {
-    "asset": 1749029080259,
-    "meta": 1749029207332,
-    "relativePath": "Scenes\\level-2.fire"
-  },
-  "0b83943e-a504-47e1-8700-284113c387c7": {
-    "asset": 1749029080187,
-    "meta": 1749029207333,
-    "relativePath": "Prefab\\icecream\\chocolate_icecream.prefab"
-  },
-  "714da808-0777-4e17-ac66-ab589e9041d1": {
-    "asset": 1749029080190,
-    "meta": 1749029207335,
-    "relativePath": "Prefab\\icecream\\waffle-with-plate-chocolate-icecream.prefab"
-  },
-  "85d0c1c3-6473-4aad-a670-fa6a03d40480": {
-    "asset": 1749029080188,
-    "meta": 1749029207337,
-    "relativePath": "Prefab\\icecream\\vanilla_icecream.prefab"
-  },
-  "7c6c185a-5349-40cd-9057-ff1012bcaa4b": {
-    "asset": 1749029080193,
-    "meta": 1749029207340,
-    "relativePath": "Prefab\\icecream_menu\\chocolate-cake-menu.prefab"
-  },
-  "f430fb59-70a4-4445-8ee9-7f168ab96bb7": {
-    "asset": 1749029080191,
-    "meta": 1749029207344,
-    "relativePath": "Prefab\\icecream\\waffle-with-plate-vanilla-icecream.prefab"
-  },
-  "75737380-0539-4c16-9149-1624c6434c6c": {
-    "asset": 1749029080190,
-    "meta": 1749029207347,
-    "relativePath": "Prefab\\icecream\\waffle-with-plate-strawberry-icecream.prefab"
-  },
-  "1f75475e-e869-4112-b441-8bfef6197c06": {
-    "asset": 1749029080192,
-    "meta": 1749029207350,
-    "relativePath": "Prefab\\icecream\\waffle-with-plate.prefab"
-  },
-  "a0fdbfe3-9d5d-4413-b58b-69070670976c": {
-    "asset": 1749029080194,
-    "meta": 1749029207356,
-    "relativePath": "Prefab\\icecream_menu\\strawberry-cake-menu.prefab"
-  },
-  "07460010-e06d-4faa-8550-1c0d441d87f0": {
-    "asset": 1749029080194,
-    "meta": 1749029207358,
-    "relativePath": "Prefab\\icecream_menu\\chocolate-icecream-menu.prefab"
-  },
-  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749028824774,
-    "meta": 1749029207371,
-    "relativePath": "Scenes\\level-1.fire"
-  },
-  "ab5ce3b6-6a1a-4b23-8b5c-20cad6ddc393": {
-    "asset": 1749029080195,
-    "meta": 1749029207374,
-    "relativePath": "Prefab\\icecream_menu\\strawberry-icecream-menu.prefab"
-  },
-  "333a6681-6a14-4724-b9bf-f7830bffe0cb": {
-    "asset": 1749029080196,
-    "meta": 1749029207376,
-    "relativePath": "Prefab\\icecream_menu\\vanilla-cake-menu.prefab"
-  },
-  "4ad6d389-81c6-49b9-b3d6-0ad58ef65ddf": {
-    "asset": 1749029080196,
-    "meta": 1749029207381,
-    "relativePath": "Prefab\\icecream_menu\\vanilla-icecream-menu.prefab"
-  },
-  "c3a5a9b8-9e0f-4e15-ac56-ce91287ae930": {
-    "asset": 1748968430865,
-    "meta": 1749029207385,
-    "relativePath": "Prefab\\other_prefab\\Chopbar.prefab"
-  },
   "d3c092c1-5f3f-4405-861e-3a40ba6376b5": {
     "asset": 1748933016408,
     "meta": 1749029207388,
@@ -734,55 +629,10 @@
     "meta": 1749029207401,
     "relativePath": "Prefab\\particle_prefab\\TipsLight.prefab"
   },
-  "8ba287a3-cbf2-41d7-bb62-37721620b1e8": {
-    "asset": 1749029080198,
-    "meta": 1749029207404,
-    "relativePath": "Prefab\\pizza\\cheese.prefab"
-  },
-  "c60346b3-912f-4096-8ce7-3299df6616c5": {
-    "asset": 1749029080197,
-    "meta": 1749029207408,
-    "relativePath": "Prefab\\pizza\\Chopbar.prefab"
-  },
-  "d04e3272-f2b8-45c3-8919-27f48726792b": {
-    "asset": 1749029080200,
-    "meta": 1749029207411,
-    "relativePath": "Prefab\\pizza\\dough.prefab"
-  },
-  "77425052-7e2f-4bc0-83ba-2c0afbb101f5": {
-    "asset": 1749029080223,
-    "meta": 1749029207413,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Models"
-  },
-  "0f7eae74-eff3-4cdf-b13f-b306ee4a51cd": {
-    "asset": 1749029080232,
-    "meta": 1749029207414,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs"
-  },
-  "56ae3f9f-feb7-45e8-b273-7c4e0f569038": {
-    "asset": 1749029080201,
-    "meta": 1749029207416,
-    "relativePath": "Prefab\\pizza\\flatdough.prefab"
-  },
-  "028b9a97-ac2e-4830-bc96-0167a32aef0d": {
-    "asset": 1749029080236,
-    "meta": 1749029207417,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Textures"
-  },
-  "6efa7011-1dfa-491b-876c-875a6d86f0f7": {
-    "asset": 1749029080202,
-    "meta": 1749029207419,
-    "relativePath": "Prefab\\pizza\\food_pizza_cheese_plated.prefab"
-  },
   "ada428dc-a6c9-4afd-9ec7-11c0b7b43d60": {
     "asset": 1748963008285,
     "meta": 1749029207420,
     "relativePath": "Resource\\Character\\Animation"
-  },
-  "a8521cd0-a0e7-4c7d-9096-06bb523fc43b": {
-    "asset": 1749029080203,
-    "meta": 1749029207422,
-    "relativePath": "Prefab\\pizza\\food_pizza_mushroom_plated.prefab"
   },
   "f8dc6679-41da-4391-b220-7fe4da6043a1": {
     "asset": 1748784457529,
@@ -798,66 +648,6 @@
     "asset": 1748784457537,
     "meta": 1749029207426,
     "relativePath": "Resource\\Character\\GIRL"
-  },
-  "66bc4c19-72de-4a15-a3c1-cf0a8aba83c5": {
-    "asset": 1748962987378,
-    "meta": 1749029207427,
-    "relativePath": "Resource\\Character\\GIRL2"
-  },
-  "f4696566-21b3-46b6-8dff-f91b6fb90efd": {
-    "asset": 1749029080203,
-    "meta": 1749029207429,
-    "relativePath": "Prefab\\pizza\\food_pizza_pp.prefab"
-  },
-  "ae309673-0da1-4a12-8fd1-5641569de3ae": {
-    "asset": 1749029080205,
-    "meta": 1749029207431,
-    "relativePath": "Prefab\\pizza\\mushroom.prefab"
-  },
-  "9e58c2fd-56b2-4cd4-bacf-859be8b59bdf": {
-    "asset": 1749029080204,
-    "meta": 1749029207433,
-    "relativePath": "Prefab\\pizza\\gratecheese.prefab"
-  },
-  "55b85fc1-761a-4882-bae0-3d06347d00e7": {
-    "asset": 1749029080205,
-    "meta": 1749029207435,
-    "relativePath": "Prefab\\pizza\\pp.prefab"
-  },
-  "abba97e7-368c-4e31-999f-e992a28728ce": {
-    "asset": 1749029080206,
-    "meta": 1749029207436,
-    "relativePath": "Prefab\\pizza\\slicemushroom.prefab"
-  },
-  "cb496ae7-764c-460f-9750-705a9f766bc7": {
-    "asset": 1749029080236,
-    "meta": 1749029207462,
-    "relativePath": "Resource\\cpy's\\floor_kitchen_small.bin"
-  },
-  "bde9785b-e56f-4712-bd42-bc9c61cc45ab": {
-    "asset": 1749029080207,
-    "meta": 1749029207467,
-    "relativePath": "Prefab\\pizza\\slicepp.prefab"
-  },
-  "e3cc4d83-9ee4-429e-95c0-d5c8920938a1": {
-    "asset": 1749029080208,
-    "meta": 1749029207469,
-    "relativePath": "Prefab\\pizza_menu\\cheese_pizza.prefab"
-  },
-  "7f994148-5ddf-41b2-9694-7fabebca93d2": {
-    "asset": 1749029080210,
-    "meta": 1749029207471,
-    "relativePath": "Prefab\\pizza_menu\\mushroom_pizza.prefab"
-  },
-  "9eda7280-d106-44f4-8b20-5b968395fffb": {
-    "asset": 1749029080211,
-    "meta": 1749029207474,
-    "relativePath": "Prefab\\pizza_menu\\pepper_pizza.prefab"
-  },
-  "cd1afc85-7c32-4288-aae2-cb9966eb30db": {
-    "asset": 1749029080242,
-    "meta": 1749029219077,
-    "relativePath": "Resource\\cpy's\\sand.mtl"
   },
   "fec267b9-d7bf-49cf-8da9-7573a5d1d8c0": {
     "asset": 1748784457613,
@@ -929,11 +719,6 @@
     "meta": 1749029207646,
     "relativePath": "Resource\\extra_restaurant\\chair_A.bin"
   },
-  "04496886-1e27-4e15-90b7-9f67bc51d80f": {
-    "asset": 1749029080239,
-    "meta": 1749029207561,
-    "relativePath": "Resource\\cpy's\\ground_0024_color_1k.jpg"
-  },
   "a6424832-326c-4a0f-9bc7-ba131e1311cc": {
     "asset": 1748784457619,
     "meta": 1749029207579,
@@ -974,16 +759,6 @@
     "meta": 1749029207736,
     "relativePath": "Resource\\extra_restaurant\\crate_buns.bin"
   },
-  "32a29ea3-0710-4594-9a83-817a588ec8f1": {
-    "asset": 1749029080241,
-    "meta": 1749029207649,
-    "relativePath": "Resource\\cpy's\\s.jpg"
-  },
-  "b8d77e83-7f6e-4ddf-afc9-f65954be7df5": {
-    "asset": 1749029080251,
-    "meta": 1749029207660,
-    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.19.32.png"
-  },
   "f0098247-bb5a-472d-8023-f1d125dd7eda": {
     "asset": 1748784457637,
     "meta": 1749029207759,
@@ -1004,30 +779,10 @@
     "meta": 1749029207811,
     "relativePath": "Resource\\extra_restaurant\\crate_dough.bin"
   },
-  "3acfb0d8-a69e-4864-8667-f20e982575d9": {
-    "asset": 1749029080254,
-    "meta": 1749029207730,
-    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.37.36.png"
-  },
   "ee8b1fa0-17df-433a-947f-ad51c9a90dfa": {
     "asset": 1748784457641,
     "meta": 1749029207834,
     "relativePath": "Resource\\extra_restaurant\\crate_ham.bin"
-  },
-  "fd790d9c-1cee-4952-8095-c32eb0b2dda8": {
-    "asset": 1749029080252,
-    "meta": 1749029207742,
-    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.26.22.png"
-  },
-  "78932dfa-df10-4e1a-9a82-4c978946b8b1": {
-    "asset": 1749029080251,
-    "meta": 1749029207750,
-    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.24.30.png"
-  },
-  "fa71dcc7-6f8a-4b61-95b9-b9764b993af8": {
-    "asset": 1749029080253,
-    "meta": 1749029207793,
-    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.35.30.png"
   },
   "7e19fc22-eb4f-43a7-befb-a26d0325947a": {
     "asset": 1748784457642,
@@ -1068,11 +823,6 @@
     "asset": 1748784457653,
     "meta": 1749029207964,
     "relativePath": "Resource\\extra_restaurant\\crate_steak.bin"
-  },
-  "1e04cd24-41f8-4e78-bf30-38e554039c51": {
-    "asset": 1749029080255,
-    "meta": 1749029207905,
-    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.41.59.png"
   },
   "39057dff-0d46-4fc3-9426-d687ec2d9eda": {
     "asset": 1748784457655,
@@ -1638,11 +1388,6 @@
     "asset": 1748784457743,
     "meta": 1749029209227,
     "relativePath": "Resource\\extra_restaurant\\food_pizza_mushroom_plated.bin"
-  },
-  "2ddf25a2-50b9-4930-bf36-5f81ee51b9bd": {
-    "asset": 1749029080249,
-    "meta": 1749029209228,
-    "relativePath": "Resource\\cpy's\\截圖 2025-06-01 晚上10.39.56.png"
   },
   "eb0dc526-4f9c-475b-95ab-9e03933c2378": {
     "asset": 1748784457699,
@@ -2594,11 +2339,6 @@
     "meta": 1749029211006,
     "relativePath": "Resource\\extra_restaurant\\oven.bin"
   },
-  "e2d990b3-5acf-4012-8b2e-25e06d4ad85f": {
-    "asset": 1748784457862,
-    "meta": 1749029220030,
-    "relativePath": "Resource\\extra_restaurant\\kitchencounter_straight_A_backsplash.gltf"
-  },
   "6d5e5295-56a2-4d1d-bb30-a5c776434f9b": {
     "asset": 1748784457915,
     "meta": 1749029211024,
@@ -2753,11 +2493,6 @@
     "asset": 1748784457883,
     "meta": 1749029220122,
     "relativePath": "Resource\\extra_restaurant\\kitchentable_A_large_decorated_B.gltf"
-  },
-  "7636e75a-ec91-42d6-a2f8-3bd7a597654a": {
-    "asset": 1748784457886,
-    "meta": 1749029220129,
-    "relativePath": "Resource\\extra_restaurant\\kitchentable_B.gltf"
   },
   "a220adf1-c5df-4dc0-95b8-4779d727cc11": {
     "asset": 1748784457942,
@@ -6849,11 +6584,6 @@
     "meta": 1749029222420,
     "relativePath": "Resource\\restaurant\\pan_006.gltf"
   },
-  "c25a3a32-52fc-4dff-9f35-d8429e259822": {
-    "asset": 1749029080256,
-    "meta": 1749029217510,
-    "relativePath": "Resource\\restaurant\\wall - 001.bin"
-  },
   "a30e8a97-bd53-41b4-84f5-dbc004217b39": {
     "asset": 1748784458618,
     "meta": 1749029222428,
@@ -6964,35 +6694,10 @@
     "meta": 1749029217624,
     "relativePath": "Script\\Player\\IInputControls.ts"
   },
-  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
-    "asset": 1749028824774,
-    "meta": 1749029217646,
-    "relativePath": "Script\\Player\\KeyboardControls.ts"
-  },
-  "c8afcd2d-b0f4-4c6b-8c73-12c956429325": {
-    "asset": 1748968048749,
-    "meta": 1749029217675,
-    "relativePath": "Script\\Player\\KeyboardControls2.ts"
-  },
   "cef8604e-43de-4456-b996-b40b07991479": {
     "asset": 1748784458631,
     "meta": 1749029222485,
     "relativePath": "Resource\\restaurant\\pot_A_stew.gltf"
-  },
-  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
-    "asset": 1748968999600,
-    "meta": 1749029217851,
-    "relativePath": "Script\\Player\\PlayerController 2.ts"
-  },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1749028824775,
-    "meta": 1749029217978,
-    "relativePath": "Script\\Player\\PlayerController.ts"
-  },
-  "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1748945391242,
-    "meta": 1749029218018,
-    "relativePath": "Script\\scene\\uiManager.ts"
   },
   "4ed99ffe-70f3-4d70-a28b-4fa6da42feac": {
     "asset": 1748784458632,
@@ -7054,80 +6759,25 @@
     "meta": 1749029222558,
     "relativePath": "Resource\\restaurant\\table_round_A.gltf"
   },
-  "bb63f844-a4cd-44e8-a29a-0eed0f9c3b6c": {
-    "asset": 1749029080225,
-    "meta": 1749029080225,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Towel_1.prefab"
-  },
-  "3183edb5-7e75-4f73-994c-038856e5a142": {
-    "asset": 1749029080226,
-    "meta": 1749029080226,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Towel_2.prefab"
-  },
-  "82f2e0a0-9537-44cc-846a-f7b104492e4b": {
-    "asset": 1749029080226,
-    "meta": 1749029080227,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Towel_3.prefab"
-  },
-  "68f24778-b724-44bb-b096-a7aa6e070f5e": {
-    "asset": 1749029080227,
-    "meta": 1749029080227,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Umbrella_1.prefab"
-  },
-  "af7c8d2c-6769-4c9f-8443-4c96e0ad97f7": {
-    "asset": 1749029080228,
-    "meta": 1749029080228,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Umbrella_2.prefab"
-  },
-  "5788b6ee-eb3c-4431-9bf0-e023e967f656": {
-    "asset": 1749029080228,
-    "meta": 1749029080228,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Umbrella_3.prefab"
-  },
-  "ab7bec43-6aa8-433b-acd3-4e8437f3ccfa": {
-    "asset": 1749029080229,
-    "meta": 1749029080229,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Large_Palm.prefab"
-  },
   "b641261e-1c9a-4e02-94ec-5c394e056b0d": {
     "asset": 1748784457515,
     "meta": 1749029218166,
     "relativePath": "Resource\\Character\\Animation\\CAT"
-  },
-  "ee7f62e3-9596-4c88-942d-7ad3d77c0377": {
-    "asset": 1749029080229,
-    "meta": 1749029080230,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Small_Palm.prefab"
   },
   "cb85b002-44d6-4237-991a-d3c24d857195": {
     "asset": 1748784457519,
     "meta": 1749029218169,
     "relativePath": "Resource\\Character\\Animation\\FROG"
   },
-  "d7dd2244-2935-4390-bf3f-e7bde8c5854b": {
-    "asset": 1749029080231,
-    "meta": 1749029080231,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Surfboard_1.prefab"
-  },
   "cbb480cb-091c-43e4-9cc0-a65c6c5e5e60": {
     "asset": 1749028824770,
     "meta": 1749029218170,
     "relativePath": "Resource\\Character\\Animation\\GIRL"
   },
-  "76df8bf9-5dc6-44d3-8278-3c0a4a7edae9": {
-    "asset": 1749029080231,
-    "meta": 1749029080232,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Surfboard_2.prefab"
-  },
   "34a30dcc-a1d8-4833-9d9f-7a2eb7cec136": {
     "asset": 1748784458651,
     "meta": 1749029222565,
     "relativePath": "Resource\\restaurant\\stove_single_countertop.gltf"
-  },
-  "e45985d1-54a7-41b9-9d86-31021db783de": {
-    "asset": 1748964553627,
-    "meta": 1749029218171,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2"
   },
   "d7789c66-f891-47a9-8d63-55dce27f5f22": {
     "asset": 1748784457528,
@@ -7169,20 +6819,10 @@
     "meta": 1749029222727,
     "relativePath": "Resource\\restaurant\\table_round_B.gltf"
   },
-  "9cfafcb5-7630-4d81-8b1f-12e9dbdb71f8": {
-    "asset": 1748962987347,
-    "meta": 1749029222814,
-    "relativePath": "Resource\\Character\\GIRL2\\00.plist"
-  },
   "618485ab-3005-4066-9e8c-1721fe9c780d": {
     "asset": 1748784458663,
     "meta": 1749029222819,
     "relativePath": "Resource\\restaurant\\towelrail.gltf"
-  },
-  "39c91fe6-e1d0-4c6e-ba6f-b30edbb47a2f": {
-    "asset": 1749029080257,
-    "meta": 1749029222823,
-    "relativePath": "Resource\\restaurant\\wall - 001.gltf"
   },
   "a8495e7a-dad2-4a5a-8478-db7991b4c081": {
     "asset": 1748784458664,
@@ -7229,11 +6869,6 @@
     "meta": 1749029218274,
     "relativePath": "Resource\\Character\\GIRL\\girl.png"
   },
-  "d8715fbb-5763-451c-93fc-691f3ec7d1cb": {
-    "asset": 1749029080235,
-    "meta": 1749029218276,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Textures\\BeachPropAtlas.png"
-  },
   "362c5dd0-2611-4c4d-a50a-ce7c8902433c": {
     "asset": 1748933016442,
     "meta": 1749029218278,
@@ -7264,11 +6899,6 @@
     "meta": 1749029218296,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\dirt_02.png"
   },
-  "5b926764-eb76-4027-8fc4-db7ca45085b6": {
-    "asset": 1748962987348,
-    "meta": 1749029218298,
-    "relativePath": "Resource\\Character\\GIRL2\\00.png"
-  },
   "887002bb-8a7d-4b39-bd9a-d689b7d1448a": {
     "asset": 1748933016447,
     "meta": 1749029218314,
@@ -7283,11 +6913,6 @@
     "asset": 1748933016450,
     "meta": 1749029218323,
     "relativePath": "Resource\\particle(transparent_bg)\\PNG (Black background)\\fire_02.png"
-  },
-  "4949b9a0-0f6a-40ff-98e8-223232b0f6a2": {
-    "asset": 1749029080234,
-    "meta": 1749029218325,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Textures\\BeachKitLayout.png"
   },
   "73a489ba-9318-498a-b6fd-1a3cef858ed8": {
     "asset": 1748933016452,
@@ -7739,11 +7364,6 @@
     "meta": 1749029222941,
     "relativePath": "Resource\\UI\\newUI\\newupgrade.plist"
   },
-  "ddd172da-6f69-490a-bf3a-c6c975ac4318": {
-    "asset": 1749029080214,
-    "meta": 1749029222942,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Towel_2.fbx"
-  },
   "ebdaae77-b74d-45b3-b627-30f26e4929cb": {
     "asset": 1748784457598,
     "meta": 1749029222947,
@@ -7794,11 +7414,6 @@
     "meta": 1749029218768,
     "relativePath": "Resource\\particle(transparent_bg)\\Rotated\\trace_03_rotated.png"
   },
-  "70860c81-b3dd-48b9-b623-3160ec584acf": {
-    "asset": 1749029080215,
-    "meta": 1749029223000,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Towel_3.fbx"
-  },
   "4f779eb5-260d-4fef-811a-5534b9cfc79d": {
     "asset": 1748787972150,
     "meta": 1749029218770,
@@ -7838,11 +7453,6 @@
     "asset": 1748784457573,
     "meta": 1749029218813,
     "relativePath": "Resource\\UI\\UI\\block.png"
-  },
-  "78706cfa-d7b0-4df5-b4c7-3cd756cbe3a5": {
-    "asset": 1749029080214,
-    "meta": 1749029223063,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Towel_1.fbx"
   },
   "68ad7dc0-7f89-45a2-aa2f-63c409dac1b7": {
     "asset": 1748784457584,
@@ -7974,11 +7584,6 @@
     "meta": 1749029218870,
     "relativePath": "Resource\\Character\\Animation\\GIRL\\girl_run_left.anim"
   },
-  "e58e5c60-9240-41d1-8c9a-f2463dd0d498": {
-    "asset": 1748784457522,
-    "meta": 1749029218871,
-    "relativePath": "Resource\\Character\\Animation\\GIRL\\girl_walk.anim"
-  },
   "6b6a6e44-6585-494a-9cb9-98336868949b": {
     "asset": 1748784457525,
     "meta": 1749029218874,
@@ -8003,66 +7608,6 @@
     "asset": 1748784457570,
     "meta": 1749029218864,
     "relativePath": "Resource\\UI\\UI\\UiCozyFree.png"
-  },
-  "a8ad148e-1620-4942-bc79-17e475838470": {
-    "asset": 1748963779742,
-    "meta": 1749029218881,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle.anim"
-  },
-  "9e56ac8a-06cf-492d-97f2-b5dfe408ce2c": {
-    "asset": 1748963890370,
-    "meta": 1749029218883,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_back.anim"
-  },
-  "d42003f8-2828-4307-a367-3c53545e894c": {
-    "asset": 1748964399332,
-    "meta": 1749029218884,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_left.anim"
-  },
-  "13cb2ea1-e312-4d18-8a94-c55fe90ed068": {
-    "asset": 1748964033491,
-    "meta": 1749029218887,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_right.anim"
-  },
-  "c62c40d1-01b1-4b97-8248-5194981da525": {
-    "asset": 1748964362370,
-    "meta": 1749029218889,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run.anim"
-  },
-  "569642ec-0e4c-4806-ae50-0b851a035aab": {
-    "asset": 1748964488333,
-    "meta": 1749029218890,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_left.anim"
-  },
-  "ac46b4ec-7786-4bdc-8c7b-7fdf5f11c1a6": {
-    "asset": 1748964648928,
-    "meta": 1749029218893,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_back.anim"
-  },
-  "7c8931ac-ef4a-4cec-ab74-7ba5f25e2f3a": {
-    "asset": 1748964389953,
-    "meta": 1749029218895,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk.anim"
-  },
-  "96806a0d-f39f-4f20-9d42-f908fddd9dfa": {
-    "asset": 1748964536581,
-    "meta": 1749029218896,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_right.anim"
-  },
-  "5173590f-ba0b-43db-9875-e3db329ced73": {
-    "asset": 1748964371939,
-    "meta": 1749029218898,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_back.anim"
-  },
-  "5876bc97-b5af-4529-8270-a1ecaeb62ea8": {
-    "asset": 1748967990196,
-    "meta": 1749029218900,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_left.anim"
-  },
-  "863d59d4-fe93-4e0e-bc9c-6d1ed47ad549": {
-    "asset": 1748964379296,
-    "meta": 1749029218901,
-    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_right.anim"
   },
   "35a5681f-dd7b-4377-903a-eda4958fbc70": {
     "asset": 1748784457547,
@@ -8089,11 +7634,6 @@
     "meta": 1749029223100,
     "relativePath": "Resource\\UI\\Character\\CAT\\cat.plist"
   },
-  "b131bf8f-bbd2-4286-9b1f-de7d64eb548b": {
-    "asset": 1749029080216,
-    "meta": 1749029223103,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Umbrella_1.fbx"
-  },
   "7eb71828-bfbf-4a60-a5f8-724e2cf2a01b": {
     "asset": 1748933016424,
     "meta": 1749029218934,
@@ -8118,11 +7658,6 @@
     "asset": 1748784457565,
     "meta": 1749029223123,
     "relativePath": "Resource\\UI\\Character\\Frog\\frog_back.plist"
-  },
-  "db8b1890-d24b-40a7-b739-2d5f28c5f5c3": {
-    "asset": 1749029080218,
-    "meta": 1749029223216,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Umbrella_2.fbx"
   },
   "c34c342d-30d4-46df-9199-3b6619864888": {
     "asset": 1748784457567,
@@ -8294,29 +7829,589 @@
     "meta": 1749029219054,
     "relativePath": "Resource\\UI\\Character\\GIRL\\girl.png"
   },
+  "efe44790-94cd-4f60-b04d-af1e7d9aa30b": {
+    "asset": 1749029614176,
+    "meta": 1749029633585,
+    "relativePath": "Prefab\\icecream_menu"
+  },
+  "e57e59ca-a899-4015-8ce5-1c2c8ab4ee09": {
+    "asset": 1749029614172,
+    "meta": 1749029633592,
+    "relativePath": "Prefab\\icecream"
+  },
+  "b48d1881-ff7a-4710-8461-e01fbdb992a2": {
+    "asset": 1749029614188,
+    "meta": 1749029633600,
+    "relativePath": "Prefab\\pizza_menu"
+  },
+  "ab5ce3b6-6a1a-4b23-8b5c-20cad6ddc393": {
+    "asset": 1749029614175,
+    "meta": 1749029633620,
+    "relativePath": "Prefab\\icecream_menu\\strawberry-icecream-menu.prefab"
+  },
+  "7c6c185a-5349-40cd-9057-ff1012bcaa4b": {
+    "asset": 1749029614173,
+    "meta": 1749029633624,
+    "relativePath": "Prefab\\icecream_menu\\chocolate-cake-menu.prefab"
+  },
+  "66a04347-3462-459e-9fc9-ec56945072af": {
+    "asset": 1749029614185,
+    "meta": 1749029633626,
+    "relativePath": "Prefab\\pizza"
+  },
+  "07460010-e06d-4faa-8550-1c0d441d87f0": {
+    "asset": 1749029614173,
+    "meta": 1749029633629,
+    "relativePath": "Prefab\\icecream_menu\\chocolate-icecream-menu.prefab"
+  },
+  "a0fdbfe3-9d5d-4413-b58b-69070670976c": {
+    "asset": 1749029614174,
+    "meta": 1749029633631,
+    "relativePath": "Prefab\\icecream_menu\\strawberry-cake-menu.prefab"
+  },
+  "e0a18053-f606-40fa-a228-b36cd4ca810b": {
+    "asset": 1749029614168,
+    "meta": 1749029633633,
+    "relativePath": "Prefab\\icecream\\strawberry_icecream.prefab"
+  },
+  "85d0c1c3-6473-4aad-a670-fa6a03d40480": {
+    "asset": 1749029614169,
+    "meta": 1749029633635,
+    "relativePath": "Prefab\\icecream\\vanilla_icecream.prefab"
+  },
+  "333a6681-6a14-4724-b9bf-f7830bffe0cb": {
+    "asset": 1749029614175,
+    "meta": 1749029633639,
+    "relativePath": "Prefab\\icecream_menu\\vanilla-cake-menu.prefab"
+  },
+  "0b83943e-a504-47e1-8700-284113c387c7": {
+    "asset": 1749029614166,
+    "meta": 1749029633644,
+    "relativePath": "Prefab\\icecream\\chocolate_icecream.prefab"
+  },
+  "4ad6d389-81c6-49b9-b3d6-0ad58ef65ddf": {
+    "asset": 1749029614176,
+    "meta": 1749029633646,
+    "relativePath": "Prefab\\icecream_menu\\vanilla-icecream-menu.prefab"
+  },
+  "1f75475e-e869-4112-b441-8bfef6197c06": {
+    "asset": 1749029614171,
+    "meta": 1749029633650,
+    "relativePath": "Prefab\\icecream\\waffle-with-plate.prefab"
+  },
+  "75737380-0539-4c16-9149-1624c6434c6c": {
+    "asset": 1749029614170,
+    "meta": 1749029633656,
+    "relativePath": "Prefab\\icecream\\waffle-with-plate-strawberry-icecream.prefab"
+  },
+  "714da808-0777-4e17-ac66-ab589e9041d1": {
+    "asset": 1749029614169,
+    "meta": 1749029633659,
+    "relativePath": "Prefab\\icecream\\waffle-with-plate-chocolate-icecream.prefab"
+  },
+  "f430fb59-70a4-4445-8ee9-7f168ab96bb7": {
+    "asset": 1749029614171,
+    "meta": 1749029633663,
+    "relativePath": "Prefab\\icecream\\waffle-with-plate-vanilla-icecream.prefab"
+  },
+  "c3a5a9b8-9e0f-4e15-ac56-ce91287ae930": {
+    "asset": 1749029614177,
+    "meta": 1749029633667,
+    "relativePath": "Prefab\\other_prefab\\Chopbar.prefab"
+  },
+  "0666c70d-87d2-494e-8fde-2a2a2a11390a": {
+    "asset": 1749029614209,
+    "meta": 1749029633669,
+    "relativePath": "Resource\\Beach_Prop_Pack"
+  },
+  "77425052-7e2f-4bc0-83ba-2c0afbb101f5": {
+    "asset": 1749029614199,
+    "meta": 1749029633671,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Models"
+  },
+  "0f7eae74-eff3-4cdf-b13f-b306ee4a51cd": {
+    "asset": 1749029614208,
+    "meta": 1749029633673,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs"
+  },
+  "e3cc4d83-9ee4-429e-95c0-d5c8920938a1": {
+    "asset": 1749029614186,
+    "meta": 1749029633676,
+    "relativePath": "Prefab\\pizza_menu\\cheese_pizza.prefab"
+  },
+  "028b9a97-ac2e-4830-bc96-0167a32aef0d": {
+    "asset": 1749029614213,
+    "meta": 1749029633678,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Textures"
+  },
+  "7f994148-5ddf-41b2-9694-7fabebca93d2": {
+    "asset": 1749029614188,
+    "meta": 1749029633681,
+    "relativePath": "Prefab\\pizza_menu\\mushroom_pizza.prefab"
+  },
+  "8ba287a3-cbf2-41d7-bb62-37721620b1e8": {
+    "asset": 1749029614178,
+    "meta": 1749029633691,
+    "relativePath": "Prefab\\pizza\\cheese.prefab"
+  },
+  "56ae3f9f-feb7-45e8-b273-7c4e0f569038": {
+    "asset": 1749029614180,
+    "meta": 1749029633698,
+    "relativePath": "Prefab\\pizza\\flatdough.prefab"
+  },
+  "9eda7280-d106-44f4-8b20-5b968395fffb": {
+    "asset": 1749029614188,
+    "meta": 1749029633704,
+    "relativePath": "Prefab\\pizza_menu\\pepper_pizza.prefab"
+  },
+  "c60346b3-912f-4096-8ce7-3299df6616c5": {
+    "asset": 1749029614178,
+    "meta": 1749029633726,
+    "relativePath": "Prefab\\pizza\\Chopbar.prefab"
+  },
+  "d04e3272-f2b8-45c3-8919-27f48726792b": {
+    "asset": 1749029614179,
+    "meta": 1749029633732,
+    "relativePath": "Prefab\\pizza\\dough.prefab"
+  },
+  "6efa7011-1dfa-491b-876c-875a6d86f0f7": {
+    "asset": 1749029614180,
+    "meta": 1749029633739,
+    "relativePath": "Prefab\\pizza\\food_pizza_cheese_plated.prefab"
+  },
+  "a8521cd0-a0e7-4c7d-9096-06bb523fc43b": {
+    "asset": 1749029614181,
+    "meta": 1749029633747,
+    "relativePath": "Prefab\\pizza\\food_pizza_mushroom_plated.prefab"
+  },
+  "ae309673-0da1-4a12-8fd1-5641569de3ae": {
+    "asset": 1749029614183,
+    "meta": 1749029633754,
+    "relativePath": "Prefab\\pizza\\mushroom.prefab"
+  },
+  "9e58c2fd-56b2-4cd4-bacf-859be8b59bdf": {
+    "asset": 1749029614182,
+    "meta": 1749029633756,
+    "relativePath": "Prefab\\pizza\\gratecheese.prefab"
+  },
+  "f4696566-21b3-46b6-8dff-f91b6fb90efd": {
+    "asset": 1749029614182,
+    "meta": 1749029633758,
+    "relativePath": "Prefab\\pizza\\food_pizza_pp.prefab"
+  },
+  "55b85fc1-761a-4882-bae0-3d06347d00e7": {
+    "asset": 1749029614184,
+    "meta": 1749029633763,
+    "relativePath": "Prefab\\pizza\\pp.prefab"
+  },
+  "abba97e7-368c-4e31-999f-e992a28728ce": {
+    "asset": 1749029614185,
+    "meta": 1749029633767,
+    "relativePath": "Prefab\\pizza\\slicemushroom.prefab"
+  },
+  "bde9785b-e56f-4712-bd42-bc9c61cc45ab": {
+    "asset": 1749029614185,
+    "meta": 1749029633771,
+    "relativePath": "Prefab\\pizza\\slicepp.prefab"
+  },
+  "bb63f844-a4cd-44e8-a29a-0eed0f9c3b6c": {
+    "asset": 1749029614201,
+    "meta": 1749029614201,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Towel_1.prefab"
+  },
+  "82f2e0a0-9537-44cc-846a-f7b104492e4b": {
+    "asset": 1749029614202,
+    "meta": 1749029614202,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Towel_3.prefab"
+  },
+  "3183edb5-7e75-4f73-994c-038856e5a142": {
+    "asset": 1749029614201,
+    "meta": 1749029614202,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Towel_2.prefab"
+  },
+  "af7c8d2c-6769-4c9f-8443-4c96e0ad97f7": {
+    "asset": 1749029614204,
+    "meta": 1749029614204,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Umbrella_2.prefab"
+  },
+  "68f24778-b724-44bb-b096-a7aa6e070f5e": {
+    "asset": 1749029614203,
+    "meta": 1749029614203,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Umbrella_1.prefab"
+  },
+  "5788b6ee-eb3c-4431-9bf0-e023e967f656": {
+    "asset": 1749029614205,
+    "meta": 1749029614205,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Beach_Umbrella_3.prefab"
+  },
+  "ab7bec43-6aa8-433b-acd3-4e8437f3ccfa": {
+    "asset": 1749029614206,
+    "meta": 1749029614206,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Large_Palm.prefab"
+  },
+  "ee7f62e3-9596-4c88-942d-7ad3d77c0377": {
+    "asset": 1749029614207,
+    "meta": 1749029614207,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Small_Palm.prefab"
+  },
+  "e45985d1-54a7-41b9-9d86-31021db783de": {
+    "asset": 1749029614226,
+    "meta": 1749029633819,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2"
+  },
+  "d7dd2244-2935-4390-bf3f-e7bde8c5854b": {
+    "asset": 1749029614207,
+    "meta": 1749029614208,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Surfboard_1.prefab"
+  },
+  "76df8bf9-5dc6-44d3-8278-3c0a4a7edae9": {
+    "asset": 1749029614208,
+    "meta": 1749029614208,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Prefabs\\Surfboard_2.prefab"
+  },
+  "e58e5c60-9240-41d1-8c9a-f2463dd0d498": {
+    "asset": 1749029614213,
+    "meta": 1749029633867,
+    "relativePath": "Resource\\Character\\Animation\\GIRL\\girl_walk.anim"
+  },
+  "a8ad148e-1620-4942-bc79-17e475838470": {
+    "asset": 1749029614215,
+    "meta": 1749029633870,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle.anim"
+  },
+  "9e56ac8a-06cf-492d-97f2-b5dfe408ce2c": {
+    "asset": 1749029614216,
+    "meta": 1749029633872,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_back.anim"
+  },
+  "d42003f8-2828-4307-a367-3c53545e894c": {
+    "asset": 1749029614217,
+    "meta": 1749029633874,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_left.anim"
+  },
+  "66bc4c19-72de-4a15-a3c1-cf0a8aba83c5": {
+    "asset": 1749029614229,
+    "meta": 1749029633876,
+    "relativePath": "Resource\\Character\\GIRL2"
+  },
+  "c62c40d1-01b1-4b97-8248-5194981da525": {
+    "asset": 1749029614218,
+    "meta": 1749029633878,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run.anim"
+  },
+  "70860c81-b3dd-48b9-b623-3160ec584acf": {
+    "asset": 1749029614193,
+    "meta": 1749029635117,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Towel_3.fbx"
+  },
+  "9cfafcb5-7630-4d81-8b1f-12e9dbdb71f8": {
+    "asset": 1749029614227,
+    "meta": 1749029635138,
+    "relativePath": "Resource\\Character\\GIRL2\\00.plist"
+  },
+  "13cb2ea1-e312-4d18-8a94-c55fe90ed068": {
+    "asset": 1749029614218,
+    "meta": 1749029633914,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_right.anim"
+  },
+  "ac46b4ec-7786-4bdc-8c7b-7fdf5f11c1a6": {
+    "asset": 1749029614219,
+    "meta": 1749029633917,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_back.anim"
+  },
+  "569642ec-0e4c-4806-ae50-0b851a035aab": {
+    "asset": 1749029614220,
+    "meta": 1749029633931,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_left.anim"
+  },
+  "96806a0d-f39f-4f20-9d42-f908fddd9dfa": {
+    "asset": 1749029614222,
+    "meta": 1749029633934,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_right.anim"
+  },
+  "7c8931ac-ef4a-4cec-ab74-7ba5f25e2f3a": {
+    "asset": 1749029614223,
+    "meta": 1749029633936,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk.anim"
+  },
+  "cb496ae7-764c-460f-9750-705a9f766bc7": {
+    "asset": 1749029614230,
+    "meta": 1749029633981,
+    "relativePath": "Resource\\cpy's\\floor_kitchen_small.bin"
+  },
+  "5173590f-ba0b-43db-9875-e3db329ced73": {
+    "asset": 1749029614224,
+    "meta": 1749029633987,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_back.anim"
+  },
+  "5876bc97-b5af-4529-8270-a1ecaeb62ea8": {
+    "asset": 1749029614225,
+    "meta": 1749029633990,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_left.anim"
+  },
+  "863d59d4-fe93-4e0e-bc9c-6d1ed47ad549": {
+    "asset": 1749029614226,
+    "meta": 1749029633993,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_right.anim"
+  },
+  "c25a3a32-52fc-4dff-9f35-d8429e259822": {
+    "asset": 1749029614255,
+    "meta": 1749029634005,
+    "relativePath": "Resource\\restaurant\\wall - 001.bin"
+  },
+  "cd1afc85-7c32-4288-aae2-cb9966eb30db": {
+    "asset": 1749029614237,
+    "meta": 1749029635148,
+    "relativePath": "Resource\\cpy's\\sand.mtl"
+  },
+  "d8715fbb-5763-451c-93fc-691f3ec7d1cb": {
+    "asset": 1749029614212,
+    "meta": 1749029634038,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Textures\\BeachPropAtlas.png"
+  },
+  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
+    "asset": 1749029614264,
+    "meta": 1749029634102,
+    "relativePath": "Script\\Player\\KeyboardControls.ts"
+  },
+  "c8afcd2d-b0f4-4c6b-8c73-12c956429325": {
+    "asset": 1749029614265,
+    "meta": 1749029634152,
+    "relativePath": "Script\\Player\\KeyboardControls2.ts"
+  },
+  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
+    "asset": 1749029614266,
+    "meta": 1749029634504,
+    "relativePath": "Script\\Player\\PlayerController 2.ts"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1749029614268,
+    "meta": 1749029634770,
+    "relativePath": "Script\\Player\\PlayerController.ts"
+  },
+  "78706cfa-d7b0-4df5-b4c7-3cd756cbe3a5": {
+    "asset": 1749029614191,
+    "meta": 1749029635158,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Towel_1.fbx"
+  },
+  "5b926764-eb76-4027-8fc4-db7ca45085b6": {
+    "asset": 1749029614229,
+    "meta": 1749029634778,
+    "relativePath": "Resource\\Character\\GIRL2\\00.png"
+  },
+  "4949b9a0-0f6a-40ff-98e8-223232b0f6a2": {
+    "asset": 1749029614211,
+    "meta": 1749029634780,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Textures\\BeachKitLayout.png"
+  },
+  "b8d77e83-7f6e-4ddf-afc9-f65954be7df5": {
+    "asset": 1749029614247,
+    "meta": 1749029634782,
+    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.19.32.png"
+  },
+  "fa71dcc7-6f8a-4b61-95b9-b9764b993af8": {
+    "asset": 1749029614250,
+    "meta": 1749029634784,
+    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.35.30.png"
+  },
+  "5521b2c8-9785-4138-9982-5f753a8a9cf6": {
+    "asset": 1749029614263,
+    "meta": 1749029634839,
+    "relativePath": "Scenes\\level-2.fire"
+  },
+  "fd790d9c-1cee-4952-8095-c32eb0b2dda8": {
+    "asset": 1749029614249,
+    "meta": 1749029634805,
+    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.26.22.png"
+  },
+  "78932dfa-df10-4e1a-9a82-4c978946b8b1": {
+    "asset": 1749029614248,
+    "meta": 1749029634842,
+    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.24.30.png"
+  },
+  "3acfb0d8-a69e-4864-8667-f20e982575d9": {
+    "asset": 1749029614251,
+    "meta": 1749029634844,
+    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.37.36.png"
+  },
+  "1e04cd24-41f8-4e78-bf30-38e554039c51": {
+    "asset": 1749029614253,
+    "meta": 1749029634846,
+    "relativePath": "Resource\\cpy's\\截圖 2025-06-03 晚上11.41.59.png"
+  },
+  "04496886-1e27-4e15-90b7-9f67bc51d80f": {
+    "asset": 1749029614232,
+    "meta": 1749029634870,
+    "relativePath": "Resource\\cpy's\\ground_0024_color_1k.jpg"
+  },
+  "32a29ea3-0710-4594-9a83-817a588ec8f1": {
+    "asset": 1749029614236,
+    "meta": 1749029634908,
+    "relativePath": "Resource\\cpy's\\s.jpg"
+  },
+  "2ddf25a2-50b9-4930-bf36-5f81ee51b9bd": {
+    "asset": 1749029614245,
+    "meta": 1749029634941,
+    "relativePath": "Resource\\cpy's\\截圖 2025-06-01 晚上10.39.56.png"
+  },
+  "ddd172da-6f69-490a-bf3a-c6c975ac4318": {
+    "asset": 1749029614192,
+    "meta": 1749029635174,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Towel_2.fbx"
+  },
+  "b131bf8f-bbd2-4286-9b1f-de7d64eb548b": {
+    "asset": 1749029614195,
+    "meta": 1749029635184,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Umbrella_1.fbx"
+  },
+  "db8b1890-d24b-40a7-b739-2d5f28c5f5c3": {
+    "asset": 1749029614195,
+    "meta": 1749029635192,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Umbrella_2.fbx"
+  },
   "9cfd39fd-54d2-4e47-acfc-4689716cdbec": {
-    "asset": 1749029080218,
-    "meta": 1749029223233,
+    "asset": 1749029614196,
+    "meta": 1749029635205,
     "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Beach_Umbrella_3.fbx"
   },
-  "ce3c84c0-9f4d-486c-97fa-71fb3ce2f7d8": {
-    "asset": 1749029080220,
-    "meta": 1749029223238,
-    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Large_Palm.fbx"
-  },
   "fef2ca7c-2d7a-4c5c-8da0-bc9ce2865fc7": {
-    "asset": 1749029080220,
-    "meta": 1749029223243,
+    "asset": 1749029614198,
+    "meta": 1749029635214,
     "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Small_Palm.fbx"
   },
+  "ce3c84c0-9f4d-486c-97fa-71fb3ce2f7d8": {
+    "asset": 1749029614197,
+    "meta": 1749029635223,
+    "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Large_Palm.fbx"
+  },
   "397802cf-9f5f-4f30-a422-1d7cf63c6c32": {
-    "asset": 1749029080221,
-    "meta": 1749029223248,
+    "asset": 1749029614198,
+    "meta": 1749029635231,
     "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Surfboard_1.fbx"
   },
   "b36b227a-52fd-49d6-a97f-6ba369f4c939": {
-    "asset": 1749029080222,
-    "meta": 1749029223255,
+    "asset": 1749029614199,
+    "meta": 1749029635240,
     "relativePath": "Resource\\Beach_Prop_Pack\\Models\\Surfboard_2.fbx"
+  },
+  "e2d990b3-5acf-4012-8b2e-25e06d4ad85f": {
+    "asset": 1748784457862,
+    "meta": 1749029635248,
+    "relativePath": "Resource\\extra_restaurant\\kitchencounter_straight_A_backsplash.gltf"
+  },
+  "7636e75a-ec91-42d6-a2f8-3bd7a597654a": {
+    "asset": 1748784457886,
+    "meta": 1749029635257,
+    "relativePath": "Resource\\extra_restaurant\\kitchentable_B.gltf"
+  },
+  "39c91fe6-e1d0-4c6e-ba6f-b30edbb47a2f": {
+    "asset": 1749029614256,
+    "meta": 1749029635267,
+    "relativePath": "Resource\\restaurant\\wall - 001.gltf"
+  },
+  "6723972b-3e3b-447a-9df4-bc07547ba96e": {
+    "asset": 1749039810407,
+    "meta": 1749039810408,
+    "relativePath": "Resource\\Character\\NPC"
+  },
+  "b3deb2d3-8ce4-403d-8c73-a56519fe8b52": {
+    "asset": 1749039829036,
+    "meta": 1749039829127,
+    "relativePath": "Resource\\Character\\NPC\\catty.plist"
+  },
+  "7cb4b538-ca8a-402f-b1f1-c0eea028e13a": {
+    "asset": 1749039829036,
+    "meta": 1749039829128,
+    "relativePath": "Resource\\Character\\NPC\\goblin.plist"
+  },
+  "cd2382b8-6177-41cf-a2df-3140ab3bd6f2": {
+    "asset": 1749039829036,
+    "meta": 1749040918406,
+    "relativePath": "Resource\\Character\\NPC\\catty.png"
+  },
+  "cfccdb38-0000-4808-8ad7-dd41987cb2ef": {
+    "asset": 1749039829037,
+    "meta": 1749039829087,
+    "relativePath": "Resource\\Character\\NPC\\goblin.png"
+  },
+  "7c537ce0-19cc-472a-a8af-cd8608f5f24e": {
+    "asset": 1749041134281,
+    "meta": 1749041134291,
+    "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_idle.anim"
+  },
+  "85fb9abe-8dc2-47de-8098-374ca1d57d83": {
+    "asset": 1749041191960,
+    "meta": 1749041191972,
+    "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_run.anim"
+  },
+  "5d8938b5-01b1-41c7-a970-50859a8ea20e": {
+    "asset": 1749041210122,
+    "meta": 1749041210132,
+    "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_jump.anim"
+  },
+  "7cdfb4b2-5978-49b0-91f9-02a4536d54b2": {
+    "asset": 1749041396118,
+    "meta": 1749041396119,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN"
+  },
+  "454fc9ab-f3c4-4d8e-83aa-988b4f7d6ccc": {
+    "asset": 1749042689450,
+    "meta": 1749042689461,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_idle.anim"
+  },
+  "82a920b3-d804-4a81-a526-93df7ed1a87c": {
+    "asset": 1749041754891,
+    "meta": 1749041754902,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_attack.anim"
+  },
+  "0c7f55c4-c61a-45ac-8f78-547e8b645664": {
+    "asset": 1749043042947,
+    "meta": 1749043042958,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_run.anim"
+  },
+  "e4990c85-052e-4b89-b0fa-0a32701e5aa0": {
+    "asset": 1749041921763,
+    "meta": 1749041921776,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_die.anim"
+  },
+  "e1bf9281-af5b-4306-9000-3bd8a5210a2e": {
+    "asset": 1749042217073,
+    "meta": 1749042217074,
+    "relativePath": "Script\\NPC"
+  },
+  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
+    "asset": 1749048262412,
+    "meta": 1749048262433,
+    "relativePath": "Scenes\\level-1.fire"
+  },
+  "a4e7b953-ed5b-409b-b74b-a4acd573d1d4": {
+    "asset": 1749042312411,
+    "meta": 1749042313580,
+    "relativePath": "Script\\NPC\\NPCWanderCatty.ts"
+  },
+  "27e7a099-f2c5-469c-804c-120d317b402a": {
+    "asset": 1749047951776,
+    "meta": 1749047951789,
+    "relativePath": "Prefab\\other_prefab\\goblin.prefab"
+  },
+  "f834bb96-2d79-4830-8833-a70ba75107e7": {
+    "asset": 1749045875903,
+    "meta": 1749045930158,
+    "relativePath": "Script\\scene\\uiManager.ts"
+  },
+  "2e63b02c-dbdb-4fe4-8f52-5569e033e6e3": {
+    "asset": 1749046473404,
+    "meta": 1749046564611,
+    "relativePath": "Script\\NPC\\NPCWanderGoblin.ts"
+  },
+  "4e9cdc88-07f3-49b3-85d2-f3bcee62d434": {
+    "asset": 1749047157737,
+    "meta": 1749047158729,
+    "relativePath": "Script\\NPC\\GoblinSpawner.ts"
+  },
+  "e02642d7-b206-4350-9dd5-4290a606eaf3": {
+    "asset": 1749048319184,
+    "meta": 1749048320518,
+    "relativePath": "Script\\NPC\\GoblinController.ts"
   }
 }
