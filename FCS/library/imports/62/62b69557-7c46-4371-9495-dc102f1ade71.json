@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "muzzle_04_rotated",
+    "texture": "062cab24-bb35-441f-beb1-be39f87d6d65",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      512,
+      399
+    ],
+    "offset": [
+      0,
+      56.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "kitchencounter_straight_decorated",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "kitchencounter_straight_decorated",
+      "path": "kitchencounter_straight_decorated"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

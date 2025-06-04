@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "stove_multi",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "stove_multi",
+      "path": "stove_multi"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

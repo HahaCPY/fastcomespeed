@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Model",
+  "_name": "fridge_B",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "fridge_B_door",
+      "position": [
+        0.850006103515625,
+        1.2499980926513672,
+        0.5
+      ],
+      "parent": null,
+      "path": "fridge_B/fridge_B_door"
+    },
+    {
+      "children": [
+        0
+      ],
+      "mesh": 1,
+      "name": "fridge_B",
+      "path": "fridge_B"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

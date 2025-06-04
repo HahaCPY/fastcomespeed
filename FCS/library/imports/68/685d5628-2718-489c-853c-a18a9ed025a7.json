@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "截圖 2025-05-24 下午4.41",
+    "texture": "c8eb618f-8d4f-4d05-8f9a-7417b998d9b3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      168,
+      154
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      168,
+      154
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
