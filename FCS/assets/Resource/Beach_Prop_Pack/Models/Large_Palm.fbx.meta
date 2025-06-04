@@ -1,42 +1,49 @@
 {
   "ver": "1.1.3",
-  "uuid": "e2d990b3-5acf-4012-8b2e-25e06d4ad85f",
-  "importer": "gltf",
+  "uuid": "ce3c84c0-9f4d-486c-97fa-71fb3ce2f7d8",
+  "importer": "fbx",
   "scaleFactor": 1,
   "boneCount": 0,
   "precomputeJointMatrix": false,
   "animationFrameRate": 30,
   "subMetas": {
-    "Cube.894.mesh": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "bb5f6d20-ac5c-4b45-aeb5-3d77518542cc",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "Large_Palm.mesh": {
       "ver": "1.0.3",
-      "uuid": "af4960a1-6885-4699-818a-caaebc9f47b0",
+      "uuid": "fece9d15-fb1f-45d3-8ebc-782489bb2355",
       "importer": "mesh",
-      "verts": 249,
-      "tris": 180,
+      "verts": 588,
+      "tris": 286,
       "submeshes": 1,
       "attributes": [
         [
+          "a_normal",
           "a_position",
-          "a_uv0",
-          "a_normal"
+          "a_uv0"
         ]
       ],
       "minPos": {
-        "x": -1,
-        "y": 0,
-        "z": -1
+        "x": -0.0231773108243942,
+        "y": -0.0351289995014668,
+        "z": -0.000220080342842266
       },
       "maxPos": {
-        "x": 1,
-        "y": 1.2000000476837158,
-        "z": 1.041903018951416
+        "x": 0.0301973484456539,
+        "y": 0.0224088374525309,
+        "z": 0.0620973035693169
       },
-      "name": "Cube.894.mesh",
+      "name": "Large_Palm.mesh",
       "subMetas": {}
     },
-    "kitchencounter_straight_A_backsplash.prefab": {
+    "Large_Palm.prefab": {
       "ver": "1.3.2",
-      "uuid": "683dc627-fb9a-4ee4-afa0-c32001691c96",
+      "uuid": "c59c875e-3bbe-4c3d-9fc9-541663a6e98c",
       "importer": "prefab",
       "optimizationPolicy": "AUTO",
       "asyncLoadAssets": false,
@@ -150,15 +157,15 @@
           "fileId": "d7118yAG5lKybkFOAh8koPL"
         }
       ],
-      "name": "kitchencounter_straight_A_backsplash.prefab",
+      "name": "Large_Palm.prefab",
       "subMetas": {}
     },
-    "restaurant.mtl": {
+    "AtlasMaterial.mtl": {
       "ver": "1.0.5",
-      "uuid": "3d927a84-3da7-4201-8043-0a574d56e3da",
+      "uuid": "7b29a55c-eb8a-47b4-831f-2703b91b0053",
       "importer": "material",
-      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseTexture\": {\n          \"__uuid__\": \"5d37711d-f0fb-45a6-ad26-b4984dcb67df\"\n        },\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 255,\n          \"g\": 255,\n          \"b\": 255,\n          \"a\": 255\n        },\n        \"mainTiling\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 1,\n          \"y\": 1\n        },\n        \"mainOffset\": {\n          \"__type__\": \"cc.Vec2\",\n          \"x\": 0,\n          \"y\": 0\n        }\n      },\n      \"defines\": {\n        \"USE_DIFFUSE_TEXTURE\": true\n      }\n    }\n  }\n}",
-      "name": "restaurant.mtl",
+      "dataAsSubAsset": null,
+      "name": "AtlasMaterial.mtl",
       "subMetas": {}
     }
   }
