@@ -17,8 +17,8 @@ export default class PlayerController extends cc.Component {
     @property(cc.Prefab)
     flatbreadPrefa: cc.Prefab = null;
 
-    @property(cc.Node)
-    chopBar: cc.Node = null;
+    @property(cc.Prefab)
+    chopBarPrefab: cc.Prefab = null; 
 
     @property(cc.Prefab)
     cheesePrefab: cc.Prefab = null;
@@ -112,6 +112,7 @@ export default class PlayerController extends cc.Component {
     private isChopping: boolean = false;
     private chopProgress: number = 0;
     private chopFill: cc.Node = null;
+    private chopBar: cc.Node = null;
 
     // 起司
     private canPickCheese: boolean = false;
@@ -132,6 +133,7 @@ export default class PlayerController extends cc.Component {
 
 
 
+
     start() {
         if (!this.anim) {
             this.anim = this.getComponent(cc.Animation);
@@ -144,13 +146,20 @@ export default class PlayerController extends cc.Component {
         }
 
         this.playAnim("girl_idle_back");
-        this.input = new KeyboardControls();
+        this.input = new KeyboardControls();  // 第二位使用專屬控制器
+        
+        const barNode = cc.instantiate(this.chopBarPrefab);
+        this.node.addChild(barNode);
+        barNode.setPosition(cc.v2(0, 80));
+        this.chopBar = barNode; // ✅ 存起來
 
-        this.chopFill = this.chopBar.getChildByName("Fillbar");
+        this.chopFill = barNode.getChildByName("Fillbar");
         if (!this.chopFill) {
             cc.error("❌ 找不到 Fillbar！");
         }
-        this.chopBar.active = false; // 預設不顯示
+        barNode.active = false; // 預設不顯示
+
+
         this.menuManager = this.uiManager?.getComponent("MenuBar");
     }
 
@@ -185,7 +194,7 @@ export default class PlayerController extends cc.Component {
                 if (dir.y > 0) {
                     this.playAnim(this.isRunning ? "girl_run_back" : "girl_walk_back");
                 } else {
-                    this.playAnim(this.isRunning ? "girl_run" : "girl_idle_walk");
+                    this.playAnim(this.isRunning ? "girl_run" : "girl_walk");
                 }
                 this.node.scaleX = 1;
             } else {

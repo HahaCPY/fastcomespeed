@@ -6571,8 +6571,8 @@
   },
   "e58e5c60-9240-41d1-8c9a-f2463dd0d498": {
     "asset": 1748784457522,
-    "meta": 1748784487574,
-    "relativePath": "Resource\\Character\\Animation\\GIRL\\girl_idle_walk.anim"
+    "meta": 1748969201492,
+    "relativePath": "Resource\\Character\\Animation\\GIRL\\girl_walk.anim"
   },
   "07432150-e84d-4f93-b2b7-d920bfeb58b5": {
     "asset": 1748784457521,
@@ -6650,8 +6650,8 @@
     "relativePath": "Resource\\UI\\Character\\Animation\\GIRL\\girl_idle_left.anim"
   },
   "c9418ee6-4b79-4c49-81d0-5f660f0325d6": {
-    "asset": 1748792129621,
-    "meta": 1748927998126,
+    "asset": 1748945391240,
+    "meta": 1748960165580,
     "relativePath": "Scenes"
   },
   "3e559456-7881-44c4-b721-5c874953fea4": {
@@ -6690,13 +6690,13 @@
     "relativePath": "Resource\\UI\\Character\\Animation\\GIRL\\girl_run.anim"
   },
   "c500bbea-beec-4449-ac63-91873f45f41a": {
-    "asset": 1748792129623,
-    "meta": 1748927998128,
+    "asset": 1748945391241,
+    "meta": 1748960165582,
     "relativePath": "Script\\Player"
   },
   "5ae71289-075a-45f7-acbe-06f771c82d05": {
-    "asset": 1748792129625,
-    "meta": 1748927998128,
+    "asset": 1748945391242,
+    "meta": 1748960165583,
     "relativePath": "Script\\scene"
   },
   "7716a1ef-042e-430d-b10c-100dd435d441": {
@@ -6800,8 +6800,8 @@
     "relativePath": "Resource\\Music"
   },
   "12d8375d-ddf3-4e72-9c38-ac20ca49ad67": {
-    "asset": 1748787972239,
-    "meta": 1748787993603,
+    "asset": 1748933016422,
+    "meta": 1748960165581,
     "relativePath": "Resource\\particle(transparent_bg)"
   },
   "19cc40e0-8019-4f64-a806-cfde16ab13fa": {
@@ -7315,8 +7315,8 @@
     "relativePath": "Prefab\\other_prefab"
   },
   "ec402539-da6e-4908-9258-0fab39e8c16e": {
-    "asset": 1748933016412,
-    "meta": 1748933133899,
+    "asset": 1748945391236,
+    "meta": 1748960165581,
     "relativePath": "Prefab\\particle_prefab"
   },
   "66a04347-3462-459e-9fc9-ec56945072af": {
@@ -7924,34 +7924,129 @@
     "meta": 1748943437300,
     "relativePath": "Script\\Player\\IInputControls.ts"
   },
-  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
-    "asset": 1748935023066,
-    "meta": 1748943437319,
-    "relativePath": "Script\\Player\\KeyboardControls.ts"
+  "f834bb96-2d79-4830-8833-a70ba75107e7": {
+    "asset": 1748945391242,
+    "meta": 1748945754836,
+    "relativePath": "Script\\scene\\uiManager.ts"
   },
   "4d6d4b50-bc00-4036-b1b3-053f0ff9f070": {
-    "asset": 1748944170008,
-    "meta": 1748944170022,
+    "asset": 1748945391236,
+    "meta": 1748945754842,
     "relativePath": "Prefab\\particle_prefab\\RunDusyEffect.prefab"
   },
-  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1748944770797,
-    "meta": 1748944770819,
-    "relativePath": "Scenes\\level-1.fire"
-  },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1748943890814,
-    "meta": 1748943901785,
-    "relativePath": "Script\\Player\\PlayerController.ts"
-  },
   "af95ff3f-6611-407c-ae7f-b33bb1869be1": {
-    "asset": 1748944945182,
-    "meta": 1748944945196,
+    "asset": 1748945391235,
+    "meta": 1748945754844,
     "relativePath": "Prefab\\particle_prefab\\FireEffect.prefab"
   },
-  "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1748945237704,
-    "meta": 1748945241545,
-    "relativePath": "Script\\scene\\uiManager.ts"
+  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
+    "asset": 1748969210475,
+    "meta": 1748969210496,
+    "relativePath": "Scenes\\level-1.fire"
+  },
+  "66bc4c19-72de-4a15-a3c1-cf0a8aba83c5": {
+    "asset": 1748962979490,
+    "meta": 1748962979491,
+    "relativePath": "Resource\\Character\\GIRL2"
+  },
+  "9cfafcb5-7630-4d81-8b1f-12e9dbdb71f8": {
+    "asset": 1748962987347,
+    "meta": 1748962987572,
+    "relativePath": "Resource\\Character\\GIRL2\\00.plist"
+  },
+  "5b926764-eb76-4027-8fc4-db7ca45085b6": {
+    "asset": 1748962987348,
+    "meta": 1748962987437,
+    "relativePath": "Resource\\Character\\GIRL2\\00.png"
+  },
+  "e45985d1-54a7-41b9-9d86-31021db783de": {
+    "asset": 1748963004960,
+    "meta": 1748963004962,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2"
+  },
+  "a8ad148e-1620-4942-bc79-17e475838470": {
+    "asset": 1748963779742,
+    "meta": 1748963779754,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle.anim"
+  },
+  "9e56ac8a-06cf-492d-97f2-b5dfe408ce2c": {
+    "asset": 1748963890370,
+    "meta": 1748963890382,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_back.anim"
+  },
+  "d42003f8-2828-4307-a367-3c53545e894c": {
+    "asset": 1748964399332,
+    "meta": 1748964399345,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_left.anim"
+  },
+  "13cb2ea1-e312-4d18-8a94-c55fe90ed068": {
+    "asset": 1748964033491,
+    "meta": 1748964033506,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_idle_right.anim"
+  },
+  "7c8931ac-ef4a-4cec-ab74-7ba5f25e2f3a": {
+    "asset": 1748964389953,
+    "meta": 1748964389967,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk.anim"
+  },
+  "5876bc97-b5af-4529-8270-a1ecaeb62ea8": {
+    "asset": 1748967990196,
+    "meta": 1748967990204,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_left.anim"
+  },
+  "863d59d4-fe93-4e0e-bc9c-6d1ed47ad549": {
+    "asset": 1748964379296,
+    "meta": 1748964379317,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_right.anim"
+  },
+  "5173590f-ba0b-43db-9875-e3db329ced73": {
+    "asset": 1748964371939,
+    "meta": 1748964371951,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_walk_back.anim"
+  },
+  "c62c40d1-01b1-4b97-8248-5194981da525": {
+    "asset": 1748964362370,
+    "meta": 1748964362393,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run.anim"
+  },
+  "569642ec-0e4c-4806-ae50-0b851a035aab": {
+    "asset": 1748964488333,
+    "meta": 1748964488346,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_left.anim"
+  },
+  "96806a0d-f39f-4f20-9d42-f908fddd9dfa": {
+    "asset": 1748964536581,
+    "meta": 1748964536597,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_right.anim"
+  },
+  "ac46b4ec-7786-4bdc-8c7b-7fdf5f11c1a6": {
+    "asset": 1748964648928,
+    "meta": 1748964648933,
+    "relativePath": "Resource\\Character\\Animation\\GIRL2\\girl_run_back.anim"
+  },
+  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
+    "asset": 1748967878803,
+    "meta": 1748967908799,
+    "relativePath": "Script\\Player\\KeyboardControls.ts"
+  },
+  "c8afcd2d-b0f4-4c6b-8c73-12c956429325": {
+    "asset": 1748968048749,
+    "meta": 1748968281158,
+    "relativePath": "Script\\Player\\KeyboardControls2.ts"
+  },
+  "c3a5a9b8-9e0f-4e15-ac56-ce91287ae930": {
+    "asset": 1748968430865,
+    "meta": 1748968430876,
+    "relativePath": "Prefab\\other_prefab\\Chopbar.prefab"
+  },
+  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
+    "asset": 1748968999600,
+    "meta": 1748969005563,
+    "relativePath": "Script\\Player\\PlayerController 2.ts"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1748969129713,
+    "meta": 1748969132787,
+    "relativePath": "Script\\Player\\PlayerController.ts"
   }
 }

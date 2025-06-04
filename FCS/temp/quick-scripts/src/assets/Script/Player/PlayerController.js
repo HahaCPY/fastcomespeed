@@ -33,7 +33,7 @@ var PlayerController = /** @class */ (function (_super) {
         _this.speed = 200;
         _this.doughPrefab = null;
         _this.flatbreadPrefa = null;
-        _this.chopBar = null;
+        _this.chopBarPrefab = null;
         _this.cheesePrefab = null;
         _this.gratedCheesePrefab = null;
         _this.ppPrefab = null;
@@ -77,6 +77,7 @@ var PlayerController = /** @class */ (function (_super) {
         _this.isChopping = false;
         _this.chopProgress = 0;
         _this.chopFill = null;
+        _this.chopBar = null;
         // 起司
         _this.canPickCheese = false;
         _this.canPickPP = false; // tag 5 拿 pp 的 flag
@@ -100,12 +101,16 @@ var PlayerController = /** @class */ (function (_super) {
             return;
         }
         this.playAnim("girl_idle_back");
-        this.input = new KeyboardControls_1.KeyboardControls();
-        this.chopFill = this.chopBar.getChildByName("Fillbar");
+        this.input = new KeyboardControls_1.KeyboardControls(); // 第二位使用專屬控制器
+        var barNode = cc.instantiate(this.chopBarPrefab);
+        this.node.addChild(barNode);
+        barNode.setPosition(cc.v2(0, 80));
+        this.chopBar = barNode; // ✅ 存起來
+        this.chopFill = barNode.getChildByName("Fillbar");
         if (!this.chopFill) {
             cc.error("❌ 找不到 Fillbar！");
         }
-        this.chopBar.active = false; // 預設不顯示
+        barNode.active = false; // 預設不顯示
         this.menuManager = (_a = this.uiManager) === null || _a === void 0 ? void 0 : _a.getComponent("MenuBar");
     };
     PlayerController.prototype.update = function (dt) {
@@ -137,7 +142,7 @@ var PlayerController = /** @class */ (function (_super) {
                     this.playAnim(this.isRunning ? "girl_run_back" : "girl_walk_back");
                 }
                 else {
-                    this.playAnim(this.isRunning ? "girl_run" : "girl_idle_walk");
+                    this.playAnim(this.isRunning ? "girl_run" : "girl_walk");
                 }
                 this.node.scaleX = 1;
             }
@@ -652,8 +657,8 @@ var PlayerController = /** @class */ (function (_super) {
         property(cc.Prefab)
     ], PlayerController.prototype, "flatbreadPrefa", void 0);
     __decorate([
-        property(cc.Node)
-    ], PlayerController.prototype, "chopBar", void 0);
+        property(cc.Prefab)
+    ], PlayerController.prototype, "chopBarPrefab", void 0);
     __decorate([
         property(cc.Prefab)
     ], PlayerController.prototype, "cheesePrefab", void 0);

@@ -85,10 +85,10 @@ var MenuBar = /** @class */ (function (_super) {
             this.currentTime--;
             this.updateLabel();
             // ⏱️ 剩下 15 秒時顯示火焰
-            if (this.currentTime === 58 && !this.fireEffectNode) {
+            if (this.currentTime === 10 && !this.fireEffectNode) {
                 this.spawnFireEffect();
             }
-            if (this.currentTime === 58 && !this.isShaking) {
+            if (this.currentTime === 10 && !this.isShaking) {
                 this.startTimerShake(); // 🎬 啟動震動
             }
             if (this.currentTime === 0) {

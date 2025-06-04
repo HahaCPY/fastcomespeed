@@ -21,19 +21,15 @@ var KeyboardControls = /** @class */ (function () {
     KeyboardControls.prototype.onKeyDown = function (event) {
         switch (event.keyCode) {
             case cc.macro.KEY.w:
-            case cc.macro.KEY.up:
                 this.moveDir.y = 1;
                 break;
             case cc.macro.KEY.s:
-            case cc.macro.KEY.down:
                 this.moveDir.y = -1;
                 break;
             case cc.macro.KEY.a:
-            case cc.macro.KEY.left:
                 this.moveDir.x = -1;
                 break;
             case cc.macro.KEY.d:
-            case cc.macro.KEY.right:
                 this.moveDir.x = 1;
                 break;
             case cc.macro.KEY.e:
@@ -50,15 +46,11 @@ var KeyboardControls = /** @class */ (function () {
     KeyboardControls.prototype.onKeyUp = function (event) {
         switch (event.keyCode) {
             case cc.macro.KEY.w:
-            case cc.macro.KEY.up:
             case cc.macro.KEY.s:
-            case cc.macro.KEY.down:
                 this.moveDir.y = 0;
                 break;
             case cc.macro.KEY.a:
-            case cc.macro.KEY.left:
             case cc.macro.KEY.d:
-            case cc.macro.KEY.right:
                 this.moveDir.x = 0;
                 break;
             case cc.macro.KEY.e:
