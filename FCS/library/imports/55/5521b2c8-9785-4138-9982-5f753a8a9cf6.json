@@ -18,7 +18,7 @@
         "__id__": 2
       },
       {
-        "__id__": 498
+        "__id__": 422
       }
     ],
     "_active": false,
@@ -97,13 +97,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 495
+        "__id__": 419
       },
       {
-        "__id__": 496
+        "__id__": 420
       },
       {
-        "__id__": 497
+        "__id__": 421
       }
     ],
     "_prefab": null,
@@ -9005,7 +9005,7 @@
         "__id__": 304
       },
       {
-        "__id__": 479
+        "__id__": 403
       }
     ],
     "_active": true,
@@ -9033,7 +9033,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        192.376,
         -111.828,
         0,
         0,
@@ -10921,8 +10921,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -91.422,
-        0,
+        -172.217,
+        -239.514,
         0,
         0,
         0,
@@ -11501,8 +11501,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        224.99,
-        176.399,
+        15.049,
+        85.93,
         30,
         0.7071067811865475,
         0,
@@ -11646,13 +11646,10 @@
         "__id__": 305
       },
       {
-        "__id__": 386
+        "__id__": 351
       },
       {
-        "__id__": 417
-      },
-      {
-        "__id__": 448
+        "__id__": 377
       }
     ],
     "_active": true,
@@ -11739,27 +11736,6 @@
       },
       {
         "__id__": 346
-      },
-      {
-        "__id__": 351
-      },
-      {
-        "__id__": 356
-      },
-      {
-        "__id__": 361
-      },
-      {
-        "__id__": 366
-      },
-      {
-        "__id__": 371
-      },
-      {
-        "__id__": 376
-      },
-      {
-        "__id__": 381
       }
     ],
     "_active": true,
@@ -12883,7 +12859,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -322.752,
+        30.908,
         305.76,
         0,
         0.7071067811865475,
@@ -12906,7 +12882,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "866gZF4JVAjZoUrOT3gHhh"
+    "_id": "ec8QrPg1FLLLxoFbj2IfSM"
   },
   {
     "__type__": "cc.Node",
@@ -12970,7 +12946,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "70eIb0O21De7Bg8IsrIeFk"
+    "_id": "5bnJETg/pCIqSt6ZOPiKmw"
   },
   {
     "__type__": "cc.MeshRenderer",
@@ -12992,7 +12968,7 @@
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_id": "66qDO0wi1GIKxpqH/l6WBs"
+    "_id": "97UeHnsGVCoKsWvHFwmdZH"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -13055,7 +13031,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -263.667,
+        -322.752,
         305.76,
         0,
         0.7071067811865475,
@@ -13078,7 +13054,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "7bAaJ6qhpOqrxZ1iSpXXDe"
+    "_id": "866gZF4JVAjZoUrOT3gHhh"
   },
   {
     "__type__": "cc.Node",
@@ -13142,7 +13118,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "0enA9HkF5LPag7EwVyilfm"
+    "_id": "70eIb0O21De7Bg8IsrIeFk"
   },
   {
     "__type__": "cc.MeshRenderer",
@@ -13164,7 +13140,7 @@
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_id": "29liUAxTtJi4OzqEa2kcE3"
+    "_id": "66qDO0wi1GIKxpqH/l6WBs"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -13227,7 +13203,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        207.905,
+        -263.667,
         305.76,
         0,
         0.7071067811865475,
@@ -13250,7 +13226,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "66cedhEcNEBrsNHH7Z2B40"
+    "_id": "7bAaJ6qhpOqrxZ1iSpXXDe"
   },
   {
     "__type__": "cc.Node",
@@ -13314,7 +13290,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "eeXc0iLKpA7628dldAJMzc"
+    "_id": "0enA9HkF5LPag7EwVyilfm"
   },
   {
     "__type__": "cc.MeshRenderer",
@@ -13336,7 +13312,7 @@
     "_shadowCastingMode": 0,
     "_enableAutoBatch": false,
     "textures": [],
-    "_id": "94gUZY88RHEIn5FCHFwqgp"
+    "_id": "29liUAxTtJi4OzqEa2kcE3"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -13353,1210 +13329,6 @@
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 346
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 305
-    },
-    "_children": [
-      {
-        "__id__": 352
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 355
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        148.82,
-        305.76,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "07XYHqTVtMWq+cwKoONW1P"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 351
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 353
-      }
-    ],
-    "_prefab": {
-      "__id__": 354
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "bd2xVjgitFvYXn4nU8RrRF"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 352
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "22enGu5tRJOIj0WkENCauE"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 351
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 351
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 305
-    },
-    "_children": [
-      {
-        "__id__": 357
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 360
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        89.993,
-        305.76,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "7ak7au4yREHJJR9gn2Jo1L"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 356
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 358
-      }
-    ],
-    "_prefab": {
-      "__id__": 359
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "55JJgbkeNPz5xiYfPnDMVd"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 357
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "26sX5vFu5Dg5p3lIcoy5hX"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 356
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 356
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 305
-    },
-    "_children": [
-      {
-        "__id__": 362
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 365
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        30.908,
-        305.76,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "ec8QrPg1FLLLxoFbj2IfSM"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 361
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 363
-      }
-    ],
-    "_prefab": {
-      "__id__": 364
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "5bnJETg/pCIqSt6ZOPiKmw"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 362
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "97UeHnsGVCoKsWvHFwmdZH"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 361
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 361
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 305
-    },
-    "_children": [
-      {
-        "__id__": 367
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 370
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        443.667,
-        305.76,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "a5guyN6tZGSpJ9KKl803Oc"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 366
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 368
-      }
-    ],
-    "_prefab": {
-      "__id__": 369
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "d2iVz68bJIvL1mMZoo8fEJ"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 367
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "5cxvcMgRtPdK+ZF67+CYah"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 366
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 366
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 305
-    },
-    "_children": [
-      {
-        "__id__": 372
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 375
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        384.582,
-        305.76,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "7fDifyqvxAG6jIhE4UvcNh"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 371
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 373
-      }
-    ],
-    "_prefab": {
-      "__id__": 374
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "c70s0f3q5N/JIrpNtdySYg"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 372
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "eaoPDq+4ZBP6BIOWq7U4Kt"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 371
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 371
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 305
-    },
-    "_children": [
-      {
-        "__id__": 377
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 380
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        325.755,
-        305.76,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "3aEhpBieZBxaCmCjVoyIcT"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 376
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 378
-      }
-    ],
-    "_prefab": {
-      "__id__": 379
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "22K6KZy7JG95iFIbDOgwqm"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 377
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "7cjUeFdfJGk747ZaMQVbTt"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 376
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 376
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 305
-    },
-    "_children": [
-      {
-        "__id__": 382
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 385
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        266.67,
-        305.76,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "3alvUTLpRC57IfUaI56oF9"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 381
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 383
-      }
-    ],
-    "_prefab": {
-      "__id__": 384
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "77z/LAFSlA+J+aiD/o6sHF"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 382
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "28SMm2+b1FyZQcaLo6nPIy"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 381
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 381
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -14573,22 +13345,19 @@
     },
     "_children": [
       {
-        "__id__": 387
+        "__id__": 352
       },
       {
-        "__id__": 392
+        "__id__": 357
       },
       {
-        "__id__": 397
+        "__id__": 362
       },
       {
-        "__id__": 402
+        "__id__": 367
       },
       {
-        "__id__": 407
-      },
-      {
-        "__id__": 412
+        "__id__": 372
       }
     ],
     "_active": true,
@@ -14616,7 +13385,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        13.699,
         -130.154,
         0,
         0,
@@ -14646,17 +13415,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 386
+      "__id__": 351
     },
     "_children": [
       {
-        "__id__": 388
+        "__id__": 353
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 391
+      "__id__": 356
     },
     "_opacity": 255,
     "_color": {
@@ -14710,17 +13479,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 387
+      "__id__": 352
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 389
+        "__id__": 354
       }
     ],
     "_prefab": {
-      "__id__": 390
+      "__id__": 355
     },
     "_opacity": 255,
     "_color": {
@@ -14774,7 +13543,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 388
+      "__id__": 353
     },
     "_enabled": true,
     "_materials": [
@@ -14794,7 +13563,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 387
+      "__id__": 352
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -14805,7 +13574,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 387
+      "__id__": 352
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -14818,17 +13587,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 386
+      "__id__": 351
     },
     "_children": [
       {
-        "__id__": 393
+        "__id__": 358
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 396
+      "__id__": 361
     },
     "_opacity": 255,
     "_color": {
@@ -14882,17 +13651,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 392
+      "__id__": 357
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 394
+        "__id__": 359
       }
     ],
     "_prefab": {
-      "__id__": 395
+      "__id__": 360
     },
     "_opacity": 255,
     "_color": {
@@ -14946,7 +13715,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 393
+      "__id__": 358
     },
     "_enabled": true,
     "_materials": [
@@ -14966,7 +13735,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 392
+      "__id__": 357
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -14977,7 +13746,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 392
+      "__id__": 357
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -14990,17 +13759,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 386
+      "__id__": 351
     },
     "_children": [
       {
-        "__id__": 398
+        "__id__": 363
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 401
+      "__id__": 366
     },
     "_opacity": 255,
     "_color": {
@@ -15054,17 +13823,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 397
+      "__id__": 362
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 399
+        "__id__": 364
       }
     ],
     "_prefab": {
-      "__id__": 400
+      "__id__": 365
     },
     "_opacity": 255,
     "_color": {
@@ -15118,7 +13887,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 398
+      "__id__": 363
     },
     "_enabled": true,
     "_materials": [
@@ -15138,7 +13907,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 397
+      "__id__": 362
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15149,7 +13918,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 397
+      "__id__": 362
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15162,17 +13931,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 386
+      "__id__": 351
     },
     "_children": [
       {
-        "__id__": 403
+        "__id__": 368
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 406
+      "__id__": 371
     },
     "_opacity": 255,
     "_color": {
@@ -15226,17 +13995,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 402
+      "__id__": 367
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 404
+        "__id__": 369
       }
     ],
     "_prefab": {
-      "__id__": 405
+      "__id__": 370
     },
     "_opacity": 255,
     "_color": {
@@ -15290,7 +14059,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 403
+      "__id__": 368
     },
     "_enabled": true,
     "_materials": [
@@ -15310,7 +14079,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 402
+      "__id__": 367
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15321,7 +14090,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 402
+      "__id__": 367
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15334,17 +14103,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 386
+      "__id__": 351
     },
     "_children": [
       {
-        "__id__": 408
+        "__id__": 373
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 411
+      "__id__": 376
     },
     "_opacity": 255,
     "_color": {
@@ -15398,17 +14167,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 407
+      "__id__": 372
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 409
+        "__id__": 374
       }
     ],
     "_prefab": {
-      "__id__": 410
+      "__id__": 375
     },
     "_opacity": 255,
     "_color": {
@@ -15462,7 +14231,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 408
+      "__id__": 373
     },
     "_enabled": true,
     "_materials": [
@@ -15482,7 +14251,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 407
+      "__id__": 372
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15493,179 +14262,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 407
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 386
-    },
-    "_children": [
-      {
-        "__id__": 413
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 416
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        -49.16,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "f1Lq89zsNJHY6GGoNgZTpS"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 412
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 414
-      }
-    ],
-    "_prefab": {
-      "__id__": 415
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "b6o+/vPK5EE6hSEyXFTIy7"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 413
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "cbLamzdoZAjbX5HBZkYkuL"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 412
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 412
+      "__id__": 372
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15682,22 +14279,19 @@
     },
     "_children": [
       {
-        "__id__": 418
+        "__id__": 378
       },
       {
-        "__id__": 423
+        "__id__": 383
       },
       {
-        "__id__": 428
+        "__id__": 388
       },
       {
-        "__id__": 433
+        "__id__": 393
       },
       {
-        "__id__": 438
-      },
-      {
-        "__id__": 443
+        "__id__": 398
       }
     ],
     "_active": true,
@@ -15755,17 +14349,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 417
+      "__id__": 377
     },
     "_children": [
       {
-        "__id__": 419
+        "__id__": 379
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 422
+      "__id__": 382
     },
     "_opacity": 255,
     "_color": {
@@ -15819,17 +14413,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 418
+      "__id__": 378
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 420
+        "__id__": 380
       }
     ],
     "_prefab": {
-      "__id__": 421
+      "__id__": 381
     },
     "_opacity": 255,
     "_color": {
@@ -15883,7 +14477,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 419
+      "__id__": 379
     },
     "_enabled": true,
     "_materials": [
@@ -15903,7 +14497,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 418
+      "__id__": 378
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15914,7 +14508,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 418
+      "__id__": 378
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -15927,17 +14521,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 417
+      "__id__": 377
     },
     "_children": [
       {
-        "__id__": 424
+        "__id__": 384
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 427
+      "__id__": 387
     },
     "_opacity": 255,
     "_color": {
@@ -15991,17 +14585,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 423
+      "__id__": 383
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 425
+        "__id__": 385
       }
     ],
     "_prefab": {
-      "__id__": 426
+      "__id__": 386
     },
     "_opacity": 255,
     "_color": {
@@ -16055,7 +14649,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 424
+      "__id__": 384
     },
     "_enabled": true,
     "_materials": [
@@ -16075,7 +14669,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 423
+      "__id__": 383
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -16086,7 +14680,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 423
+      "__id__": 383
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -16099,17 +14693,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 417
+      "__id__": 377
     },
     "_children": [
       {
-        "__id__": 429
+        "__id__": 389
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 432
+      "__id__": 392
     },
     "_opacity": 255,
     "_color": {
@@ -16163,17 +14757,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 428
+      "__id__": 388
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 430
+        "__id__": 390
       }
     ],
     "_prefab": {
-      "__id__": 431
+      "__id__": 391
     },
     "_opacity": 255,
     "_color": {
@@ -16227,7 +14821,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 429
+      "__id__": 389
     },
     "_enabled": true,
     "_materials": [
@@ -16247,7 +14841,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 428
+      "__id__": 388
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -16258,7 +14852,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 428
+      "__id__": 388
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -16271,17 +14865,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 417
+      "__id__": 377
     },
     "_children": [
       {
-        "__id__": 434
+        "__id__": 394
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 437
+      "__id__": 397
     },
     "_opacity": 255,
     "_color": {
@@ -16335,17 +14929,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 433
+      "__id__": 393
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 435
+        "__id__": 395
       }
     ],
     "_prefab": {
-      "__id__": 436
+      "__id__": 396
     },
     "_opacity": 255,
     "_color": {
@@ -16399,7 +14993,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 434
+      "__id__": 394
     },
     "_enabled": true,
     "_materials": [
@@ -16419,7 +15013,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 433
+      "__id__": 393
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -16430,7 +15024,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 433
+      "__id__": 393
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -16443,17 +15037,17 @@
     "_name": "table",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 417
+      "__id__": 377
     },
     "_children": [
       {
-        "__id__": 439
+        "__id__": 399
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 442
+      "__id__": 402
     },
     "_opacity": 255,
     "_color": {
@@ -16507,17 +15101,17 @@
     "_name": "kitchentable_B",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 438
+      "__id__": 398
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 440
+        "__id__": 400
       }
     ],
     "_prefab": {
-      "__id__": 441
+      "__id__": 401
     },
     "_opacity": 255,
     "_color": {
@@ -16571,7 +15165,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 439
+      "__id__": 399
     },
     "_enabled": true,
     "_materials": [
@@ -16591,7 +15185,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 438
+      "__id__": 398
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -16602,1288 +15196,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 438
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 417
-    },
-    "_children": [
-      {
-        "__id__": 444
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 447
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        -49.16,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "b5l9bkZ3lKs73wCaN76494"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 443
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 445
-      }
-    ],
-    "_prefab": {
-      "__id__": 446
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "2bYQ2ifoRM55QJzOUampq7"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 444
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "b986jBD3xF7741wkoSVfvd"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 443
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 443
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "righttable",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 304
-    },
-    "_children": [
-      {
-        "__id__": 449
-      },
-      {
-        "__id__": 454
-      },
-      {
-        "__id__": 459
-      },
-      {
-        "__id__": 464
-      },
-      {
-        "__id__": 469
-      },
-      {
-        "__id__": 474
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": null,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        430.219,
-        -130.154,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "8bJIDTRMZC8qbhZevyWIVF"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 448
-    },
-    "_children": [
-      {
-        "__id__": 450
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 453
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        246.84,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "c3doooZNxFCK9oNsYhMlxR"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 449
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 451
-      }
-    ],
-    "_prefab": {
-      "__id__": 452
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "93HfZtmBxLU6xxm6K0nJkq"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 450
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "eerfVBHvBIo6mZ6eANS/rr"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 449
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 449
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 448
-    },
-    "_children": [
-      {
-        "__id__": 455
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 458
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        187.84,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "c1JIhgzVdL/bWNsgP8aHVj"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 454
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 456
-      }
-    ],
-    "_prefab": {
-      "__id__": 457
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "d6jIkcufpHbJh/D9hgce4o"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 455
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "f8J14G/GhG27Y5VqfYp6Xe"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 454
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 454
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 448
-    },
-    "_children": [
-      {
-        "__id__": 460
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 463
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        128.84,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "f4U02jK1RF757FYq9TpCa+"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 459
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 461
-      }
-    ],
-    "_prefab": {
-      "__id__": 462
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "33NNLRJg1JsaSxIWOq/NKm"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 460
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "56eqND8vlOLbU0LyIurwki"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 459
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 459
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 448
-    },
-    "_children": [
-      {
-        "__id__": 465
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 468
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        69.84,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "09EntG96dPXI7HL1WkPydw"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 464
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 466
-      }
-    ],
-    "_prefab": {
-      "__id__": 467
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "b7ZyMMZ1BIpoxL+WxsEDcA"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 465
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "a9+8ipMGdIjbWVS8tXpEMY"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 464
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 464
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 448
-    },
-    "_children": [
-      {
-        "__id__": 470
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 473
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        9.840000000000003,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "13lYM5DWdHJZlLKH4MA+ln"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 469
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 471
-      }
-    ],
-    "_prefab": {
-      "__id__": 472
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "3d2yQ54hBClKUhwJ4XgDOa"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 470
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "1dEySRf1BDypzLo5vL8jgb"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 469
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 469
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "table",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 448
-    },
-    "_children": [
-      {
-        "__id__": 475
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 478
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        14.066,
-        -49.16,
-        0,
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 90,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "69d6kWQ0hB+KmiaUTDCVKG"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "kitchentable_B",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 474
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 476
-      }
-    ],
-    "_prefab": {
-      "__id__": 477
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "4611tJSQxG47tbc5GCUE/l"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 475
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "d50a1052-a2be-44d6-b4aa-f1ac6a586fd0"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "32ee4d4c-ade0-4747-9829-e900ba1bb372"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "1f1zaXOARNN4uDqQ8P4wb2"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 474
-    },
-    "asset": {
-      "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
-    },
-    "fileId": "kitchentable_B",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 474
+      "__id__": 398
     },
     "asset": {
       "__uuid__": "935a9900-8fa5-46fc-87fc-906ad5acadda"
@@ -17900,13 +15213,13 @@
     },
     "_children": [
       {
-        "__id__": 480
+        "__id__": 404
       },
       {
-        "__id__": 485
+        "__id__": 409
       },
       {
-        "__id__": 490
+        "__id__": 414
       }
     ],
     "_active": true,
@@ -17934,8 +15247,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -309.799,
+        -126.013,
         0,
         0,
         0,
@@ -17964,17 +15277,17 @@
     "_name": "cake",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 479
+      "__id__": 403
     },
     "_children": [
       {
-        "__id__": 481
+        "__id__": 405
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 484
+      "__id__": 408
     },
     "_opacity": 255,
     "_color": {
@@ -18028,17 +15341,17 @@
     "_name": "icecream_waffle",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 480
+      "__id__": 404
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 482
+        "__id__": 406
       }
     ],
     "_prefab": {
-      "__id__": 483
+      "__id__": 407
     },
     "_opacity": 255,
     "_color": {
@@ -18092,7 +15405,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 481
+      "__id__": 405
     },
     "_enabled": true,
     "_materials": [
@@ -18112,7 +15425,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 480
+      "__id__": 404
     },
     "asset": {
       "__uuid__": "90bf8156-2328-4a62-b4e9-f477107645cd"
@@ -18123,7 +15436,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 480
+      "__id__": 404
     },
     "asset": {
       "__uuid__": "90bf8156-2328-4a62-b4e9-f477107645cd"
@@ -18136,17 +15449,17 @@
     "_name": "cake",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 479
+      "__id__": 403
     },
     "_children": [
       {
-        "__id__": 486
+        "__id__": 410
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 489
+      "__id__": 413
     },
     "_opacity": 255,
     "_color": {
@@ -18200,17 +15513,17 @@
     "_name": "icecream_waffle",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 485
+      "__id__": 409
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 487
+        "__id__": 411
       }
     ],
     "_prefab": {
-      "__id__": 488
+      "__id__": 412
     },
     "_opacity": 255,
     "_color": {
@@ -18264,7 +15577,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 486
+      "__id__": 410
     },
     "_enabled": true,
     "_materials": [
@@ -18284,7 +15597,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 485
+      "__id__": 409
     },
     "asset": {
       "__uuid__": "90bf8156-2328-4a62-b4e9-f477107645cd"
@@ -18295,7 +15608,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 485
+      "__id__": 409
     },
     "asset": {
       "__uuid__": "90bf8156-2328-4a62-b4e9-f477107645cd"
@@ -18308,17 +15621,17 @@
     "_name": "cake",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 479
+      "__id__": 403
     },
     "_children": [
       {
-        "__id__": 491
+        "__id__": 415
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 494
+      "__id__": 418
     },
     "_opacity": 255,
     "_color": {
@@ -18372,17 +15685,17 @@
     "_name": "icecream_waffle",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 490
+      "__id__": 414
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 492
+        "__id__": 416
       }
     ],
     "_prefab": {
-      "__id__": 493
+      "__id__": 417
     },
     "_opacity": 255,
     "_color": {
@@ -18436,7 +15749,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 491
+      "__id__": 415
     },
     "_enabled": true,
     "_materials": [
@@ -18456,7 +15769,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 490
+      "__id__": 414
     },
     "asset": {
       "__uuid__": "90bf8156-2328-4a62-b4e9-f477107645cd"
@@ -18467,7 +15780,7 @@
   {
     "__type__": "cc.PrefabInfo",
     "root": {
-      "__id__": 490
+      "__id__": 414
     },
     "asset": {
       "__uuid__": "90bf8156-2328-4a62-b4e9-f477107645cd"
@@ -18541,43 +15854,34 @@
     },
     "_children": [
       {
-        "__id__": 499
+        "__id__": 423
       },
       {
-        "__id__": 501
+        "__id__": 425
       },
       {
-        "__id__": 503
+        "__id__": 427
       },
       {
-        "__id__": 505
+        "__id__": 429
       },
       {
-        "__id__": 507
+        "__id__": 431
       },
       {
-        "__id__": 509
+        "__id__": 433
       },
       {
-        "__id__": 511
+        "__id__": 435
       },
       {
-        "__id__": 513
-      },
-      {
-        "__id__": 515
-      },
-      {
-        "__id__": 520
-      },
-      {
-        "__id__": 525
+        "__id__": 437
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 530
+        "__id__": 439
       }
     ],
     "_prefab": null,
@@ -18633,13 +15937,13 @@
     "_name": "slot1",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 500
+        "__id__": 424
       }
     ],
     "_prefab": null,
@@ -18695,7 +15999,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 499
+      "__id__": 423
     },
     "_enabled": true,
     "_materials": [
@@ -18725,13 +16029,13 @@
     "_name": "slot2",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 502
+        "__id__": 426
       }
     ],
     "_prefab": null,
@@ -18787,7 +16091,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 501
+      "__id__": 425
     },
     "_enabled": true,
     "_materials": [
@@ -18817,13 +16121,13 @@
     "_name": "slot3",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 504
+        "__id__": 428
       }
     ],
     "_prefab": null,
@@ -18879,7 +16183,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 503
+      "__id__": 427
     },
     "_enabled": true,
     "_materials": [
@@ -18909,13 +16213,13 @@
     "_name": "slot4",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 506
+        "__id__": 430
       }
     ],
     "_prefab": null,
@@ -18971,7 +16275,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 505
+      "__id__": 429
     },
     "_enabled": true,
     "_materials": [
@@ -19001,13 +16305,13 @@
     "_name": "time",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 508
+        "__id__": 432
       }
     ],
     "_prefab": null,
@@ -19063,7 +16367,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 507
+      "__id__": 431
     },
     "_enabled": true,
     "_materials": [
@@ -19095,13 +16399,13 @@
     "_name": "time_label",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 510
+        "__id__": 434
       }
     ],
     "_prefab": null,
@@ -19157,7 +16461,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 509
+      "__id__": 433
     },
     "_enabled": true,
     "_materials": [
@@ -19192,13 +16496,13 @@
     "_name": "money",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 512
+        "__id__": 436
       }
     ],
     "_prefab": null,
@@ -19254,7 +16558,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 511
+      "__id__": 435
     },
     "_enabled": true,
     "_materials": [
@@ -19286,13 +16590,13 @@
     "_name": "money_label",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 498
+      "__id__": 422
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 514
+        "__id__": 438
       }
     ],
     "_prefab": null,
@@ -19348,7 +16652,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 513
+      "__id__": 437
     },
     "_enabled": true,
     "_materials": [
@@ -19379,541 +16683,25 @@
     "_id": "96U6h/se5D3q9UlKa40Ax+"
   },
   {
-    "__type__": "cc.Node",
-    "_name": "vanilla_icecream",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 498
-    },
-    "_children": [
-      {
-        "__id__": 516
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 519
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        432.532,
-        320,
-        0,
-        0,
-        0,
-        0,
-        1,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "c62rIgE2tALJ/WOGJDh7Eq"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "food_icecream_cone_vanilla",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 515
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 517
-      }
-    ],
-    "_prefab": {
-      "__id__": 518
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "3e3GWhESdFQ7yOBqtXzMrY"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 516
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "0eb7e987-59e6-4e34-beeb-8f36be62e303"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "fa9c6dfa-54b9-49dd-b655-e165f988a85f"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "69I2BDO1lDw5hjBKk9y88u"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 515
-    },
-    "asset": {
-      "__uuid__": "5d415e76-f0a4-4dd2-a261-75efe5f1f138"
-    },
-    "fileId": "food_icecream_cone_vanilla",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 515
-    },
-    "asset": {
-      "__uuid__": "5d415e76-f0a4-4dd2-a261-75efe5f1f138"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "strawberry_icecream",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 498
-    },
-    "_children": [
-      {
-        "__id__": 521
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 524
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        480,
-        320,
-        0,
-        0,
-        0,
-        0,
-        1,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "61EeLIkRJHQItFqUWdjqJW"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "food_icecream_cone_strawberry",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 520
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 522
-      }
-    ],
-    "_prefab": {
-      "__id__": 523
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "7aSRevvGRMs4BCcbS8FNP7"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 521
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "e57ad832-dd19-44fc-8d67-7a8a4c2b7689"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "afed4fdd-58b1-4982-847a-b4f84f68554f"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "d8PrpYt19Ivbbp81GBLqxq"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 520
-    },
-    "asset": {
-      "__uuid__": "1737ba10-2f54-4826-baea-537d92c4e0b4"
-    },
-    "fileId": "food_icecream_cone_strawberry",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 520
-    },
-    "asset": {
-      "__uuid__": "1737ba10-2f54-4826-baea-537d92c4e0b4"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "chocolate_icecream",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 498
-    },
-    "_children": [
-      {
-        "__id__": 526
-      }
-    ],
-    "_active": true,
-    "_components": [],
-    "_prefab": {
-      "__id__": 529
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        480,
-        320,
-        0,
-        0,
-        0,
-        0,
-        1,
-        30,
-        30,
-        30
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "61YvOkpjtJQ4hqQTpIU/0d"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "food_icecream_cone_chocolate",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 525
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 527
-      }
-    ],
-    "_prefab": {
-      "__id__": 528
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": true,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "a4Bz2cdBxHnahko0ZF050J"
-  },
-  {
-    "__type__": "cc.MeshRenderer",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 526
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "c1281054-5ef0-47e4-baa1-d6b50d9bbcda"
-      }
-    ],
-    "_mesh": {
-      "__uuid__": "05de2df5-1097-4c98-9565-0d54999bda87"
-    },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
-    "_enableAutoBatch": false,
-    "textures": [],
-    "_id": "63/YJMAzdN8rRHC1tTxwqj"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 525
-    },
-    "asset": {
-      "__uuid__": "a7f84aba-636e-484f-acf0-6f4980c716cf"
-    },
-    "fileId": "food_icecream_cone_chocolate",
-    "sync": false
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 525
-    },
-    "asset": {
-      "__uuid__": "a7f84aba-636e-484f-acf0-6f4980c716cf"
-    },
-    "fileId": "",
-    "sync": false
-  },
-  {
     "__type__": "f834buWLXlIMIgzpwunUQfn",
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 498
+      "__id__": 422
     },
     "_enabled": true,
     "slots": [
       {
-        "__id__": 499
+        "__id__": 423
       },
       {
-        "__id__": 501
+        "__id__": 425
       },
       {
-        "__id__": 503
+        "__id__": 427
       },
       {
-        "__id__": 505
+        "__id__": 429
       }
     ],
     "dishPrefabs": [
@@ -19937,10 +16725,10 @@
       }
     ],
     "timerLabel": {
-      "__id__": 510
+      "__id__": 434
     },
     "scoreLabel": {
-      "__id__": 514
+      "__id__": 438
     },
     "totalTime": 60,
     "dishesPerGame": 3,

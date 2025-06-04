@@ -19,6 +19,16 @@
           "g": 255,
           "b": 255,
           "a": 255
+        },
+        "mainTiling": {
+          "__type__": "cc.Vec2",
+          "x": 0.7,
+          "y": 0.5
+        },
+        "mainOffset": {
+          "__type__": "cc.Vec2",
+          "x": 0.2,
+          "y": 0.1
         }
       },
       "defines": {

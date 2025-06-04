@@ -605,8 +605,8 @@
     "relativePath": "Script/scene"
   },
   "5521b2c8-9785-4138-9982-5f753a8a9cf6": {
-    "asset": 1748969318128,
-    "meta": 1748969318139,
+    "asset": 1749025386534,
+    "meta": 1749025386543,
     "relativePath": "Scenes/level-2.fire"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
@@ -2566,7 +2566,7 @@
   },
   "7636e75a-ec91-42d6-a2f8-3bd7a597654a": {
     "asset": 1748438321673,
-    "meta": 1748939363395,
+    "meta": 1749025352557,
     "relativePath": "Resource/extra_restaurant/kitchentable_B.gltf"
   },
   "727e39ec-4eb1-4691-bc50-6bc5b9cbb0f6": {
@@ -8165,8 +8165,8 @@
     "relativePath": "Prefab/icecream_menu/strawberry-cake-menu.prefab"
   },
   "7c6c185a-5349-40cd-9057-ff1012bcaa4b": {
-    "asset": 1748969166639,
-    "meta": 1748969166642,
+    "asset": 1749024830370,
+    "meta": 1749024830372,
     "relativePath": "Prefab/icecream_menu/chocolate-cake-menu.prefab"
   },
   "07460010-e06d-4faa-8550-1c0d441d87f0": {
