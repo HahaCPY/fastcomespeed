@@ -8309,109 +8309,114 @@
     "meta": 1749029635267,
     "relativePath": "Resource\\restaurant\\wall - 001.gltf"
   },
+  "4bfab19f-ae24-4a23-8064-edfabaa29a5d": {
+    "asset": 1749048680860,
+    "meta": 1749048704950,
+    "relativePath": "Resource\\Character\\Animation\\CATTY"
+  },
+  "7cdfb4b2-5978-49b0-91f9-02a4536d54b2": {
+    "asset": 1749048680864,
+    "meta": 1749048704951,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN"
+  },
   "6723972b-3e3b-447a-9df4-bc07547ba96e": {
-    "asset": 1749039810407,
-    "meta": 1749039810408,
+    "asset": 1749048680869,
+    "meta": 1749048704953,
     "relativePath": "Resource\\Character\\NPC"
   },
   "b3deb2d3-8ce4-403d-8c73-a56519fe8b52": {
-    "asset": 1749039829036,
-    "meta": 1749039829127,
+    "asset": 1749048680865,
+    "meta": 1749048705139,
     "relativePath": "Resource\\Character\\NPC\\catty.plist"
   },
+  "e1bf9281-af5b-4306-9000-3bd8a5210a2e": {
+    "asset": 1749048680877,
+    "meta": 1749048704973,
+    "relativePath": "Script\\NPC"
+  },
+  "4e9cdc88-07f3-49b3-85d2-f3bcee62d434": {
+    "asset": 1749048680876,
+    "meta": 1749048705017,
+    "relativePath": "Script\\NPC\\GoblinSpawner.ts"
+  },
+  "a4e7b953-ed5b-409b-b74b-a4acd573d1d4": {
+    "asset": 1749048680876,
+    "meta": 1749048705031,
+    "relativePath": "Script\\NPC\\NPCWanderCatty.ts"
+  },
+  "2e63b02c-dbdb-4fe4-8f52-5569e033e6e3": {
+    "asset": 1749048680877,
+    "meta": 1749048705046,
+    "relativePath": "Script\\NPC\\NPCWanderGoblin.ts"
+  },
+  "f834bb96-2d79-4830-8833-a70ba75107e7": {
+    "asset": 1749048680878,
+    "meta": 1749048705088,
+    "relativePath": "Script\\scene\\uiManager.ts"
+  },
   "7cb4b538-ca8a-402f-b1f1-c0eea028e13a": {
-    "asset": 1749039829036,
-    "meta": 1749039829128,
+    "asset": 1749048680867,
+    "meta": 1749048705149,
     "relativePath": "Resource\\Character\\NPC\\goblin.plist"
   },
-  "cd2382b8-6177-41cf-a2df-3140ab3bd6f2": {
-    "asset": 1749039829036,
-    "meta": 1749040918406,
-    "relativePath": "Resource\\Character\\NPC\\catty.png"
-  },
-  "cfccdb38-0000-4808-8ad7-dd41987cb2ef": {
-    "asset": 1749039829037,
-    "meta": 1749039829087,
-    "relativePath": "Resource\\Character\\NPC\\goblin.png"
-  },
-  "7c537ce0-19cc-472a-a8af-cd8608f5f24e": {
-    "asset": 1749041134281,
-    "meta": 1749041134291,
-    "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_idle.anim"
-  },
-  "85fb9abe-8dc2-47de-8098-374ca1d57d83": {
-    "asset": 1749041191960,
-    "meta": 1749041191972,
-    "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_run.anim"
-  },
   "5d8938b5-01b1-41c7-a970-50859a8ea20e": {
-    "asset": 1749041210122,
-    "meta": 1749041210132,
+    "asset": 1749048680858,
+    "meta": 1749048705092,
     "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_jump.anim"
   },
-  "7cdfb4b2-5978-49b0-91f9-02a4536d54b2": {
-    "asset": 1749041396118,
-    "meta": 1749041396119,
-    "relativePath": "Resource\\Character\\Animation\\GOBLIN"
+  "85fb9abe-8dc2-47de-8098-374ca1d57d83": {
+    "asset": 1749048680859,
+    "meta": 1749048705093,
+    "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_run.anim"
+  },
+  "27e7a099-f2c5-469c-804c-120d317b402a": {
+    "asset": 1749048680855,
+    "meta": 1749048705094,
+    "relativePath": "Prefab\\other_prefab\\goblin.prefab"
+  },
+  "7c537ce0-19cc-472a-a8af-cd8608f5f24e": {
+    "asset": 1749048680857,
+    "meta": 1749048705095,
+    "relativePath": "Resource\\Character\\Animation\\CATTY\\cat_idle.anim"
   },
   "454fc9ab-f3c4-4d8e-83aa-988b4f7d6ccc": {
-    "asset": 1749042689450,
-    "meta": 1749042689461,
+    "asset": 1749048680862,
+    "meta": 1749048705096,
     "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_idle.anim"
   },
-  "82a920b3-d804-4a81-a526-93df7ed1a87c": {
-    "asset": 1749041754891,
-    "meta": 1749041754902,
-    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_attack.anim"
-  },
   "0c7f55c4-c61a-45ac-8f78-547e8b645664": {
-    "asset": 1749043042947,
-    "meta": 1749043042958,
+    "asset": 1749048680864,
+    "meta": 1749048705096,
     "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_run.anim"
   },
   "e4990c85-052e-4b89-b0fa-0a32701e5aa0": {
-    "asset": 1749041921763,
-    "meta": 1749041921776,
+    "asset": 1749049537883,
+    "meta": 1749049537893,
     "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_die.anim"
   },
-  "e1bf9281-af5b-4306-9000-3bd8a5210a2e": {
-    "asset": 1749042217073,
-    "meta": 1749042217074,
-    "relativePath": "Script\\NPC"
+  "82a920b3-d804-4a81-a526-93df7ed1a87c": {
+    "asset": 1749048680861,
+    "meta": 1749048705097,
+    "relativePath": "Resource\\Character\\Animation\\GOBLIN\\goblin_attack.anim"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749048262412,
-    "meta": 1749048262433,
+    "asset": 1749049613616,
+    "meta": 1749049613634,
     "relativePath": "Scenes\\level-1.fire"
   },
-  "a4e7b953-ed5b-409b-b74b-a4acd573d1d4": {
-    "asset": 1749042312411,
-    "meta": 1749042313580,
-    "relativePath": "Script\\NPC\\NPCWanderCatty.ts"
+  "cd2382b8-6177-41cf-a2df-3140ab3bd6f2": {
+    "asset": 1749048680866,
+    "meta": 1749048705113,
+    "relativePath": "Resource\\Character\\NPC\\catty.png"
   },
-  "27e7a099-f2c5-469c-804c-120d317b402a": {
-    "asset": 1749047951776,
-    "meta": 1749047951789,
-    "relativePath": "Prefab\\other_prefab\\goblin.prefab"
-  },
-  "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1749045875903,
-    "meta": 1749045930158,
-    "relativePath": "Script\\scene\\uiManager.ts"
-  },
-  "2e63b02c-dbdb-4fe4-8f52-5569e033e6e3": {
-    "asset": 1749046473404,
-    "meta": 1749046564611,
-    "relativePath": "Script\\NPC\\NPCWanderGoblin.ts"
-  },
-  "4e9cdc88-07f3-49b3-85d2-f3bcee62d434": {
-    "asset": 1749047157737,
-    "meta": 1749047158729,
-    "relativePath": "Script\\NPC\\GoblinSpawner.ts"
+  "cfccdb38-0000-4808-8ad7-dd41987cb2ef": {
+    "asset": 1749048680869,
+    "meta": 1749048705116,
+    "relativePath": "Resource\\Character\\NPC\\goblin.png"
   },
   "e02642d7-b206-4350-9dd5-4290a606eaf3": {
-    "asset": 1749048319184,
-    "meta": 1749048320518,
+    "asset": 1749049855393,
+    "meta": 1749049856379,
     "relativePath": "Script\\NPC\\GoblinController.ts"
   }
 }

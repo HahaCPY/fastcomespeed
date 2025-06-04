@@ -55872,12 +55872,12 @@
     "_offset": {
       "__type__": "cc.Vec2",
       "x": 14,
-      "y": 17
+      "y": -118
     },
     "_size": {
       "__type__": "cc.Size",
       "width": 62,
-      "height": 134
+      "height": 405
     },
     "_id": "8aHaqH1+1DEag5v0lLM6rp"
   },
@@ -55941,7 +55941,7 @@
       "__id__": 1556
     },
     "_enabled": true,
-    "tag": 1,
+    "tag": 12,
     "_density": 1,
     "_sensor": false,
     "_friction": 0,
@@ -55967,7 +55967,7 @@
       "__id__": 1556
     },
     "_enabled": true,
-    "tag": 1,
+    "tag": 15,
     "_density": 1,
     "_sensor": false,
     "_friction": 0,
@@ -55993,7 +55993,7 @@
       "__id__": 1556
     },
     "_enabled": true,
-    "tag": 1,
+    "tag": 15,
     "_density": 1,
     "_sensor": false,
     "_friction": 0,
@@ -56019,7 +56019,7 @@
       "__id__": 1556
     },
     "_enabled": true,
-    "tag": 1,
+    "tag": 15,
     "_density": 1,
     "_sensor": false,
     "_friction": 0,

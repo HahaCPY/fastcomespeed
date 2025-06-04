@@ -3,8 +3,8 @@
   "_name": "goblin_die",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.62,
-  "sample": 50,
+  "_duration": 1.0333333333333334,
+  "sample": 30,
   "speed": 1,
   "wrapMode": 1,
   "curveData": {
@@ -18,37 +18,37 @@
             }
           },
           {
-            "frame": 0.1,
+            "frame": 0.16666666666666666,
             "value": {
               "__uuid__": "60c42e84-19aa-4a50-902f-81b71f6a87af"
             }
           },
           {
-            "frame": 0.2,
+            "frame": 0.3333333333333333,
             "value": {
               "__uuid__": "0f81b0ca-c402-475e-9752-6e0249a6c90c"
             }
           },
           {
-            "frame": 0.3,
+            "frame": 0.5,
             "value": {
               "__uuid__": "59af8c91-104c-4022-9d3e-095a7643a13f"
             }
           },
           {
-            "frame": 0.4,
+            "frame": 0.6666666666666666,
             "value": {
               "__uuid__": "7a2c232a-9a7b-4e8b-be5a-b77fcac93392"
             }
           },
           {
-            "frame": 0.5,
+            "frame": 0.8333333333333334,
             "value": {
               "__uuid__": "87b590c6-ee4c-4898-a5f0-668ae4e4b8d6"
             }
           },
           {
-            "frame": 0.6,
+            "frame": 1,
             "value": {
               "__uuid__": "f30408de-3b04-4f9e-b8f6-9e077af4b0ea"
             }

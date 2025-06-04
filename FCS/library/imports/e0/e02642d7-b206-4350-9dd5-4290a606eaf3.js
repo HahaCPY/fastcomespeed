@@ -43,6 +43,9 @@ var GoblinController = /** @class */ (function (_super) {
     }
     GoblinController.prototype.onLoad = function () {
         this.rb = this.getComponent(cc.RigidBody);
+        if (!this.anim) {
+            this.anim = this.getComponent(cc.Animation);
+        }
         this.state = "walk";
         this.playAnim("goblin_run");
     };
@@ -75,9 +78,8 @@ var GoblinController = /** @class */ (function (_super) {
         }
         if (this.inDeskContact) {
             this.deskContactTimer += dt;
-            if (this.deskContactTimer > 4 && this.state !== "idle") {
-                this.state = "idle";
-                this.playAnim("goblin_idle");
+            if (this.deskContactTimer > 4 && this.state !== "dead") {
+                this.die(); // ✅ 碰太久就死亡
             }
         }
         else {
@@ -85,8 +87,10 @@ var GoblinController = /** @class */ (function (_super) {
         }
     };
     GoblinController.prototype.moveTowards = function (target, dt) {
+        if (this.state === "dead")
+            return;
         var dir = target.sub(this.node.position);
-        dir.y -= 30; // 偏下方
+        //dir.y -= 30; // 偏下方
         dir = dir.normalize();
         this.node.x += dir.x * this.speed * dt;
         this.node.y += dir.y * this.speed * dt;
@@ -95,13 +99,25 @@ var GoblinController = /** @class */ (function (_super) {
         }
     };
     GoblinController.prototype.die = function () {
+        var _this = this;
         if (this.state === "dead")
             return;
         this.state = "dead";
         this.inDeskContact = false;
         this.unscheduleAllCallbacks();
-        this.playAnim("goblin_die");
-        this.anim.once("finished", this.onDieAnimationFinished, this);
+        var state = this.anim.getAnimationState("goblin_die");
+        if (!state) {
+            console.warn("❗找不到 goblin_die 動畫，直接銷毀節點");
+            this.node.destroy();
+            return;
+        }
+        this.currentAnim = "goblin_die";
+        // ✅ 播放動畫
+        this.anim.play("goblin_die");
+        // ✅ 不要檢查 clip.name，直接 destroy（因為某些版本 clip.name 會是 null）
+        this.anim.once("finished", function () {
+            _this.onDieAnimationFinished();
+        }, this);
     };
     GoblinController.prototype.onDieAnimationFinished = function () {
         this.node.destroy();
@@ -116,12 +132,12 @@ var GoblinController = /** @class */ (function (_super) {
         }
     };
     GoblinController.prototype.onBeginContact = function (contact, self, other) {
-        if (other.node.name === "DeskCollider") {
+        if (other.tag === 1) {
             this.inDeskContact = true;
         }
     };
     GoblinController.prototype.onEndContact = function (contact, self, other) {
-        if (other.node.name === "DeskCollider") {
+        if (other.tag === 1) {
             this.inDeskContact = false;
             this.deskContactTimer = 0;
         }

@@ -24,6 +24,9 @@ export default class GoblinController extends cc.Component {
 
     onLoad() {
         this.rb = this.getComponent(cc.RigidBody);
+        if (!this.anim) {
+            this.anim = this.getComponent(cc.Animation);
+        }
         this.state = "walk";
         this.playAnim("goblin_run");
     }
@@ -62,18 +65,20 @@ export default class GoblinController extends cc.Component {
 
         if (this.inDeskContact) {
             this.deskContactTimer += dt;
-            if (this.deskContactTimer > 4 && this.state !== "idle") {
-                this.state = "idle";
-                this.playAnim("goblin_idle");
+
+            if (this.deskContactTimer > 4 && this.state !== "dead") {
+                this.die(); // ✅ 碰太久就死亡
             }
         } else {
             this.deskContactTimer = 0;
         }
+
     }
 
     moveTowards(target: cc.Vec3, dt: number) {
+        if (this.state === "dead") return; 
         let dir = target.sub(this.node.position);
-        dir.y -= 30; // 偏下方
+        //dir.y -= 30; // 偏下方
         dir = dir.normalize();
 
         this.node.x += dir.x * this.speed * dt;
@@ -84,17 +89,30 @@ export default class GoblinController extends cc.Component {
         }
     }
 
-    die() {
-        if (this.state === "dead") return;
+die() {
+    if (this.state === "dead") return;
 
-        this.state = "dead";
-        this.inDeskContact = false;
-        this.unscheduleAllCallbacks();
+    this.state = "dead";
+    this.inDeskContact = false;
+    this.unscheduleAllCallbacks();
 
-        this.playAnim("goblin_die");
-
-        this.anim.once("finished", this.onDieAnimationFinished, this);
+    const state = this.anim.getAnimationState("goblin_die");
+    if (!state) {
+        console.warn("❗找不到 goblin_die 動畫，直接銷毀節點");
+        this.node.destroy();
+        return;
     }
+
+    this.currentAnim = "goblin_die";
+
+    this.anim.play("goblin_die");
+
+    this.anim.once("finished", () => {
+        this.onDieAnimationFinished();
+    }, this);
+}
+
+
 
     onDieAnimationFinished() {
         this.node.destroy();
@@ -111,15 +129,16 @@ export default class GoblinController extends cc.Component {
     }
 
     onBeginContact(contact, self, other) {
-        if (other.node.name === "DeskCollider") {
+        if (other.tag === 1) {
             this.inDeskContact = true;
         }
     }
 
     onEndContact(contact, self, other) {
-        if (other.node.name === "DeskCollider") {
+        if (other.tag === 1) {
             this.inDeskContact = false;
             this.deskContactTimer = 0;
         }
     }
+
 }
