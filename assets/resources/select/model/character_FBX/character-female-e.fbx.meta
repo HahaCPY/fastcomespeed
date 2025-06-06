@@ -1,0 +1,624 @@
+{
+  "ver": "1.1.3",
+  "uuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 7,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "7b65277b-73c4-4977-978c-70c5e44cdf5b",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "body-mesh.mesh": {
+      "ver": "1.0.3",
+      "uuid": "131976ac-5095-46f1-b1d5-c79287335a63",
+      "importer": "mesh",
+      "verts": 636,
+      "tris": 434,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0",
+          "a_uv1",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.383584141731262,
+        "y": 1.04308128356934e-7,
+        "z": -0.137861043214798
+      },
+      "maxPos": {
+        "x": 0.383584141731262,
+        "y": 0.368250012397766,
+        "z": 0.111611306667328
+      },
+      "name": "body-mesh.mesh",
+      "subMetas": {}
+    },
+    "head-mesh.mesh": {
+      "ver": "1.0.3",
+      "uuid": "570bd967-7a41-4534-80ef-aabb68d5b1b3",
+      "importer": "mesh",
+      "verts": 452,
+      "tris": 322,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_joints",
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0",
+          "a_uv1",
+          "a_weights"
+        ]
+      ],
+      "minPos": {
+        "x": -0.226750865578651,
+        "y": 0.293250173330307,
+        "z": -0.319422781467438
+      },
+      "maxPos": {
+        "x": 0.226750865578651,
+        "y": 0.716475367546082,
+        "z": 0.207638815045357
+      },
+      "name": "head-mesh.mesh",
+      "subMetas": {}
+    },
+    "character-female-e-0.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "d93154c7-9545-4b23-8dea-013317af8eff",
+      "importer": "skeleton",
+      "name": "character-female-e-0.skeleton",
+      "subMetas": {}
+    },
+    "character-female-e-1.skeleton": {
+      "ver": "1.0.3",
+      "uuid": "1ca78090-a713-45e1-b365-0c94c31f2dfa",
+      "importer": "skeleton",
+      "name": "character-female-e-1.skeleton",
+      "subMetas": {}
+    },
+    "idle.sac": {
+      "ver": "1.0.3",
+      "uuid": "8ad38a92-1bbc-40e2-a45a-491db2fcc6e3",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 0,
+      "name": "idle.sac",
+      "maxFrameCount": 29,
+      "totalFrameCount": 114,
+      "duration": 1.3333333730697632,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "walk.sac": {
+      "ver": "1.0.3",
+      "uuid": "2a7ef95a-e00f-4a40-bce2-594e67703e0f",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 1,
+      "name": "walk.sac",
+      "maxFrameCount": 17,
+      "totalFrameCount": 109,
+      "duration": 0.6666666865348816,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "sprint.sac": {
+      "ver": "1.0.3",
+      "uuid": "e0acaf81-c4ad-4acf-87b7-d93315b203fc",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 2,
+      "name": "sprint.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 89,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "jump.sac": {
+      "ver": "1.0.3",
+      "uuid": "d714b7b4-1db6-45a2-bebe-a47790e81a87",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 3,
+      "name": "jump.sac",
+      "maxFrameCount": 11,
+      "totalFrameCount": 59,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "fall.sac": {
+      "ver": "1.0.3",
+      "uuid": "8a5bc698-2fd6-42ff-9fb4-259084f8954b",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 4,
+      "name": "fall.sac",
+      "maxFrameCount": 9,
+      "totalFrameCount": 43,
+      "duration": 0.3333333432674408,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "crouch.sac": {
+      "ver": "1.0.3",
+      "uuid": "ba10f244-852e-4535-85fd-303864fa971d",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 5,
+      "name": "crouch.sac",
+      "maxFrameCount": 2,
+      "totalFrameCount": 16,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "sit.sac": {
+      "ver": "1.0.3",
+      "uuid": "1c657848-7077-4d08-a934-297f56f468fb",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 6,
+      "name": "sit.sac",
+      "maxFrameCount": 2,
+      "totalFrameCount": 10,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "drive.sac": {
+      "ver": "1.0.3",
+      "uuid": "212b0430-8354-445d-94f6-a1ef725a2c5d",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 7,
+      "name": "drive.sac",
+      "maxFrameCount": 2,
+      "totalFrameCount": 10,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "die.sac": {
+      "ver": "1.0.3",
+      "uuid": "87dea148-4ee7-4f72-8389-792c0ffe1d36",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 8,
+      "name": "die.sac",
+      "maxFrameCount": 9,
+      "totalFrameCount": 63,
+      "duration": 0.3333333432674408,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "pick-up.sac": {
+      "ver": "1.0.3",
+      "uuid": "adae9298-46b2-491d-b71f-fb415351c13f",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 9,
+      "name": "pick-up.sac",
+      "maxFrameCount": 9,
+      "totalFrameCount": 34,
+      "duration": 0.3333333432674408,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "emote-yes.sac": {
+      "ver": "1.0.3",
+      "uuid": "04af7306-0b91-481e-ae6b-39d652149164",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 10,
+      "name": "emote-yes.sac",
+      "maxFrameCount": 14,
+      "totalFrameCount": 56,
+      "duration": 0.6666666865348816,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "emote-no.sac": {
+      "ver": "1.0.3",
+      "uuid": "0e732ee8-2645-4b63-8cc0-15c251e18595",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 11,
+      "name": "emote-no.sac",
+      "maxFrameCount": 14,
+      "totalFrameCount": 56,
+      "duration": 0.6666666865348816,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "holding-right.sac": {
+      "ver": "1.0.3",
+      "uuid": "aef9109c-f1bc-4c83-97c6-fb3dd28afa58",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 12,
+      "name": "holding-right.sac",
+      "maxFrameCount": 2,
+      "totalFrameCount": 4,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "holding-left.sac": {
+      "ver": "1.0.3",
+      "uuid": "4686426d-d962-4294-9f9d-2e1833ff3319",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 13,
+      "name": "holding-left.sac",
+      "maxFrameCount": 2,
+      "totalFrameCount": 4,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "holding-both.sac": {
+      "ver": "1.0.3",
+      "uuid": "feecd3b1-c7b3-4328-8b51-7197519453a5",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 14,
+      "name": "holding-both.sac",
+      "maxFrameCount": 2,
+      "totalFrameCount": 4,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "holding-right-shoot.sac": {
+      "ver": "1.0.3",
+      "uuid": "7632d7d2-1b24-44f4-9de2-2d70c2b2e65e",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 15,
+      "name": "holding-right-shoot.sac",
+      "maxFrameCount": 4,
+      "totalFrameCount": 14,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "holding-left-shoot.sac": {
+      "ver": "1.0.3",
+      "uuid": "d2d06913-9c87-4ab9-b88b-9b59e2bd0081",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 16,
+      "name": "holding-left-shoot.sac",
+      "maxFrameCount": 4,
+      "totalFrameCount": 14,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "holding-both-shoot.sac": {
+      "ver": "1.0.3",
+      "uuid": "064f8da1-0f25-4fbb-8570-6c737fbe77dd",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 17,
+      "name": "holding-both-shoot.sac",
+      "maxFrameCount": 4,
+      "totalFrameCount": 16,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "attack-melee-right.sac": {
+      "ver": "1.0.3",
+      "uuid": "ecde085d-fa86-4dbe-b91e-c79d34a19743",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 18,
+      "name": "attack-melee-right.sac",
+      "maxFrameCount": 10,
+      "totalFrameCount": 56,
+      "duration": 0.375,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "attack-melee-left.sac": {
+      "ver": "1.0.3",
+      "uuid": "febdc7b3-995e-45d9-9418-1584741839fc",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 19,
+      "name": "attack-melee-left.sac",
+      "maxFrameCount": 10,
+      "totalFrameCount": 56,
+      "duration": 0.375,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "attack-kick-right.sac": {
+      "ver": "1.0.3",
+      "uuid": "7595f795-a89d-48fc-b1d9-bfbce6781bee",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 20,
+      "name": "attack-kick-right.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 78,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "attack-kick-left.sac": {
+      "ver": "1.0.3",
+      "uuid": "5a4790de-5bbf-4808-986d-b8b83aaf597d",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 21,
+      "name": "attack-kick-left.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 78,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "interact-right.sac": {
+      "ver": "1.0.3",
+      "uuid": "bcbf0711-8194-4181-91ee-8d2a85b552b8",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 22,
+      "name": "interact-right.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 40,
+      "duration": 0.6666666865348816,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "interact-left.sac": {
+      "ver": "1.0.3",
+      "uuid": "60201c96-f7d8-4699-a727-34ab684fd0d6",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 23,
+      "name": "interact-left.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 40,
+      "duration": 0.6666666865348816,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "wheelchair-sit.sac": {
+      "ver": "1.0.3",
+      "uuid": "e430c8de-e57c-4b2f-bb24-54cebb571182",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 24,
+      "name": "wheelchair-sit.sac",
+      "maxFrameCount": 2,
+      "totalFrameCount": 14,
+      "duration": 0.1666666716337204,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "wheelchair-look-left.sac": {
+      "ver": "1.0.3",
+      "uuid": "ba62776f-9a4a-458b-9046-c89e404db22e",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 25,
+      "name": "wheelchair-look-left.sac",
+      "maxFrameCount": 8,
+      "totalFrameCount": 29,
+      "duration": 0.3333333432674408,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "wheelchair-look-right.sac": {
+      "ver": "1.0.3",
+      "uuid": "04de1cb0-d795-4946-a7d3-9b12d156d8b1",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 26,
+      "name": "wheelchair-look-right.sac",
+      "maxFrameCount": 8,
+      "totalFrameCount": 29,
+      "duration": 0.3333333432674408,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "wheelchair-move-forward.sac": {
+      "ver": "1.0.3",
+      "uuid": "e2eab019-8f8c-4d9c-9d78-fe87732445b1",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 27,
+      "name": "wheelchair-move-forward.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 58,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "wheelchair-move-back.sac": {
+      "ver": "1.0.3",
+      "uuid": "c5df2b34-c633-4599-bbf7-6d9715897f84",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 28,
+      "name": "wheelchair-move-back.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 58,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "wheelchair-move-left.sac": {
+      "ver": "1.0.3",
+      "uuid": "56b6a2b0-d929-42ce-a3bc-247492789d81",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 29,
+      "name": "wheelchair-move-left.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 50,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "wheelchair-move-right.sac": {
+      "ver": "1.0.3",
+      "uuid": "d302ae45-6ce5-4458-b42b-83a4ea7f0179",
+      "importer": "skeleton-animation-clip",
+      "modelUuid": "fe52a1af-a14b-4aa6-a71a-4422d795d9ff",
+      "animationID": 30,
+      "name": "wheelchair-move-right.sac",
+      "maxFrameCount": 13,
+      "totalFrameCount": 50,
+      "duration": 0.5,
+      "animationFrameRate": 30,
+      "subMetas": {}
+    },
+    "character-female-e.prefab": {
+      "ver": "1.3.2",
+      "uuid": "b9bbe739-2958-4455-b479-2960a2d28161",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "character-female-e.prefab",
+      "subMetas": {}
+    },
+    "colormap.mtl": {
+      "ver": "1.0.5",
+      "uuid": "5d46f34a-c7f8-4172-967a-87d27019c7ee",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colormap.mtl",
+      "subMetas": {}
+    }
+  }
+}

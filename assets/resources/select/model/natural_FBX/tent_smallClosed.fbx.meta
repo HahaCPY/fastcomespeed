@@ -1,0 +1,211 @@
+{
+  "ver": "1.1.3",
+  "uuid": "500b3f8f-620d-4af0-be6a-0adbdd9afc6b",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "4753bc0d-216c-46e7-9145-c51e9e286a0a",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "tent_smallClosed.mesh": {
+      "ver": "1.0.3",
+      "uuid": "a12fead4-4c8e-4b87-9d85-e56a22064fe4",
+      "importer": "mesh",
+      "verts": 252,
+      "tris": 220,
+      "submeshes": 4,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0273799989372492,
+        "y": -2.67114685417951e-17,
+        "z": -0.0318199992179871
+      },
+      "maxPos": {
+        "x": 0.0273799989372492,
+        "y": 0.0561130791902542,
+        "z": 0.0318199992179871
+      },
+      "name": "tent_smallClosed.mesh",
+      "subMetas": {}
+    },
+    "tent_smallClosed.prefab": {
+      "ver": "1.3.2",
+      "uuid": "1c29d6e6-a0cf-48f4-a30b-8b25356bdda8",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "tent_smallClosed.prefab",
+      "subMetas": {}
+    },
+    "colorRed.mtl": {
+      "ver": "1.0.5",
+      "uuid": "8779e765-ac52-49bd-9f8f-3f2ee9ebcdd3",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colorRed.mtl",
+      "subMetas": {}
+    },
+    "wood.mtl": {
+      "ver": "1.0.5",
+      "uuid": "3a8dfa7d-3cde-4e6e-b390-5d5450f352c7",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "wood.mtl",
+      "subMetas": {}
+    },
+    "_defaultMat.mtl": {
+      "ver": "1.0.5",
+      "uuid": "0b58f3a7-1ca5-4625-bee2-4bb3a3eca31d",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "_defaultMat.mtl",
+      "subMetas": {}
+    },
+    "colorRedDark.mtl": {
+      "ver": "1.0.5",
+      "uuid": "8ce6c82f-9284-4666-89ed-4e0d698291a8",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colorRedDark.mtl",
+      "subMetas": {}
+    }
+  }
+}

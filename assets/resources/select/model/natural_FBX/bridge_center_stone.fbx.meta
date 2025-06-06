@@ -1,0 +1,185 @@
+{
+  "ver": "1.1.3",
+  "uuid": "bbc600bd-5488-4aa7-ac53-94be33d04de4",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "11960d78-c12d-4edc-8204-2709d0ce42de",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "bridge_center_stone.mesh": {
+      "ver": "1.0.3",
+      "uuid": "3fe14256-d151-4ad1-9ab2-e38ed37ddb6f",
+      "importer": "mesh",
+      "verts": 84,
+      "tris": 52,
+      "submeshes": 2,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0499999970197678,
+        "y": 1.43426087181488e-17,
+        "z": -0.0499999970197678
+      },
+      "maxPos": {
+        "x": 0.0499999970197678,
+        "y": 0.0299999993294477,
+        "z": 0.0499999970197678
+      },
+      "name": "bridge_center_stone.mesh",
+      "subMetas": {}
+    },
+    "bridge_center_stone.prefab": {
+      "ver": "1.3.2",
+      "uuid": "3272a77c-690c-42ec-b423-1c5c3ac35e1f",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "bridge_center_stone.prefab",
+      "subMetas": {}
+    },
+    "stoneDark.mtl": {
+      "ver": "1.0.5",
+      "uuid": "786a8bf0-1d80-4fea-b395-9785788a0565",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "stoneDark.mtl",
+      "subMetas": {}
+    },
+    "stone.mtl": {
+      "ver": "1.0.5",
+      "uuid": "ded8eb00-8409-463a-9f23-019209a837db",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "stone.mtl",
+      "subMetas": {}
+    }
+  }
+}

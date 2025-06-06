@@ -1,0 +1,198 @@
+{
+  "ver": "1.1.3",
+  "uuid": "be2be1e1-b987-430c-ac2f-b0f2148dc01c",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "dffcd78f-c2cb-43fb-8ee6-4bd9ffa7c1f9",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "bridge_side_wood.mesh": {
+      "ver": "1.0.3",
+      "uuid": "fd5a1049-f2ce-4b53-94ca-12111962a705",
+      "importer": "mesh",
+      "verts": 212,
+      "tris": 136,
+      "submeshes": 3,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0499999970197678,
+        "y": -2.10358299801278e-17,
+        "z": -0.0519999973475933
+      },
+      "maxPos": {
+        "x": 0.0519999973475933,
+        "y": 0.0399999991059303,
+        "z": 0.0519999973475933
+      },
+      "name": "bridge_side_wood.mesh",
+      "subMetas": {}
+    },
+    "bridge_side_wood.prefab": {
+      "ver": "1.3.2",
+      "uuid": "cd898089-cbaa-4902-b489-3602aa25b398",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "bridge_side_wood.prefab",
+      "subMetas": {}
+    },
+    "woodBark.mtl": {
+      "ver": "1.0.5",
+      "uuid": "69da5bea-a8ed-4fc2-86e2-a35f9be41056",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "woodBark.mtl",
+      "subMetas": {}
+    },
+    "stone.mtl": {
+      "ver": "1.0.5",
+      "uuid": "a3098beb-f17c-47c8-85fd-9fac9ab99409",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "stone.mtl",
+      "subMetas": {}
+    },
+    "wood.mtl": {
+      "ver": "1.0.5",
+      "uuid": "818ded09-bc3b-4f38-85bb-38bca9e61fd9",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "wood.mtl",
+      "subMetas": {}
+    }
+  }
+}
