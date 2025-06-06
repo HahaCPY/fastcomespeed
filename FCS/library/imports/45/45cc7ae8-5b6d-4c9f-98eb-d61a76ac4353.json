@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "structure-roof",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "structure-roof",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "structure-roof"
+    },
+    {
+      "name": "Group",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.247451603412628,
+        0.56549072265625,
+        0.25
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "structure-roof/Group"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

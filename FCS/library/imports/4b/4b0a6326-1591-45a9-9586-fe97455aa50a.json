@@ -1,0 +1,54 @@
+{
+  "__type__": "cc.Model",
+  "_name": "low-detail-building-m",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "low-detail-building-m",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "low-detail-building-m"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

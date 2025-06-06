@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.Model",
+  "_name": "siege-catapult",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "siege-catapult",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-catapult"
+    },
+    {
+      "name": "catapult",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.419327944517136,
+        0.177248001098633,
+        1.58820507201347e-14
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-catapult/catapult"
+    },
+    {
+      "name": "wheel",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -0.366912007331848,
+        0.052415993064642,
+        -0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-catapult/wheel"
+    },
+    {
+      "name": "wheel_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        0.471743941307068,
+        0.052415993064642,
+        -0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-catapult/wheel_1"
+    },
+    {
+      "name": "wheel_2",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -0.366912007331848,
+        0.052415993064642,
+        0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-catapult/wheel_2"
+    },
+    {
+      "name": "wheel_3",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        0.471743941307068,
+        0.052415993064642,
+        0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-catapult/wheel_3"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.Model",
+  "_name": "cocktail",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "cocktail",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cocktail"
+    },
+    {
+      "name": "straw",
+      "scale": [
+        0.648374974727631,
+        0.875306248664856,
+        0.648375034332275
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.0128016471862793,
+        0.34525665640831,
+        0.0414398796856403
+      ],
+      "quat": [
+        0.130526199936867,
+        0,
+        0,
+        0.991444885730743
+      ],
+      "path": "cocktail/straw"
+    },
+    {
+      "name": "lemon",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -0.00363020622171462,
+        0.339070349931717,
+        -0.130978837609291
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cocktail/lemon"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

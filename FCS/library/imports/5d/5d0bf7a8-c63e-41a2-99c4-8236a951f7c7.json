@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.Model",
+  "_name": "tower-round-crystals",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "tower-round-crystals",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tower-round-crystals"
+    },
+    {
+      "name": "crystal",
+      "scale": [
+        1,
+        0.75,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -1.01067598571886e-14,
+        0.543749988079071,
+        2.88764564323129e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tower-round-crystals/crystal"
+    },
+    {
+      "name": "crystal-small",
+      "scale": [
+        0.499999970197678,
+        0.375,
+        0.499999970197678
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -1.44382282161564e-15,
+        0.443749994039536,
+        -0.25
+      ],
+      "quat": [
+        0,
+        -0.382683426141739,
+        0,
+        0.923879504203796
+      ],
+      "path": "tower-round-crystals/crystal-small"
+    },
+    {
+      "name": "crystal-small_1",
+      "scale": [
+        0.499999970197678,
+        0.375,
+        0.499999970197678
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        0.25,
+        0.443749994039536,
+        1.44382282161564e-15
+      ],
+      "quat": [
+        0,
+        -0.382683426141739,
+        0,
+        0.923879504203796
+      ],
+      "path": "tower-round-crystals/crystal-small_1"
+    },
+    {
+      "name": "crystal-small_2",
+      "scale": [
+        0.499999970197678,
+        0.375,
+        0.499999970197678
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -7.21911442571558e-15,
+        0.443749994039536,
+        0.25
+      ],
+      "quat": [
+        0,
+        -0.382683426141739,
+        0,
+        0.923879504203796
+      ],
+      "path": "tower-round-crystals/crystal-small_2"
+    },
+    {
+      "name": "crystal-small_3",
+      "scale": [
+        0.499999970197678,
+        0.375,
+        0.499999970197678
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        -0.25,
+        0.443749994039536,
+        0
+      ],
+      "quat": [
+        0,
+        -0.382683426141739,
+        0,
+        0.923879504203796
+      ],
+      "path": "tower-round-crystals/crystal-small_3"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "crate_lettuce",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "crate_lettuce",
+      "path": "crate_lettuce"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

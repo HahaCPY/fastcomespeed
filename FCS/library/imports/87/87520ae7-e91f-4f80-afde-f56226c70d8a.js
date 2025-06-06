@@ -114,7 +114,7 @@ var PlayerController2 = /** @class */ (function (_super) {
             cc.error("❌ 找不到 RigidBody2D 組件！");
             return;
         }
-        this.playAnim("girl2_idle_back");
+        this.playAnim("girl_idle_back");
         this.input = new KeyboardControls2_1.KeyboardControls2(); // 第二位使用專屬控制器
         var barNode = cc.instantiate(this.chopBarPrefab);
         this.node.addChild(barNode);
@@ -153,10 +153,10 @@ var PlayerController2 = /** @class */ (function (_super) {
             // 動畫切換（與方向判斷無變）
             if (Math.abs(dir.y) > Math.abs(dir.x)) {
                 if (dir.y > 0) {
-                    this.playAnim(this.isRunning ? "girl2_run_back" : "girl2_walk_back");
+                    this.playAnim(this.isRunning ? "girl_run_back" : "girl_walk_back");
                 }
                 else {
-                    this.playAnim(this.isRunning ? "girl2_run" : "girl2_walk");
+                    this.playAnim(this.isRunning ? "girl_run" : "girl_walk");
                 }
                 this.node.scaleX = 1;
             }

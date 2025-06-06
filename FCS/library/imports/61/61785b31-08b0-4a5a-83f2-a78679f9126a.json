@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "progress_green_border",
+    "texture": "46033ba6-c3b2-4731-a530-8f5f3041bc2e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      16,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

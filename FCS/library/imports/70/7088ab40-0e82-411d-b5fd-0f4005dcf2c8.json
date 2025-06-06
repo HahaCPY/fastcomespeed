@@ -1,0 +1,148 @@
+{
+  "__type__": "cc.Model",
+  "_name": "styrofoam-dinner",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "styrofoam-dinner",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "styrofoam-dinner"
+    },
+    {
+      "name": "Group",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -0.014565946534276,
+        0.0760319977998734,
+        0.014565946534276
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "styrofoam-dinner/Group"
+    },
+    {
+      "name": "Group_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0.311794698238373,
+        0.0760319977998734,
+        -0.311794698238373
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "styrofoam-dinner/Group_1"
+    },
+    {
+      "name": "Group_2",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        -0.014565946534276,
+        0.0760319977998734,
+        -0.311794698238373
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "styrofoam-dinner/Group_2"
+    },
+    {
+      "name": "lid",
+      "scale": [
+        1.26719999313354,
+        1.26719999313354,
+        1.26719999313354
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -0.379462987184525,
+        0.164735987782478,
+        3.60955705403911e-16
+      ],
+      "quat": [
+        0,
+        0,
+        -0.499999970197678,
+        0.866025447845459
+      ],
+      "path": "styrofoam-dinner/lid"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

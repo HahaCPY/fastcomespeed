@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_shift",
+    "texture": "b8c9306e-a6e6-4448-87bd-2dcd52eb6143",
+    "atlas": "",
+    "rect": [
+      8,
+      16,
+      48,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

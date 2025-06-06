@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "fries",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "fries",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "fries"
+    },
+    {
+      "name": "fries_1",
+      "scale": [
+        1.17999994754791,
+        1.52219998836517,
+        1.17999994754791
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.000919614860322326,
+        0.163418993353844,
+        -0.00085622287588194
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "fries/fries_1"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

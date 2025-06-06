@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "minimap_ring_brown",
+    "texture": "2ab18019-c77c-4b63-a992-acfbde68d8d8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

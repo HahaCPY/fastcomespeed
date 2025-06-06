@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.SkeletonAnimationClip",
+  "_name": "close",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_duration": 1,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "events": [],
+  "description": {
+    "chest/lid": {
+      "quat": {
+        "offset": 0,
+        "frameCount": 24
+      },
+      "scale": {
+        "offset": 120,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 124,
+        "frameCount": 1
+      }
+    },
+    "chest": {
+      "quat": {
+        "offset": 128,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 133,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 137,
+        "frameCount": 1
+      }
+    }
+  }
+}

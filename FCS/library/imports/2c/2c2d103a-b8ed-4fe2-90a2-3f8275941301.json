@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_arrows_horizontal",
+    "texture": "f3ca84aa-5a96-4bca-9db3-7b7690d55324",
+    "atlas": "",
+    "rect": [
+      9,
+      17,
+      46,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

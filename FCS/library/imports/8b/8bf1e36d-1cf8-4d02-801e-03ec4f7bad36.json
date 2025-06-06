@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.Model",
+  "_name": "soda-glass",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "soda-glass",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "soda-glass"
+    },
+    {
+      "name": "straw",
+      "scale": [
+        0.648374974727631,
+        0.875306248664856,
+        0.648375034332275
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -0.0146692246198654,
+        0.252796858549118,
+        0.0431318506598473
+      ],
+      "quat": [
+        0.130526199936867,
+        0,
+        0,
+        0.991444885730743
+      ],
+      "path": "soda-glass/straw"
+    },
+    {
+      "name": "lemon",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -1.09189094465762e-14,
+        0.270717978477478,
+        -0.103362709283829
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "soda-glass/lemon"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

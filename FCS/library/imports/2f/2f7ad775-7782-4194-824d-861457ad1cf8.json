@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "kitchentable_A_large_decorated_B",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "kitchentable_A_large_decorated_B",
+      "path": "kitchentable_A_large_decorated_B"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "banner_classic_curtain",
+    "texture": "10ab7dad-23e2-4289-9661-8c8d11a5af39",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      256,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

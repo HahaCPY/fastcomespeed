@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "fence_gate",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "fence_gate",
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        -0.0499999970197678,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "fence_gate"
+    },
+    {
+      "name": "gate",
+      "scale": [
+        1.86666703224182,
+        0.75,
+        0.75
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.0149999996647239,
+        0.0172513704746962,
+        0.0465000011026859
+      ],
+      "quat": [
+        0,
+        -0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "fence_gate/gate"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}
