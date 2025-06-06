@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.Model",
+  "_name": "workbench",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "workbench",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "workbench"
+    },
+    {
+      "name": "paper",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.0808077976107597,
+        0.236550003290176,
+        0.0101606100797653
+      ],
+      "quat": [
+        0,
+        0.193378120660782,
+        0,
+        0.98112428188324
+      ],
+      "path": "workbench/paper"
+    },
+    {
+      "name": "hammer",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -0.08517736941576,
+        0.236550003290176,
+        -0.0101756835356355
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "workbench/hammer"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

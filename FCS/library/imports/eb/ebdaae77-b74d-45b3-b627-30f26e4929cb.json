@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "pause.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "bg": {
+      "__uuid__": "172da6fd-e61b-4268-82b7-e7e9dfc2ea34"
+    },
+    "header": {
+      "__uuid__": "d761e362-658c-400f-871d-9a7fb497a3a5"
+    },
+    "table": {
+      "__uuid__": "77f3483d-aeb7-4be3-b960-f75be3734309"
+    },
+    "text": {
+      "__uuid__": "006519b8-794c-48bd-a148-3be3e3f359b7"
+    }
+  }
+}

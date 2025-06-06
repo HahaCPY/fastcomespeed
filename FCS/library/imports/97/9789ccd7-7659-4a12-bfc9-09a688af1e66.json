@@ -1,0 +1,195 @@
+{
+  "__type__": "cc.Model",
+  "_name": "tractor-police",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "tractor-police",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-police"
+    },
+    {
+      "name": "wheel-back-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        -0.259480267763138,
+        0.525510847568512,
+        -0.575265467166901
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-police/wheel-back-right"
+    },
+    {
+      "name": "wheel-front-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.265262991189957,
+        0.325640290975571,
+        0.730522811412811
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-police/wheel-front-left"
+    },
+    {
+      "name": "wheel-front-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -0.265262991189957,
+        0.325640290975571,
+        0.730522811412811
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-police/wheel-front-right"
+    },
+    {
+      "name": "body",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        6
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        -3.7117102724693e-9,
+        0.188303142786026,
+        0.159440010786057
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-police/body"
+    },
+    {
+      "name": "grill",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        0,
+        0.082749992609024,
+        0.991336286067963
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-police/body/grill"
+    },
+    {
+      "name": "wheel-back-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        0.259480267763138,
+        0.525510847568512,
+        -0.575265467166901
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-police/wheel-back-left"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

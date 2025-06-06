@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_capslock_outline",
+    "texture": "d28b37bb-06b2-443d-9184-28138739def9",
+    "atlas": "",
+    "rect": [
+      8,
+      14,
+      48,
+      35
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

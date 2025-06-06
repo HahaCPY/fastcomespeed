@@ -1,0 +1,216 @@
+{
+  "__type__": "cc.Model",
+  "_name": "burger-cheese-double",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "burger-cheese-double",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "burger-cheese-double"
+    },
+    {
+      "name": "bun-bottom",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "burger-cheese-double/bun-bottom"
+    },
+    {
+      "name": "bun-middle",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -7.21911410807822e-16,
+        0.0999999940395355,
+        1.80477852701956e-16
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "burger-cheese-double/bun-middle"
+    },
+    {
+      "name": "bun-top",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0,
+        0.199999988079071,
+        1.80477852701956e-16
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "burger-cheese-double/bun-top"
+    },
+    {
+      "name": "cheese",
+      "scale": [
+        2.79344749450684,
+        1,
+        1.42499995231628
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        2.16573407360479e-15,
+        0.0555999986827374,
+        3.60955705403911e-16
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "burger-cheese-double/cheese"
+    },
+    {
+      "name": "cheese_1",
+      "scale": [
+        2.79344749450684,
+        1,
+        1.42499995231628
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        2.16573407360479e-15,
+        0.155599996447563,
+        1.80477852701956e-16
+      ],
+      "quat": [
+        0,
+        0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "burger-cheese-double/cheese_1"
+    },
+    {
+      "name": "patty",
+      "scale": [
+        1,
+        1.13999998569489,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        0,
+        0.0399999991059303,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "burger-cheese-double/patty"
+    },
+    {
+      "name": "patty_1",
+      "scale": [
+        1,
+        1.13999998569489,
+        1
+      ],
+      "mesh": 6,
+      "parent": null,
+      "position": [
+        0,
+        0.140000000596046,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "burger-cheese-double/patty_1"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

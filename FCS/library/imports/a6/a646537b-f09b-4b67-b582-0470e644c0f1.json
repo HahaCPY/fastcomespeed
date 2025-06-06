@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "lose.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "bg": {
+      "__uuid__": "6ac8e06b-5ece-4646-811c-f1c2da60c6c0"
+    },
+    "header": {
+      "__uuid__": "473def76-31c2-42f7-980d-2e5c6904d4d0"
+    },
+    "star_4": {
+      "__uuid__": "3ba6f75d-9483-4d7a-b515-6fbb38494092"
+    },
+    "table": {
+      "__uuid__": "9f11a394-2497-4563-b4a9-2ae741ee523a"
+    }
+  }
+}

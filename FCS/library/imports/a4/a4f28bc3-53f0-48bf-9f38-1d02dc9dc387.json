@@ -1,0 +1,171 @@
+{
+  "__type__": "cc.Model",
+  "_name": "skewer-vegetables",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "skewer-vegetables",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "skewer-vegetables"
+    },
+    {
+      "name": "meat",
+      "scale": [
+        1.29219996929169,
+        1.29219996929169,
+        1.65401601791382
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.0505499988794327,
+        0.00683395611122251,
+        -2.04423300509404e-9
+      ],
+      "quat": [
+        0,
+        -0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "skewer-vegetables/meat"
+    },
+    {
+      "name": "meat_1",
+      "scale": [
+        1.29219996929169,
+        1.29219996929169,
+        1.65401601791382
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -0.0866339951753616,
+        0.00683395611122251,
+        -3.60955705403911e-16
+      ],
+      "quat": [
+        0,
+        -0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "skewer-vegetables/meat_1"
+    },
+    {
+      "name": "meat_2",
+      "scale": [
+        1.29219996929169,
+        1.29219996929169,
+        1.65401601791382
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        -0.223817989230156,
+        0.00683395611122251,
+        2.04423211691562e-9
+      ],
+      "quat": [
+        0,
+        -0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "skewer-vegetables/meat_2"
+    },
+    {
+      "name": "vegetables",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -0.15522600710392,
+        0,
+        1.02211750174774e-9
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "skewer-vegetables/vegetables"
+    },
+    {
+      "name": "vegetables_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        -0.0180420000106096,
+        0,
+        1.02211750174774e-9
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "skewer-vegetables/vegetables_1"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

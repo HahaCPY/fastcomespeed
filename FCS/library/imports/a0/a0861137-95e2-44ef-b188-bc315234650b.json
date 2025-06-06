@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "minimap_icon_exclamation_white",
+    "texture": "17e198dc-c145-44c4-9e23-2baa09bcdcd2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      8,
+      16
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      8,
+      16
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "campfire-pit",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "campfire-pit",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "campfire-pit"
+    },
+    {
+      "name": "wood",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -0.00110860611312091,
+        0.0155168790370226,
+        0.0128750633448362
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "campfire-pit/wood"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}
