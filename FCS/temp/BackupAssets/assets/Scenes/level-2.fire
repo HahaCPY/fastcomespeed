@@ -37516,7 +37516,7 @@
     "scoreLabel": {
       "__id__": 1029
     },
-    "totalTime": 10,
+    "totalTime": 180,
     "dishesPerGame": 3,
     "dishInterval": 5,
     "bgm": {
@@ -41399,7 +41399,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "scorepersist",
+    "_name": "ScorePersist",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1

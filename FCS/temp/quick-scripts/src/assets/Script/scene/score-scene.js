@@ -67,13 +67,13 @@ var ResultScene = /** @class */ (function (_super) {
         }
         // 根據分數顯示 n 顆星
         var starPrefabs = [];
-        if (score >= 150) {
+        if (score >= 500) {
             starPrefabs = [this.star3Prefab, this.star2Prefab, this.star1Prefab];
         }
-        else if (score >= 100) {
+        else if (score >= 300) {
             starPrefabs = [this.star2Prefab, this.star1Prefab];
         }
-        else if (score > 60) {
+        else if (score >= 200) {
             starPrefabs = [this.star1Prefab];
         }
         // 實例化並顯示

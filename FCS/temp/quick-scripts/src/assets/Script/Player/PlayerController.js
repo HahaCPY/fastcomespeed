@@ -283,7 +283,7 @@ var PlayerController = /** @class */ (function (_super) {
                 this.carriedDough.destroy();
                 this.carriedDough = null;
                 matchedSlot.removeAllChildren();
-                this.menuManager.addScore(30); // 假設每道菜加 10 分
+                this.menuManager.addScore(50); // 假設每道菜加 10 分
                 this.showDeliveryEffect();
                 if (this.blingSound) {
                     cc.audioEngine.playEffect(this.blingSound, false);

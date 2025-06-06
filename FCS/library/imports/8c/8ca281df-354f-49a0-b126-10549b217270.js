@@ -146,7 +146,7 @@ var Level2icecream2 = /** @class */ (function (_super) {
                 this.carriedDough.destroy();
                 this.carriedDough = null;
                 matchedSlot.removeAllChildren();
-                this.menuManager.addScore(30);
+                this.menuManager.addScore(50);
                 this.showDeliveryEffect();
                 this.menuManager.checkAndFillSlots();
                 if (this.anim)

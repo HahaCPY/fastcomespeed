@@ -630,8 +630,8 @@
     "relativePath": "Script/debug.ts"
   },
   "dbe6d234-584e-44b2-8db8-ca2a0bdb9033": {
-    "asset": 1749216371029,
-    "meta": 1749220538926,
+    "asset": 1749227481098,
+    "meta": 1749227481101,
     "relativePath": "Scenes/score-scene.fire"
   },
   "5ae71289-075a-45f7-acbe-06f771c82d05": {
@@ -640,13 +640,13 @@
     "relativePath": "Script/scene"
   },
   "5521b2c8-9785-4138-9982-5f753a8a9cf6": {
-    "asset": 1749225759023,
-    "meta": 1749225759037,
+    "asset": 1749227501428,
+    "meta": 1749227501474,
     "relativePath": "Scenes/level-2.fire"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749225751565,
-    "meta": 1749225751586,
+    "asset": 1749227513529,
+    "meta": 1749227513576,
     "relativePath": "Scenes/level-1.fire"
   },
   "36416a26-ef1f-488b-8c1e-c11652109228": {
@@ -7174,40 +7174,15 @@
     "meta": 1749220542893,
     "relativePath": "Script/Player/KeyboardControls2.ts"
   },
-  "8f76e723-a05b-4129-82cb-40bb2b8bb9a7": {
-    "asset": 1749220493008,
-    "meta": 1749220543024,
-    "relativePath": "Script/Player/Level2icecream1.ts"
-  },
-  "8ca281df-354f-49a0-b126-10549b217270": {
-    "asset": 1749220493008,
-    "meta": 1749220543122,
-    "relativePath": "Script/Player/Level2icecream2.ts"
-  },
-  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
-    "asset": 1749218251911,
-    "meta": 1749220543344,
-    "relativePath": "Script/Player/PlayerController 2.ts"
-  },
   "68c69ec6-96e9-42de-aa3b-ecb2c47024aa": {
     "asset": 1748362271839,
     "meta": 1749220549204,
     "relativePath": "Resource/restaurant/table_round_B.gltf"
   },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1749218558967,
-    "meta": 1749220543518,
-    "relativePath": "Script/Player/PlayerController.ts"
-  },
   "726326b6-e63b-4c47-8c6f-f751c8051e0e": {
     "asset": 1749196579070,
     "meta": 1749220543528,
     "relativePath": "Script/scene/ScorePersist.ts"
-  },
-  "b0f45195-b539-41b1-a5b4-4804350f4c39": {
-    "asset": 1749216371029,
-    "meta": 1749220543558,
-    "relativePath": "Script/scene/score-scene.ts"
   },
   "f834bb96-2d79-4830-8833-a70ba75107e7": {
     "asset": 1749216470426,
@@ -8993,5 +8968,30 @@
     "asset": 1749220586731,
     "meta": 1749220586781,
     "relativePath": "Resource/tex/palette.png"
+  },
+  "8f76e723-a05b-4129-82cb-40bb2b8bb9a7": {
+    "asset": 1749227367119,
+    "meta": 1749227458324,
+    "relativePath": "Script/Player/Level2icecream1.ts"
+  },
+  "8ca281df-354f-49a0-b126-10549b217270": {
+    "asset": 1749227421029,
+    "meta": 1749227458390,
+    "relativePath": "Script/Player/Level2icecream2.ts"
+  },
+  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
+    "asset": 1749227420326,
+    "meta": 1749227458501,
+    "relativePath": "Script/Player/PlayerController 2.ts"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1749227419718,
+    "meta": 1749227458587,
+    "relativePath": "Script/Player/PlayerController.ts"
+  },
+  "b0f45195-b539-41b1-a5b4-4804350f4c39": {
+    "asset": 1749227452497,
+    "meta": 1749227458602,
+    "relativePath": "Script/scene/score-scene.ts"
   }
 }

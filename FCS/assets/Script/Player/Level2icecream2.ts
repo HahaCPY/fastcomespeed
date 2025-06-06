@@ -144,7 +144,7 @@ export default class Level2icecream2 extends cc.Component {
                 this.carriedDough.destroy();
                 this.carriedDough = null;
                 matchedSlot.removeAllChildren();
-                this.menuManager.addScore(30);
+                this.menuManager.addScore(50);
                 this.showDeliveryEffect();
                 this.menuManager.checkAndFillSlots();
                 if (this.anim) this.anim.play("girl_happy");
