@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "pausePanel",
+    "_name": "",
     "_objFlags": 0,
     "_native": "",
     "data": {
@@ -53,8 +53,8 @@
       "ctor": "Float64Array",
       "array": [
         488.134,
-        296.221,
-        93.127,
+        315.106,
+        100,
         0.17364817766693033,
         0,
         0,

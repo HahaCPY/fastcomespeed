@@ -95,7 +95,6 @@ var FlagTrigger = /** @class */ (function (_super) {
                     maskScript.playTransition(function () {
                         switch (_this.nowIn) {
                             case 1:
-                                // need to add "select/" since it's what build settings use
                                 cc.director.loadScene("ice-cream-check");
                                 break;
                             case 2:

@@ -88,7 +88,6 @@ export default class FlagTrigger extends cc.Component {
                     maskScript.playTransition(() => {
                         switch (this.nowIn) {
                             case 1:
-                                // need to add "select/" since it's what build settings use
                                 cc.director.loadScene("ice-cream-check");
                                 break;
                             case 2:

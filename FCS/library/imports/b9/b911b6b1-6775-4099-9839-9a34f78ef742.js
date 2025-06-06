@@ -90,6 +90,13 @@ var CharacterController = /** @class */ (function (_super) {
                 this.node.setRotation(smoothedQuat);
             }
         }
+        var vehicleNode = cc.find("vehicle/garbage-truck");
+        if (vehicleNode) {
+            var vehiclePos = vehicleNode.getPosition();
+            if (vehiclePos.y < -2.5) {
+                vehicleNode.setPosition(-0.069, 0.15, 0.446);
+            }
+        }
     };
     __decorate([
         property
