@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PaperUIKitFinal",
+    "texture": "2c7c1c36-310c-4e9b-95d3-4879797deb5c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      3573,
+      2000
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      3573,
+      2000
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "wall_decorated_styleB",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "wall_decorated_styleB",
+      "path": "wall_decorated_styleB"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

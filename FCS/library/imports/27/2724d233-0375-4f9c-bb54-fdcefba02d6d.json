@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "catty4",
+    "texture": "cd2382b8-6177-41cf-a2df-3140ab3bd6f2",
+    "atlas": "b3deb2d3-8ce4-403d-8c73-a56519fe8b52",
+    "rect": [
+      96,
+      0,
+      32,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

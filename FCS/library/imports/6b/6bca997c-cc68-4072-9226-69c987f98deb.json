@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "kitchencounter_outercorner",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "kitchencounter_outercorner",
+      "path": "kitchencounter_outercorner"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

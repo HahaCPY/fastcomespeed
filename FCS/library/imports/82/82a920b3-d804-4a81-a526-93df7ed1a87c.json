@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "goblin_attack",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.62,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "cbfb22c7-0f38-4e81-9b04-6c894d8dfe1a"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "3958d855-a9cb-4932-a79d-14b4a48d8d66"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "fbb04758-4743-4d1c-a625-6c5867aaa351"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "1fd2e9d4-56b5-4db8-9329-bbe3cc30f66b"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "d860faca-05ae-4ef2-a398-a0f3ecd83fc5"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "2506cfb4-7379-4ce0-9850-66aa80744ff7"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "b18017f1-d83b-4430-ae7d-7a4d1092ccdb"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

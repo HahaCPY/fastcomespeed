@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "plate_small",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "plate_small",
+      "path": "plate_small"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

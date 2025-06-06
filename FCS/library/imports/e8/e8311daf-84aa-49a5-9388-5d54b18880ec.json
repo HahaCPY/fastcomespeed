@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "food_pizza_mushroom_slice",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "food_pizza_mushroom_slice",
+      "path": "food_pizza_mushroom_slice"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

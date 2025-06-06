@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "pizzabox_stacked",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "pizzabox_stacked",
+      "path": "pizzabox_stacked"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

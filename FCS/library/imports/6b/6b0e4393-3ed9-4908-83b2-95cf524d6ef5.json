@@ -1,0 +1,104 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "cat.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "cat1": {
+      "__uuid__": "72115c1d-8a03-4298-84f9-e46da99c1b65"
+    },
+    "cat11": {
+      "__uuid__": "2b7aebc3-675f-47f3-a0c6-65524409c075"
+    },
+    "cat12": {
+      "__uuid__": "cf9dd1c2-74e4-4eb1-b7ac-2118c03f631c"
+    },
+    "cat13": {
+      "__uuid__": "072361b4-a90a-4267-87ad-db7641564dc7"
+    },
+    "cat14": {
+      "__uuid__": "5930993c-3e18-4486-8014-86e7361f203e"
+    },
+    "cat15": {
+      "__uuid__": "8be25e5c-54c7-463c-8cd2-a7cb5ca7d933"
+    },
+    "cat16": {
+      "__uuid__": "ccfd3853-2618-4bde-aa61-a39a52d4f08e"
+    },
+    "cat17": {
+      "__uuid__": "d137cd06-fec2-4e60-b91d-5bb0bcc09412"
+    },
+    "cat18": {
+      "__uuid__": "5dc81784-a7d8-4439-a423-2790de3dc98f"
+    },
+    "cat19": {
+      "__uuid__": "62c4a2eb-8c63-4704-ab32-abbadedab0ec"
+    },
+    "cat21": {
+      "__uuid__": "64f4af80-0a08-46d2-aea2-0ac63f3e8c8a"
+    },
+    "cat22": {
+      "__uuid__": "233c4fde-c19c-4411-9b68-41ab61b1bdd1"
+    },
+    "cat26": {
+      "__uuid__": "034d8eb8-8c78-4db6-9003-cacb109d9475"
+    },
+    "cat27": {
+      "__uuid__": "14e5b167-d85a-4ece-873e-d1bb7dd6aaed"
+    },
+    "cat31": {
+      "__uuid__": "b918f272-3363-470d-9e44-8be06730f16f"
+    },
+    "cat32": {
+      "__uuid__": "ddf64c4d-91c8-4687-879f-6de5cb827e6a"
+    },
+    "cat36": {
+      "__uuid__": "d0d2dd73-27e5-4fdf-8e84-f204c2abd2a7"
+    },
+    "cat37": {
+      "__uuid__": "06479ede-0d9a-4c39-894a-6a8453949eea"
+    },
+    "cat41": {
+      "__uuid__": "3881ddba-4d82-4da7-8b57-8f36fd76d8a9"
+    },
+    "cat42": {
+      "__uuid__": "d5c56046-5c32-4423-9188-9a3a6404e6a5"
+    },
+    "cat46": {
+      "__uuid__": "8b093bb7-fb84-49e7-819b-139099ecff1d"
+    },
+    "cat47": {
+      "__uuid__": "18ca462b-59ca-41b7-9e18-4f9a20af1869"
+    },
+    "cat51": {
+      "__uuid__": "60dc4e0b-4ddb-402b-9ef6-ec19218387e7"
+    },
+    "cat52": {
+      "__uuid__": "7d06940f-f3e0-4ddd-971d-095ab8d8a536"
+    },
+    "cat56": {
+      "__uuid__": "feb7e315-1779-493b-9879-f1dbf31db5dc"
+    },
+    "cat57": {
+      "__uuid__": "46ffcf34-638e-45df-b180-badec1d9a08a"
+    },
+    "cat6": {
+      "__uuid__": "f8be7a84-dbf6-493e-8ae1-fac319332d23"
+    },
+    "cat61": {
+      "__uuid__": "dedc65eb-e7e2-4be3-a022-5c816dfe8fbd"
+    },
+    "cat66": {
+      "__uuid__": "6374ce08-2706-4c2b-b80c-889935cf2c15"
+    },
+    "cat67": {
+      "__uuid__": "dc3822ca-ce62-472c-9799-1fc2a8e0d6b3"
+    },
+    "cat7": {
+      "__uuid__": "3ad54473-1475-43a8-8a35-bd6b8f5d9856"
+    },
+    "cat71": {
+      "__uuid__": "cc53433d-2035-4d36-aabc-5d5aa178b4b1"
+    }
+  }
+}

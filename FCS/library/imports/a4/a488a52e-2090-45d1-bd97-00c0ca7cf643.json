@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "UiCozyFree",
+    "texture": "7716a1ef-042e-430d-b10c-100dd435d441",
+    "atlas": "",
+    "rect": [
+      1,
+      5,
+      250,
+      243
+    ],
+    "offset": [
+      -2,
+      1.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

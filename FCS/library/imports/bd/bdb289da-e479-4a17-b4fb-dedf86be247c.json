@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "pan_A",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "pan_A",
+      "path": "pan_A"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

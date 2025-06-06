@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Model",
+  "_name": "oven",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "oven_door",
+      "position": [
+        -0.25,
+        0.43000030517578125,
+        0.9000000357627869
+      ],
+      "parent": null,
+      "path": "oven/oven_door"
+    },
+    {
+      "children": [
+        0
+      ],
+      "mesh": 1,
+      "name": "oven",
+      "path": "oven"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}
