@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "food_ingredient_burger_trash",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "food_ingredient_burger_trash",
+      "path": "food_ingredient_burger_trash"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

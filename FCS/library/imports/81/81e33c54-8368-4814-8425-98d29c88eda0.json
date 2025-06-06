@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "lid_A",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "lid_A",
+      "path": "lid_A"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

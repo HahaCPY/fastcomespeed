@@ -70,8 +70,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        5,
+        5,
         1
       ]
     },
@@ -188,28 +188,14 @@
     "body": null,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": -9.3,
-      "y": 3
+      "x": 0.2,
+      "y": -2.8
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 31.7,
-      "height": 62
+      "width": 12.7,
+      "height": 19.2
     },
-    "_id": ""
-  },
-  {
-    "__type__": "e0264LXsgZDUJ3VQpCmBurz",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "anim": null,
-    "girl1": null,
-    "girl2": null,
-    "speed": 50,
     "_id": ""
   },
   {
@@ -222,6 +208,20 @@
     "_enabled": true,
     "anim": null,
     "speed": 50,
+    "_id": ""
+  },
+  {
+    "__type__": "b3d1eJPN6FIUJBMKY8Z1E0o",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "anim": null,
+    "girl1": null,
+    "girl2": null,
+    "speed": 15,
     "_id": ""
   },
   {

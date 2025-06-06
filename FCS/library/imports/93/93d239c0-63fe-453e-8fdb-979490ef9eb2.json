@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.Model",
+  "_name": "stove",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "stove_door",
+      "position": [
+        0,
+        0.049999237060546875,
+        0.5573396682739258
+      ],
+      "parent": null,
+      "path": "stove/stove_door"
+    },
+    {
+      "children": [
+        0
+      ],
+      "mesh": 1,
+      "name": "stove",
+      "path": "stove"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

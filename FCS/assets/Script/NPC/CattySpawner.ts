@@ -1,23 +1,15 @@
-import CattyController from "./CattyController";
-
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class GoblinSpawner extends cc.Component {
+export default class CattySpawner extends cc.Component {
     @property({ type: cc.Prefab })
-    goblinPrefab: cc.Prefab = null;
+    cattyPrefab: cc.Prefab = null;
 
     @property({ type: [cc.Node] })
-    dropPoints: cc.Node[] = [];
-
-    @property({ type: cc.Node })
-    player1: cc.Node = null;
-
-    @property({ type: cc.Node })
-    player2: cc.Node = null;
+    spawnPoints: cc.Node[] = [];
 
     @property
-    spawnInterval: number = 5;
+    spawnInterval: number = 6;
 
     private timer: number = 0;
 
@@ -25,23 +17,20 @@ export default class GoblinSpawner extends cc.Component {
         this.timer += dt;
         if (this.timer >= this.spawnInterval) {
             this.timer = 0;
-            this.spawnGoblin();
+            this.spawnCatty();
         }
     }
 
-    spawnGoblin() {
-        if (!this.goblinPrefab || this.dropPoints.length === 0) return;
+    spawnCatty() {
+        if (!this.cattyPrefab || this.spawnPoints.length === 0) return;
 
-        const index = Math.floor(Math.random() * this.dropPoints.length);
-        const dropPoint = this.dropPoints[index];
+        const index = Math.floor(Math.random() * this.spawnPoints.length);
+        const spawnPoint = this.spawnPoints[index];
 
-        const goblin = cc.instantiate(this.goblinPrefab);
-        goblin.setPosition(dropPoint.getPosition());
-        goblin.parent = this.node;
+        const catty = cc.instantiate(this.cattyPrefab);
+        catty.setPosition(spawnPoint.getPosition());
+        catty.parent = this.node;
 
-        const controller = goblin.getComponent(CattyController);
-        if (controller && this.player1 && this.player2) {
-            controller.setTargetPlayers(this.player1, this.player2);
-        }
+        console.log("🐱 生成一隻閒晃中的 Catty");
     }
 }

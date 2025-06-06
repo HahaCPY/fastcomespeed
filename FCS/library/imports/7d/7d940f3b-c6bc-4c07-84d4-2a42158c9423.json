@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scratch_01",
+    "texture": "67c52101-480c-4c57-a8d9-eef40ca8ab76",
+    "atlas": "",
+    "rect": [
+      15,
+      0,
+      482,
+      499
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

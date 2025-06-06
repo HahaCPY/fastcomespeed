@@ -1,40 +1,67 @@
-// NPCWanderCatty.ts
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NPCWanderCatty extends cc.Component {
-    @property({ type: cc.Animation })
+    @property(cc.Animation)
     anim: cc.Animation = null;
 
     @property
     speed: number = 50;
 
-    private direction: cc.Vec2 = cc.v2(1, 0);
-    private changeDirectionInterval: number = 2;
+    private direction: cc.Vec3 = cc.v3();
+    private moveTimer: number = 0;
+    private animTimer: number = 0;
 
-    start() {
-        this.schedule(this.pickNewDirection, this.changeDirectionInterval);
+    onLoad() {
+        if (!this.anim) {
+            this.anim = this.getComponent(cc.Animation);
+        }
+        this.pickRandomDirection();
+        this.playAnim("cat_run");
+    }
+
+update(dt: number) {
+    // 🐾 移動
+    const moving = this.direction.mag() > 0.1;
+    if (moving) {
+        this.node.x += this.direction.x * this.speed * dt;
+        this.node.y += this.direction.y * this.speed * dt;
+    }
+
+    // ⏱️ 定時換方向
+    this.moveTimer += dt;
+    if (this.moveTimer >= 2 + Math.random() * 2) {
+        this.pickRandomDirection();
+        this.moveTimer = 0;
+    }
+
+    // 🎬 自動切動畫
+    if (moving) {
+        this.playAnim("cat_run");
+    } else {
         this.playAnim("cat_idle");
     }
 
-    update(dt: number) {
-        const movement = this.direction.clone().normalize().mul(this.speed * dt);
-        this.node.setPosition(this.node.getPosition().add(movement));
+    // 👀 左右翻轉
+    if (Math.abs(this.direction.x) > 0.1) {
+        this.node.scaleX = this.direction.x > 0 ? 5 : -5;
+    }
+}
 
-        if (!this.anim.getAnimationState("cat_run").isPlaying) {
-            this.playAnim("cat_run");
-        }
+
+    pickRandomDirection() {
+        const angle = Math.random() * Math.PI * 2;
+        this.direction = cc.v3(Math.cos(angle), Math.sin(angle), 0);
     }
 
-    pickNewDirection() {
-        const angle = Math.random() * 2 * Math.PI;
-        this.direction = cc.v2(Math.cos(angle), Math.sin(angle));
-        this.node.scaleX = this.direction.x >= 0 ? 1 : -1;
+    randomAnim() {
+        const choices = ["cat_idle", "cat_run", "cat_jump"];
+        const name = choices[Math.floor(Math.random() * choices.length)];
+        this.playAnim(name);
     }
 
     playAnim(name: string) {
-        if (this.anim && this.anim.getAnimationState(name)) {
-            this.anim.play(name);
-        }
+        if (!this.anim || !this.anim.getAnimationState(name)) return;
+        this.anim.play(name);
     }
 }

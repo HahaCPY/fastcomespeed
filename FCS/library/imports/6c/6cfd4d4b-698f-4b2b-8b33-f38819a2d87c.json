@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "jar_A_medium",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "jar_A_medium",
+      "path": "jar_A_medium"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

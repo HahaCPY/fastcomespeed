@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "crate_tomatoes",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "crate_tomatoes",
+      "path": "crate_tomatoes"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}
