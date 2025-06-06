@@ -1,5 +1,7 @@
 import { KeyboardControls } from "./KeyboardControls";
+import { GamepadControls } from "./GamepadControls";
 import { IInputControls } from "./IInputControls";
+
 
 const { ccclass, property } = cc._decorator;
 
@@ -151,7 +153,16 @@ export default class PlayerController extends cc.Component {
         }
 
         this.playAnim("girl_idle_back");
-        this.input = new KeyboardControls();  // 第二位使用專屬控制器
+
+        const gamepadComp = cc.find("GamepadManager")?.getComponent(GamepadControls);
+
+        if (gamepadComp) {
+            this.input = gamepadComp;
+            console.log("🎮 使用 GamepadControls！");
+        } else {
+            this.input = new KeyboardControls();
+            console.log("⌨️ 使用 KeyboardControls！");
+        }
         
         const barNode = cc.instantiate(this.chopBarPrefab);
         this.node.addChild(barNode);
@@ -169,7 +180,23 @@ export default class PlayerController extends cc.Component {
     }
 
     update(dt: number) {
+    if (this.input instanceof GamepadControls) {
+        this.input.update(); // ✨ 主動更新 Gamepad 狀態
+        const gp = this.input as GamepadControls;
+
+        const x = gp.x;
+        const y = gp.y;
+        console.log(`📦 正確的 Gamepad x=${x}, y=${y}`);
+
+        const dir = cc.v2(x, y);
+        if (!dir.equals(cc.Vec2.ZERO)) {
+            this.rb.linearVelocity = dir.normalize().mul(this.speed);
+        } else {
+            this.rb.linearVelocity = cc.Vec2.ZERO;
+        }
+    }
         const dir = this.input.getMoveDirection();
+        console.log(`📦 控制器輸出的方向是：x=${dir.x}, y=${dir.y}`);
         this.isRunning = this.input.getRunHeld();
 
         if (!dir.equals(cc.Vec2.ZERO)) {

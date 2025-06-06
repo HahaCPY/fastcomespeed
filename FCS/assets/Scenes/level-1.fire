@@ -20,7 +20,7 @@
         "__id__": 1592
       },
       {
-        "__id__": 1637
+        "__id__": 1638
       }
     ],
     "_active": false,
@@ -105,9 +105,6 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 1633
-      },
-      {
         "__id__": 1634
       },
       {
@@ -115,6 +112,9 @@
       },
       {
         "__id__": 1636
+      },
+      {
+        "__id__": 1637
       }
     ],
     "_prefab": null,
@@ -55671,6 +55671,8 @@
     "pickupSound": null,
     "placeSound": null,
     "bakeSound": null,
+    "gamepadControls": null,
+    "keyboardControls": null,
     "_id": "d7pNpNZyNA+ITy/TaB4Mwj"
   },
   {
@@ -56672,13 +56674,13 @@
         "__id__": 1588
       },
       {
-        "__id__": 1616
+        "__id__": 1617
       },
       {
-        "__id__": 1622
+        "__id__": 1623
       },
       {
-        "__id__": 1628
+        "__id__": 1629
       }
     ],
     "_active": true,
@@ -56751,13 +56753,16 @@
         "__id__": 1591
       },
       {
-        "__id__": 1613
-      },
-      {
         "__id__": 1614
       },
       {
         "__id__": 1615
+      },
+      {
+        "__id__": 1616
+      },
+      {
+        "__id__": 1613
       }
     ],
     "_prefab": null,
@@ -56972,6 +56977,10 @@
     "bakeSound": {
       "__uuid__": "dd731ab5-81ab-47f9-82f3-54c8c199c788"
     },
+    "gamepadControls": {
+      "__id__": 1613
+    },
+    "keyboardControls": null,
     "_id": "90hnARQoVG65o30MFqk1f0"
   },
   {
@@ -58050,6 +58059,16 @@
     "_id": "c8cM68kP1Bw7TnLGoPhsq5"
   },
   {
+    "__type__": "00044YejV5CopjyAHjis/Qj",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1588
+    },
+    "_enabled": true,
+    "_id": "e9WoTMbbpEYJFSTv83q0jE"
+  },
+  {
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
@@ -58121,9 +58140,6 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 1617
-      },
-      {
         "__id__": 1618
       },
       {
@@ -58134,6 +58150,9 @@
       },
       {
         "__id__": 1621
+      },
+      {
+        "__id__": 1622
       }
     ],
     "_prefab": null,
@@ -58189,7 +58208,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1616
+      "__id__": 1617
     },
     "_enabled": true,
     "_materials": [
@@ -58223,7 +58242,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1616
+      "__id__": 1617
     },
     "_enabled": true,
     "_defaultClip": {
@@ -58275,7 +58294,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1616
+      "__id__": 1617
     },
     "_enabled": true,
     "_type": 2,
@@ -58300,7 +58319,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1616
+      "__id__": 1617
     },
     "_enabled": true,
     "tag": 0,
@@ -58326,11 +58345,11 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1616
+      "__id__": 1617
     },
     "_enabled": true,
     "anim": {
-      "__id__": 1618
+      "__id__": 1619
     },
     "speed": 200,
     "doughPrefab": {
@@ -58414,9 +58433,6 @@
     "_active": false,
     "_components": [
       {
-        "__id__": 1623
-      },
-      {
         "__id__": 1624
       },
       {
@@ -58427,6 +58443,9 @@
       },
       {
         "__id__": 1627
+      },
+      {
+        "__id__": 1628
       }
     ],
     "_prefab": null,
@@ -58482,7 +58501,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1622
+      "__id__": 1623
     },
     "_enabled": true,
     "_materials": [
@@ -58516,7 +58535,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1622
+      "__id__": 1623
     },
     "_enabled": true,
     "_defaultClip": {
@@ -58541,7 +58560,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1622
+      "__id__": 1623
     },
     "_enabled": true,
     "_type": 2,
@@ -58566,7 +58585,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1622
+      "__id__": 1623
     },
     "_enabled": true,
     "tag": 0,
@@ -58592,11 +58611,11 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1622
+      "__id__": 1623
     },
     "_enabled": true,
     "anim": {
-      "__id__": 1624
+      "__id__": 1625
     },
     "speed": 30,
     "_id": "46aUj5erdAnbbsAQSCfH6a"
@@ -58610,19 +58629,19 @@
     },
     "_children": [
       {
-        "__id__": 1629
-      },
-      {
         "__id__": 1630
       },
       {
         "__id__": 1631
+      },
+      {
+        "__id__": 1632
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 1632
+        "__id__": 1633
       }
     ],
     "_prefab": null,
@@ -58678,7 +58697,7 @@
     "_name": "goblindrop",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1628
+      "__id__": 1629
     },
     "_children": [],
     "_active": true,
@@ -58736,7 +58755,7 @@
     "_name": "goblindrop",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1628
+      "__id__": 1629
     },
     "_children": [],
     "_active": true,
@@ -58794,7 +58813,7 @@
     "_name": "goblindrop",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1628
+      "__id__": 1629
     },
     "_children": [],
     "_active": true,
@@ -58852,7 +58871,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1628
+      "__id__": 1629
     },
     "_enabled": true,
     "goblinPrefab": {
@@ -58860,20 +58879,20 @@
     },
     "dropPoints": [
       {
-        "__id__": 1629
-      },
-      {
         "__id__": 1630
       },
       {
         "__id__": 1631
+      },
+      {
+        "__id__": 1632
       }
     ],
     "player1": {
       "__id__": 1588
     },
     "player2": {
-      "__id__": 1616
+      "__id__": 1617
     },
     "spawnInterval": 5,
     "_id": "a7JyeZQntLrq3PGR8POhTl"
@@ -58969,7 +58988,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 1638
+        "__id__": 1639
       }
     ],
     "_prefab": null,
@@ -59025,7 +59044,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 1637
+      "__id__": 1638
     },
     "_enabled": true,
     "_id": "43NQPvaAtKNo/HcpXxJmRq"
