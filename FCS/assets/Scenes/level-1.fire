@@ -56943,9 +56943,7 @@
     "smokeEffectPrefab": {
       "__uuid__": "982159af-cd32-490f-a2cf-6b5356ac1f19"
     },
-    "smokePoint": {
-      "__id__": 1151
-    },
+    "smokePoint": null,
     "tipsLabelPrefab": {
       "__uuid__": "d3c092c1-5f3f-4405-861e-3a40ba6376b5"
     },
