@@ -1972,6 +1972,9 @@
     "sceneLabel": {
       "__id__": 39
     },
+    "resultBgm": {
+      "__uuid__": "f653549b-4f52-4dd2-ae3d-75a57ba02609"
+    },
     "star1Prefab": {
       "__uuid__": "1328a5c4-fe19-41be-8344-9eff5ae5a7ff"
     },

@@ -18255,6 +18255,7 @@
     "bgm": {
       "__uuid__": "a0503365-20f3-49ea-bacb-81174b4c0f15"
     },
+    "tenSecBgm": null,
     "fireEffectPrefab": {
       "__uuid__": "af95ff3f-6611-407c-ae7f-b33bb1869be1"
     },

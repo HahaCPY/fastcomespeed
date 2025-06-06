@@ -65,6 +65,11 @@ export default class PlayerController extends cc.Component {
     @property(cc.Node)
     uiManager: cc.Node = null;
 
+    @property({ type: cc.AudioClip })
+    chopSound: cc.AudioClip = null;
+
+    private chopSoundTimer: number = 0;
+
     // 跑步
     private isRunning: boolean = false;
     private runMultiplier: number = 1.3; // 跑步速度倍率
@@ -86,8 +91,11 @@ export default class PlayerController extends cc.Component {
     @property({ type: cc.AudioClip })
     placeSound: cc.AudioClip = null;
 
+    @property({ type: cc.AudioClip })
+    bakeSound: cc.AudioClip = null;
 
 
+    private bakeSoundId: number = -1;
     private canDeliver: boolean = false;   // 是否碰到出餐台（tag 9）
     private menuManager: any = null;       // 實際 MenuBar 腳本引用
 
@@ -129,9 +137,6 @@ export default class PlayerController extends cc.Component {
     
     private lastInteractTime: number = 0;
     private interactCooldown: number = 0.2; // 0.2 秒冷卻時間
-
-
-
 
 
     start() {
@@ -245,12 +250,22 @@ export default class PlayerController extends cc.Component {
                 const progressRatio = Math.min(this.chopProgress / 2, 1);
                 this.chopFill.scaleX = progressRatio;
 
+                this.chopSoundTimer += dt;
+                if (this.chopSoundTimer >= 0.2) {  // 每 0.2 秒
+                    this.chopSoundTimer = 0;
+                    if (this.chopSound) {
+                        cc.audioEngine.playEffect(this.chopSound, false);
+                    }
+                }
+
                 if (this.chopProgress >= 2) {
                     this.finishChopping();
                 }
             } else {
                 this.cancelChopping();  // 玩家放開空白鍵，中斷切麵
             }
+        } else {
+            this.chopSoundTimer = 0;
         }
         
         // 烘烤流程
@@ -265,6 +280,11 @@ export default class PlayerController extends cc.Component {
 
             // 初次按下，開始烘烤
             this.isBaking = true;
+
+            if (this.bakeSound && this.bakeSoundId === -1) {
+              this.bakeSoundId = cc.audioEngine.playEffect(this.bakeSound, true);
+            }
+
             this.bakeProgress = 0;
             this.carriedDough.active = false; // 讓披薩消失
             this.chopBar.parent = this.node;
@@ -374,6 +394,10 @@ export default class PlayerController extends cc.Component {
     }
 
     cancelBaking() {
+        if (this.bakeSoundId !== -1) {
+            cc.audioEngine.stopEffect(this.bakeSoundId);
+            this.bakeSoundId = -1;
+        }
         this.isBaking = false;
         this.bakeProgress = 0;
         this.smokeTimer = 0; 
@@ -383,6 +407,10 @@ export default class PlayerController extends cc.Component {
 
 
     finishBaking() {
+        if (this.bakeSoundId !== -1) {
+            cc.audioEngine.stopEffect(this.bakeSoundId);
+            this.bakeSoundId = -1;
+        }
         this.isBaking = false;
         this.chopBar.active = false;
         this.bakeProgress = 0;
@@ -745,6 +773,11 @@ export default class PlayerController extends cc.Component {
             this.isNearOven = true;
             this.nearbyOven = otherCollider.node;
             console.log("🔥 接觸到烤箱！");
+
+            if (this.bakeSoundId !== -1) {
+                cc.audioEngine.stopEffect(this.bakeSoundId);
+                this.bakeSoundId = -1;
+            }
         } else if (otherCollider.tag === 9) {
             this.canDeliver = true;
         }

@@ -29,6 +29,9 @@ export default class MenuBar extends cc.Component {
     @property({ type: cc.AudioClip })
     bgm: cc.AudioClip = null;
 
+    @property({ type: cc.AudioClip })
+    tenSecBgm: cc.AudioClip = null;
+
     @property({ type: cc.Prefab })
     fireEffectPrefab: cc.Prefab = null;
 
@@ -86,6 +89,14 @@ export default class MenuBar extends cc.Component {
         this.schedule(this.generateNextDish, this.dishInterval);
 
         this.setScore(0); // 遊戲開始分數歸零
+
+        const tenSec = 10;
+        if (this.tenSecBgm && this.totalTime > tenSec) {
+            this.scheduleOnce(() => {
+                cc.audioEngine.stopMusic();
+                cc.audioEngine.playMusic(this.tenSecBgm, true);
+            }, this.totalTime - tenSec);
+        }
     }
 
     countdownStep() {
@@ -195,10 +206,12 @@ export default class MenuBar extends cc.Component {
 
             // 停止所有遊戲互動、物件動作（可選）
             // 例如暫停敵人、暫停玩家、按鈕不可點，自己加
+            cc.director.pause();
 
             // 暫停 director，但先不要暫停到 delay 結束
             setTimeout(() => {
                 // 這裡才換場景，不要用 cc.scheduleOnce，否則 pause 時不會動
+                cc.director.resume();
                 cc.director.loadScene('score-scene');
                 this.saveScoreAndGotoResult();
             }, 2000); // 2 秒

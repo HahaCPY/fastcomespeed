@@ -8,6 +8,9 @@ export default class ResultScene extends cc.Component {
     @property(cc.Label)
     sceneLabel: cc.Label = null;  // <== 新增，拖 UI Label 進來
 
+    @property({ type: cc.AudioClip })
+    resultBgm: cc.AudioClip = null;
+
     @property({ type: cc.Prefab })
     star1Prefab: cc.Prefab = null;
 
@@ -32,8 +35,12 @@ export default class ResultScene extends cc.Component {
 
     private char1FrameIdx = 0;
     private char2FrameIdx = 0;
+    private _sceneChanged = false;
 
     start() {
+        cc.audioEngine.stopMusic();
+        cc.audioEngine.playMusic(this.resultBgm, true);
+
         // 取得 persist node
         const persistNode = cc.director.getScene().getChildByName('ScorePersist');
         if (!persistNode) {
@@ -75,6 +82,32 @@ export default class ResultScene extends cc.Component {
         }
 
         this.schedule(this.updateCharFrames, 0.25);
+
+        // 1. 註冊空白鍵監聽
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+
+        // 2. 十秒自動跳場景
+        this.scheduleOnce(() => {
+            this.gotoMenu();
+        }, 10);
+    }
+
+
+    onDestroy() {
+        cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
+    }
+
+    onKeyDown(event: cc.Event.EventKeyboard) {
+        // 空白鍵是 cc.macro.KEY.space
+        if (event.keyCode === cc.macro.KEY.space) {
+            this.gotoMenu();
+        }
+    }
+
+    gotoMenu() {
+        if (this._sceneChanged) return;
+        this._sceneChanged = true;
+        cc.director.loadScene('selectScene');  // 你的主選單場景名
     }
 
     updateCharFrames() {
@@ -86,6 +119,7 @@ export default class ResultScene extends cc.Component {
                 this.char1FrameIdx = (this.char1FrameIdx + 1) % this.char1Frames.length;
             }
         }
+
         // 角色2
         if (this.char2Node && this.char2Frames.length > 0) {
             let sprite2 = this.char2Node.getComponent(cc.Sprite);

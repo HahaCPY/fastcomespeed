@@ -1,1 +1,0 @@
-{"version":3,"sources":["assets/Script/Player/IInputControls.ts"],"names":[],"mappings":"","file":"","sourceRoot":"/","sourcesContent":["export interface IInputControls {\n    getMoveDirection(): cc.Vec2;\n    getInteractPressed(): boolean; \n    getChopPressed(): boolean;\n    getRunHeld(): boolean;\n}\n"]}
