@@ -24,6 +24,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+var GameManager_level1_1 = require("./GameManager-level1");
 var PlayerAnimationController = /** @class */ (function (_super) {
     __extends(PlayerAnimationController, _super);
     function PlayerAnimationController() {
@@ -38,9 +39,14 @@ var PlayerAnimationController = /** @class */ (function (_super) {
     }
     PlayerAnimationController.prototype.start = function () {
         var _this = this;
-        // 綁定按鈕事件
-        this.buttonGirl.node.on('click', function () { return _this.changeAnimation('girl_idle'); }, this);
-        this.buttonGirl2.node.on('click', function () { return _this.changeAnimation('girl2_idle'); }, this);
+        this.buttonGirl.node.on('click', function () {
+            GameManager_level1_1.default.selectedCharIndex = 0;
+            _this.changeAnimation('girl_idle');
+        }, this);
+        this.buttonGirl2.node.on('click', function () {
+            GameManager_level1_1.default.selectedCharIndex = 1;
+            _this.changeAnimation('girl2_idle');
+        }, this);
     };
     PlayerAnimationController.prototype.getSelectedPlayer = function () {
         if (this.choosePlayerNode.active === false) {

@@ -96,6 +96,11 @@ var PlayerController = /** @class */ (function (_super) {
     }
     PlayerController.prototype.start = function () {
         var _a;
+        var collider = this.getComponent(cc.PhysicsBoxCollider);
+        if (collider) {
+            collider.enabled = true;
+            collider.apply(); // 更新碰撞器資訊
+        }
         if (!this.anim) {
             this.anim = this.getComponent(cc.Animation);
         }

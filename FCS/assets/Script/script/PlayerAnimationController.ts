@@ -1,4 +1,5 @@
 const { ccclass, property } = cc._decorator;
+import GameManager from "./GameManager-level1";
 
 @ccclass
 export default class PlayerAnimationController extends cc.Component {
@@ -21,10 +22,17 @@ export default class PlayerAnimationController extends cc.Component {
     choosePlayerNode: cc.Node = null; // 拖入選擇玩家節點
 
     start() {
-        // 綁定按鈕事件
-        this.buttonGirl.node.on('click', () => this.changeAnimation('girl_idle'), this);
-        this.buttonGirl2.node.on('click', () => this.changeAnimation('girl2_idle'), this);
+        this.buttonGirl.node.on('click', () => {
+            GameManager.selectedCharIndex = 0;
+            this.changeAnimation('girl_idle');
+        }, this);
+
+        this.buttonGirl2.node.on('click', () => {
+            GameManager.selectedCharIndex = 1;
+            this.changeAnimation('girl2_idle');
+        }, this);
     }
+
 
     getSelectedPlayer(): cc.Node {
         if(this.choosePlayerNode.active === false) {

@@ -664,11 +664,6 @@
     "meta": 1749234397399,
     "relativePath": "Scenes\\Loading.fire"
   },
-  "c9b6f5b9-19d0-47b1-bb9b-db372cd4d97b": {
-    "asset": 1749231821984,
-    "meta": 1749234397411,
-    "relativePath": "Script\\debug.ts"
-  },
   "7941389f-2a56-474a-99ec-0100656ee591": {
     "asset": 1749234952685,
     "meta": 1749234952701,
@@ -710,8 +705,8 @@
     "relativePath": "Scenes\\pizza-check.fire"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749236507253,
-    "meta": 1749236507274,
+    "asset": 1749238405399,
+    "meta": 1749238405422,
     "relativePath": "Scenes\\level-1.fire"
   },
   "dbe6d234-584e-44b2-8db8-ca2a0bdb9033": {
@@ -720,8 +715,8 @@
     "relativePath": "Scenes\\score-scene.fire"
   },
   "b1519bd1-fdb6-41a9-ac14-19b2c4e35704": {
-    "asset": 1749231891244,
-    "meta": 1749234397478,
+    "asset": 1749237237485,
+    "meta": 1749237237502,
     "relativePath": "Scenes\\selectScene.fire"
   },
   "0b83943e-a504-47e1-8700-284113c387c7": {
@@ -7669,20 +7664,10 @@
     "meta": 1749234425963,
     "relativePath": "Resource\\restaurant\\shelf_papertowel.gltf"
   },
-  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
-    "asset": 1749231821983,
-    "meta": 1749234403678,
-    "relativePath": "Script\\Player\\PlayerController 2.ts"
-  },
   "7c07c676-5704-4e40-bbc0-29e58541b323": {
     "asset": 1748784458639,
     "meta": 1749234425969,
     "relativePath": "Resource\\restaurant\\shelf_papertowel_decorated.gltf"
-  },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1749231821984,
-    "meta": 1749234403774,
-    "relativePath": "Script\\Player\\PlayerController.ts"
   },
   "b0f45195-b539-41b1-a5b4-4804350f4c39": {
     "asset": 1749231821985,
@@ -7768,11 +7753,6 @@
     "asset": 1749231891251,
     "meta": 1749234403951,
     "relativePath": "Script\\script\\MenuManager.ts"
-  },
-  "a348ec18-dfcb-4e9d-85cf-9c7063c0fe3a": {
-    "asset": 1749231891252,
-    "meta": 1749234403963,
-    "relativePath": "Script\\script\\PlayerAnimationController.ts"
   },
   "aefe3c7b-5b01-4e91-8979-6463f48e7ce6": {
     "asset": 1749231891253,
@@ -16713,5 +16693,45 @@
     "asset": 1749236753528,
     "meta": 1749236760671,
     "relativePath": "Script\\script\\select\\vehicleCtrl.ts"
+  },
+  "a348ec18-dfcb-4e9d-85cf-9c7063c0fe3a": {
+    "asset": 1749237384546,
+    "meta": 1749237396578,
+    "relativePath": "Script\\script\\PlayerAnimationController.ts"
+  },
+  "ee889e90-c0f6-4d0d-88b2-0caabb3b93c2": {
+    "asset": 1749237499690,
+    "meta": 1749237499691,
+    "relativePath": "Prefab\\Player"
+  },
+  "8e8dd6bf-7837-4a2f-9fca-26846bb1894c": {
+    "asset": 1749238243023,
+    "meta": 1749238243034,
+    "relativePath": "Prefab\\Player\\girl2.prefab"
+  },
+  "7d7e1d27-4d02-440f-86a3-cece7072852d": {
+    "asset": 1749238232844,
+    "meta": 1749238232861,
+    "relativePath": "Prefab\\Player\\girl.prefab"
+  },
+  "d3c16639-e5d3-4c66-aaec-7ee0b3f3468e": {
+    "asset": 1749238211256,
+    "meta": 1749238221346,
+    "relativePath": "Script\\script\\GameManager-level1.ts"
+  },
+  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
+    "asset": 1749238295128,
+    "meta": 1749238362505,
+    "relativePath": "Script\\Player\\PlayerController 2.ts"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1749238283393,
+    "meta": 1749238362599,
+    "relativePath": "Script\\Player\\PlayerController.ts"
+  },
+  "c9b6f5b9-19d0-47b1-bb9b-db372cd4d97b": {
+    "asset": 1749238439276,
+    "meta": 1749238443110,
+    "relativePath": "Script\\debug.ts"
   }
 }

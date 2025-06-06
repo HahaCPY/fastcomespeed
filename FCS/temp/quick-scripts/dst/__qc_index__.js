@@ -36,6 +36,7 @@ require('./assets/Script/script/CloseButton');
 require('./assets/Script/script/ExpandButton');
 require('./assets/Script/script/ExpandPage');
 require('./assets/Script/script/FirebaseManager');
+require('./assets/Script/script/GameManager-level1');
 require('./assets/Script/script/GoToPage');
 require('./assets/Script/script/Login');
 require('./assets/Script/script/MenuManager');

@@ -32,9 +32,9 @@ var DebugController = /** @class */ (function (_super) {
     DebugController.prototype.onLoad = function () {
         cc.director.getPhysicsManager().enabled = true;
         // 顯示碰撞形狀（綠框/藍框）+ 邊界 AABB
-        /*cc.director.getPhysicsManager().debugDrawFlags =
-        cc.PhysicsManager.DrawBits.e_shapeBit |
-        cc.PhysicsManager.DrawBits.e_aabbBit;*/
+        cc.director.getPhysicsManager().debugDrawFlags =
+            cc.PhysicsManager.DrawBits.e_shapeBit |
+                cc.PhysicsManager.DrawBits.e_aabbBit;
     };
     DebugController = __decorate([
         ccclass
