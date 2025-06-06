@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SaveMenu",
+    "texture": "29828a45-f391-4348-b8f0-a7d00da6e9bd",
+    "atlas": "",
+    "rect": [
+      21,
+      0,
+      1520,
+      1194
+    ],
+    "offset": [
+      0.5,
+      13.5
+    ],
+    "originalSize": [
+      1561,
+      1221
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

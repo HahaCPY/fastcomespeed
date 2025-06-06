@@ -31,6 +31,7 @@ var MenuBar = /** @class */ (function (_super) {
         _this.slots = [];
         _this.dishPrefabs = [];
         _this.timerLabel = null; // 拖拉倒數時間的 Label
+        _this.timeUpPrefab = null;
         _this.scoreLabel = null; // 拖拉分數的 Label
         _this.totalTime = 60; // 總倒數秒數
         _this.dishesPerGame = 3; // 格子數
@@ -149,9 +150,37 @@ var MenuBar = /** @class */ (function (_super) {
             .start();
     };
     MenuBar.prototype.timeUp = function () {
+        var _this = this;
         this.unschedule(this.countdownStep);
         this.unschedule(this.generateNextDish);
         cc.log("Time's up!");
+        // 顯示 Time Up prefab
+        if (this.timeUpPrefab) {
+            var node = cc.instantiate(this.timeUpPrefab);
+            this.node.addChild(node);
+            // 停止所有遊戲互動、物件動作（可選）
+            // 例如暫停敵人、暫停玩家、按鈕不可點，自己加
+            // 暫停 director，但先不要暫停到 delay 結束
+            setTimeout(function () {
+                // 這裡才換場景，不要用 cc.scheduleOnce，否則 pause 時不會動
+                cc.director.loadScene('score-scene');
+                _this.saveScoreAndGotoResult();
+            }, 2000); // 2 秒
+        }
+    };
+    MenuBar.prototype.saveScoreAndGotoResult = function () {
+        // 取得 persist node
+        var persistNode = cc.director.getScene().getChildByName('ScorePersist');
+        if (persistNode) {
+            var persistScript = persistNode.getComponent('ScorePersist');
+            persistScript.score = this.score;
+            // persistScript.score = 150;
+            persistScript.fromScene = cc.director.getScene().name;
+        }
+        else {
+            cc.error('找不到 ScorePersist persist node');
+        }
+        cc.director.loadScene('ResultScene');
     };
     MenuBar.prototype.resetAndStart = function () {
         this.resetMenu();
@@ -182,6 +211,9 @@ var MenuBar = /** @class */ (function (_super) {
     __decorate([
         property({ type: cc.Label })
     ], MenuBar.prototype, "timerLabel", void 0);
+    __decorate([
+        property({ type: cc.Prefab })
+    ], MenuBar.prototype, "timeUpPrefab", void 0);
     __decorate([
         property({ type: cc.Label })
     ], MenuBar.prototype, "scoreLabel", void 0);

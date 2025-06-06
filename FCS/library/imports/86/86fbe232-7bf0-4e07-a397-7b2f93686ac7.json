@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FullHealthBar",
+    "texture": "7b31cdc9-9c12-40e4-8764-10b9381c4fe0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      355,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      355,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

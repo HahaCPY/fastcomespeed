@@ -11,6 +11,9 @@ export default class MenuBar extends cc.Component {
     @property({ type: cc.Label })
     timerLabel: cc.Label = null; // 拖拉倒數時間的 Label
 
+    @property({ type: cc.Prefab })
+    timeUpPrefab: cc.Prefab = null;
+
     @property({ type: cc.Label })
     scoreLabel: cc.Label = null; // 拖拉分數的 Label
 
@@ -184,7 +187,38 @@ export default class MenuBar extends cc.Component {
         this.unschedule(this.countdownStep);
         this.unschedule(this.generateNextDish);
         cc.log("Time's up!");
+
+        // 顯示 Time Up prefab
+        if (this.timeUpPrefab) {
+            let node = cc.instantiate(this.timeUpPrefab);
+            this.node.addChild(node);
+
+            // 停止所有遊戲互動、物件動作（可選）
+            // 例如暫停敵人、暫停玩家、按鈕不可點，自己加
+
+            // 暫停 director，但先不要暫停到 delay 結束
+            setTimeout(() => {
+                // 這裡才換場景，不要用 cc.scheduleOnce，否則 pause 時不會動
+                cc.director.loadScene('score-scene');
+                this.saveScoreAndGotoResult();
+            }, 2000); // 2 秒
+        }
     }
+
+    saveScoreAndGotoResult() {
+        // 取得 persist node
+        const persistNode = cc.director.getScene().getChildByName('ScorePersist');
+        if (persistNode) {
+            const persistScript = persistNode.getComponent('ScorePersist');
+            persistScript.score = this.score;
+            // persistScript.score = 150;
+            persistScript.fromScene = cc.director.getScene().name;
+        } else {
+            cc.error('找不到 ScorePersist persist node');
+        }
+        cc.director.loadScene('ResultScene');
+    }
+
 
     resetAndStart() {
         this.resetMenu();
