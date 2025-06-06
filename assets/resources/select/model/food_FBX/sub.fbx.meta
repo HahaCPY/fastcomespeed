@@ -1,0 +1,341 @@
+{
+  "ver": "1.1.3",
+  "uuid": "8ae0bedf-9c9a-40ae-b5fa-46ac6a1b41c2",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "6a162728-ce0d-44b5-a29f-6c8d84c45f6e",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "bun-bottom.mesh": {
+      "ver": "1.0.3",
+      "uuid": "f6ac2275-3e68-4d21-8035-47e3f04eb6bb",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 72,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.131399989128113,
+        "y": 0,
+        "z": -0.324849992990494
+      },
+      "maxPos": {
+        "x": 0.131399989128113,
+        "y": 0.0349304936826229,
+        "z": 0.324849992990494
+      },
+      "name": "bun-bottom.mesh",
+      "subMetas": {}
+    },
+    "lettuce.mesh": {
+      "ver": "1.0.3",
+      "uuid": "3bbc694f-cf4b-4fa1-88ab-5232922b1ab9",
+      "importer": "mesh",
+      "verts": 56,
+      "tris": 28,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.131399989128113,
+        "y": 0,
+        "z": -0.324826627969742
+      },
+      "maxPos": {
+        "x": 0.131399989128113,
+        "y": 0.0218955129384995,
+        "z": 0.324826627969742
+      },
+      "name": "lettuce.mesh",
+      "subMetas": {}
+    },
+    "meat.mesh": {
+      "ver": "1.0.3",
+      "uuid": "795d0309-b720-4901-97bd-5d099f2efe89",
+      "importer": "mesh",
+      "verts": 258,
+      "tris": 152,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.131399989128113,
+        "y": 4.51194631754889e-17,
+        "z": -0.324849992990494
+      },
+      "maxPos": {
+        "x": 0.131399989128113,
+        "y": 0.0399999991059303,
+        "z": 0.324849992990494
+      },
+      "name": "meat.mesh",
+      "subMetas": {}
+    },
+    "tomato.mesh": {
+      "ver": "1.0.3",
+      "uuid": "c812df64-6cfa-4624-a156-2d6f13575419",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 76,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0899999961256981,
+        "y": 0,
+        "z": -0.0899999961256981
+      },
+      "maxPos": {
+        "x": 0.0899999961256981,
+        "y": 0.0299999993294477,
+        "z": 0.0899999961256981
+      },
+      "name": "tomato.mesh",
+      "subMetas": {}
+    },
+    "tomato_1.mesh": {
+      "ver": "1.0.3",
+      "uuid": "f64acaa3-a367-4aac-a32f-2967be257a66",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 76,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0899999961256981,
+        "y": 0,
+        "z": -0.0899999961256981
+      },
+      "maxPos": {
+        "x": 0.0899999961256981,
+        "y": 0.0299999993294477,
+        "z": 0.0899999961256981
+      },
+      "name": "tomato_1.mesh",
+      "subMetas": {}
+    },
+    "tomato_2.mesh": {
+      "ver": "1.0.3",
+      "uuid": "2f29c7e3-4300-4d72-8ad8-872ab36153bf",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 76,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0899999961256981,
+        "y": 0,
+        "z": -0.0899999961256981
+      },
+      "maxPos": {
+        "x": 0.0899999961256981,
+        "y": 0.0299999993294477,
+        "z": 0.0899999961256981
+      },
+      "name": "tomato_2.mesh",
+      "subMetas": {}
+    },
+    "bun-top.mesh": {
+      "ver": "1.0.3",
+      "uuid": "56449b9a-9007-427d-806a-4616c45842c4",
+      "importer": "mesh",
+      "verts": 173,
+      "tris": 94,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.136656001210213,
+        "y": 0,
+        "z": -0.33010596036911
+      },
+      "maxPos": {
+        "x": 0.136656001210213,
+        "y": 0.0975999981164932,
+        "z": 0.33010596036911
+      },
+      "name": "bun-top.mesh",
+      "subMetas": {}
+    },
+    "sub.prefab": {
+      "ver": "1.3.2",
+      "uuid": "66296d9d-adcc-417e-8a11-f30f8de1eef2",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "sub.prefab",
+      "subMetas": {}
+    },
+    "colormap.mtl": {
+      "ver": "1.0.5",
+      "uuid": "c74d8133-cc6c-4fff-8afb-5b93ce57e5c9",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colormap.mtl",
+      "subMetas": {}
+    }
+  }
+}

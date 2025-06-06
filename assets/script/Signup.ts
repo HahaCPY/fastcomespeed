@@ -71,12 +71,4 @@ export default class Signup extends cc.Component {
                 return '註冊失敗，請稍後再試';
         }
     }
-    onDestroy() {
-        // 清理事件處理器
-        const submitButton = cc.find("Canvas/Signup/Submit").getComponent(cc.Button);
-        if (submitButton) {
-            submitButton.clickEvents = submitButton.clickEvents.filter(event => event.component !== "Signup");
-        }
-    }
 }
- 

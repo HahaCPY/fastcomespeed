@@ -1,0 +1,369 @@
+{
+  "ver": "1.1.3",
+  "uuid": "c0aab0e4-2a69-49c4-a8b3-dba55bbec689",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "70d7864a-cfff-467b-a0f0-63d35f25d26b",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "slice.mesh": {
+      "ver": "1.0.3",
+      "uuid": "5a8d4657-758c-4777-9642-b8d4eb8e97da",
+      "importer": "mesh",
+      "verts": 199,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.137429118156433,
+        "y": 1.80477852701956e-16,
+        "z": -0.1374292075634
+      },
+      "maxPos": {
+        "x": 0.0235791318118572,
+        "y": 0.476099997758865,
+        "z": 0.0902708992362022
+      },
+      "name": "slice.mesh",
+      "subMetas": {}
+    },
+    "slice_1.mesh": {
+      "ver": "1.0.3",
+      "uuid": "42c133e6-2240-42b6-9554-9db47b67c870",
+      "importer": "mesh",
+      "verts": 199,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.113849997520447,
+        "y": 9.02389263509778e-17,
+        "z": -0.0805041566491127
+      },
+      "maxPos": {
+        "x": 0.113850012421608,
+        "y": 0.476099997758865,
+        "z": 0.0805041044950485
+      },
+      "name": "slice_1.mesh",
+      "subMetas": {}
+    },
+    "slice_2.mesh": {
+      "ver": "1.0.3",
+      "uuid": "77e6078f-e91a-4fd0-a956-b16374d798f7",
+      "importer": "mesh",
+      "verts": 199,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0805041193962097,
+        "y": 9.02389263509778e-17,
+        "z": -0.113850012421608
+      },
+      "maxPos": {
+        "x": 0.0805041268467903,
+        "y": 0.476099997758865,
+        "z": 0.113850101828575
+      },
+      "name": "slice_2.mesh",
+      "subMetas": {}
+    },
+    "slice_3.mesh": {
+      "ver": "1.0.3",
+      "uuid": "71da1719-c5c6-48c4-8fc9-31316b13e730",
+      "importer": "mesh",
+      "verts": 199,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.137429118156433,
+        "y": 9.02389263509778e-17,
+        "z": -0.0235791131854057
+      },
+      "maxPos": {
+        "x": 0.0902708917856216,
+        "y": 0.476099997758865,
+        "z": 0.137429103255272
+      },
+      "name": "slice_3.mesh",
+      "subMetas": {}
+    },
+    "slice_4.mesh": {
+      "ver": "1.0.3",
+      "uuid": "3b56cd9e-f328-4cc6-850a-b35ea0edec49",
+      "importer": "mesh",
+      "verts": 199,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0805041268467903,
+        "y": 9.02389263509778e-17,
+        "z": -0.113850124180317
+      },
+      "maxPos": {
+        "x": 0.0805041044950485,
+        "y": 0.476099997758865,
+        "z": 0.113849997520447
+      },
+      "name": "slice_4.mesh",
+      "subMetas": {}
+    },
+    "slice_5.mesh": {
+      "ver": "1.0.3",
+      "uuid": "b4ff0019-9767-4283-bf98-bfc482bbf5e2",
+      "importer": "mesh",
+      "verts": 198,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0235791150480509,
+        "y": 9.02389263509778e-17,
+        "z": -0.0902708917856216
+      },
+      "maxPos": {
+        "x": 0.137429103255272,
+        "y": 0.476099997758865,
+        "z": 0.1374292075634
+      },
+      "name": "slice_5.mesh",
+      "subMetas": {}
+    },
+    "slice_6.mesh": {
+      "ver": "1.0.3",
+      "uuid": "f2b4fb6d-afcb-4f64-a1c1-05b8b69b5ff5",
+      "importer": "mesh",
+      "verts": 199,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.113850012421608,
+        "y": 9.02389263509778e-17,
+        "z": -0.0805041044950485
+      },
+      "maxPos": {
+        "x": 0.113849997520447,
+        "y": 0.476099997758865,
+        "z": 0.0805041566491127
+      },
+      "name": "slice_6.mesh",
+      "subMetas": {}
+    },
+    "slice_7.mesh": {
+      "ver": "1.0.3",
+      "uuid": "cf004703-92f3-403d-b6b3-5a5a2e7ad173",
+      "importer": "mesh",
+      "verts": 199,
+      "tris": 172,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0902708917856216,
+        "y": 1.80477852701956e-16,
+        "z": -0.137429103255272
+      },
+      "maxPos": {
+        "x": 0.137429133057594,
+        "y": 0.476099997758865,
+        "z": 0.0235791206359863
+      },
+      "name": "slice_7.mesh",
+      "subMetas": {}
+    },
+    "watermelon.prefab": {
+      "ver": "1.3.2",
+      "uuid": "21c89e94-318d-4165-a92a-0975e920fb9d",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "watermelon.prefab",
+      "subMetas": {}
+    },
+    "colormap.mtl": {
+      "ver": "1.0.5",
+      "uuid": "eac23a59-1776-4946-8015-ca8bf01bba62",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colormap.mtl",
+      "subMetas": {}
+    }
+  }
+}

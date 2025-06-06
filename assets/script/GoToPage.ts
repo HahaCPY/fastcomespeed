@@ -7,7 +7,8 @@ export default class GoToPage extends cc.Component {
     }
 
     goToPage() {
-        cc.director.loadScene("Loading");
+        cc.sys.localStorage.setItem("fromMenu", "true");
+        cc.director.loadScene("select/selectScene");
     }
 
     onDestroy() {

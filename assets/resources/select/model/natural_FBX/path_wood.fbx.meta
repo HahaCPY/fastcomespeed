@@ -1,0 +1,185 @@
+{
+  "ver": "1.1.3",
+  "uuid": "bf91c4f9-db84-49da-bf2e-eeac489c1f03",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "5bc7772e-b5ae-4f08-aa9b-6ebbc4bb75a8",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "path_wood.mesh": {
+      "ver": "1.0.3",
+      "uuid": "176abf5b-37ae-46db-92ab-aaa1658c74d2",
+      "importer": "mesh",
+      "verts": 120,
+      "tris": 60,
+      "submeshes": 2,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0499999970197678,
+        "y": 0,
+        "z": -0.0257190391421318
+      },
+      "maxPos": {
+        "x": 0.0499999970197678,
+        "y": 0.00499999988824129,
+        "z": 0.0257190391421318
+      },
+      "name": "path_wood.mesh",
+      "subMetas": {}
+    },
+    "path_wood.prefab": {
+      "ver": "1.3.2",
+      "uuid": "23cffd01-c393-4f42-9302-b47917e9072e",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "path_wood.prefab",
+      "subMetas": {}
+    },
+    "dirtDark.mtl": {
+      "ver": "1.0.5",
+      "uuid": "b1d105b1-5f37-4a6b-b0f1-c4b97439fd56",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "dirtDark.mtl",
+      "subMetas": {}
+    },
+    "dirt.mtl": {
+      "ver": "1.0.5",
+      "uuid": "48083ba8-b16b-41de-a694-07d3a55b271e",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "dirt.mtl",
+      "subMetas": {}
+    }
+  }
+}

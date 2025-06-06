@@ -20,11 +20,11 @@ export default class MenuManager extends cc.Component {
         this.bgmAudioId = cc.audioEngine.play(this.bgm, true, AudioManager.getInstance().bgmVolume);
 
         if (this.bgmSlider) {
-            this.bgmSlider.getComponent(cc.Slider).progress = AudioManager.getInstance().bgmVolume;
+            //this.bgmSlider.getComponent(cc.Slider).progress = AudioManager.getInstance().bgmVolume;
             this.bgmSlider.getComponent(cc.Slider).node.on('slide', this.onBgmSliderChanged, this);
         }
         if (this.sfxSlider) {
-            this.sfxSlider.getComponent(cc.Slider).progress = AudioManager.getInstance().sfxVolume;
+            //this.sfxSlider.getComponent(cc.Slider).progress = AudioManager.getInstance().sfxVolume;
             this.sfxSlider.getComponent(cc.Slider).node.on('slide', this.onSfxSliderChanged, this);
         }
     }

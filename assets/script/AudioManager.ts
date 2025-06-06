@@ -14,6 +14,6 @@ export default class AudioManager extends cc.Component {
         return AudioManager._instance;
     }
 
-    public bgmVolume: number = 20;
-    public sfxVolume: number = 20;
+    public bgmVolume: number = 0.5;
+    public sfxVolume: number = 0.5;
 }

@@ -1,0 +1,237 @@
+{
+  "ver": "1.1.3",
+  "uuid": "41ecf5e0-9a6b-438e-bf94-f3e229256bfc",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "23ea43d7-2b95-4354-9303-713f67dafc0a",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "cliff_waterfallTop_stone.mesh": {
+      "ver": "1.0.3",
+      "uuid": "805859da-587a-407f-8596-62285cb4080c",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 60,
+      "submeshes": 6,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ],
+        [
+          "a_normal",
+          "a_position",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.0499999970197678,
+        "y": 0,
+        "z": -0.0499999970197678
+      },
+      "maxPos": {
+        "x": 0.0499999970197678,
+        "y": 0.0999999940395355,
+        "z": -0.0231500007212162
+      },
+      "name": "cliff_waterfallTop_stone.mesh",
+      "subMetas": {}
+    },
+    "cliff_waterfallTop_stone.prefab": {
+      "ver": "1.3.2",
+      "uuid": "8becec43-10ef-4aee-b3ff-b761de486696",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "cliff_waterfallTop_stone.prefab",
+      "subMetas": {}
+    },
+    "water.mtl": {
+      "ver": "1.0.5",
+      "uuid": "2d3316a1-7ef6-4a1f-a622-00447e82c17b",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "water.mtl",
+      "subMetas": {}
+    },
+    "_defaultMat.mtl": {
+      "ver": "1.0.5",
+      "uuid": "ea142b4c-36b4-465f-975e-c822605b23fd",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "_defaultMat.mtl",
+      "subMetas": {}
+    },
+    "stone.mtl": {
+      "ver": "1.0.5",
+      "uuid": "78c2682c-f6a4-4700-bdb0-f1c5c834d292",
+      "importer": "material",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 146,\n          \"g\": 170,\n          \"b\": 173,\n          \"a\": 255\n        }\n      },\n      \"defines\": {}\n    }\n  }\n}",
+      "name": "stone.mtl",
+      "subMetas": {}
+    },
+    "grass.mtl": {
+      "ver": "1.0.5",
+      "uuid": "7482840c-2dff-4fca-bafb-62b310e8fadc",
+      "importer": "material",
+      "dataAsSubAsset": "{\n  \"__type__\": \"cc.Material\",\n  \"_name\": \"\",\n  \"_objFlags\": 0,\n  \"_native\": \"\",\n  \"_effectAsset\": {\n    \"__uuid__\": \"abc2cb62-7852-4525-a90d-d474487b88f2\"\n  },\n  \"_techniqueIndex\": 0,\n  \"_techniqueData\": {\n    \"0\": {\n      \"props\": {\n        \"diffuseColor\": {\n          \"__type__\": \"cc.Color\",\n          \"r\": 70,\n          \"g\": 160,\n          \"b\": 95,\n          \"a\": 255\n        }\n      },\n      \"defines\": {}\n    }\n  }\n}",
+      "name": "grass.mtl",
+      "subMetas": {}
+    },
+    "dirt.mtl": {
+      "ver": "1.0.5",
+      "uuid": "e2faad8f-4271-4445-a404-9d6ff825c572",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "dirt.mtl",
+      "subMetas": {}
+    },
+    "dirtDark.mtl": {
+      "ver": "1.0.5",
+      "uuid": "5a3c38a4-9a16-40ad-b1d9-9715ac075ba4",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "dirtDark.mtl",
+      "subMetas": {}
+    }
+  }
+}
