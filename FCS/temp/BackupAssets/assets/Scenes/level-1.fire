@@ -56940,9 +56940,7 @@
     "smokeEffectPrefab": {
       "__uuid__": "982159af-cd32-490f-a2cf-6b5356ac1f19"
     },
-    "smokePoint": {
-      "__id__": 1151
-    },
+    "smokePoint": null,
     "tipsLabelPrefab": {
       "__uuid__": "d3c092c1-5f3f-4405-861e-3a40ba6376b5"
     },
@@ -56958,9 +56956,7 @@
     "runDustEffectPrefab": {
       "__uuid__": "4d6d4b50-bc00-4036-b1b3-053f0ff9f070"
     },
-    "blingSound": {
-      "__uuid__": "a051164b-fa75-444d-89a7-52399a1c6127"
-    },
+    "blingSound": null,
     "pickupSound": null,
     "placeSound": null,
     "_id": "90hnARQoVG65o30MFqk1f0"
