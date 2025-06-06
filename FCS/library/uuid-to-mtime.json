@@ -625,29 +625,14 @@
     "relativePath": "Script/Player"
   },
   "dbe6d234-584e-44b2-8db8-ca2a0bdb9033": {
-    "asset": 1749227481098,
-    "meta": 1749227481101,
+    "asset": 1749231559166,
+    "meta": 1749231559169,
     "relativePath": "Scenes/score-scene.fire"
   },
   "5ae71289-075a-45f7-acbe-06f771c82d05": {
     "asset": 1749216371029,
     "meta": 1749220538926,
     "relativePath": "Script/scene"
-  },
-  "36416a26-ef1f-488b-8c1e-c11652109228": {
-    "asset": 1749200105315,
-    "meta": 1749220538951,
-    "relativePath": "Prefab/UI/StarIcon-2.prefab"
-  },
-  "1328a5c4-fe19-41be-8344-9eff5ae5a7ff": {
-    "asset": 1749200105313,
-    "meta": 1749220538952,
-    "relativePath": "Prefab/UI/StarIcon-1.prefab"
-  },
-  "1d6024cb-eaeb-42c5-ba01-581087badfdb": {
-    "asset": 1749200105317,
-    "meta": 1749220538953,
-    "relativePath": "Prefab/UI/StarIcon-3.prefab"
   },
   "37104fea-99cb-48db-872b-f024ddbe91f1": {
     "asset": 1749207025516,
@@ -8998,5 +8983,20 @@
     "asset": 1749230435295,
     "meta": 1749231190239,
     "relativePath": "Scenes/level-2.fire"
+  },
+  "c5d3eea1-8c64-4408-a832-bb2787a31dcb": {
+    "asset": 1749231433551,
+    "meta": 1749231447962,
+    "relativePath": "Prefab/UI/StarIcon-2.prefab"
+  },
+  "6c481807-4276-480f-b899-165b9771b546": {
+    "asset": 1749231467106,
+    "meta": 1749231467108,
+    "relativePath": "Prefab/UI/StarIcon-3.prefab"
+  },
+  "db7cadfc-bb93-48e3-9717-5558ece49b0e": {
+    "asset": 1749231523355,
+    "meta": 1749231523356,
+    "relativePath": "Prefab/UI/starbox.prefab"
   }
 }
