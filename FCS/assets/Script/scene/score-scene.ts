@@ -99,9 +99,9 @@ export default class ResultScene extends cc.Component {
         let starPrefabs = [];
         if (score >= 500) {
             starPrefabs = [this.star3Prefab, this.star2Prefab, this.star1Prefab];
-        } else if (score >= 300) {
-            starPrefabs = [this.star2Prefab, this.star1Prefab];
         } else if (score >= 200) {
+            starPrefabs = [this.star2Prefab, this.star1Prefab];
+        } else if (score >= 50) {
             starPrefabs = [this.star1Prefab];
         }
 

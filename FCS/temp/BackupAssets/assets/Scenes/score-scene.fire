@@ -1,13 +1,12 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "score-scene",
+    "_name": "",
     "_objFlags": 0,
     "_native": "",
     "scene": {
       "__id__": 1
-    },
-    "asyncLoadAssets": false
+    }
   },
   {
     "__type__": "cc.Scene",
@@ -1497,7 +1496,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 52.12,
+      "width": 51.75,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -1549,8 +1548,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "200",
-    "_N$string": "200",
+    "_string": "300",
+    "_N$string": "300",
     "_fontSize": 30,
     "_lineHeight": 40,
     "_enableWrapText": true,

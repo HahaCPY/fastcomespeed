@@ -690,8 +690,8 @@
     "relativePath": "Scenes/pizza-check.fire"
   },
   "dbe6d234-584e-44b2-8db8-ca2a0bdb9033": {
-    "asset": 1749234005096,
-    "meta": 1749238759006,
+    "asset": 1749243292456,
+    "meta": 1749243292473,
     "relativePath": "Scenes/score-scene.fire"
   },
   "b1519bd1-fdb6-41a9-ac14-19b2c4e35704": {
@@ -16719,11 +16719,6 @@
     "meta": 1749242069736,
     "relativePath": "Scenes/Account.fire"
   },
-  "b0f45195-b539-41b1-a5b4-4804350f4c39": {
-    "asset": 1749241072625,
-    "meta": 1749241074662,
-    "relativePath": "Script/scene/score-scene.ts"
-  },
   "8f76e723-a05b-4129-82cb-40bb2b8bb9a7": {
     "asset": 1749241668777,
     "meta": 1749241678065,
@@ -16758,5 +16753,10 @@
     "asset": 1749242178426,
     "meta": 1749242180910,
     "relativePath": "Script/script/select/GameManager.ts"
+  },
+  "b0f45195-b539-41b1-a5b4-4804350f4c39": {
+    "asset": 1749243283371,
+    "meta": 1749243287284,
+    "relativePath": "Script/scene/score-scene.ts"
   }
 }

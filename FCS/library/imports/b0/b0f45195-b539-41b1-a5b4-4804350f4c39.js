@@ -150,10 +150,10 @@ var ResultScene = /** @class */ (function (_super) {
                         if (score >= 500) {
                             starPrefabs = [this.star3Prefab, this.star2Prefab, this.star1Prefab];
                         }
-                        else if (score >= 300) {
+                        else if (score >= 200) {
                             starPrefabs = [this.star2Prefab, this.star1Prefab];
                         }
-                        else if (score >= 200) {
+                        else if (score >= 50) {
                             starPrefabs = [this.star1Prefab];
                         }
                         // 實例化並顯示
