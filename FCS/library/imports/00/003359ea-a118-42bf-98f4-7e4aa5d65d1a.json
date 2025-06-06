@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "advocado-half",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "advocado-half",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "advocado-half"
+    },
+    {
+      "name": "pit",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -3.60955705403911e-16,
+        0.0545069985091686,
+        2.52668996429716e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "advocado-half/pit"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

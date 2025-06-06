@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "aid-crutch",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "aid-crutch",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "aid-crutch"
+    },
+    {
+      "name": "Group",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.0350000001490116,
+        0,
+        -0.0350000001490116
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "aid-crutch/Group"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

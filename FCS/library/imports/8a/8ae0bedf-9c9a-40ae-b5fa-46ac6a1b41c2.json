@@ -1,0 +1,216 @@
+{
+  "__type__": "cc.Model",
+  "_name": "sub",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "sub",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub"
+    },
+    {
+      "name": "bun-bottom",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0.0046998499892652,
+        0,
+        0.0000233535211009439
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub/bun-bottom"
+    },
+    {
+      "name": "lettuce",
+      "scale": [
+        1.03999996185303,
+        1.03999996185303,
+        1.03999996185303
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.0046998499892652,
+        0.0794925913214684,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub/lettuce"
+    },
+    {
+      "name": "meat",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0.0046998499892652,
+        0.0349304936826229,
+        0.0000233535211009439
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub/meat"
+    },
+    {
+      "name": "tomato",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        0.0460998490452766,
+        0.0949304923415184,
+        -0.193426638841629
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub/tomato"
+    },
+    {
+      "name": "tomato_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -0.0367001481354237,
+        0.0949304923415184,
+        -0.00642352923750877
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub/tomato_1"
+    },
+    {
+      "name": "tomato_2",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        0.0460998490452766,
+        0.0949304923415184,
+        0.193473353981972
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub/tomato_2"
+    },
+    {
+      "name": "bun-top",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 6,
+      "parent": null,
+      "position": [
+        -0.0046998499892652,
+        0.124930493533611,
+        0.0000233535211009439
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sub/bun-top"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

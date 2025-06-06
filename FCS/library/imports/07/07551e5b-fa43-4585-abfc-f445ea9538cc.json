@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "bowl_dirty",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "bowl_dirty",
+      "path": "bowl_dirty"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

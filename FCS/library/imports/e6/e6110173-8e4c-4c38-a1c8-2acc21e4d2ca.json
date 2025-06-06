@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mouse_scroll_down",
+    "texture": "eb89c38f-e5a3-4bfa-ab34-ce40132470e3",
+    "atlas": "",
+    "rect": [
+      15,
+      10,
+      34,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

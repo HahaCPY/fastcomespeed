@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "drivethru",
+    "texture": "97aef387-e29e-4026-9c2e-231b22f950bb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1536,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

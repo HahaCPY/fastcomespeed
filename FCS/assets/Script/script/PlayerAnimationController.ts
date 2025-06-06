@@ -23,7 +23,7 @@ export default class PlayerAnimationController extends cc.Component {
 
     // ✅ 記錄 player1 / player2 各自的角色選擇
     public static player1CharIndex: number = 0; // 0 = girl1, 1 = girl2
-    public static player2CharIndex: number = 0;
+    public static player2CharIndex: number = 1;
 
     start() {
         this.buttonGirl.node.on('click', () => {

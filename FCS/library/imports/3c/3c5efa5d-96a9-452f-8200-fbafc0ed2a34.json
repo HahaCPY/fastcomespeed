@@ -1,0 +1,331 @@
+{
+  "__type__": "cc.Model",
+  "_name": "cheese",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "cheese",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese"
+    },
+    {
+      "name": "wedge",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        -1.44382282161564e-15,
+        -4.93494133651789e-17,
+        -4.33146814720958e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge"
+    },
+    {
+      "name": "wedge_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_1"
+    },
+    {
+      "name": "wedge_2",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        3.60955721285779e-15,
+        0,
+        -2.88764564323129e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_2"
+    },
+    {
+      "name": "wedge_3",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        -2.16573407360479e-15,
+        -4.22994936250935e-18,
+        -3.97051268003368e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_3"
+    },
+    {
+      "name": "wedge_4",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -2.88764564323129e-15,
+        -4.22994936250935e-18,
+        -2.88764564323129e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_4"
+    },
+    {
+      "name": "wedge_5",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        -2.16573407360479e-15,
+        -2.67896817774344e-17,
+        3.60955721285779e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_5"
+    },
+    {
+      "name": "wedge_6",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 6,
+      "parent": null,
+      "position": [
+        2.88764564323129e-15,
+        0,
+        -1.80477860642889e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_6"
+    },
+    {
+      "name": "wedge_7",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 7,
+      "parent": null,
+      "position": [
+        -1.44382282161564e-15,
+        -4.22994936250935e-18,
+        4.33146814720958e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_7"
+    },
+    {
+      "name": "wedge_8",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 8,
+      "parent": null,
+      "position": [
+        -1.44382282161564e-15,
+        0,
+        4.33146814720958e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_8"
+    },
+    {
+      "name": "wedge_9",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 9,
+      "parent": null,
+      "position": [
+        -1.44382282161564e-15,
+        -4.22994936250935e-18,
+        5.41433539577021e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_9"
+    },
+    {
+      "name": "wedge_10",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 10,
+      "parent": null,
+      "position": [
+        2.16573407360479e-15,
+        0,
+        -4.69242403790195e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_10"
+    },
+    {
+      "name": "wedge_11",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 11,
+      "parent": null,
+      "position": [
+        2.16573407360479e-15,
+        -4.22994936250935e-18,
+        -4.69242403790195e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cheese/wedge_11"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

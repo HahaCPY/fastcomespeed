@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_arrows_up_outline",
+    "texture": "2ea95e19-25d6-4980-9634-ea28fceb54ac",
+    "atlas": "",
+    "rect": [
+      9,
+      17,
+      46,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

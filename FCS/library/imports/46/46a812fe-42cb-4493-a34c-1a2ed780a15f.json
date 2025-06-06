@@ -1,0 +1,195 @@
+{
+  "__type__": "cc.Model",
+  "_name": "tractor-shovel",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "tractor-shovel",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-shovel"
+    },
+    {
+      "name": "body",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-shovel/body"
+    },
+    {
+      "name": "shovel",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0,
+        0.682724952697754,
+        0.630899488925934
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-shovel/body/shovel"
+    },
+    {
+      "name": "wheel-back-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0.487585514783859,
+        0.437579959630966,
+        -0.686250984668732
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-shovel/wheel-back-left"
+    },
+    {
+      "name": "wheel-front-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        0.41464239358902,
+        0.269279986619949,
+        0.41232904791832
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-shovel/wheel-front-left"
+    },
+    {
+      "name": "wheel-front-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -0.41464239358902,
+        0.269279986619949,
+        0.41232904791832
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-shovel/wheel-front-right"
+    },
+    {
+      "name": "wheel-back-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        -0.487585514783859,
+        0.437579959630966,
+        -0.686250984668732
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tractor-shovel/wheel-back-right"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

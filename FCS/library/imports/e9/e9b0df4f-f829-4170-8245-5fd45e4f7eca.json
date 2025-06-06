@@ -1,0 +1,170 @@
+{
+  "__type__": "cc.Model",
+  "_name": "race-future",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "race-future",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "race-future"
+    },
+    {
+      "name": "body",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0.199999988079071,
+        -7.21911410807822e-16
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "race-future/body"
+    },
+    {
+      "name": "wheel-back-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0.300000011920929,
+        0.300000011920929,
+        -0.930113732814789
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "race-future/wheel-back-left"
+    },
+    {
+      "name": "wheel-back-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -0.300000011920929,
+        0.300000011920929,
+        -0.930113732814789
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "race-future/wheel-back-right"
+    },
+    {
+      "name": "wheel-front-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        0.300000011920929,
+        0.300000011920929,
+        0.589886248111725
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "race-future/wheel-front-left"
+    },
+    {
+      "name": "wheel-front-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        -0.300000011920929,
+        0.300000011920929,
+        0.589886248111725
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "race-future/wheel-front-right"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

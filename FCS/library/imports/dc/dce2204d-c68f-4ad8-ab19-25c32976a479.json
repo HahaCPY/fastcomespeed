@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "food_ingredient_potato_mashed",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "food_ingredient_potato_mashed",
+      "path": "food_ingredient_potato_mashed"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

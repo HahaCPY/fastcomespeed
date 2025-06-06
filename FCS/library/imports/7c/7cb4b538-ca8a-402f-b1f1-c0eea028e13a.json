@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "goblin.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "goblin1": {
+      "__uuid__": "cbfb22c7-0f38-4e81-9b04-6c894d8dfe1a"
+    },
+    "goblin10": {
+      "__uuid__": "2bbc32c1-08e8-47a5-aba1-663fd874a052"
+    },
+    "goblin15": {
+      "__uuid__": "b7b875c5-fe19-4562-8176-141300fa8c58"
+    },
+    "goblin16": {
+      "__uuid__": "60c42e84-19aa-4a50-902f-81b71f6a87af"
+    },
+    "goblin17": {
+      "__uuid__": "0f81b0ca-c402-475e-9752-6e0249a6c90c"
+    },
+    "goblin18": {
+      "__uuid__": "59af8c91-104c-4022-9d3e-095a7643a13f"
+    },
+    "goblin19": {
+      "__uuid__": "7a2c232a-9a7b-4e8b-be5a-b77fcac93392"
+    },
+    "goblin2": {
+      "__uuid__": "3958d855-a9cb-4932-a79d-14b4a48d8d66"
+    },
+    "goblin20": {
+      "__uuid__": "87b590c6-ee4c-4898-a5f0-668ae4e4b8d6"
+    },
+    "goblin21": {
+      "__uuid__": "620a2956-a232-4eb6-ae07-976c257b0f39"
+    },
+    "goblin22": {
+      "__uuid__": "c1ea111c-f7e6-49d8-a7ea-7ff25452ac02"
+    },
+    "goblin23": {
+      "__uuid__": "6086f158-18cb-423c-98cd-1738e0dfba1e"
+    },
+    "goblin24": {
+      "__uuid__": "79398d21-2356-41d4-9c86-bda43cb2c267"
+    },
+    "goblin25": {
+      "__uuid__": "ce08c84e-620e-4728-92b3-66481cec0b81"
+    },
+    "goblin26": {
+      "__uuid__": "185bc483-0675-4396-a2a7-060f87dd7e23"
+    },
+    "goblin27": {
+      "__uuid__": "de69c7e1-008a-428f-b6ec-8783b510af7e"
+    },
+    "goblin28": {
+      "__uuid__": "f30408de-3b04-4f9e-b8f6-9e077af4b0ea"
+    },
+    "goblin3": {
+      "__uuid__": "fbb04758-4743-4d1c-a625-6c5867aaa351"
+    },
+    "goblin4": {
+      "__uuid__": "1fd2e9d4-56b5-4db8-9329-bbe3cc30f66b"
+    },
+    "goblin5": {
+      "__uuid__": "d860faca-05ae-4ef2-a398-a0f3ecd83fc5"
+    },
+    "goblin6": {
+      "__uuid__": "2506cfb4-7379-4ce0-9850-66aa80744ff7"
+    },
+    "goblin7": {
+      "__uuid__": "b18017f1-d83b-4430-ae7d-7a4d1092ccdb"
+    },
+    "goblin8": {
+      "__uuid__": "d73f4534-ea6d-4ff6-adfc-87a57db1b3e8"
+    },
+    "goblin9": {
+      "__uuid__": "d3a2d610-7e6b-4f40-9a89-fbef70e1ddd9"
+    }
+  }
+}

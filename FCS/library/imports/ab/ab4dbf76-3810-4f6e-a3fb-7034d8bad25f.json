@@ -1,0 +1,222 @@
+[
+  {
+    "__type__": "cc.Mesh",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": ".bin",
+    "_vertexBundles": [
+      {
+        "__id__": 1
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 11
+      }
+    ],
+    "_primitives": [
+      {
+        "__id__": 16
+      },
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 20
+      }
+    ],
+    "_minPos": {
+      "__type__": "cc.Vec3",
+      "x": -0.0255707893520594,
+      "y": 0,
+      "z": -0.0307616796344519
+    },
+    "_maxPos": {
+      "__type__": "cc.Vec3",
+      "x": 0.0276502706110477,
+      "y": 0.119591698050499,
+      "z": 0.0305584687739611
+    }
+  },
+  {
+    "__type__": "cc.mesh.VertexBundle",
+    "data": {
+      "__id__": 2
+    },
+    "formats": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "verticesCount": 140
+  },
+  {
+    "__type__": "cc.BufferRange",
+    "offset": 0,
+    "length": 4480
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_normal",
+    "type": 5126,
+    "num": 3,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_position",
+    "type": 5126,
+    "num": 3,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_uv0",
+    "type": 5126,
+    "num": 2,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexBundle",
+    "data": {
+      "__id__": 7
+    },
+    "formats": [
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      }
+    ],
+    "verticesCount": 260
+  },
+  {
+    "__type__": "cc.BufferRange",
+    "offset": 4924,
+    "length": 8320
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_normal",
+    "type": 5126,
+    "num": 3,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_position",
+    "type": 5126,
+    "num": 3,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_uv0",
+    "type": 5126,
+    "num": 2,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexBundle",
+    "data": {
+      "__id__": 12
+    },
+    "formats": [
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 15
+      }
+    ],
+    "verticesCount": 6
+  },
+  {
+    "__type__": "cc.BufferRange",
+    "offset": 14360,
+    "length": 192
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_normal",
+    "type": 5126,
+    "num": 3,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_position",
+    "type": 5126,
+    "num": 3,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.VertexFormat",
+    "name": "a_uv0",
+    "type": 5126,
+    "num": 2,
+    "normalize": false
+  },
+  {
+    "__type__": "cc.mesh.Primitive",
+    "vertexBundleIndices": [
+      0
+    ],
+    "data": {
+      "__id__": 17
+    },
+    "indexUnit": 5123,
+    "topology": 4
+  },
+  {
+    "__type__": "cc.BufferRange",
+    "offset": 4480,
+    "length": 444
+  },
+  {
+    "__type__": "cc.mesh.Primitive",
+    "vertexBundleIndices": [
+      1
+    ],
+    "data": {
+      "__id__": 19
+    },
+    "indexUnit": 5123,
+    "topology": 4
+  },
+  {
+    "__type__": "cc.BufferRange",
+    "offset": 13244,
+    "length": 1116
+  },
+  {
+    "__type__": "cc.mesh.Primitive",
+    "vertexBundleIndices": [
+      2
+    ],
+    "data": {
+      "__id__": 21
+    },
+    "indexUnit": 5123,
+    "topology": 4
+  },
+  {
+    "__type__": "cc.BufferRange",
+    "offset": 14552,
+    "length": 12
+  }
+]

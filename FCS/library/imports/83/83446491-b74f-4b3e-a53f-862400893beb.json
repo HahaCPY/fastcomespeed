@@ -1,0 +1,54 @@
+{
+  "__type__": "cc.Model",
+  "_name": "ground_riverBend",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "ground_riverBend",
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        -0.0499999970197678,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "ground_riverBend"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

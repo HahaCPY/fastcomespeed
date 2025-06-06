@@ -1,0 +1,195 @@
+{
+  "__type__": "cc.Model",
+  "_name": "sedan-sports",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "sedan-sports",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sedan-sports"
+    },
+    {
+      "name": "body",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0.150000005960464,
+        -0.0249999985098839
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sedan-sports/body"
+    },
+    {
+      "name": "spoiler",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0,
+        0.449999988079071,
+        -1.04368615150452
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sedan-sports/body/spoiler"
+    },
+    {
+      "name": "wheel-back-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0.300000011920929,
+        0.300000011920929,
+        -0.659999966621399
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sedan-sports/wheel-back-left"
+    },
+    {
+      "name": "wheel-back-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        -0.300000011920929,
+        0.300000011920929,
+        -0.659999966621399
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sedan-sports/wheel-back-right"
+    },
+    {
+      "name": "wheel-front-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        0.300000011920929,
+        0.300000011920929,
+        0.659999966621399
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sedan-sports/wheel-front-left"
+    },
+    {
+      "name": "wheel-front-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5,
+      "parent": null,
+      "position": [
+        -0.300000011920929,
+        0.300000011920929,
+        0.659999966621399
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "sedan-sports/wheel-front-right"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

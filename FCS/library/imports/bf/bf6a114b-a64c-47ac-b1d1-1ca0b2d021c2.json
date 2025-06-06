@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.Model",
+  "_name": "hot-dog",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "hot-dog",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "hot-dog"
+    },
+    {
+      "name": "sauce",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        5.90379134468577e-12,
+        0.13994936645031,
+        4.01901489865963e-9
+      ],
+      "quat": [
+        -6.12323426292584e-17,
+        1,
+        1.87688921479343e-13,
+        -6.12323426292584e-17
+      ],
+      "path": "hot-dog/sauce"
+    },
+    {
+      "name": "sausage",
+      "scale": [
+        0.930000007152557,
+        0.930000007152557,
+        0.930000007152557
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0.292950004339218,
+        0.0916251540184021,
+        4.01883193390518e-9
+      ],
+      "quat": [
+        -0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "path": "hot-dog/sausage"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

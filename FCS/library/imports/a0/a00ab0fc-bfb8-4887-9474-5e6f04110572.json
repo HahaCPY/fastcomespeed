@@ -1,0 +1,170 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "icons.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "icons1": {
+      "__uuid__": "11750015-2293-4037-9358-123607dc0346"
+    },
+    "icons10": {
+      "__uuid__": "bc8401e5-cf8d-4414-a06f-c09ba0708615"
+    },
+    "icons11": {
+      "__uuid__": "d686c9aa-ca34-47b5-9982-df6696f36d6e"
+    },
+    "icons12": {
+      "__uuid__": "69cd6349-ac47-4d51-8c4e-ca2084ac4b11"
+    },
+    "icons13": {
+      "__uuid__": "82637d10-ce2d-4cf6-b767-db24d893a5a8"
+    },
+    "icons14": {
+      "__uuid__": "e14f542f-e266-4824-ab15-9a316d8e8ce6"
+    },
+    "icons15": {
+      "__uuid__": "a3113182-dbaa-4f03-9701-af681057ae67"
+    },
+    "icons16": {
+      "__uuid__": "8dbd79a2-4208-4e87-af92-3331c25b95db"
+    },
+    "icons17": {
+      "__uuid__": "06f8eb25-3aeb-404a-99ed-474814b1ebae"
+    },
+    "icons18": {
+      "__uuid__": "d359a0f6-7390-4557-8c55-574a397fd0f7"
+    },
+    "icons19": {
+      "__uuid__": "7df88496-9723-4e07-9883-823aeeffbe77"
+    },
+    "icons2": {
+      "__uuid__": "2f9c5685-1b09-4f65-aabd-19a5bbcdca07"
+    },
+    "icons20": {
+      "__uuid__": "ac9c5103-7c4d-4d47-98bf-147c4cbb3e40"
+    },
+    "icons21": {
+      "__uuid__": "2db8ec99-6a63-467b-a923-0d5ba66bfa50"
+    },
+    "icons22": {
+      "__uuid__": "f1420922-7538-401b-bf39-ecf43246e06e"
+    },
+    "icons23": {
+      "__uuid__": "8292c6ce-9f39-4da3-bfe8-a2ab8e6336c7"
+    },
+    "icons24": {
+      "__uuid__": "83f75c43-14e5-4bef-859c-aeed5f2e49b4"
+    },
+    "icons25": {
+      "__uuid__": "777149c8-d4c4-4b1b-a77f-ea4b4f3e4cb0"
+    },
+    "icons26": {
+      "__uuid__": "8628069c-4944-4fae-a0aa-15043697e760"
+    },
+    "icons27": {
+      "__uuid__": "61680594-a214-407d-b9af-d191ff793e91"
+    },
+    "icons28": {
+      "__uuid__": "06499f47-8601-4c4e-8f38-6b4cdd27830c"
+    },
+    "icons29": {
+      "__uuid__": "9b9d1a3c-59cd-4d51-a4db-29f81448e281"
+    },
+    "icons3": {
+      "__uuid__": "62695555-2408-4943-9b22-85997b9c668b"
+    },
+    "icons30": {
+      "__uuid__": "4136d1e6-d217-4845-b8d9-1a1fa2f4a6b2"
+    },
+    "icons31": {
+      "__uuid__": "172f6e0a-6071-41f6-86f9-2e0056984d6e"
+    },
+    "icons32": {
+      "__uuid__": "5f84c38e-9b8c-48a6-b4cb-ef64597d3f76"
+    },
+    "icons33": {
+      "__uuid__": "02753ee2-576e-4080-b8c1-4cc98aa304f3"
+    },
+    "icons34": {
+      "__uuid__": "01d76139-fa39-4d96-ae57-9e80272b6b32"
+    },
+    "icons35": {
+      "__uuid__": "56b0cb09-f06c-4da5-89e4-a36583e8fe64"
+    },
+    "icons36": {
+      "__uuid__": "2ce9cfca-39f3-4800-8759-8e58bce64a2f"
+    },
+    "icons37": {
+      "__uuid__": "17d1dbb4-6f22-4d4e-8641-68a3ff117142"
+    },
+    "icons38": {
+      "__uuid__": "c37a1360-170c-4c2e-bf84-9aece16650d8"
+    },
+    "icons39": {
+      "__uuid__": "1e83ca45-74bf-4cbb-a188-7e4c40f96155"
+    },
+    "icons4": {
+      "__uuid__": "2c6964b0-adba-42e3-ad0c-7bd91407b264"
+    },
+    "icons40": {
+      "__uuid__": "c0fabda8-c6a1-40c8-b356-bde7a2fc0401"
+    },
+    "icons41": {
+      "__uuid__": "ce5aa1c4-74cc-477a-a0ec-9cc9a8f13540"
+    },
+    "icons42": {
+      "__uuid__": "41aa4474-a1b9-48c1-b05d-d8c239efba29"
+    },
+    "icons43": {
+      "__uuid__": "b8361cb3-b081-4f3a-9b9e-40f17b3f06fa"
+    },
+    "icons44": {
+      "__uuid__": "5fca5aa0-0abe-4122-aaaa-93bc3164521c"
+    },
+    "icons45": {
+      "__uuid__": "b6062afe-537a-4cc0-b2f1-40fda394cc23"
+    },
+    "icons46": {
+      "__uuid__": "27e4fe78-8fed-4782-b3cf-c11e9f74841a"
+    },
+    "icons47": {
+      "__uuid__": "eda205d6-846b-4ed5-9e77-f0553b9d04d1"
+    },
+    "icons48": {
+      "__uuid__": "741a70e4-ca5d-42a4-9573-95966d4b3322"
+    },
+    "icons49": {
+      "__uuid__": "a2afa0ee-108a-45e3-9b0c-b725db6741ed"
+    },
+    "icons5": {
+      "__uuid__": "4a6eaba3-118d-4ee2-9ef6-8d6373ee8c62"
+    },
+    "icons50": {
+      "__uuid__": "f4f1358a-2d37-4bab-a2b3-7bd9a53ee486"
+    },
+    "icons51": {
+      "__uuid__": "6d8c5e4d-993a-40a3-bfe2-43a3d229b95d"
+    },
+    "icons52": {
+      "__uuid__": "c1a139b9-9d06-4e60-9d8d-c4f3c5aba720"
+    },
+    "icons53": {
+      "__uuid__": "45e4d637-79c7-483b-9e97-c1160d5d980d"
+    },
+    "icons54": {
+      "__uuid__": "94af51eb-ce68-42e5-bdd6-30cd625af582"
+    },
+    "icons6": {
+      "__uuid__": "e857c43f-9e7a-4f7f-96e5-60fd03b60021"
+    },
+    "icons7": {
+      "__uuid__": "829022ed-b0f7-4f75-b590-4aecb58eb9d7"
+    },
+    "icons8": {
+      "__uuid__": "6f97d541-2d41-44ee-b16a-37cb2cc607a8"
+    },
+    "icons9": {
+      "__uuid__": "1c067ee3-6e4c-4484-b9c6-f1b81d6816cf"
+    }
+  }
+}

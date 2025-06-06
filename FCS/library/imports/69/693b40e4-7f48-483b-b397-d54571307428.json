@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "chest",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "chest",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "chest"
+    },
+    {
+      "name": "lid",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        2.88764564323129e-15,
+        0.132803991436958,
+        -0.124387502670288
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "chest/lid"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

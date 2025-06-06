@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mushroom_pizza",
+    "texture": "3bb40ce8-5068-42b8-aaad-8b28acde6a84",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      266,
+      228
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      266,
+      228
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

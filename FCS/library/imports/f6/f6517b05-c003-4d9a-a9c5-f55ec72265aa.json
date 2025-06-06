@@ -1,0 +1,153 @@
+{
+  "__type__": "cc.SkeletonAnimationClip",
+  "_name": "attack-melee-left",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_duration": 0.375,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "events": [],
+  "description": {
+    "character-male-d/root": {
+      "position": {
+        "offset": 0,
+        "frameCount": 7
+      },
+      "quat": {
+        "offset": 28,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 33,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/root/leg-left": {
+      "quat": {
+        "offset": 37,
+        "frameCount": 6
+      },
+      "scale": {
+        "offset": 67,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 71,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/root/leg-right": {
+      "quat": {
+        "offset": 75,
+        "frameCount": 8
+      },
+      "scale": {
+        "offset": 115,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 119,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/root/torso": {
+      "quat": {
+        "offset": 123,
+        "frameCount": 8
+      },
+      "scale": {
+        "offset": 163,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 167,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/root/torso/arm-left": {
+      "quat": {
+        "offset": 171,
+        "frameCount": 9
+      },
+      "scale": {
+        "offset": 216,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 220,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/root/torso/arm-right": {
+      "quat": {
+        "offset": 224,
+        "frameCount": 10
+      },
+      "scale": {
+        "offset": 274,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 278,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/root/torso/head": {
+      "quat": {
+        "offset": 282,
+        "frameCount": 8
+      },
+      "scale": {
+        "offset": 322,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 326,
+        "frameCount": 1
+      }
+    },
+    "character-male-d": {
+      "quat": {
+        "offset": 330,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 335,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 339,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/body-mesh": {
+      "quat": {
+        "offset": 343,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 348,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 352,
+        "frameCount": 1
+      }
+    },
+    "character-male-d/head-mesh": {
+      "quat": {
+        "offset": 356,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 361,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 365,
+        "frameCount": 1
+      }
+    }
+  }
+}

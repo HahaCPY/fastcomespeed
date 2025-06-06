@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "weapon-turret",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "weapon-turret",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "weapon-turret"
+    },
+    {
+      "name": "barrel",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -1.44382282161564e-15,
+        0.229999989271164,
+        -0.00156854232773185
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "weapon-turret/barrel"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "newupgrade.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "a": {
+      "__uuid__": "b6c7c759-ce7c-468c-93d0-8db1df5624a3"
+    },
+    "b": {
+      "__uuid__": "03ab59ab-41f2-41d0-adde-339fb16f20d1"
+    },
+    "bg": {
+      "__uuid__": "664fd6d0-1903-4f1f-bfd0-fa84bc5d5d01"
+    },
+    "btn": {
+      "__uuid__": "3bcd504e-70c1-4326-97da-cb2603ea0b1a"
+    },
+    "close_2": {
+      "__uuid__": "c5bc4075-3962-41ca-a3fb-44343ff59e24"
+    },
+    "dot": {
+      "__uuid__": "138c97c2-c790-4362-96db-dc62027d00a2"
+    },
+    "header": {
+      "__uuid__": "44dea6db-d0fb-4cb1-ba74-797a6b4db0e1"
+    },
+    "heart": {
+      "__uuid__": "c6ce2ed1-4810-4c59-b582-78fd9ed001dd"
+    },
+    "luck": {
+      "__uuid__": "085385e8-2305-4791-8f4e-f2f1d720f3e4"
+    },
+    "scroll": {
+      "__uuid__": "ba3a49d6-df01-41dd-be32-0fec677b2ed2"
+    },
+    "star": {
+      "__uuid__": "6eec656f-c833-4f09-80e4-6b00be1622a3"
+    },
+    "table": {
+      "__uuid__": "c077881c-37c5-4b43-beed-641d515d2b5b"
+    },
+    "time": {
+      "__uuid__": "748ccebf-48ff-4ba1-a60e-462a65a928b1"
+    }
+  }
+}

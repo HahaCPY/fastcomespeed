@@ -13,6 +13,9 @@ export default class MenuManager extends cc.Component {
     @property(cc.Node)
     sfxSlider: cc.Node = null;
 
+    @property(cc.Button)
+    scoreboardButton: cc.Button = null;
+
     private bgmAudioId: number = -1;
 
     start() {
@@ -27,6 +30,15 @@ export default class MenuManager extends cc.Component {
             //this.sfxSlider.getComponent(cc.Slider).progress = AudioManager.getInstance().sfxVolume;
             this.sfxSlider.getComponent(cc.Slider).node.on('slide', this.onSfxSliderChanged, this);
         }
+
+        // 排行榜按鈕
+        if (this.scoreboardButton) {
+            this.scoreboardButton.node.on('click', this.onScoreboardButtonClicked, this);
+        }
+    }
+
+    onScoreboardButtonClicked() {
+        cc.director.loadScene('scoreboard'); // 假設排行榜場景名稱為 'scoreboard'
     }
 
     onBgmSliderChanged(slider: cc.Slider) {
