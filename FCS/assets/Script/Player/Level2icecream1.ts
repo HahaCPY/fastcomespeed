@@ -2,6 +2,8 @@
 
 import { KeyboardControls } from "./KeyboardControls";
 import { IInputControls } from "./IInputControls";
+import PlayerAnimationController from "../script/PlayerAnimationController";
+
 
 const { ccclass, property } = cc._decorator;
 
@@ -74,7 +76,8 @@ export default class Level2icecream2 extends cc.Component {
         this.rb = this.getComponent(cc.RigidBody);
         this.menuManager = this.uiManager?.getComponent("MenuBar");
         this.input = new KeyboardControls();
-        this.playAnim("girl_idle_back");
+        const prefix = PlayerAnimationController.player1CharIndex === 0 ? "girl" : "girl2";
+        this.playAnim(`${prefix}_idle_back`);
 
         const barNode = cc.instantiate(this.chopBarPrefab);
         this.node.addChild(barNode);
@@ -105,19 +108,34 @@ export default class Level2icecream2 extends cc.Component {
                 this.runDustTimer = 0;
             }
 
+            const prefix = PlayerAnimationController.player1CharIndex === 0 ? "girl" : "girl2";
             if (Math.abs(dir.y) > Math.abs(dir.x)) {
-                this.playAnim(dir.y > 0 ? (this.isRunning ? "girl_run_back" : "girl_walk_back") : (this.isRunning ? "girl_run" : "girl_walk"));
+                if (dir.y > 0) {
+                    this.playAnim(this.isRunning ? `${prefix}_run_back` : `${prefix}_walk_back`);
+                } else {
+                    this.playAnim(this.isRunning ? `${prefix}_run` : `${prefix}_walk`);
+                }
+                this.node.scaleX = 1;
             } else {
-                this.playAnim(dir.x > 0 ? (this.isRunning ? "girl_run_right" : "girl_walk_right") : (this.isRunning ? "girl_run_left" : "girl_walk_left"));
+                if (dir.x > 0) {
+                    this.playAnim(this.isRunning ? `${prefix}_run_right` : `${prefix}_walk_right`);
+                    this.node.scaleX = 1;
+                } else {
+                    this.playAnim(this.isRunning ? `${prefix}_run_left` : `${prefix}_walk_left`);
+                    this.node.scaleX = 1;
+                }
             }
             this.node.scaleX = 1;
         } else {
             this.rb.linearVelocity = cc.v2(0, 0);
-            if (Math.abs(this.lastDir.y) > Math.abs(this.lastDir.x)) {
-                this.playAnim(this.lastDir.y > 0 ? "girl_idle_back" : "girl_idle");
-            } else {
-                this.playAnim(this.lastDir.x > 0 ? "girl_idle_right" : "girl_idle_left");
-            }
+        const prefix = PlayerAnimationController.player1CharIndex === 0 ? "girl" : "girl2";
+
+        if (Math.abs(this.lastDir.y) > Math.abs(this.lastDir.x)) {
+            this.playAnim(this.lastDir.y > 0 ? `${prefix}_idle_back` : `${prefix}_idle`);
+        } else {
+            this.playAnim(this.lastDir.x > 0 ? `${prefix}_idle_right` : `${prefix}_idle_left`);
+        }
+
             this.node.scaleX = 1;
         }
 

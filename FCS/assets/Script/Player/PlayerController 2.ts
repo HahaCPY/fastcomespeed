@@ -1,6 +1,8 @@
 import { KeyboardControls2 } from "./KeyboardControls2";
 import { IInputControls } from "./IInputControls";
 import PlayerModeSelector from "../script/PlayerModeSelector";
+import GameManager from "../script/GameManager-level1";
+import PlayerAnimationController from "../script/PlayerAnimationController";
 
 const { ccclass, property } = cc._decorator;
 
@@ -166,7 +168,8 @@ export default class PlayerController2 extends cc.Component {
             return;
         }
 
-        this.playAnim("girl_idle_back");
+       const prefix = PlayerAnimationController.player2CharIndex === 0 ? "girl" : "girl2";
+        this.playAnim(`${prefix}_idle_back`);
         this.input = new KeyboardControls2();  // 第二位使用專屬控制器
         
         const barNode = cc.instantiate(this.chopBarPrefab);
@@ -211,37 +214,40 @@ export default class PlayerController2 extends cc.Component {
             this.lastDir = dir.clone();
 
             // 動畫切換（與方向判斷無變）
+            const prefix = PlayerAnimationController.player2CharIndex === 0 ? "girl" : "girl2";
             if (Math.abs(dir.y) > Math.abs(dir.x)) {
                 if (dir.y > 0) {
-                    this.playAnim(this.isRunning ? "girl_run_back" : "girl_walk_back");
+                    this.playAnim(this.isRunning ? `${prefix}_run_back` : `${prefix}_walk_back`);
                 } else {
-                    this.playAnim(this.isRunning ? "girl_run" : "girl_walk");
+                    this.playAnim(this.isRunning ? `${prefix}_run` : `${prefix}_walk`);
                 }
                 this.node.scaleX = 1;
             } else {
                 if (dir.x > 0) {
-                    this.playAnim(this.isRunning ? "girl_run_right" : "girl_walk_right");
+                    this.playAnim(this.isRunning ? `${prefix}_run_right` : `${prefix}_walk_right`);
                     this.node.scaleX = 1;
                 } else {
-                    this.playAnim(this.isRunning ? "girl_run_left" : "girl_walk_left");
+                    this.playAnim(this.isRunning ? `${prefix}_run_left` : `${prefix}_walk_left`);
                     this.node.scaleX = 1;
                 }
             }
-
             
 
         } else {
-            // 停止移動（速度歸零）
-            this.rb.linearVelocity = cc.v2(0, 0);
+        // 停止移動（速度歸零）
+        this.rb.linearVelocity = cc.v2(0, 0);
 
-            // 播放靜止動畫
-            if (Math.abs(this.lastDir.y) > Math.abs(this.lastDir.x)) {
-                this.playAnim(this.lastDir.y > 0 ? "girl_idle_back" : "girl_idle");
-            } else {
-                this.playAnim(this.lastDir.x > 0 ? "girl_idle_right" : "girl_idle_left");
-            }
-            this.node.scaleX = 1;
+        // 播放靜止動畫
+        const prefix = PlayerAnimationController.player2CharIndex === 0 ? "girl" : "girl2";
+
+        if (Math.abs(this.lastDir.y) > Math.abs(this.lastDir.x)) {
+            this.playAnim(this.lastDir.y > 0 ? `${prefix}_idle_back` : `${prefix}_idle`);
+        } else {
+            this.playAnim(this.lastDir.x > 0 ? `${prefix}_idle_right` : `${prefix}_idle_left`);
         }
+
+        this.node.scaleX = 1;
+    }
 
         /*if (this.input.getInteractPressed()) {
             this.tryInteract();
