@@ -56956,7 +56956,9 @@
     "runDustEffectPrefab": {
       "__uuid__": "4d6d4b50-bc00-4036-b1b3-053f0ff9f070"
     },
-    "blingSound": null,
+    "blingSound": {
+      "__uuid__": "a051164b-fa75-444d-89a7-52399a1c6127"
+    },
     "pickupSound": null,
     "placeSound": null,
     "_id": "90hnARQoVG65o30MFqk1f0"

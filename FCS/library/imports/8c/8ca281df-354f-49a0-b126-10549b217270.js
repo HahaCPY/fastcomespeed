@@ -25,14 +25,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var KeyboardControls2_1 = require("./KeyboardControls2");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var Level3icecream1 = /** @class */ (function (_super) {
-    __extends(Level3icecream1, _super);
-    function Level3icecream1() {
+var Level2icecream2 = /** @class */ (function (_super) {
+    __extends(Level2icecream2, _super);
+    function Level2icecream2() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.conePrefab = null;
         _this.vanillaPrefab = null;
         _this.strawberryPrefab = null;
         _this.chocolatePrefab = null;
+        _this.trashSmokePrefab = null;
         _this.uiManager = null;
         _this.tipsLabelPrefab = null;
         _this.tipsParticlePrefab = null;
@@ -55,13 +56,14 @@ var Level3icecream1 = /** @class */ (function (_super) {
         _this.canAddStrawberry = false;
         _this.canAddChocolate = false;
         _this.canDeliver = false;
+        _this.canTrash = false;
         _this.iceCreamProgress = 0;
         _this.menuManager = null;
         _this.chopBar = null;
         _this.chopFill = null;
         return _this;
     }
-    Level3icecream1.prototype.onLoad = function () {
+    Level2icecream2.prototype.onLoad = function () {
         var _a;
         this.rb = this.getComponent(cc.RigidBody);
         this.menuManager = (_a = this.uiManager) === null || _a === void 0 ? void 0 : _a.getComponent("MenuBar");
@@ -74,7 +76,7 @@ var Level3icecream1 = /** @class */ (function (_super) {
         this.chopFill = barNode.getChildByName("Fillbar");
         barNode.active = false;
     };
-    Level3icecream1.prototype.update = function (dt) {
+    Level2icecream2.prototype.update = function (dt) {
         var dir = this.input.getMoveDirection();
         this.isRunning = this.input.getRunHeld();
         if (!dir.equals(cc.Vec2.ZERO)) {
@@ -155,15 +157,33 @@ var Level3icecream1 = /** @class */ (function (_super) {
                 console.warn("❌ 冰淇淋與菜單不符！");
             }
         }
+        if (this.canTrash && this.input.getInteractPressed() && this.carriedDough) {
+            this.carriedDough.destroy();
+            this.carriedDough = null;
+            this.iceCreamProgress = 0;
+            this.chopBar.active = false;
+            this.chopFill.scaleX = 0;
+            if (this.trashSmokePrefab) {
+                var smoke_1 = cc.instantiate(this.trashSmokePrefab);
+                smoke_1.setPosition(this.node.getPosition());
+                this.node.parent.addChild(smoke_1);
+                cc.tween(smoke_1)
+                    .to(1.5, { opacity: 0 })
+                    .call(function () { return smoke_1.destroy(); })
+                    .start();
+            }
+            this.menuManager.addScore(-50);
+            console.log("🗑️ 丟棄手上物品");
+        }
         if (this.input.getInteractPressed()) {
             this.tryInteract();
         }
     };
-    Level3icecream1.prototype.tryInteract = function () {
+    Level2icecream2.prototype.tryInteract = function () {
         if (this.canPickCone && !this.carriedDough) {
             var cone = cc.instantiate(this.conePrefab);
             cone.name = "Cone";
-            cone.setPosition(cc.v2(0, 50));
+            cone.setPosition(cc.v3(0, 10, 50));
             this.node.addChild(cone);
             this.carriedDough = cone;
             if (this.anim)
@@ -171,13 +191,13 @@ var Level3icecream1 = /** @class */ (function (_super) {
             console.log("🍦 拿起甜筒");
         }
     };
-    Level3icecream1.prototype.replaceWithIceCream = function (name, prefab) {
+    Level2icecream2.prototype.replaceWithIceCream = function (name, prefab) {
         if (!this.carriedDough)
             return;
         this.carriedDough.destroy();
         var iceCream = cc.instantiate(prefab);
         iceCream.name = name;
-        iceCream.setPosition(cc.v2(0, 5));
+        iceCream.setPosition(cc.v2(0, 2));
         this.node.addChild(iceCream);
         this.carriedDough = iceCream;
         this.iceCreamProgress = 0;
@@ -188,7 +208,7 @@ var Level3icecream1 = /** @class */ (function (_super) {
         this.node.parent.addChild(craftEffect);
         console.log("\uD83C\uDF68 \u88FD\u4F5C\u5B8C\u6210\uFF1A" + name);
     };
-    Level3icecream1.prototype.showDeliveryEffect = function () {
+    Level2icecream2.prototype.showDeliveryEffect = function () {
         var tipsNode = cc.instantiate(this.tipsLabelPrefab);
         tipsNode.setPosition(this.node.getPosition().add(cc.v2(0, 100)));
         this.node.parent.addChild(tipsNode);
@@ -200,7 +220,7 @@ var Level3icecream1 = /** @class */ (function (_super) {
         effect.setPosition(this.node.getPosition());
         this.node.parent.addChild(effect);
     };
-    Level3icecream1.prototype.spawnRunDust = function () {
+    Level2icecream2.prototype.spawnRunDust = function () {
         if (!this.runDustEffectPrefab)
             return;
         var dust = cc.instantiate(this.runDustEffectPrefab);
@@ -209,13 +229,13 @@ var Level3icecream1 = /** @class */ (function (_super) {
         dust.setPosition(pos);
         this.node.parent.addChild(dust);
     };
-    Level3icecream1.prototype.playAnim = function (name) {
+    Level2icecream2.prototype.playAnim = function (name) {
         if (this.currentAnim === name)
             return;
         this.currentAnim = name;
         this.anim.play(name);
     };
-    Level3icecream1.prototype.onBeginContact = function (contact, selfCollider, otherCollider) {
+    Level2icecream2.prototype.onBeginContact = function (contact, selfCollider, otherCollider) {
         if (otherCollider.tag === 2) {
             this.canPickCone = true;
         }
@@ -231,8 +251,11 @@ var Level3icecream1 = /** @class */ (function (_super) {
         else if (otherCollider.tag === 6) {
             this.canDeliver = true;
         }
+        else if (otherCollider.tag === 7) {
+            this.canTrash = true;
+        }
     };
-    Level3icecream1.prototype.onEndContact = function (contact, selfCollider, otherCollider) {
+    Level2icecream2.prototype.onEndContact = function (contact, selfCollider, otherCollider) {
         if (otherCollider.tag === 2) {
             this.canPickCone = false;
         }
@@ -248,48 +271,54 @@ var Level3icecream1 = /** @class */ (function (_super) {
         else if (otherCollider.tag === 6) {
             this.canDeliver = false;
         }
+        else if (otherCollider.tag === 7) {
+            this.canTrash = false;
+        }
     };
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "conePrefab", void 0);
+    ], Level2icecream2.prototype, "conePrefab", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "vanillaPrefab", void 0);
+    ], Level2icecream2.prototype, "vanillaPrefab", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "strawberryPrefab", void 0);
+    ], Level2icecream2.prototype, "strawberryPrefab", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "chocolatePrefab", void 0);
+    ], Level2icecream2.prototype, "chocolatePrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], Level2icecream2.prototype, "trashSmokePrefab", void 0);
     __decorate([
         property(cc.Node)
-    ], Level3icecream1.prototype, "uiManager", void 0);
+    ], Level2icecream2.prototype, "uiManager", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "tipsLabelPrefab", void 0);
+    ], Level2icecream2.prototype, "tipsLabelPrefab", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "tipsParticlePrefab", void 0);
+    ], Level2icecream2.prototype, "tipsParticlePrefab", void 0);
     __decorate([
         property(cc.Animation)
-    ], Level3icecream1.prototype, "anim", void 0);
+    ], Level2icecream2.prototype, "anim", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "craftParticlePrefab", void 0);
+    ], Level2icecream2.prototype, "craftParticlePrefab", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "chopBarPrefab", void 0);
+    ], Level2icecream2.prototype, "chopBarPrefab", void 0);
     __decorate([
         property
-    ], Level3icecream1.prototype, "speed", void 0);
+    ], Level2icecream2.prototype, "speed", void 0);
     __decorate([
         property(cc.Prefab)
-    ], Level3icecream1.prototype, "runDustEffectPrefab", void 0);
-    Level3icecream1 = __decorate([
+    ], Level2icecream2.prototype, "runDustEffectPrefab", void 0);
+    Level2icecream2 = __decorate([
         ccclass
-    ], Level3icecream1);
-    return Level3icecream1;
+    ], Level2icecream2);
+    return Level2icecream2;
 }(cc.Component));
-exports.default = Level3icecream1;
+exports.default = Level2icecream2;
 
 cc._RF.pop();

@@ -630,8 +630,8 @@
     "relativePath": "Script\\scene"
   },
   "5521b2c8-9785-4138-9982-5f753a8a9cf6": {
-    "asset": 1749215735283,
-    "meta": 1749215735297,
+    "asset": 1749218676222,
+    "meta": 1749218676238,
     "relativePath": "Scenes\\level-2.fire"
   },
   "0b83943e-a504-47e1-8700-284113c387c7": {
@@ -700,13 +700,13 @@
     "relativePath": "Prefab\\icecream_menu\\vanilla-icecream-menu.prefab"
   },
   "c3a5a9b8-9e0f-4e15-ac56-ce91287ae930": {
-    "asset": 1749029614177,
-    "meta": 1749200382023,
+    "asset": 1749217419506,
+    "meta": 1749217419517,
     "relativePath": "Prefab\\other_prefab\\Chopbar.prefab"
   },
   "27e7a099-f2c5-469c-804c-120d317b402a": {
-    "asset": 1749059729296,
-    "meta": 1749200382026,
+    "asset": 1749218090666,
+    "meta": 1749218090676,
     "relativePath": "Prefab\\other_prefab\\goblin.prefab"
   },
   "d3c092c1-5f3f-4405-861e-3a40ba6376b5": {
@@ -730,8 +730,8 @@
     "relativePath": "Prefab\\particle_prefab\\RunDusyEffect.prefab"
   },
   "982159af-cd32-490f-a2cf-6b5356ac1f19": {
-    "asset": 1748933016409,
-    "meta": 1749200382042,
+    "asset": 1749217682302,
+    "meta": 1749217682312,
     "relativePath": "Prefab\\particle_prefab\\SmokeEmitter.prefab"
   },
   "465c2f10-2ce1-4c99-8c6c-53e6ce124ae2": {
@@ -8445,8 +8445,8 @@
     "relativePath": "Prefab\\UI\\StarIcon-3.prefab"
   },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749212985274,
-    "meta": 1749212985296,
+    "asset": 1749218528910,
+    "meta": 1749218528938,
     "relativePath": "Scenes\\level-1.fire"
   },
   "7d3267f2-a419-4eb6-96d9-bc0be05968e9": {
@@ -8769,14 +8769,34 @@
     "meta": 1749212900386,
     "relativePath": "Script\\Player\\PlayerController.ts"
   },
+  "af3041d4-d132-429c-801d-d4aacbe4b608": {
+    "asset": 1749217739138,
+    "meta": 1749217739150,
+    "relativePath": "Prefab\\particle_prefab\\TrashEmitter .prefab"
+  },
+  "6fb6364d-2484-4d9c-ae02-6abe16690e11": {
+    "asset": 1749218332875,
+    "meta": 1749218332889,
+    "relativePath": "Prefab\\other_prefab\\catty.prefab"
+  },
   "8f76e723-a05b-4129-82cb-40bb2b8bb9a7": {
-    "asset": 1749215386751,
-    "meta": 1749215411199,
+    "asset": 1749218291718,
+    "meta": 1749218330723,
     "relativePath": "Script\\Player\\Level2icecream1.ts"
   },
   "8ca281df-354f-49a0-b126-10549b217270": {
-    "asset": 1749215630317,
-    "meta": 1749215633276,
+    "asset": 1749218281014,
+    "meta": 1749218330804,
     "relativePath": "Script\\Player\\Level2icecream2.ts"
+  },
+  "919b95a8-ecad-4b54-aafc-c29920eccfa9": {
+    "asset": 1749218604270,
+    "meta": 1749218616032,
+    "relativePath": "Script\\NPC\\CattySpawner.ts"
+  },
+  "b3d1e24f-37a1-4850-904c-298f19d44d28": {
+    "asset": 1749218657664,
+    "meta": 1749218675697,
+    "relativePath": "Script\\NPC\\CattyController.ts"
   }
 }

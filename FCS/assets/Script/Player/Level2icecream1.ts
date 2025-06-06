@@ -1,11 +1,13 @@
+// 🍦 冰淇淋製作與出餐邏輯整合段（單球版本）含角色控制、動畫與粒子特效 + 製作進度條 chopBar + 垃圾桶邏輯
+
 import { KeyboardControls } from "./KeyboardControls";
 import { IInputControls } from "./IInputControls";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class Level3icecream1 extends cc.Component {
-     @property(cc.Prefab)
+export default class Level2icecream2 extends cc.Component {
+    @property(cc.Prefab)
     conePrefab: cc.Prefab = null;
     @property(cc.Prefab)
     vanillaPrefab: cc.Prefab = null;
@@ -13,6 +15,9 @@ export default class Level3icecream1 extends cc.Component {
     strawberryPrefab: cc.Prefab = null;
     @property(cc.Prefab)
     chocolatePrefab: cc.Prefab = null;
+
+    @property(cc.Prefab)
+    trashSmokePrefab: cc.Prefab = null; 
 
     @property(cc.Node)
     uiManager: cc.Node = null;
@@ -52,6 +57,7 @@ export default class Level3icecream1 extends cc.Component {
     private canAddStrawberry: boolean = false;
     private canAddChocolate: boolean = false;
     private canDeliver: boolean = false;
+    private canTrash: boolean = false;
     private iceCreamProgress: number = 0;
     private menuManager: any = null;
 
@@ -150,6 +156,25 @@ export default class Level3icecream1 extends cc.Component {
             }
         }
 
+        if (this.canTrash && this.input.getInteractPressed() && this.carriedDough) {
+            this.carriedDough.destroy();
+            this.carriedDough = null;
+            this.iceCreamProgress = 0;
+            this.chopBar.active = false;
+            this.chopFill.scaleX = 0;
+        if (this.trashSmokePrefab) {
+            const smoke = cc.instantiate(this.trashSmokePrefab);
+            smoke.setPosition(this.node.getPosition());
+            this.node.parent.addChild(smoke);
+            cc.tween(smoke)
+                .to(1.5, { opacity: 0 })
+                .call(() => smoke.destroy())
+                .start();
+        }
+            this.menuManager.addScore(-50);
+            console.log("🗑️ 丟棄手上物品");
+        }
+
         if (this.input.getInteractPressed()) {
             this.tryInteract();
         }
@@ -159,7 +184,7 @@ export default class Level3icecream1 extends cc.Component {
         if (this.canPickCone && !this.carriedDough) {
             const cone = cc.instantiate(this.conePrefab);
             cone.name = "Cone";
-            cone.setPosition(cc.v2(0, 50));
+            cone.setPosition(cc.v3(0, 10, 50));
             this.node.addChild(cone);
             this.carriedDough = cone;
             if (this.anim) this.anim.play("girl_pick");
@@ -172,7 +197,7 @@ export default class Level3icecream1 extends cc.Component {
         this.carriedDough.destroy();
         const iceCream = cc.instantiate(prefab);
         iceCream.name = name;
-        iceCream.setPosition(cc.v2(0, 5));
+        iceCream.setPosition(cc.v2(0, 2));
         this.node.addChild(iceCream);
         this.carriedDough = iceCream;
         this.iceCreamProgress = 0;
@@ -225,6 +250,8 @@ export default class Level3icecream1 extends cc.Component {
             this.canAddChocolate = true;
         } else if (otherCollider.tag === 6) {
             this.canDeliver = true;
+        } else if (otherCollider.tag === 7) {
+            this.canTrash = true;
         }
     }
 
@@ -239,6 +266,8 @@ export default class Level3icecream1 extends cc.Component {
             this.canAddChocolate = false;
         } else if (otherCollider.tag === 6) {
             this.canDeliver = false;
+        } else if (otherCollider.tag === 7) {
+            this.canTrash = false;
         }
     }
 }

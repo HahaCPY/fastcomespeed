@@ -1,4 +1,6 @@
 
+require('./assets/Script/NPC/CattyController');
+require('./assets/Script/NPC/CattySpawner');
 require('./assets/Script/NPC/GoblinController');
 require('./assets/Script/NPC/GoblinSpawner');
 require('./assets/Script/NPC/NPCWanderCatty');
