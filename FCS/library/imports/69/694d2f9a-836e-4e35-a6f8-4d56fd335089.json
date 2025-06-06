@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_tab_icon_outline",
+    "texture": "1243bd7f-0f0d-454e-97d2-868081e455bf",
+    "atlas": "",
+    "rect": [
+      8,
+      8,
+      48,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

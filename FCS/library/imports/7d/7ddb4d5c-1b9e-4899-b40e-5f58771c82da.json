@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SaveSlotSeletcor",
+    "texture": "afebaacf-8f7b-4fa1-a071-6598393b1232",
+    "atlas": "",
+    "rect": [
+      9,
+      29,
+      151,
+      150
+    ],
+    "offset": [
+      -10,
+      -13
+    ],
+    "originalSize": [
+      189,
+      182
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

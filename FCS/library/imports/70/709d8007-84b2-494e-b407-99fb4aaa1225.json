@@ -1,0 +1,148 @@
+{
+  "__type__": "cc.Model",
+  "_name": "siege-tower",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "siege-tower",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-tower"
+    },
+    {
+      "name": "wheel",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -0.615887999534607,
+        0.201401993632317,
+        0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-tower/wheel"
+    },
+    {
+      "name": "wheel_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        0.222767993807793,
+        0.201401993632317,
+        0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-tower/wheel_1"
+    },
+    {
+      "name": "wheel_2",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        -0.615887999534607,
+        0.201401993632317,
+        -0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-tower/wheel_2"
+    },
+    {
+      "name": "wheel_3",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4,
+      "parent": null,
+      "position": [
+        0.222767993807793,
+        0.201401993632317,
+        -0.538335263729095
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "siege-tower/wheel_3"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

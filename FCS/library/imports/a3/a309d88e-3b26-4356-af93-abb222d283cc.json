@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pattern_grid_paper",
+    "texture": "e227d416-bddb-4512-9f1d-839f558d7bd9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

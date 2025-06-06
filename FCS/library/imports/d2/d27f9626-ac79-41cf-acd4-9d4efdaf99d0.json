@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "minimap_compass_future_s",
+    "texture": "ebb686a0-cd47-4d5d-9176-e9ec41af2a8a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      20,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      20,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

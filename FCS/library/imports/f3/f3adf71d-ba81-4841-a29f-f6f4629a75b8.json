@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_win",
+    "texture": "c8453ccb-a38b-4e02-94fb-c50b4dfc79ca",
+    "atlas": "",
+    "rect": [
+      8,
+      8,
+      48,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

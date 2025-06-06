@@ -1,0 +1,153 @@
+{
+  "__type__": "cc.SkeletonAnimationClip",
+  "_name": "wheelchair-move-right",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_duration": 0.5,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "events": [],
+  "description": {
+    "character-male-a/root": {
+      "position": {
+        "offset": 0,
+        "frameCount": 2
+      },
+      "quat": {
+        "offset": 8,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 13,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/root/leg-left": {
+      "position": {
+        "offset": 17,
+        "frameCount": 2
+      },
+      "quat": {
+        "offset": 25,
+        "frameCount": 2
+      },
+      "scale": {
+        "offset": 35,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/root/leg-right": {
+      "position": {
+        "offset": 39,
+        "frameCount": 2
+      },
+      "quat": {
+        "offset": 47,
+        "frameCount": 2
+      },
+      "scale": {
+        "offset": 57,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/root/torso": {
+      "quat": {
+        "offset": 61,
+        "frameCount": 13
+      },
+      "scale": {
+        "offset": 126,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 130,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/root/torso/arm-left": {
+      "quat": {
+        "offset": 134,
+        "frameCount": 12
+      },
+      "scale": {
+        "offset": 194,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 198,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/root/torso/arm-right": {
+      "quat": {
+        "offset": 202,
+        "frameCount": 2
+      },
+      "scale": {
+        "offset": 212,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 216,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/root/torso/head": {
+      "quat": {
+        "offset": 220,
+        "frameCount": 13
+      },
+      "scale": {
+        "offset": 285,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 289,
+        "frameCount": 1
+      }
+    },
+    "character-male-a": {
+      "quat": {
+        "offset": 293,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 298,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 302,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/body-mesh": {
+      "quat": {
+        "offset": 306,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 311,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 315,
+        "frameCount": 1
+      }
+    },
+    "character-male-a/head-mesh": {
+      "quat": {
+        "offset": 319,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 324,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 328,
+        "frameCount": 1
+      }
+    }
+  }
+}

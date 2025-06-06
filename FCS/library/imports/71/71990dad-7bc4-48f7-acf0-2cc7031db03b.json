@@ -1,0 +1,54 @@
+{
+  "__type__": "cc.Model",
+  "_name": "ice-cream-cne",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "ice-cream-cne",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "ice-cream-cne"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "banner_modern",
+    "texture": "37f61ad3-0513-4026-8e60-fd5ccbc471f2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      256,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      48
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

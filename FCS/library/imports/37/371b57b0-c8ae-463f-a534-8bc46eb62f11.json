@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_alt",
+    "texture": "54cc068a-e656-483f-9e30-4c72cec8d563",
+    "atlas": "",
+    "rect": [
+      8,
+      14,
+      48,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

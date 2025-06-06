@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_backspace_icon_outline",
+    "texture": "30a458a1-8470-4318-9940-c439fffc581b",
+    "atlas": "",
+    "rect": [
+      8,
+      16,
+      48,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

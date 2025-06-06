@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.Model",
+  "_name": "chinese",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "chinese",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "chinese"
+    },
+    {
+      "name": "chopstick",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -0.100791797041893,
+        0.128526568412781,
+        -0.00784954335540533
+      ],
+      "quat": [
+        0,
+        0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "chinese/chopstick"
+    },
+    {
+      "name": "chopstick_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -0.10057021677494,
+        0.128526568412781,
+        0.0561765842139721
+      ],
+      "quat": [
+        0,
+        0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "chinese/chopstick_1"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

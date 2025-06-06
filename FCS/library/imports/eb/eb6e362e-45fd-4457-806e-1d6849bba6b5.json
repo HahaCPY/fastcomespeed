@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SwitchContainer",
+    "texture": "33bcd9fb-38aa-4c66-b44d-a98c1b1202ec",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      317,
+      136
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      317,
+      136
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "__type__": "cc.SkeletonAnimationClip",
+  "_name": "interact-right",
+  "_objFlags": 0,
+  "_native": ".bin",
+  "_duration": 0.6666666865348816,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "events": [],
+  "description": {
+    "character-female-e/root/torso": {
+      "quat": {
+        "offset": 0,
+        "frameCount": 6
+      },
+      "scale": {
+        "offset": 30,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 34,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/root/torso/arm-left": {
+      "quat": {
+        "offset": 38,
+        "frameCount": 10
+      },
+      "scale": {
+        "offset": 88,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 92,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/root/torso/arm-right": {
+      "quat": {
+        "offset": 96,
+        "frameCount": 13
+      },
+      "scale": {
+        "offset": 161,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 165,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/root/torso/head": {
+      "quat": {
+        "offset": 169,
+        "frameCount": 11
+      },
+      "scale": {
+        "offset": 224,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 228,
+        "frameCount": 1
+      }
+    },
+    "character-female-e": {
+      "quat": {
+        "offset": 232,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 237,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 241,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/root": {
+      "quat": {
+        "offset": 245,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 250,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 254,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/root/leg-left": {
+      "quat": {
+        "offset": 258,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 263,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 267,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/root/leg-right": {
+      "quat": {
+        "offset": 271,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 276,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 280,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/body-mesh": {
+      "quat": {
+        "offset": 284,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 289,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 293,
+        "frameCount": 1
+      }
+    },
+    "character-female-e/head-mesh": {
+      "quat": {
+        "offset": 297,
+        "frameCount": 1
+      },
+      "scale": {
+        "offset": 302,
+        "frameCount": 1
+      },
+      "position": {
+        "offset": 306,
+        "frameCount": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "__type__": "cc.Model",
+  "_name": "rock_smallTopB",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "rock_smallTopB",
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        -0.0499999970197678,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "rock_smallTopB"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

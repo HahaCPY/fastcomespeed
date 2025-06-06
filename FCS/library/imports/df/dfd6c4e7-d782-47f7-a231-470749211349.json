@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "corn-dog",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "corn-dog",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "corn-dog"
+    },
+    {
+      "name": "dog",
+      "scale": [
+        1.29219996929169,
+        1.29219996929169,
+        1.65401601791382
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -0.100603997707367,
+        8.45989872501871e-18,
+        0
+      ],
+      "quat": [
+        0,
+        -0.70710676908493,
+        0,
+        0.70710676908493
+      ],
+      "path": "corn-dog/dog"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

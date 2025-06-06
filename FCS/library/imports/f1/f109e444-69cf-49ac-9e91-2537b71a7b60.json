@@ -1,0 +1,387 @@
+{
+  "__type__": "cc.Model",
+  "_name": "character-male-a",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "character-male-a",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        9,
+        10
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a"
+    },
+    {
+      "name": "root",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/root",
+      "uniqueBindPose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "leg-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": null,
+      "position": [
+        0.0835709646344185,
+        0.176249995827675,
+        -0.0287499986588955
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/root/leg-left",
+      "uniqueBindPose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.08357095718383789,
+        -0.17624999582767487,
+        0.02875000238418579,
+        1
+      ]
+    },
+    {
+      "name": "leg-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": null,
+      "position": [
+        -0.0835709646344185,
+        0.176249995827675,
+        -0.0287499986588955
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/root/leg-right",
+      "uniqueBindPose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.08357095718383789,
+        -0.17624999582767487,
+        0.02875000238418579,
+        1
+      ]
+    },
+    {
+      "name": "torso",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        6,
+        7,
+        8
+      ],
+      "parent": null,
+      "position": [
+        -1.44382282161564e-15,
+        0.176249995827675,
+        -0.0287499986588955
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/root/torso",
+      "uniqueBindPose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.17624999582767487,
+        0.02875000238418579,
+        1
+      ]
+    },
+    {
+      "name": "arm-left",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": null,
+      "position": [
+        0.0998967736959457,
+        0.11150000244379,
+        0.0114999990910292
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/root/torso/arm-left",
+      "uniqueBindPose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.09989678859710693,
+        -0.2877500057220459,
+        0.017250001430511475,
+        1
+      ]
+    },
+    {
+      "name": "arm-right",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": null,
+      "position": [
+        -0.0998967736959457,
+        0.11150000244379,
+        0.0114999990910292
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/root/torso/arm-right",
+      "uniqueBindPose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.09989678859710693,
+        -0.2877500057220459,
+        0.017250001430511475,
+        1
+      ]
+    },
+    {
+      "name": "head",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": null,
+      "position": [
+        1.81968928814058e-9,
+        0.166999980807304,
+        0.0263887755572796
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/root/torso/head",
+      "uniqueBindPose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.34324997663497925,
+        0.0023612380027770996,
+        1
+      ]
+    },
+    {
+      "name": "body-mesh",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "skin": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/body-mesh"
+    },
+    {
+      "name": "head-mesh",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "skin": 1,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "character-male-a/head-mesh"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "shelf_papertowel_decorated",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "shelf_papertowel_decorated",
+      "path": "shelf_papertowel_decorated"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -1,0 +1,173 @@
+{
+  "ver": "1.1.3",
+  "uuid": "a06ebc38-b09f-4f2f-a5b9-e5773cd04f6d",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "a36045bc-495a-4eb8-bb91-bfdab5ccd9fb",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "window_white_detailed.mesh": {
+      "ver": "1.0.3",
+      "uuid": "28d51cf9-f82a-4af5-927c-38193bf4ed08",
+      "importer": "mesh",
+      "verts": 52,
+      "tris": 34,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.15625,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0.15625,
+        "y": 0.379999995231628,
+        "z": 0.0499999970197678
+      },
+      "name": "window_white_detailed.mesh",
+      "subMetas": {}
+    },
+    "window-white-detailed.prefab": {
+      "ver": "1.3.2",
+      "uuid": "448e81cc-c504-429d-be69-8486f645001b",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "window-white-detailed.prefab",
+      "subMetas": {}
+    },
+    "colormap.mtl": {
+      "ver": "1.0.5",
+      "uuid": "99b3ed22-9629-4f5f-b5b1-515046105ec1",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colormap.mtl",
+      "subMetas": {}
+    }
+  }
+}

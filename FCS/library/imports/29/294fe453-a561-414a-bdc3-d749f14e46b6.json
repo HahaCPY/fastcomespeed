@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.Model",
+  "_name": "bedroll",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "bedroll",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "bedroll"
+    },
+    {
+      "name": "blanket",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0,
+        -0.0551599971950054,
+        0.0799999982118607
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "bedroll/blanket"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

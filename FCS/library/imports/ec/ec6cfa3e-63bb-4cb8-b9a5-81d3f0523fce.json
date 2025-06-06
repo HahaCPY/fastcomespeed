@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "brickWall",
+    "texture": "bef95f5d-ac7c-415e-865d-984b701fa148",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1400,
+      980
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1400,
+      980
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

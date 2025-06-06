@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "scrollbar_future_grey_small",
+    "texture": "8336123e-7cc2-45c4-bf4e-c8b165323279",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      16,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      16,
+      24
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

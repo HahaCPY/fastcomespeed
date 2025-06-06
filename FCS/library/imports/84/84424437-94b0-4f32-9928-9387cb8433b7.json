@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "abc2cb62-7852-4525-a90d-d474487b88f2"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "props": {
+        "diffuseTexture": {
+          "__uuid__": "c25703b6-94cc-43d6-b588-4e3ec9cec2d7"
+        },
+        "diffuseColor": {
+          "__type__": "cc.Color",
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        }
+      },
+      "defines": {
+        "USE_DIFFUSE_TEXTURE": true
+      }
+    }
+  }
+}

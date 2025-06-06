@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mouse_left",
+    "texture": "74d3383d-d165-4130-95ea-0a647fcf4a23",
+    "atlas": "",
+    "rect": [
+      15,
+      10,
+      34,
+      44
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.Model",
+  "_name": "tree_palmDetailedTall",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "tree_palmDetailedTall",
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "children": [
+        2,
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        -0.0499999970197678,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tree_palmDetailedTall"
+    },
+    {
+      "name": "leafs",
+      "scale": [
+        0.99999988079071,
+        1.35000002384186,
+        0.99999988079071
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        -1.77657388800156e-9,
+        0.116192102432251,
+        -0.000256708503002301
+      ],
+      "quat": [
+        0,
+        -0.382683426141739,
+        0,
+        0.923879504203796
+      ],
+      "path": "tree_palmDetailedTall/leafs"
+    },
+    {
+      "name": "leafs",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -1.77657488720229e-9,
+        0.116192102432251,
+        -0.000256708503002301
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tree_palmDetailedTall/leafs"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

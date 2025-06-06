@@ -1,0 +1,54 @@
+{
+  "__type__": "cc.Model",
+  "_name": "tent_smallOpen",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "tent_smallOpen",
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        -0.0499999970197678,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "tent_smallOpen"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

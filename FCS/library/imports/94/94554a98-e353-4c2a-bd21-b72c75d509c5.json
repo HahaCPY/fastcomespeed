@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mouse_vertical",
+    "texture": "8517f8a2-23c2-489d-bb44-75edf203f707",
+    "atlas": "",
+    "rect": [
+      21,
+      6,
+      22,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

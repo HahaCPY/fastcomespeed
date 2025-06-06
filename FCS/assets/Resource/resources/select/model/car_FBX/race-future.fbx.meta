@@ -1,0 +1,285 @@
+{
+  "ver": "1.1.3",
+  "uuid": "e9b0df4f-f829-4170-8245-5fd45e4f7eca",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "6ba27947-0fab-4e48-a3aa-613de50fb869",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "body.mesh": {
+      "ver": "1.0.3",
+      "uuid": "c1e46732-6b5f-4c08-9bb8-ae6964076c8e",
+      "importer": "mesh",
+      "verts": 897,
+      "tris": 740,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.600000023841858,
+        "y": 0,
+        "z": -1.32988619804382
+      },
+      "maxPos": {
+        "x": 0.600000023841858,
+        "y": 0.632544279098511,
+        "z": 1.32988619804382
+      },
+      "name": "body.mesh",
+      "subMetas": {}
+    },
+    "wheel-back-left.mesh": {
+      "ver": "1.0.3",
+      "uuid": "376fe148-f67f-4b25-b8e2-686ce3825fe4",
+      "importer": "mesh",
+      "verts": 506,
+      "tris": 332,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -2.73428686376614e-13,
+        "y": -0.300000011920929,
+        "z": -0.300000011920929
+      },
+      "maxPos": {
+        "x": 0.300000011920929,
+        "y": 0.300000011920929,
+        "z": 0.300000011920929
+      },
+      "name": "wheel-back-left.mesh",
+      "subMetas": {}
+    },
+    "wheel-back-right.mesh": {
+      "ver": "1.0.3",
+      "uuid": "4a089f8c-8edc-4d43-afc2-f93b3cb46bcd",
+      "importer": "mesh",
+      "verts": 506,
+      "tris": 332,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.300000011920929,
+        "y": -0.300000011920929,
+        "z": -0.300000011920929
+      },
+      "maxPos": {
+        "x": 4.69242429201183e-14,
+        "y": 0.300000011920929,
+        "z": 0.300000011920929
+      },
+      "name": "wheel-back-right.mesh",
+      "subMetas": {}
+    },
+    "wheel-front-left.mesh": {
+      "ver": "1.0.3",
+      "uuid": "97c2278e-061f-401f-9351-6eb756a1756b",
+      "importer": "mesh",
+      "verts": 506,
+      "tris": 332,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -2.73428686376614e-13,
+        "y": -0.300000011920929,
+        "z": -0.300000011920929
+      },
+      "maxPos": {
+        "x": 0.300000011920929,
+        "y": 0.300000011920929,
+        "z": 0.300000011920929
+      },
+      "name": "wheel-front-left.mesh",
+      "subMetas": {}
+    },
+    "wheel-front-right.mesh": {
+      "ver": "1.0.3",
+      "uuid": "59fc316e-e57b-4763-95a9-12ee923781f1",
+      "importer": "mesh",
+      "verts": 506,
+      "tris": 332,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.300000011920929,
+        "y": -0.300000011920929,
+        "z": -0.300000011920929
+      },
+      "maxPos": {
+        "x": 4.69242429201183e-14,
+        "y": 0.300000011920929,
+        "z": 0.300000011920929
+      },
+      "name": "wheel-front-right.mesh",
+      "subMetas": {}
+    },
+    "race-future.prefab": {
+      "ver": "1.3.2",
+      "uuid": "9403e973-c9be-4154-885d-f51e815e268b",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "race-future.prefab",
+      "subMetas": {}
+    },
+    "colormap.mtl": {
+      "ver": "1.0.5",
+      "uuid": "09197c2b-f46a-4d5e-a21e-af02108df1bc",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colormap.mtl",
+      "subMetas": {}
+    }
+  }
+}

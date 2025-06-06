@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "pot_A_stew",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "pot_A_stew",
+      "path": "pot_A_stew"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

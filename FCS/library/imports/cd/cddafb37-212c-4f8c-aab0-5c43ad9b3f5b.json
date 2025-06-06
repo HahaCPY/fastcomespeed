@@ -1,0 +1,147 @@
+{
+  "__type__": "cc.Model",
+  "_name": "steamer",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "steamer",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "steamer"
+    },
+    {
+      "name": "lid",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        3.60955705403911e-16,
+        0.519999980926514,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "steamer/lid"
+    },
+    {
+      "name": "layer",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "steamer/layer"
+    },
+    {
+      "name": "layer_1",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        3.60955705403911e-16,
+        0.359999984502792,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "steamer/layer_1"
+    },
+    {
+      "name": "layer_2",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3,
+      "parent": null,
+      "position": [
+        3.60955705403911e-16,
+        0.179999992251396,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "steamer/layer_2"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

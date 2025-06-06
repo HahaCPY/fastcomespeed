@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "towelrail",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "towelrail",
+      "path": "towelrail"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

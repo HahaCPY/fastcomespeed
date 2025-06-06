@@ -1,0 +1,313 @@
+{
+  "ver": "1.1.3",
+  "uuid": "34ab89ca-63bf-4cc5-827b-0821c334e145",
+  "importer": "fbx",
+  "scaleFactor": 1,
+  "boneCount": 0,
+  "precomputeJointMatrix": false,
+  "animationFrameRate": 30,
+  "subMetas": {
+    "buffer.bin": {
+      "ver": "1.0.2",
+      "uuid": "464d6de5-a645-4cde-adec-6cca83af50ca",
+      "importer": "buffer",
+      "name": "buffer.bin",
+      "subMetas": {}
+    },
+    "siege-catapult.mesh": {
+      "ver": "1.0.3",
+      "uuid": "233bc45f-e855-496b-93ab-901a9033c79f",
+      "importer": "mesh",
+      "verts": 922,
+      "tris": 564,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.733824014663696,
+        "y": -4.51194631754889e-17,
+        "z": -0.471743941307068
+      },
+      "maxPos": {
+        "x": 0.733824014663696,
+        "y": 1.18065595626831,
+        "z": 0.471743941307068
+      },
+      "name": "siege-catapult.mesh",
+      "subMetas": {}
+    },
+    "catapult.mesh": {
+      "ver": "1.0.3",
+      "uuid": "cf4dc699-c9b3-41e2-9748-f80302e25c18",
+      "importer": "mesh",
+      "verts": 83,
+      "tris": 52,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -1.42029798030853,
+        "y": -0.0450582392513752,
+        "z": -0.109040945768356
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0.0450582392513752,
+        "z": 0.109040945768356
+      },
+      "name": "catapult.mesh",
+      "subMetas": {}
+    },
+    "wheel.mesh": {
+      "ver": "1.0.3",
+      "uuid": "9f84a18a-0c41-4268-8438-aec265940700",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 78,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.201401993632317,
+        "y": -0.201401993632317,
+        "z": -0.0665912553668022
+      },
+      "maxPos": {
+        "x": 0.201401993632317,
+        "y": 0.201401993632317,
+        "z": 0.0665912553668022
+      },
+      "name": "wheel.mesh",
+      "subMetas": {}
+    },
+    "wheel_1.mesh": {
+      "ver": "1.0.3",
+      "uuid": "fc191bad-0f2a-40dc-ade0-fb8277840d0e",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 78,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.201401993632317,
+        "y": -0.201401993632317,
+        "z": -0.0665912553668022
+      },
+      "maxPos": {
+        "x": 0.201401993632317,
+        "y": 0.201401993632317,
+        "z": 0.0665912553668022
+      },
+      "name": "wheel_1.mesh",
+      "subMetas": {}
+    },
+    "wheel_2.mesh": {
+      "ver": "1.0.3",
+      "uuid": "dd6ae4fe-8110-4b10-9173-e15ce793d639",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 78,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.201401993632317,
+        "y": -0.201401993632317,
+        "z": -0.0665912553668022
+      },
+      "maxPos": {
+        "x": 0.201401993632317,
+        "y": 0.201401993632317,
+        "z": 0.0665912553668022
+      },
+      "name": "wheel_2.mesh",
+      "subMetas": {}
+    },
+    "wheel_3.mesh": {
+      "ver": "1.0.3",
+      "uuid": "01823d86-6946-494d-8538-99c6316493c0",
+      "importer": "mesh",
+      "verts": 104,
+      "tris": 78,
+      "submeshes": 1,
+      "attributes": [
+        [
+          "a_normal",
+          "a_position",
+          "a_tangent",
+          "a_uv0"
+        ]
+      ],
+      "minPos": {
+        "x": -0.201401993632317,
+        "y": -0.201401993632317,
+        "z": -0.0665912553668022
+      },
+      "maxPos": {
+        "x": 0.201401993632317,
+        "y": 0.201401993632317,
+        "z": 0.0665912553668022
+      },
+      "name": "wheel_3.mesh",
+      "subMetas": {}
+    },
+    "siege-catapult.prefab": {
+      "ver": "1.3.2",
+      "uuid": "c8751989-49ee-48f1-b389-a59cd9dbb464",
+      "importer": "prefab",
+      "optimizationPolicy": "AUTO",
+      "asyncLoadAssets": false,
+      "readonly": true,
+      "content": [
+        {
+          "__type__": "cc.Prefab",
+          "_name": "",
+          "_objFlags": 0,
+          "data": {
+            "__id__": 1
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "Sprite",
+          "_objFlags": 0,
+          "_opacity": 255,
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "_cascadeOpacityEnabled": true,
+          "_parent": null,
+          "_anchorPoint": {
+            "__type__": "cc.Vec2",
+            "x": 0.5,
+            "y": 0.5
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 40,
+            "height": 36
+          },
+          "_children": [],
+          "_skewX": 0,
+          "_skewY": 0,
+          "_localZOrder": 0,
+          "_globalZOrder": 0,
+          "_tag": -1,
+          "_opacityModifyRGB": false,
+          "_reorderChildDirty": false,
+          "_id": "",
+          "_active": true,
+          "_components": [
+            {
+              "__id__": 2
+            }
+          ],
+          "_prefab": {
+            "__id__": 3
+          },
+          "_eulerAngles": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Sprite",
+          "_name": "",
+          "_objFlags": 0,
+          "node": {
+            "__id__": 1
+          },
+          "_enabled": true,
+          "_spriteFrame": {
+            "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+          },
+          "_type": 0,
+          "_sizeMode": 1,
+          "_fillType": 0,
+          "_fillCenter": {
+            "__type__": "cc.Vec2",
+            "x": 0,
+            "y": 0
+          },
+          "_fillStart": 0,
+          "_fillRange": 0,
+          "_isTrimmedMode": true,
+          "_srcBlendFactor": 770,
+          "_dstBlendFactor": 771,
+          "_atlas": null
+        },
+        {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": null,
+          "fileId": "d7118yAG5lKybkFOAh8koPL"
+        }
+      ],
+      "name": "siege-catapult.prefab",
+      "subMetas": {}
+    },
+    "colormap.mtl": {
+      "ver": "1.0.5",
+      "uuid": "486923a7-ddd0-4cef-b516-62f2f4cc1e74",
+      "importer": "material",
+      "dataAsSubAsset": null,
+      "name": "colormap.mtl",
+      "subMetas": {}
+    }
+  }
+}

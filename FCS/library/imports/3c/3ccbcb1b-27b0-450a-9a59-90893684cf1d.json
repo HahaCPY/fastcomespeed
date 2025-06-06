@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "food_icecream_cone_chocolate",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "food_icecream_cone_chocolate",
+      "path": "food_icecream_cone_chocolate"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

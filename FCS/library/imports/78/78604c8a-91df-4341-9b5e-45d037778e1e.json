@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "banner_hanging",
+    "texture": "d792ba64-c66c-4630-bd37-c5e8e7d4bae0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      256,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      256,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

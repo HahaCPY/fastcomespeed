@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mouse_scroll_up_outline",
+    "texture": "5843a36d-18b0-49d3-bdf1-b0794911e74b",
+    "atlas": "",
+    "rect": [
+      14,
+      3,
+      36,
+      51
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

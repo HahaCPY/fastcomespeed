@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_numpad_plus",
+    "texture": "0e605be9-7e23-4d92-ab98-e4affc749093",
+    "atlas": "",
+    "rect": [
+      15,
+      8,
+      34,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

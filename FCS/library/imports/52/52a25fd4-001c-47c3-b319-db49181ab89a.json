@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "keyboard_space_outline",
+    "texture": "055ffd88-5765-4f9d-ad1e-db517027d459",
+    "atlas": "",
+    "rect": [
+      8,
+      18,
+      48,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

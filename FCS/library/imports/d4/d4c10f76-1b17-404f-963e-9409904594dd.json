@@ -1,0 +1,102 @@
+{
+  "__type__": "cc.Model",
+  "_name": "cupcake",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "name": "RootNode",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": ""
+    },
+    {
+      "name": "cupcake",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2,
+        3
+      ],
+      "mesh": 0,
+      "parent": null,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cupcake"
+    },
+    {
+      "name": "cherry",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1,
+      "parent": null,
+      "position": [
+        5.41433518401197e-16,
+        0.308600008487701,
+        1.30846430966645e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cupcake/cherry"
+    },
+    {
+      "name": "cake",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2,
+      "parent": null,
+      "position": [
+        -1.80477852701956e-16,
+        0.178599998354912,
+        1.84989793394676e-15
+      ],
+      "quat": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "path": "cupcake/cake"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}
