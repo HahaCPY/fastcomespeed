@@ -76,7 +76,7 @@ var Stage1CheckUI = /** @class */ (function (_super) {
     };
     Stage1CheckUI.prototype.onStartClick = function () {
         console.log("start-btn pressed！");
-        cc.director.loadScene("level-1");
+        cc.director.loadScene("level-2");
     };
     Stage1CheckUI.prototype.onBackClick = function () {
         console.log("back-btn pressed！");

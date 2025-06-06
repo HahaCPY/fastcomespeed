@@ -60,7 +60,7 @@ export default class Stage1CheckUI extends cc.Component {
 
     onStartClick() {
         console.log("start-btn pressed！");
-        cc.director.loadScene("level-1");
+        cc.director.loadScene("level-2");
     }
 
     onBackClick() {

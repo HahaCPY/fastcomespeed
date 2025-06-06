@@ -1,5 +1,6 @@
 import { KeyboardControls } from "./KeyboardControls";
 import { IInputControls } from "./IInputControls";
+import PlayerModeSelector from "../script/PlayerModeSelector";
 
 
 const { ccclass, property } = cc._decorator;
