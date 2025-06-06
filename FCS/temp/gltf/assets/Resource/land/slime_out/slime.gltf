@@ -1,0 +1,231 @@
+{
+    "asset": {
+        "generator": "FBX2glTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 34432,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 3408,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6648,
+            "byteOffset": 3408,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6648,
+            "byteOffset": 10056,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4432,
+            "byteOffset": 16704,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6648,
+            "byteOffset": 21136,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6648,
+            "byteOffset": 27784,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 1704,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 554,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.375,
+                -2.09547579288483e-09,
+                -0.388211876153946
+            ],
+            "max": [
+                0.375,
+                0.567164480686188,
+                0.374999910593033
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 554,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 554,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 554,
+            "bufferView": 4,
+            "byteOffset": 0,
+            "min": [
+                -0.294377505779266,
+                -0.245521277189255,
+                -0.359414368867874
+            ],
+            "max": [
+                0.294370025396347,
+                0.0,
+                0.294374167919159
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 554,
+            "bufferView": 5,
+            "byteOffset": 0,
+            "min": [
+                -0.0833025351166725,
+                0.0,
+                -0.0833036974072456
+            ],
+            "max": [
+                0.0833046287298203,
+                0.257658720016479,
+                0.0833035260438919
+            ]
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "materials": [
+        {
+            "name": "Metallic",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.229415729641914
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Slime",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "targets": [
+                        {
+                            "POSITION": 4
+                        },
+                        {
+                            "POSITION": 5
+                        }
+                    ]
+                }
+            ],
+            "weights": [
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Slime",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                6.12323426292584e-17,
+                1.0,
+                6.12323426292584e-17,
+                3.74939939305299e-33
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ]
+}
