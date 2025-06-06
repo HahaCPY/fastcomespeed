@@ -28,12 +28,17 @@ var PauseManager = /** @class */ (function (_super) {
     __extends(PauseManager, _super);
     function PauseManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.pausePanel = null;
+        _this.pausePanelPrefab = null;
+        _this.pausePanelNode = null;
         _this.isPaused = false;
         return _this;
     }
     PauseManager.prototype.onLoad = function () {
-        this.pausePanel.active = false;
+        if (this.pausePanelPrefab) {
+            this.pausePanelNode = cc.instantiate(this.pausePanelPrefab);
+            this.node.addChild(this.pausePanelNode);
+            this.pausePanelNode.active = false;
+        }
         this.isPaused = false;
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
     };
@@ -47,15 +52,22 @@ var PauseManager = /** @class */ (function (_super) {
     };
     PauseManager.prototype.togglePause = function () {
         this.isPaused = !this.isPaused;
-        this.pausePanel.active = this.isPaused;
-        cc.director.pause(); // 暫停遊戲邏輯
-        if (!this.isPaused) {
-            cc.director.resume(); // 恢復遊戲邏輯
+        // 新增這一段
+        if (this.isPaused) {
+            cc.director.pause(); // 暫停
         }
+        else {
+            cc.director.resume(); // 恢復
+        }
+        if (this.pausePanelNode)
+            this.pausePanelNode.active = this.isPaused;
+    };
+    PauseManager.prototype.isGamePaused = function () {
+        return this.isPaused;
     };
     __decorate([
-        property(cc.Node)
-    ], PauseManager.prototype, "pausePanel", void 0);
+        property(cc.Prefab)
+    ], PauseManager.prototype, "pausePanelPrefab", void 0);
     PauseManager = __decorate([
         ccclass
     ], PauseManager);

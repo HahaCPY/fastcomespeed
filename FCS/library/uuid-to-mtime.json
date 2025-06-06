@@ -629,11 +629,6 @@
     "meta": 1749198005524,
     "relativePath": "Script/NPC"
   },
-  "f2aae7e2-3f4d-43fb-b102-8e49a9a69e3f": {
-    "asset": 1749063176563,
-    "meta": 1749198005546,
-    "relativePath": "Script/PauseManager.ts"
-  },
   "c500bbea-beec-4449-ac63-91873f45f41a": {
     "asset": 1749063176565,
     "meta": 1749198005547,
@@ -643,11 +638,6 @@
     "asset": 1748630792808,
     "meta": 1749198005556,
     "relativePath": "Script/debug.ts"
-  },
-  "dbe6d234-584e-44b2-8db8-ca2a0bdb9033": {
-    "asset": 1749200769075,
-    "meta": 1749200769078,
-    "relativePath": "Scenes/score-scene.fire"
   },
   "5ae71289-075a-45f7-acbe-06f771c82d05": {
     "asset": 1749196569289,
@@ -7219,20 +7209,10 @@
     "meta": 1749198007520,
     "relativePath": "Script/Player/IInputControls.ts"
   },
-  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
-    "asset": 1749063176564,
-    "meta": 1749198007537,
-    "relativePath": "Script/Player/KeyboardControls.ts"
-  },
   "c8afcd2d-b0f4-4c6b-8c73-12c956429325": {
     "asset": 1749063176564,
     "meta": 1749198007558,
     "relativePath": "Script/Player/KeyboardControls2.ts"
-  },
-  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
-    "asset": 1749063176565,
-    "meta": 1749198007714,
-    "relativePath": "Script/Player/PlayerController 2.ts"
   },
   "ab54d450-a2c1-4cba-8a94-aa631cf67ba3": {
     "asset": 1748362271839,
@@ -8754,14 +8734,39 @@
     "meta": 1749200529264,
     "relativePath": "Script/scene/score-scene.ts"
   },
+  "7c1a4d08-71bf-4aa3-a2d6-f908e0ee6e8e": {
+    "asset": 1749205970766,
+    "meta": 1749205971980,
+    "relativePath": "Script/Player/KeyboardControls.ts"
+  },
   "f834bb96-2d79-4830-8833-a70ba75107e7": {
-    "asset": 1749200590607,
-    "meta": 1749200591796,
+    "asset": 1749206065557,
+    "meta": 1749206069348,
     "relativePath": "Script/scene/uiManager.ts"
   },
+  "dbe6d234-584e-44b2-8db8-ca2a0bdb9033": {
+    "asset": 1749206065556,
+    "meta": 1749206069356,
+    "relativePath": "Scenes/score-scene.fire"
+  },
+  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
+    "asset": 1749206569561,
+    "meta": 1749206571498,
+    "relativePath": "Script/Player/PlayerController 2.ts"
+  },
+  "37104fea-99cb-48db-872b-f024ddbe91f1": {
+    "asset": 1749207025516,
+    "meta": 1749207025522,
+    "relativePath": "Prefab/UI/pausePanel.prefab"
+  },
   "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749200810625,
-    "meta": 1749200810640,
+    "asset": 1749213555697,
+    "meta": 1749213555714,
     "relativePath": "Scenes/level-1.fire"
+  },
+  "f2aae7e2-3f4d-43fb-b102-8e49a9a69e3f": {
+    "asset": 1749213549776,
+    "meta": 1749213555484,
+    "relativePath": "Script/PauseManager.ts"
   }
 }
