@@ -2,6 +2,9 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class AudioManager extends cc.Component {
+    @property({ type: cc.AudioClip })
+    defaultBgm: cc.AudioClip = null;
+
     private static _instance: AudioManager = null;
 
     public static getInstance(): AudioManager {
@@ -16,4 +19,8 @@ export default class AudioManager extends cc.Component {
 
     public bgmVolume: number = 0.5;
     public sfxVolume: number = 0.5;
+
+    start(){
+        cc.audioEngine.playMusic(this.defaultBgm, true);
+    }
 }

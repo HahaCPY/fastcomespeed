@@ -66,22 +66,25 @@ var Login = /** @class */ (function (_super) {
         this.firebaseManager.getAuth().signInWithEmailAndPassword(email, password)
             .then(function (userCredential) {
             console.log("登入成功:", userCredential.user.email);
-            _this.loadMenuPage();
-        })
-            .catch(function (error) {
-            console.error("登入錯誤:", error);
-            switch (error.code) {
-                case 'auth/invalid-credential':
-                    alert("帳號或密碼錯誤");
-                    break;
-                case 'auth/user-not-found':
-                    alert("找不到此用戶");
-                    break;
-                case 'auth/wrong-password':
-                    alert("密碼錯誤");
-                    break;
-                default:
-                    alert(error.message);
+            // 存到 PersistentUser
+            var persistNode = cc.director.getScene().getChildByName('PersistentUser');
+            if (persistNode) {
+                var persistScript_1 = persistNode.getComponent('PersistentUser');
+                // 取得 nickname 需從 firebase db 抓
+                _this.firebaseManager.getDatabase().ref('users/' + userCredential.user.uid).once('value')
+                    .then(function (snapshot) {
+                    var nickname = snapshot.val() && snapshot.val().nickname ? snapshot.val().nickname : "";
+                    persistScript_1.setUserInfo(userCredential.user.uid, userCredential.user.email, nickname);
+                    _this.loadMenuPage();
+                })
+                    .catch(function () {
+                    persistScript_1.setUserInfo(userCredential.user.uid, userCredential.user.email, "");
+                    _this.loadMenuPage();
+                });
+            }
+            else {
+                console.warn("找不到 PersistentUser persist node！");
+                _this.loadMenuPage();
             }
         });
     };

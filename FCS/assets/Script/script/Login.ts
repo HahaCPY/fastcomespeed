@@ -44,25 +44,28 @@ export default class Login extends cc.Component {
         // 使用 FirebaseManager 進行登入
         this.firebaseManager.getAuth().signInWithEmailAndPassword(email, password)
             .then((userCredential) => {
-                console.log("登入成功:", userCredential.user.email);
+            console.log("登入成功:", userCredential.user.email);
+
+            // 存到 PersistentUser
+            const persistNode = cc.director.getScene().getChildByName('PersistentUser');
+            if (persistNode) {
+                const persistScript = persistNode.getComponent('PersistentUser');
+                // 取得 nickname 需從 firebase db 抓
+                this.firebaseManager.getDatabase().ref('users/' + userCredential.user.uid).once('value')
+                    .then((snapshot) => {
+                        const nickname = snapshot.val() && snapshot.val().nickname ? snapshot.val().nickname : "";
+                        persistScript.setUserInfo(userCredential.user.uid, userCredential.user.email, nickname);
+                        this.loadMenuPage();
+                    })
+                    .catch(() => {
+                        persistScript.setUserInfo(userCredential.user.uid, userCredential.user.email, "");
+                        this.loadMenuPage();
+                    });
+            } else {
+                console.warn("找不到 PersistentUser persist node！");
                 this.loadMenuPage();
-            })
-            .catch((error) => {
-                console.error("登入錯誤:", error);
-                switch (error.code) {
-                    case 'auth/invalid-credential':
-                        alert("帳號或密碼錯誤");
-                        break;
-                    case 'auth/user-not-found':
-                        alert("找不到此用戶");
-                        break;
-                    case 'auth/wrong-password':
-                        alert("密碼錯誤");
-                        break;
-                    default:
-                        alert(error.message);
-                }
-            });
+            }
+        });
     }
 
     loadMenuPage() {

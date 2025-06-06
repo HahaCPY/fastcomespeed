@@ -27,13 +27,20 @@ var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var GameManager = /** @class */ (function (_super) {
     __extends(GameManager, _super);
     function GameManager() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.defaultBgm = null;
+        return _this;
     }
     GameManager.prototype.onLoad = function () {
         cc.director.getPhysics3DManager().enabled = true;
         console.log("3D 物理系統啟用成功！");
     };
-    GameManager.prototype.start = function () { };
+    GameManager.prototype.start = function () {
+        cc.audioEngine.playMusic(this.defaultBgm, true);
+    };
+    __decorate([
+        property({ type: cc.AudioClip })
+    ], GameManager.prototype, "defaultBgm", void 0);
     GameManager = __decorate([
         ccclass
     ], GameManager);

@@ -39,22 +39,25 @@ export default class Signup extends cc.Component {
         // 使用 FirebaseManager 進行註冊
         this.firebaseManager.getAuth().createUserWithEmailAndPassword(email, password)
             .then((userCredential) => {
-                // 保存用戶數據到 Realtime Database
-                const userId = userCredential.user.uid;
-                return this.firebaseManager.getDatabase().ref('users/' + userId).set({
-                    nickname: nickname,
-                    email: email
-                });
+    const userId = userCredential.user.uid;
+    return this.firebaseManager.getDatabase().ref('users/' + userId).set({
+        nickname: nickname,
+        email: email
+    }).then(() => {
+        // 存到 PersistentUser
+        const persistNode = cc.director.getScene().getChildByName('PersistentUser');
+        if (persistNode) {
+            const persistScript = persistNode.getComponent('PersistentUser');
+            persistScript.setUserInfo(userId, email, nickname);
+        } else {
+            console.warn("找不到 PersistentUser persist node！");
+        }
+    });
             })
             .then(() => {
                 console.log('註冊成功');
                 alert("註冊成功");
                 cc.director.loadScene("Loading");
-            })
-            .catch((error) => {
-                console.error("註冊錯誤:", error);
-                alert(error.message);
-                //alert(this.getErrorMessage(error.code));
             });
             
     }

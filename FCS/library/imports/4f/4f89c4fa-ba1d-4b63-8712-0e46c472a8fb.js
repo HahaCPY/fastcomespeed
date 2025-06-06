@@ -60,22 +60,26 @@ var Signup = /** @class */ (function (_super) {
         // 使用 FirebaseManager 進行註冊
         this.firebaseManager.getAuth().createUserWithEmailAndPassword(email, password)
             .then(function (userCredential) {
-            // 保存用戶數據到 Realtime Database
             var userId = userCredential.user.uid;
             return _this.firebaseManager.getDatabase().ref('users/' + userId).set({
                 nickname: nickname,
                 email: email
+            }).then(function () {
+                // 存到 PersistentUser
+                var persistNode = cc.director.getScene().getChildByName('PersistentUser');
+                if (persistNode) {
+                    var persistScript = persistNode.getComponent('PersistentUser');
+                    persistScript.setUserInfo(userId, email, nickname);
+                }
+                else {
+                    console.warn("找不到 PersistentUser persist node！");
+                }
             });
         })
             .then(function () {
             console.log('註冊成功');
             alert("註冊成功");
             cc.director.loadScene("Loading");
-        })
-            .catch(function (error) {
-            console.error("註冊錯誤:", error);
-            alert(error.message);
-            //alert(this.getErrorMessage(error.code));
         });
     };
     Signup.prototype.getErrorMessage = function (errorCode) {

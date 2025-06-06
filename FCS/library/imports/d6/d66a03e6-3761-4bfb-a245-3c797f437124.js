@@ -28,6 +28,7 @@ var AudioManager = /** @class */ (function (_super) {
     __extends(AudioManager, _super);
     function AudioManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.defaultBgm = null;
         _this.bgmVolume = 0.5;
         _this.sfxVolume = 0.5;
         return _this;
@@ -42,8 +43,14 @@ var AudioManager = /** @class */ (function (_super) {
         }
         return AudioManager_1._instance;
     };
+    AudioManager.prototype.start = function () {
+        cc.audioEngine.playMusic(this.defaultBgm, true);
+    };
     var AudioManager_1;
     AudioManager._instance = null;
+    __decorate([
+        property({ type: cc.AudioClip })
+    ], AudioManager.prototype, "defaultBgm", void 0);
     AudioManager = AudioManager_1 = __decorate([
         ccclass
     ], AudioManager);
