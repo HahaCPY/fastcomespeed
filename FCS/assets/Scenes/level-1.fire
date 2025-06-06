@@ -58026,11 +58026,14 @@
     "scoreLabel": {
       "__id__": 1611
     },
-    "totalTime": 60,
+    "totalTime": 12,
     "dishesPerGame": 3,
     "dishInterval": 5,
     "bgm": {
       "__uuid__": "a0503365-20f3-49ea-bacb-81174b4c0f15"
+    },
+    "tenSecBgm": {
+      "__uuid__": "2480f96e-21bc-4595-8a75-8f1659f19123"
     },
     "fireEffectPrefab": {
       "__uuid__": "af95ff3f-6611-407c-ae7f-b33bb1869be1"
