@@ -49,6 +49,8 @@ var PlayerController = /** @class */ (function (_super) {
         _this.tipsParticlePrefab = null;
         _this.pizzaSteamPrefab = null;
         _this.uiManager = null;
+        _this.chopSound = null;
+        _this.chopSoundTimer = 0;
         // 跑步
         _this.isRunning = false;
         _this.runMultiplier = 1.3; // 跑步速度倍率
@@ -59,6 +61,8 @@ var PlayerController = /** @class */ (function (_super) {
         _this.blingSound = null;
         _this.pickupSound = null;
         _this.placeSound = null;
+        _this.bakeSound = null;
+        _this.bakeSoundId = -1;
         _this.canDeliver = false; // 是否碰到出餐台（tag 9）
         _this.menuManager = null; // 實際 MenuBar 腳本引用
         _this.nearbyOven = null; // 記錄目前靠近哪個烤箱
@@ -187,6 +191,13 @@ var PlayerController = /** @class */ (function (_super) {
                 this.chopProgress += dt;
                 var progressRatio = Math.min(this.chopProgress / 2, 1);
                 this.chopFill.scaleX = progressRatio;
+                this.chopSoundTimer += dt;
+                if (this.chopSoundTimer >= 0.2) { // 每 0.2 秒
+                    this.chopSoundTimer = 0;
+                    if (this.chopSound) {
+                        cc.audioEngine.playEffect(this.chopSound, false);
+                    }
+                }
                 if (this.chopProgress >= 2) {
                     this.finishChopping();
                 }
@@ -194,6 +205,9 @@ var PlayerController = /** @class */ (function (_super) {
             else {
                 this.cancelChopping(); // 玩家放開空白鍵，中斷切麵
             }
+        }
+        else {
+            this.chopSoundTimer = 0;
         }
         // 烘烤流程
         if (this.input.getChopPressed() &&
@@ -204,6 +218,9 @@ var PlayerController = /** @class */ (function (_super) {
             !this.isBaking) {
             // 初次按下，開始烘烤
             this.isBaking = true;
+            if (this.bakeSound && this.bakeSoundId === -1) {
+                this.bakeSoundId = cc.audioEngine.playEffect(this.bakeSound, true);
+            }
             this.bakeProgress = 0;
             this.carriedDough.active = false; // 讓披薩消失
             this.chopBar.parent = this.node;
@@ -295,6 +312,10 @@ var PlayerController = /** @class */ (function (_super) {
         return ["cheese_pizza", "mushroom_pizza", "pepper_pizza"].includes(name);
     };
     PlayerController.prototype.cancelBaking = function () {
+        if (this.bakeSoundId !== -1) {
+            cc.audioEngine.stopEffect(this.bakeSoundId);
+            this.bakeSoundId = -1;
+        }
         this.isBaking = false;
         this.bakeProgress = 0;
         this.smokeTimer = 0;
@@ -303,6 +324,10 @@ var PlayerController = /** @class */ (function (_super) {
             this.carriedDough.active = true;
     };
     PlayerController.prototype.finishBaking = function () {
+        if (this.bakeSoundId !== -1) {
+            cc.audioEngine.stopEffect(this.bakeSoundId);
+            this.bakeSoundId = -1;
+        }
         this.isBaking = false;
         this.chopBar.active = false;
         this.bakeProgress = 0;
@@ -609,6 +634,10 @@ var PlayerController = /** @class */ (function (_super) {
             this.isNearOven = true;
             this.nearbyOven = otherCollider.node;
             console.log("🔥 接觸到烤箱！");
+            if (this.bakeSoundId !== -1) {
+                cc.audioEngine.stopEffect(this.bakeSoundId);
+                this.bakeSoundId = -1;
+            }
         }
         else if (otherCollider.tag === 9) {
             this.canDeliver = true;
@@ -705,6 +734,9 @@ var PlayerController = /** @class */ (function (_super) {
         property(cc.Node)
     ], PlayerController.prototype, "uiManager", void 0);
     __decorate([
+        property({ type: cc.AudioClip })
+    ], PlayerController.prototype, "chopSound", void 0);
+    __decorate([
         property(cc.Prefab)
     ], PlayerController.prototype, "runDustEffectPrefab", void 0);
     __decorate([
@@ -716,6 +748,9 @@ var PlayerController = /** @class */ (function (_super) {
     __decorate([
         property({ type: cc.AudioClip })
     ], PlayerController.prototype, "placeSound", void 0);
+    __decorate([
+        property({ type: cc.AudioClip })
+    ], PlayerController.prototype, "bakeSound", void 0);
     PlayerController = __decorate([
         ccclass
     ], PlayerController);

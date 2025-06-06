@@ -55665,10 +55665,12 @@
     "tipsParticlePrefab": null,
     "pizzaSteamPrefab": null,
     "uiManager": null,
+    "chopSound": null,
     "runDustEffectPrefab": null,
     "blingSound": null,
     "pickupSound": null,
     "placeSound": null,
+    "bakeSound": null,
     "_id": "d7pNpNZyNA+ITy/TaB4Mwj"
   },
   {
@@ -56956,6 +56958,9 @@
     "uiManager": {
       "__id__": 1592
     },
+    "chopSound": {
+      "__uuid__": "a94ccc80-fd5f-49d1-8a23-0931d6ed43e9"
+    },
     "runDustEffectPrefab": {
       "__uuid__": "4d6d4b50-bc00-4036-b1b3-053f0ff9f070"
     },
@@ -56964,6 +56969,9 @@
     },
     "pickupSound": null,
     "placeSound": null,
+    "bakeSound": {
+      "__uuid__": "dd731ab5-81ab-47f9-82f3-54c8c199c788"
+    },
     "_id": "90hnARQoVG65o30MFqk1f0"
   },
   {
@@ -58024,7 +58032,7 @@
     "scoreLabel": {
       "__id__": 1611
     },
-    "totalTime": 12,
+    "totalTime": 60,
     "dishesPerGame": 3,
     "dishInterval": 5,
     "bgm": {
@@ -58378,6 +58386,12 @@
     },
     "uiManager": {
       "__id__": 1592
+    },
+    "chopSound": {
+      "__uuid__": "a94ccc80-fd5f-49d1-8a23-0931d6ed43e9"
+    },
+    "bakeSound": {
+      "__uuid__": "dd731ab5-81ab-47f9-82f3-54c8c199c788"
     },
     "runDustEffectPrefab": {
       "__uuid__": "4d6d4b50-bc00-4036-b1b3-053f0ff9f070"

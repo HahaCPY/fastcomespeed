@@ -645,8 +645,8 @@
     "relativePath": "Script/debug.ts"
   },
   "5521b2c8-9785-4138-9982-5f753a8a9cf6": {
-    "asset": 1749216414259,
-    "meta": 1749216494037,
+    "asset": 1749217107261,
+    "meta": 1749217107272,
     "relativePath": "Scenes/level-2.fire"
   },
   "5ae71289-075a-45f7-acbe-06f771c82d05": {
@@ -658,11 +658,6 @@
     "asset": 1749216371029,
     "meta": 1749216494038,
     "relativePath": "Scenes/score-scene.fire"
-  },
-  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749216414257,
-    "meta": 1749216494051,
-    "relativePath": "Scenes/level-1.fire"
   },
   "1328a5c4-fe19-41be-8344-9eff5ae5a7ff": {
     "asset": 1749200105313,
@@ -7289,16 +7284,6 @@
     "meta": 1749216496564,
     "relativePath": "Script/Player/Level2icecream2.ts"
   },
-  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
-    "asset": 1749206569561,
-    "meta": 1749216496807,
-    "relativePath": "Script/Player/PlayerController 2.ts"
-  },
-  "49d734de-aeff-4248-a6db-48e3c44206d3": {
-    "asset": 1749063176565,
-    "meta": 1749216496981,
-    "relativePath": "Script/Player/PlayerController.ts"
-  },
   "726326b6-e63b-4c47-8c6f-f751c8051e0e": {
     "asset": 1749196579070,
     "meta": 1749216496989,
@@ -8803,5 +8788,25 @@
     "asset": 1748448612350,
     "meta": 1749216499402,
     "relativePath": "Resource/UI/Character/Animation/GIRL/girl_walk_right.anim"
+  },
+  "dd731ab5-81ab-47f9-82f3-54c8c199c788": {
+    "asset": 1749217600381,
+    "meta": 1749217600863,
+    "relativePath": "Resource/Music/sound/fire-sound-efftect-21991.mp3"
+  },
+  "87520ae7-e91f-4f80-afde-f56226c70d8a": {
+    "asset": 1749218251911,
+    "meta": 1749218253474,
+    "relativePath": "Script/Player/PlayerController 2.ts"
+  },
+  "49d734de-aeff-4248-a6db-48e3c44206d3": {
+    "asset": 1749218558967,
+    "meta": 1749218562484,
+    "relativePath": "Script/Player/PlayerController.ts"
+  },
+  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
+    "asset": 1749218710495,
+    "meta": 1749218710514,
+    "relativePath": "Scenes/level-1.fire"
   }
 }

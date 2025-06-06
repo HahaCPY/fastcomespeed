@@ -1,13 +1,12 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "level-1",
+    "_name": "",
     "_objFlags": 0,
     "_native": "",
     "scene": {
       "__id__": 1
-    },
-    "asyncLoadAssets": false
+    }
   },
   {
     "__type__": "cc.Scene",
@@ -56970,9 +56969,7 @@
     },
     "pickupSound": null,
     "placeSound": null,
-    "bakeSound": {
-      "__uuid__": "dd731ab5-81ab-47f9-82f3-54c8c199c788"
-    },
+    "bakeSound": null,
     "_id": "90hnARQoVG65o30MFqk1f0"
   },
   {
