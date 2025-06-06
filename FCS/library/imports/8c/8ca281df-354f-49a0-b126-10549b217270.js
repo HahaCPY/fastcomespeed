@@ -25,6 +25,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var KeyboardControls2_1 = require("./KeyboardControls2");
+var PlayerModeSelector_1 = require("../script/PlayerModeSelector");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Level2icecream2 = /** @class */ (function (_super) {
     __extends(Level2icecream2, _super);
@@ -80,6 +81,10 @@ var Level2icecream2 = /** @class */ (function (_super) {
         barNode.active = false;
     };
     Level2icecream2.prototype.update = function (dt) {
+        if (PlayerModeSelector_1.default.player_mode === 0) {
+            this.node.active = false; // 或者直接 return 停用邏輯
+            return;
+        }
         var dir = this.input.getMoveDirection();
         this.isRunning = this.input.getRunHeld();
         if (!dir.equals(cc.Vec2.ZERO)) {

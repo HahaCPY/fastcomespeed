@@ -2,6 +2,7 @@
 
 import { KeyboardControls2 } from "./KeyboardControls2";
 import { IInputControls } from "./IInputControls";
+import PlayerModeSelector from "../script/PlayerModeSelector";
 
 const { ccclass, property } = cc._decorator;
 
@@ -85,6 +86,10 @@ export default class Level2icecream2 extends cc.Component {
     }
 
     update(dt: number) {
+        if (PlayerModeSelector.player_mode === 0) {
+            this.node.active = false; // 或者直接 return 停用邏輯
+            return;
+        }
         const dir = this.input.getMoveDirection();
         this.isRunning = this.input.getRunHeld();
 
