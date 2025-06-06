@@ -645,8 +645,8 @@
     "relativePath": "Script/debug.ts"
   },
   "dbe6d234-584e-44b2-8db8-ca2a0bdb9033": {
-    "asset": 1749200159112,
-    "meta": 1749200159115,
+    "asset": 1749200769075,
+    "meta": 1749200769078,
     "relativePath": "Scenes/score-scene.fire"
   },
   "5ae71289-075a-45f7-acbe-06f771c82d05": {
@@ -8734,11 +8734,6 @@
     "meta": 1749198009531,
     "relativePath": "Resource/particle(transparent_bg)/PNG (Black background)/Rotated/trace_07_rotated.png"
   },
-  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
-    "asset": 1749200595872,
-    "meta": 1749200595889,
-    "relativePath": "Scenes/level-1.fire"
-  },
   "1328a5c4-fe19-41be-8344-9eff5ae5a7ff": {
     "asset": 1749200105313,
     "meta": 1749200105314,
@@ -8763,5 +8758,10 @@
     "asset": 1749200590607,
     "meta": 1749200591796,
     "relativePath": "Script/scene/uiManager.ts"
+  },
+  "c7e931c0-ea34-4625-8b79-b6871c2c7903": {
+    "asset": 1749200810625,
+    "meta": 1749200810640,
+    "relativePath": "Scenes/level-1.fire"
   }
 }
