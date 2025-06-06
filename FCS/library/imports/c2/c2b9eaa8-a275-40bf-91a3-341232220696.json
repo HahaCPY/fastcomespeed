@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slash_01",
+    "texture": "509a57ad-40e1-4743-a6d5-da0b05ab1fd4",
+    "atlas": "",
+    "rect": [
+      95,
+      204,
+      322,
+      233
+    ],
+    "offset": [
+      0,
+      -64.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

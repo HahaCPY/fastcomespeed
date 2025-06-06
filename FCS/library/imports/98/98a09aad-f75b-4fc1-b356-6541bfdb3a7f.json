@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "wall_cabinet_corner",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "wall_cabinet_corner",
+      "path": "wall_cabinet_corner"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

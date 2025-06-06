@@ -1,5 +1,4 @@
 import { KeyboardControls } from "./KeyboardControls";
-import { GamepadControls } from "./GamepadControls";
 import { IInputControls } from "./IInputControls";
 
 
@@ -154,48 +153,33 @@ export default class PlayerController extends cc.Component {
 
         this.playAnim("girl_idle_back");
 
-        const gamepadComp = cc.find("GamepadManager")?.getComponent(GamepadControls);
+        // 💡 直接使用鍵盤控制器！
+        this.input = new KeyboardControls();
+        console.log("⌨️ 使用 KeyboardControls！");
 
-        if (gamepadComp) {
-            this.input = gamepadComp;
-            console.log("🎮 使用 GamepadControls！");
-        } else {
-            this.input = new KeyboardControls();
-            console.log("⌨️ 使用 KeyboardControls！");
-        }
-        
         const barNode = cc.instantiate(this.chopBarPrefab);
         this.node.addChild(barNode);
         barNode.setPosition(cc.v2(0, 80));
-        this.chopBar = barNode; // ✅ 存起來
+        this.chopBar = barNode;
 
         this.chopFill = barNode.getChildByName("Fillbar");
         if (!this.chopFill) {
             cc.error("❌ 找不到 Fillbar！");
         }
-        barNode.active = false; // 預設不顯示
-
+        barNode.active = false;
 
         this.menuManager = this.uiManager?.getComponent("MenuBar");
     }
 
     update(dt: number) {
-    if (this.input instanceof GamepadControls) {
-        this.input.update(); // ✨ 主動更新 Gamepad 狀態
-        const gp = this.input as GamepadControls;
 
-        const x = gp.x;
-        const y = gp.y;
-        console.log(`📦 正確的 Gamepad x=${x}, y=${y}`);
-
-        const dir = cc.v2(x, y);
+        const dir = this.input.getMoveDirection();
         if (!dir.equals(cc.Vec2.ZERO)) {
             this.rb.linearVelocity = dir.normalize().mul(this.speed);
         } else {
             this.rb.linearVelocity = cc.Vec2.ZERO;
         }
-    }
-        const dir = this.input.getMoveDirection();
+
         console.log(`📦 控制器輸出的方向是：x=${dir.x}, y=${dir.y}`);
         this.isRunning = this.input.getRunHeld();
 

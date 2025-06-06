@@ -36,6 +36,12 @@ export default class Level2icecream2 extends cc.Component {
     @property(cc.Prefab)
     chopBarPrefab: cc.Prefab = null;
 
+    @property({ type: cc.AudioClip })
+    pickupSound: cc.AudioClip = null;
+
+    @property({ type: cc.AudioClip })
+    blingSound: cc.AudioClip = null;
+
     @property
     speed: number = 200;
 
@@ -149,7 +155,11 @@ export default class Level2icecream2 extends cc.Component {
                 this.menuManager.addScore(50);
                 this.showDeliveryEffect();
                 this.menuManager.checkAndFillSlots();
-                if (this.anim) this.anim.play("girl_happy");
+                //if (this.anim) this.anim.play("girl_happy");
+                if (this.blingSound) {
+                    cc.audioEngine.playEffect(this.blingSound, false);
+                }
+
                 console.log("✅ 成功出餐冰淇淋：" + scoopName);
             } else {
                 console.warn("❌ 冰淇淋與菜單不符！");
@@ -172,6 +182,10 @@ export default class Level2icecream2 extends cc.Component {
                 .start();
         }
             this.menuManager.addScore(-50);
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
+
             console.log("🗑️ 丟棄手上物品");
         }
 
@@ -188,6 +202,10 @@ export default class Level2icecream2 extends cc.Component {
             this.node.addChild(cone);
             this.carriedDough = cone;
             if (this.anim) this.anim.play("girl_pick");
+            if (this.pickupSound) {
+                cc.audioEngine.playEffect(this.pickupSound, false);
+            }
+
             console.log("🍦 拿起甜筒");
         }
     }

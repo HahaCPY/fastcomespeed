@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "table_round_A_small",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "table_round_A_small",
+      "path": "table_round_A_small"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

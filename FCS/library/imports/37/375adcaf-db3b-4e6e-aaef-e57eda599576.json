@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "floor_kitchen_small_styleB",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "floor_kitchen_small_styleB",
+      "path": "floor_kitchen_small_styleB"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

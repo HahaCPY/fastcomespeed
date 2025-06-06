@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.Model",
+  "_name": "wall_window_closed",
+  "_objFlags": 0,
+  "_native": "",
+  "_nodes": [
+    {
+      "mesh": 0,
+      "name": "wall_window_closed",
+      "path": "wall_window_closed"
+    }
+  ],
+  "_precomputeJointMatrix": false
+}

@@ -35531,12 +35531,12 @@
     "_offset": {
       "__type__": "cc.Vec2",
       "x": 185.7,
-      "y": -13.8
+      "y": -22.7
     },
     "_size": {
       "__type__": "cc.Size",
       "width": 58.7,
-      "height": 7.5
+      "height": 25.3
     },
     "_id": "c9Fsy5ecRP9KyTWdah313D"
   },
@@ -35557,12 +35557,12 @@
     "_offset": {
       "__type__": "cc.Vec2",
       "x": 187,
-      "y": -77.3
+      "y": -85.6
     },
     "_size": {
       "__type__": "cc.Size",
       "width": 58.7,
-      "height": 8.2
+      "height": 24.7
     },
     "_id": "ea/QseVKJGw4j6TxuGLSJ1"
   },
@@ -35634,13 +35634,13 @@
     "body": null,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": -180,
-      "y": -216
+      "x": -169,
+      "y": -207
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 41,
-      "height": 73
+      "width": 64,
+      "height": 91
     },
     "_id": "7643GtAd5HXbkjxDdrNA9Y"
   },
@@ -36567,7 +36567,7 @@
     "tag": 0,
     "_density": 1,
     "_sensor": false,
-    "_friction": 1,
+    "_friction": 0,
     "_restitution": 0,
     "body": null,
     "_offset": {
@@ -36630,6 +36630,12 @@
     "craftParticlePrefab": null,
     "chopBarPrefab": {
       "__uuid__": "c3a5a9b8-9e0f-4e15-ac56-ce91287ae930"
+    },
+    "pickupSound": {
+      "__uuid__": "1215bbf0-12ba-453f-b06e-2a27954d9279"
+    },
+    "blingSound": {
+      "__uuid__": "a051164b-fa75-444d-89a7-52399a1c6127"
     },
     "speed": 200,
     "runDustEffectPrefab": {
@@ -37729,7 +37735,7 @@
     "tag": 0,
     "_density": 1,
     "_sensor": false,
-    "_friction": 1,
+    "_friction": 0,
     "_restitution": 0,
     "body": null,
     "_offset": {
@@ -37764,7 +37770,9 @@
     "chocolatePrefab": {
       "__uuid__": "0b83943e-a504-47e1-8700-284113c387c7"
     },
-    "trashSmokePrefab": null,
+    "trashSmokePrefab": {
+      "__uuid__": "af3041d4-d132-429c-801d-d4aacbe4b608"
+    },
     "uiManager": {
       "__id__": 1013
     },
@@ -37780,6 +37788,12 @@
     "craftParticlePrefab": null,
     "chopBarPrefab": {
       "__uuid__": "c3a5a9b8-9e0f-4e15-ac56-ce91287ae930"
+    },
+    "pickupSound": {
+      "__uuid__": "1215bbf0-12ba-453f-b06e-2a27954d9279"
+    },
+    "blingSound": {
+      "__uuid__": "a051164b-fa75-444d-89a7-52399a1c6127"
     },
     "speed": 200,
     "runDustEffectPrefab": {
