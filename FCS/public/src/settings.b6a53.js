@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default"],collisionMatrix:[[true]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/Scenes/Account.fire",orientation:"",jsList:["assets/Script/script/firebase/firebase-compat.min.b8f4b.js"],bundleVers:{internal:"d17e2",main:"922c3"}};

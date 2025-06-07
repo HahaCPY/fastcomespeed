@@ -24,20 +24,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+//import firebase from "firebase/app";
+require("firebase/auth");
+require("firebase/database");
 var FirebaseManager = /** @class */ (function (_super) {
     __extends(FirebaseManager, _super);
     function FirebaseManager() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.isInitialized = false;
         _this.firebaseConfig = {
-            apiKey: "AIzaSyBDxNDyXpBYaxPqu_67VOdiBpHktm07Lvg",
-            authDomain: "fastcomespeed.firebaseapp.com",
-            databaseURL: "https://fastcomespeed-default-rtdb.firebaseio.com",
-            projectId: "fastcomespeed",
-            storageBucket: "fastcomespeed.firebasestorage.app",
-            messagingSenderId: "1000911495183",
-            appId: "1:1000911495183:web:8acc6cb6b915d6687e437a",
-            measurementId: "G-JMECN9BKDF"
+            apiKey: "AIzaSyAdc_uIvYNT9KXZ_m13xOBVmvJIrg5gwA8",
+            authDomain: "fastcomespeed-f9362.firebaseapp.com",
+            databaseURL: "https://fastcomespeed-f9362-default-rtdb.firebaseio.com",
+            projectId: "fastcomespeed-f9362",
+            storageBucket: "fastcomespeed-f9362.firebasestorage.app",
+            messagingSenderId: "571200091740",
+            appId: "1:571200091740:web:2eff9910f4ad1fdf7b9899",
+            measurementId: "G-VM73CJP2KC"
         };
         return _this;
     }

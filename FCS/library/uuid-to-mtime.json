@@ -16779,11 +16779,6 @@
     "meta": 1749251539503,
     "relativePath": "Script\\script\\firebase\\firebase-compat.js"
   },
-  "a2542d0e-b0db-49c8-9fc3-3a8549fdaa2c": {
-    "asset": 1749252484544,
-    "meta": 1749252522896,
-    "relativePath": "Script\\script\\FirebaseManager.ts"
-  },
   "d7834947-3da0-4412-b35b-bfa2d27e183b": {
     "asset": 1749252500070,
     "meta": 1749252522916,
@@ -16798,5 +16793,10 @@
     "asset": 1749252577525,
     "meta": 1749252577533,
     "relativePath": "Script\\script\\firebase\\firebase-compat.min.js"
+  },
+  "a2542d0e-b0db-49c8-9fc3-3a8549fdaa2c": {
+    "asset": 1749254402286,
+    "meta": 1749254444866,
+    "relativePath": "Script\\script\\FirebaseManager.ts"
   }
 }
