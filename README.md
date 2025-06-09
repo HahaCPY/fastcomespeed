@@ -8,8 +8,5 @@ Our gameplay takes cues from the popular title "Overcooked 2", focusing on teamw
 ## Development Environment
 This game was developed using [Cocos Creator 2.4.8](https://www.cocos.com/en/creator).
 
-## Aware
-
-
 ## Demo Video
 [Watch the demo on YouTube](https://youtu.be/Yj3yRsCDkm8?si=QoSEyl293Ap5Ne8w)
