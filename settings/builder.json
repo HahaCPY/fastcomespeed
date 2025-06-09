@@ -1,7 +1,7 @@
 {
-  "title": "Software-final",
+  "title": "FCS",
   "packageName": "org.cocos2d.demo",
-  "startScene": "c982d408-227d-446f-aad8-1ca011a83012",
+  "startScene": "51f1f41f-1415-4139-9a44-6eed5fba539a",
   "excludeScenes": [],
   "orientation": {
     "landscapeRight": true,
@@ -18,7 +18,7 @@
   "md5Cache": true,
   "nativeMd5Cache": true,
   "encryptJs": true,
-  "xxteaKey": "2bc90887-6610-48",
+  "xxteaKey": "851cf291-428a-44",
   "zipCompressJs": true,
   "fb-instant-games": {},
   "android": {
